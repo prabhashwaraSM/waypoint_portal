@@ -1,54 +1,79 @@
 import React, { useState } from "react";
-import { Navigate, useLocation, useNavigate } from "react-router-dom";
-import { Eye, EyeOff, LogIn, ShieldCheck } from "lucide-react";
+import { Navigate, useNavigate } from "react-router-dom";
+import { Eye, EyeOff, LogIn, ShieldCheck, Boxes, Truck, Smartphone, Store } from "lucide-react";
 import Logo from "../components/Logo";
-import { getSession, login } from "../auth/auth";
+import { getRoleHome, getSession, login } from "../auth/auth";
+
+const rolePreview = [
+  { name: "Dispatcher", icon: Truck, status: "Available" },
+  { name: "Loader", icon: Boxes, status: "Available" },
+  { name: "Driver", icon: Smartphone, status: "Next phase" },
+  { name: "Store Manager", icon: Store, status: "Next phase" }
+];
 
 export default function Login() {
   const navigate = useNavigate();
-  const location = useLocation();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [show, setShow] = useState(false);
   const [error, setError] = useState("");
 
-  if (getSession()) return <Navigate to="/dashboard" replace />;
+  const existingSession = getSession();
+  if (existingSession) return <Navigate to={getRoleHome(existingSession)} replace />;
 
   const submit = (e) => {
     e.preventDefault();
+
     if (!username.trim() || !password) {
       setError("Enter your username and password.");
       return;
     }
+
     const session = login(username, password);
     if (!session) {
       setError("Username or password is incorrect. Check the details and try again.");
       return;
     }
-    navigate(location.state?.from || "/dashboard", { replace: true });
+
+    navigate(getRoleHome(session), { replace: true });
   };
 
   return (
-    <div className="login-page">
-      <section className="login-brand">
-        <Logo size={48} subtitle="Waypoint Group PVT LTD" />
+    <div className="login-page waypoint-login">
+      <section className="login-brand waypoint-login-brand">
+        <Logo size={48} subtitle="Unified Operations Portal" product="Portal" />
+
         <div className="login-brand-copy">
-          <h1>Plan the route. Load the truck. Track every drop.</h1>
-          <p>Dispatch control for Waypoint Fresh, Style and Tech deliveries from the Peliyagoda and Kandy depots.</p>
+          <span className="login-eyebrow">WAREHOUSE DELIVERY PLANNING</span>
+          <h1>One portal. Four roles. One delivery flow.</h1>
+          <p>
+            Sign in once and Waypoint automatically opens the workspace assigned to your role.
+            Dispatcher planning and Loader operations stay separate while sharing the same delivery workflow.
+          </p>
+
+          <div className="role-preview-grid">
+            {rolePreview.map(({ name, icon: Icon, status }) => (
+              <div className="role-preview-card" key={name}>
+                <Icon size={19} />
+                <div>
+                  <strong>{name}</strong>
+                  <small>{status}</small>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-        <svg className="login-route" viewBox="0 0 400 180" aria-hidden="true">
-          <path d="M20 150 C 90 150, 80 60, 160 70 S 250 140, 300 90 S 360 30, 380 30" />
-          <circle cx="20" cy="150" r="7" />
-          <circle cx="160" cy="70" r="5" />
-          <circle cx="300" cy="90" r="5" />
-          <circle cx="380" cy="30" r="7" />
-        </svg>
+
+        <div className="login-flow-strip" aria-hidden="true">
+          <span>Plan</span><i>→</i><span>Load</span><i>→</i><span>Deliver</span><i>→</i><span>Receive</span>
+        </div>
       </section>
 
       <section className="login-panel">
-        <form className="login-card" onSubmit={submit} noValidate>
-          <h2>Sign in</h2>
-          <p className="login-sub">Use your dispatcher account to continue.</p>
+        <form className="login-card waypoint-login-card" onSubmit={submit} noValidate>
+          <div className="login-card-badge"><ShieldCheck size={16} /> Secure role access</div>
+          <h2>Welcome back</h2>
+          <p className="login-sub">Use your Waypoint operational account to continue.</p>
 
           <label className="login-field">
             <span>Username</span>
@@ -85,15 +110,15 @@ export default function Login() {
 
           {error && <p className="login-error" role="alert">{error}</p>}
 
-          <button type="submit" className="login-btn">
-            <LogIn size={17} /> Sign in
+          <button type="submit" className="login-btn waypoint-login-btn">
+            <LogIn size={17} /> Sign in to workspace
           </button>
 
           <p className="login-role">
-            <ShieldCheck size={15} /> Access level: <b>Dispatcher</b>
+            <ShieldCheck size={15} /> Your workspace is selected automatically from your account role.
           </p>
         </form>
-        <p className="login-foot">Prototype build. Sign-in is for demonstration only.</p>
+        <p className="login-foot">Prototype build. Authentication will be connected to the backend later.</p>
       </section>
     </div>
   );

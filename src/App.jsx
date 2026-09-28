@@ -1,9 +1,8 @@
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Layout from "./components/Layout";
 import Login from "./pages/Login";
-import { getSession } from "./auth/auth";
-import { useLocation } from "react-router-dom";
+import { getRoleHome, getSession } from "./auth/auth";
 import Dashboard from "./pages/Dashboard";
 import Stores from "./pages/Stores";
 import Inventory from "./pages/Inventory";
@@ -14,22 +13,47 @@ import Reports from "./pages/Reports";
 import FleetLayout from "./pages/fleet/FleetLayout";
 import VehicleInformation from "./pages/fleet/VehicleInformation";
 import VehicleTracking from "./pages/fleet/VehicleTracking";
+import LoaderEntry from "./pages/loader/LoaderEntry";
 
-function RequireAuth({ children }) {
+function RequireRole({ role, children }) {
   const location = useLocation();
-  if (!getSession()) return <Navigate to="/login" replace state={{ from: location.pathname + location.search }} />;
+  const session = getSession();
+
+  if (!session) {
+    return <Navigate to="/login" replace state={{ from: location.pathname + location.search }} />;
+  }
+
+  if (role && session.role !== role) {
+    return <Navigate to={getRoleHome(session)} replace />;
+  }
+
   return children;
+}
+
+function HomeRedirect() {
+  const session = getSession();
+  return <Navigate to={getRoleHome(session)} replace />;
 }
 
 export default function App() {
   return (
     <Routes>
       <Route path="/login" element={<Login />} />
+
+      <Route
+        path="/loader"
+        element={
+          <RequireRole role="Loader">
+            <LoaderEntry />
+          </RequireRole>
+        }
+      />
+
       <Route
         element={
-          <RequireAuth>
+          <RequireRole role="Dispatcher">
             <Layout />
-          </RequireAuth>
+          </RequireRole>
         }
       >
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
@@ -47,7 +71,8 @@ export default function App() {
           <Route path="tracking" element={<VehicleTracking />} />
         </Route>
       </Route>
-      <Route path="*" element={<Navigate to="/dashboard" replace />} />
+
+      <Route path="*" element={<HomeRedirect />} />
     </Routes>
   );
 }
