@@ -1,10 +1,9 @@
-name: Hackathon CI
+name: Waypoint Portal CI
 
 on:
   push:
     branches:
       - main
-      - develop
 
   pull_request:
     branches:
@@ -15,38 +14,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Get repository code
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Check Docker versions
-      - name: Check Docker
-        run: |
-          docker --version
-          docker compose version
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
 
-      # 3. Create .env from example
-      - name: Create environment file
-        run: cp .env.example .env
+      - name: Install dependencies
+        run: npm ci
 
-      # 4. Build containers
-      - name: Build Docker containers
-        run: docker compose build
-
-      # 5. Start application
-      - name: Start application
-        run: docker compose up -d
-
-      # 6. Show container status
-      - name: Check containers
-        run: docker compose ps
-
-      # 7. Show logs if needed
-      - name: Show Docker logs
-        if: always()
-        run: docker compose logs
-
-      # 8. Stop containers
-      - name: Stop application
-        if: always()
-        run: docker compose down
+      - name: Build application
+        run: npm run build
