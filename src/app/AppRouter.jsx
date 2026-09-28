@@ -3,21 +3,21 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import RequireRole from "./RequireRole";
 import { getRoleHome, getSession } from "../shared/auth/auth";
 
-import LoginPage from "../features/auth/pages/LoginPage";
-
-import DispatcherLayout from "../features/dispatcher/layout/DispatcherLayout";
-import Dashboard from "../features/dispatcher/pages/Dashboard";
-import Stores from "../features/dispatcher/pages/Stores";
-import Orders from "../features/dispatcher/pages/Orders";
-import OrderApproval from "../features/dispatcher/pages/OrderApproval";
-import Inventory from "../features/dispatcher/pages/Inventory";
-import Dispatch from "../features/dispatcher/pages/Dispatch";
-import Reports from "../features/dispatcher/pages/Reports";
-import FleetLayout from "../features/dispatcher/pages/fleet/FleetLayout";
-import VehicleInformation from "../features/dispatcher/pages/fleet/VehicleInformation";
-import VehicleTracking from "../features/dispatcher/pages/fleet/VehicleTracking";
-
-import LoaderPage from "../features/loader/pages/LoaderPage";
+import { LoginPage } from "../features/auth";
+import {
+  DispatcherLayout,
+  Dashboard,
+  Stores,
+  Orders,
+  OrderApproval,
+  Inventory,
+  Dispatch,
+  Reports,
+  FleetLayout,
+  VehicleInformation,
+  VehicleTracking
+} from "../features/dispatcher";
+import { LoaderPage } from "../features/loader";
 
 function HomeRedirect() {
   const session = getSession();
