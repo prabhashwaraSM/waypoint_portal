@@ -22,7 +22,7 @@ main
        ├── dispatcher
        ├── loader
        ├── driver
-       └── store-manager
+       └── stock-manager
 ```
 
 `main` = stable/demo-ready build.
@@ -60,12 +60,18 @@ src/
     │   │   └── fleet/
     │   └── styles/
     │
-    └── loader/
+    ├── loader/
+    │   ├── components/
+    │   ├── data/
+    │   ├── pages/
+    │   ├── styles/
+    │   └── utils/
+    │
+    └── store-manager/
         ├── components/
         ├── data/
         ├── pages/
-        ├── styles/
-        └── utils/
+        └── styles/
 ```
 
 ## Ownership
@@ -95,6 +101,12 @@ The Loader is intentionally split into separate screens rather than one large fi
 - Issues & Enquiries
 - Completed Loads
 - Issue / shortfall modal
+
+### Store Manager
+
+Work under `src/features/store-manager/`.
+
+The Store Manager feature contains Fresh, Style and Tech outlet workflows. The corresponding development branch is `stock-manager`.
 
 ## Shared code rule
 
