@@ -18,6 +18,7 @@ import {
   VehicleTracking
 } from "../features/dispatcher";
 import { LoaderPage } from "../features/loader";
+import { StoreManagerPage } from "../features/store-manager";
 
 function HomeRedirect() {
   const session = getSession();
@@ -34,6 +35,15 @@ export default function AppRouter() {
         element={
           <RequireRole role="Loader">
             <LoaderPage />
+          </RequireRole>
+        }
+      />
+
+      <Route
+        path="/store-manager"
+        element={
+          <RequireRole role="Store Manager">
+            <StoreManagerPage />
           </RequireRole>
         }
       />
