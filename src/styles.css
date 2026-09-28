@@ -438,3 +438,32 @@ tbody tr:last-child td { border-bottom: none; }
 .login-foot { color: var(--text-light); font-size: 12px; margin: 0; }
 .brand .logo-text strong span { display: inline; font-size: inherit; margin: 0; color: #a5b4fc; }
 .brand .logo-text small { display: block; }
+
+/* ---------- Shared Waypoint login theme ---------- */
+.waypoint-login { --login-yellow: #f8c20a; --login-navy: #071426; }
+.waypoint-login-brand { background:
+  radial-gradient(circle at 82% 16%, rgba(248,194,10,.16), transparent 27%),
+  linear-gradient(145deg, #071426 0%, #0b1b31 72%, #12243c 100%);
+}
+.waypoint-login-brand .logo-text strong span { color: var(--login-yellow); }
+.login-eyebrow { display:block; color:#f8c20a; font-size:10px; font-weight:800; letter-spacing:2px; margin-bottom:14px; }
+.role-preview-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:28px; max-width:430px; }
+.role-preview-card {
+  display:flex; align-items:center; gap:10px; padding:11px 12px; border-radius:10px;
+  border:1px solid rgba(255,255,255,.09); background:rgba(255,255,255,.045); color:#d9e4f2;
+}
+.role-preview-card svg { color:var(--login-yellow); }
+.role-preview-card strong,.role-preview-card small { display:block; }
+.role-preview-card strong { font-size:11px; }
+.role-preview-card small { color:#7f91aa; font-size:9px; margin-top:2px; }
+.login-flow-strip { display:flex; align-items:center; gap:12px; color:#8da0b9; font-size:11px; font-weight:700; }
+.login-flow-strip span { color:#d7e1ed; }
+.login-flow-strip i { color:var(--login-yellow); font-style:normal; }
+.login-card-badge {
+  display:inline-flex; align-items:center; gap:6px; width:fit-content; padding:6px 9px; border-radius:999px;
+  background:#fff7d8; color:#725200; border:1px solid #ffe58a; font-size:10px; font-weight:800; margin-bottom:1px;
+}
+.waypoint-login-card { border-top:3px solid var(--login-yellow); }
+.waypoint-login .login-field input:focus { border-color:#e0ae00; box-shadow:0 0 0 3px rgba(248,194,10,.16); }
+.waypoint-login-btn { background:#f8c20a; color:#111827; }
+.waypoint-login-btn:hover { background:#e8b300; }
