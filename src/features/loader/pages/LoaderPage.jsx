@@ -256,7 +256,7 @@ export default function LoaderPage() {
     <div className="loader-shell">
       <aside className="loader-sidebar">
         <div className="loader-brand">
-          <Logo size={38} product="Loader" subtitle="Warehouse Operations" accent="#4f46e5" />
+          <Logo size={38} product="Loader" subtitle="Warehouse Operations" accent="#f59e0b" />
           <div className="loader-role-pill"><ShieldCheck size={13} /> Role: <b>Loader</b></div>
         </div>
 
