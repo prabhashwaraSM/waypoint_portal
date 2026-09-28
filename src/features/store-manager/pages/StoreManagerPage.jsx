@@ -10,6 +10,7 @@ import ReceiveDeliveryPage from "./ReceiveDeliveryPage";
 import FreshWastagePage from "./FreshWastagePage";
 import StyleAdjustmentsPage from "./StyleAdjustmentsPage";
 import TechAdjustmentsPage from "./TechAdjustmentsPage";
+import StoreUtilityModal from "../components/StoreUtilityModal";
 import "../styles/storeManager.css";
 
 function navForStore(profile) {
@@ -34,6 +35,7 @@ export default function StoreManagerPage() {
   const profile = useMemo(() => getStoreProfile(session.storeType), [session.storeType]);
   const navItems = useMemo(() => navForStore(profile), [profile]);
   const [section, setSection] = useState("dashboard");
+  const [utilityModal, setUtilityModal] = useState(null);
 
   const signOut = () => {
     logout();
@@ -91,8 +93,8 @@ export default function StoreManagerPage() {
           </div>
           <div className="store-topbar-meta">
             <div className="store-sync"><Wifi size={15} /><span><b>Live</b><small>Synced</small></span></div>
-            <button className="store-icon-btn" title="Notifications"><Bell size={18} /><i>2</i></button>
-            <div className="store-profile"><UserCircle size={23} /><span><b>{session.name || profile.manager}</b><small>{profile.label}</small></span></div>
+            <button className="store-icon-btn" title="Notifications" onClick={() => setUtilityModal("notifications")}><Bell size={18} /><i>2</i></button>
+            <button className="store-profile" title="Open profile" onClick={() => setUtilityModal("profile")}><UserCircle size={23} /><span><b>{session.name || profile.manager}</b><small>{profile.label}</small></span></button>
             <button className="store-icon-btn store-mobile-logout" onClick={signOut} title="Sign out" aria-label="Sign out"><LogOut size={18} /></button>
           </div>
         </header>
@@ -101,6 +103,14 @@ export default function StoreManagerPage() {
           {renderPage()}
         </main>
       </div>
+
+      <StoreUtilityModal
+        type={utilityModal}
+        open={Boolean(utilityModal)}
+        onClose={() => setUtilityModal(null)}
+        profile={profile}
+        session={session}
+      />
     </div>
   );
 }
