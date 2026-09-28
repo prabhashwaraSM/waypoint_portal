@@ -37,7 +37,7 @@
 
 body {
   margin: 0;
-  min-width: 1100px;
+  min-width: 320px;
   background: var(--bg-main);
   color: var(--text-main);
   font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
@@ -469,3 +469,115 @@ tbody tr:last-child td { border-bottom: none; }
 .waypoint-login .login-field input:focus { border-color:var(--login-primary); box-shadow:0 0 0 3px rgba(79,70,229,.12); }
 .waypoint-login-btn { background:var(--login-primary); color:#fff; }
 .waypoint-login-btn:hover { background:#4338ca; }
+
+/* ---------- Responsive shared login ---------- */
+@media (max-width: 980px) {
+  .login-page {
+    min-height:100vh;
+    grid-template-columns:1fr;
+  }
+  .login-brand {
+    min-height:auto;
+    padding:32px 34px;
+    gap:28px;
+  }
+  .login-brand-copy {
+    max-width:720px;
+  }
+  .login-brand-copy h1 {
+    font-size:32px;
+    max-width:620px;
+  }
+  .role-preview-grid {
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    max-width:none;
+    margin-top:22px;
+  }
+  .login-flow-strip { margin-top:2px; }
+  .login-panel {
+    padding:36px 24px 44px;
+  }
+  .login-card { max-width:460px; }
+}
+
+@media (max-width: 700px) {
+  .login-brand {
+    padding:22px 18px 20px;
+    gap:20px;
+  }
+  .login-brand .logo-text strong { font-size:14px; }
+  .login-brand .logo-text small { font-size:10px; }
+  .login-brand-copy h1 {
+    font-size:26px;
+    line-height:1.15;
+    margin-bottom:10px;
+  }
+  .login-brand-copy p {
+    font-size:13px;
+    line-height:1.5;
+  }
+  .login-eyebrow {
+    font-size:8px;
+    letter-spacing:1.5px;
+    margin-bottom:10px;
+  }
+  .role-preview-grid {
+    grid-template-columns:1fr 1fr;
+    gap:7px;
+    margin-top:16px;
+  }
+  .role-preview-card {
+    padding:9px 10px;
+  }
+  .role-preview-card strong { font-size:10px; }
+  .role-preview-card small { font-size:8px; }
+  .login-flow-strip {
+    gap:8px;
+    font-size:9px;
+    overflow-x:auto;
+    white-space:nowrap;
+  }
+  .login-panel {
+    padding:24px 14px calc(28px + env(safe-area-inset-bottom));
+    gap:12px;
+  }
+  .login-card {
+    max-width:100%;
+    padding:22px 18px;
+    border-radius:14px;
+    gap:14px;
+  }
+  .login-card h2 { font-size:22px; }
+  .login-sub { font-size:12px; }
+  .login-field { font-size:12px; }
+  .login-field input {
+    min-height:44px;
+    font-size:16px;
+  }
+  .login-password button {
+    width:38px;
+    height:38px;
+  }
+  .login-btn {
+    min-height:46px;
+    font-size:14px;
+  }
+  .login-role {
+    align-items:flex-start;
+    font-size:10px;
+    line-height:1.4;
+    text-align:center;
+  }
+  .login-foot {
+    text-align:center;
+    font-size:10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .login-brand-copy p { display:none; }
+  .role-preview-grid { margin-top:12px; }
+  .login-flow-strip { display:none; }
+  .login-brand { gap:14px; }
+  .login-panel { padding-top:18px; }
+}
