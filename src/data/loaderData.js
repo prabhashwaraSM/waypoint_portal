@@ -249,6 +249,7 @@ export const initialLoaderIssues = [
     tripId: "TRP-260928-014",
     vehicleId: "VEH014",
     outlet: "Waypoint Fresh • Colombo 03",
+    stopSequence: 1,
     sku: "FRZ-001",
     item: "Chicken Nuggets 1kg",
     expected: 10,
