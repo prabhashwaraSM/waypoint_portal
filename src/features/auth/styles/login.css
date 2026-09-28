@@ -1,0 +1,187 @@
+/* ---------- Login ---------- */
+.login-page { min-height: 100vh; display: grid; grid-template-columns: 1.1fr 1fr; background: var(--bg-main); }
+.login-brand {
+  background: var(--bg-sidebar); color: #fff; padding: 48px 56px; display: flex; flex-direction: column;
+  justify-content: space-between; position: relative; overflow: hidden;
+}
+.login-brand-copy { max-width: 460px; }
+.login-brand-copy h1 { font-size: 38px; line-height: 1.1; letter-spacing: -1px; margin: 0 0 16px; font-weight: 800; }
+.login-brand-copy p { color: #94a3b8; font-size: 15px; line-height: 1.6; margin: 0; }
+.login-route { width: 100%; max-width: 520px; }
+.login-route path { fill: none; stroke: #6366f1; stroke-width: 3; stroke-dasharray: 2 10; stroke-linecap: round; }
+.login-route circle { fill: #a5b4fc; }
+.login-panel { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px; gap: 18px; }
+.login-card {
+  width: 100%; max-width: 380px; background: var(--bg-card); border: 1px solid var(--border-color);
+  border-radius: 18px; padding: 32px; box-shadow: var(--shadow-lg); display: flex; flex-direction: column; gap: 16px;
+}
+.login-card h2 { margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.5px; }
+.login-sub { margin: -10px 0 4px; color: var(--text-muted); font-size: 13.5px; }
+.login-field { display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600; color: #334155; }
+.login-field input {
+  width: 100%; border: 1px solid var(--border-color); border-radius: 10px; padding: 11px 12px;
+  font-size: 14px; color: var(--text-main); background: #fff; outline: none;
+}
+.login-field input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12); }
+.login-password { position: relative; }
+.login-password input { padding-right: 42px; }
+.login-password button {
+  position: absolute; right: 6px; top: 50%; transform: translateY(-50%); border: 0; background: transparent;
+  color: var(--text-muted); width: 32px; height: 32px; display: grid; place-items: center; border-radius: 8px;
+}
+.login-password button:hover { background: var(--bg-subtle); }
+.login-error { margin: 0; color: #b91c1c; background: #fef2f2; border: 1px solid #fecaca; padding: 9px 12px; border-radius: 10px; font-size: 13px; font-weight: 600; }
+.login-btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px; border: 0; border-radius: 10px;
+  padding: 12px; background: var(--primary); color: #fff; font-size: 14.5px; font-weight: 700;
+}
+.login-btn:hover { background: var(--primary-hover); }
+.login-btn:focus-visible, .login-password button:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.login-role { display: flex; align-items: center; gap: 6px; justify-content: center; margin: 0; font-size: 12.5px; color: var(--text-muted); }
+.login-role b { color: var(--text-main); }
+.login-foot { color: var(--text-light); font-size: 12px; margin: 0; }
+.brand .logo-text strong span { display: inline; font-size: inherit; margin: 0; color: #a5b4fc; }
+.brand .logo-text small { display: block; }
+
+
+/* ---------- Shared Waypoint login theme ---------- */
+.waypoint-login { --login-primary: #4f46e5; --login-primary-2: #6366f1; --login-navy: #0f172a; }
+.waypoint-login-brand {
+  background:
+    radial-gradient(circle at 82% 16%, rgba(99,102,241,.20), transparent 28%),
+    linear-gradient(145deg, #0f172a 0%, #172033 72%, #1e293b 100%);
+}
+.waypoint-login-brand .logo-text strong span { color: #a5b4fc; }
+.login-eyebrow { display:block; color:#a5b4fc; font-size:10px; font-weight:800; letter-spacing:2px; margin-bottom:14px; }
+.role-preview-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:28px; max-width:430px; }
+.role-preview-card {
+  display:flex; align-items:center; gap:10px; padding:11px 12px; border-radius:10px;
+  border:1px solid rgba(255,255,255,.09); background:rgba(255,255,255,.045); color:#d9e4f2;
+}
+.role-preview-card svg { color:#a5b4fc; }
+.role-preview-card strong,.role-preview-card small { display:block; }
+.role-preview-card strong { font-size:11px; }
+.role-preview-card small { color:#7f91aa; font-size:9px; margin-top:2px; }
+.login-flow-strip { display:flex; align-items:center; gap:12px; color:#8da0b9; font-size:11px; font-weight:700; }
+.login-flow-strip span { color:#d7e1ed; }
+.login-flow-strip i { color:#a5b4fc; font-style:normal; }
+.login-card-badge {
+  display:inline-flex; align-items:center; gap:6px; width:fit-content; padding:6px 9px; border-radius:999px;
+  background:#eef2ff; color:#4338ca; border:1px solid #c7d2fe; font-size:10px; font-weight:800; margin-bottom:1px;
+}
+.waypoint-login-card { border-top:3px solid var(--login-primary); }
+.waypoint-login .login-field input:focus { border-color:var(--login-primary); box-shadow:0 0 0 3px rgba(79,70,229,.12); }
+.waypoint-login-btn { background:var(--login-primary); color:#fff; }
+.waypoint-login-btn:hover { background:#4338ca; }
+
+/* ---------- Responsive shared login ---------- */
+@media (max-width: 980px) {
+  .login-page {
+    min-height:100vh;
+    grid-template-columns:1fr;
+  }
+  .login-brand {
+    min-height:auto;
+    padding:32px 34px;
+    gap:28px;
+  }
+  .login-brand-copy {
+    max-width:720px;
+  }
+  .login-brand-copy h1 {
+    font-size:32px;
+    max-width:620px;
+  }
+  .role-preview-grid {
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    max-width:none;
+    margin-top:22px;
+  }
+  .login-flow-strip { margin-top:2px; }
+  .login-panel {
+    padding:36px 24px 44px;
+  }
+  .login-card { max-width:460px; }
+}
+
+@media (max-width: 700px) {
+  .login-brand {
+    padding:22px 18px 20px;
+    gap:20px;
+  }
+  .login-brand .logo-text strong { font-size:14px; }
+  .login-brand .logo-text small { font-size:10px; }
+  .login-brand-copy h1 {
+    font-size:26px;
+    line-height:1.15;
+    margin-bottom:10px;
+  }
+  .login-brand-copy p {
+    font-size:13px;
+    line-height:1.5;
+  }
+  .login-eyebrow {
+    font-size:8px;
+    letter-spacing:1.5px;
+    margin-bottom:10px;
+  }
+  .role-preview-grid {
+    grid-template-columns:1fr 1fr;
+    gap:7px;
+    margin-top:16px;
+  }
+  .role-preview-card {
+    padding:9px 10px;
+  }
+  .role-preview-card strong { font-size:10px; }
+  .role-preview-card small { font-size:8px; }
+  .login-flow-strip {
+    gap:8px;
+    font-size:9px;
+    overflow-x:auto;
+    white-space:nowrap;
+  }
+  .login-panel {
+    padding:24px 14px calc(28px + env(safe-area-inset-bottom));
+    gap:12px;
+  }
+  .login-card {
+    max-width:100%;
+    padding:22px 18px;
+    border-radius:14px;
+    gap:14px;
+  }
+  .login-card h2 { font-size:22px; }
+  .login-sub { font-size:12px; }
+  .login-field { font-size:12px; }
+  .login-field input {
+    min-height:44px;
+    font-size:16px;
+  }
+  .login-password button {
+    width:38px;
+    height:38px;
+  }
+  .login-btn {
+    min-height:46px;
+    font-size:14px;
+  }
+  .login-role {
+    align-items:flex-start;
+    font-size:10px;
+    line-height:1.4;
+    text-align:center;
+  }
+  .login-foot {
+    text-align:center;
+    font-size:10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .login-brand-copy p { display:none; }
+  .role-preview-grid { margin-top:12px; }
+  .login-flow-strip { display:none; }
+  .login-brand { gap:14px; }
+  .login-panel { padding-top:18px; }
+}
