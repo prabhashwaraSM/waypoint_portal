@@ -112,7 +112,7 @@
 }
 .store-profile {
   display:flex;align-items:center;gap:8px;border:1px solid var(--store-border);padding:6px 10px 6px 7px;
-  border-radius:20px;color:var(--store-primary);
+  border-radius:20px;color:var(--store-primary);background:#fff;
 }
 .store-profile span b,.store-profile span small { display:block; }
 .store-profile span b { color:var(--store-text);font-size:10px; }
@@ -419,4 +419,26 @@
   .store-receive-card-head { grid-template-columns:28px minmax(0,1fr); }
   .store-condition-chip { grid-column:2;justify-self:start; }
   .store-table td { grid-template-columns:92px minmax(0,1fr); }
+}
+
+.store-profile-modal-body { padding:18px 20px; display:grid; grid-template-columns:70px minmax(0,1fr); gap:16px; align-items:start; }
+.store-profile-modal-avatar { width:64px;height:64px;border-radius:16px;display:grid;place-items:center;background:var(--store-primary-soft);color:var(--store-primary); }
+.store-profile-modal-grid { display:grid;grid-template-columns:1fr 1fr;gap:9px; }
+.store-profile-modal-grid span { padding:10px;background:#f8fafc;border-radius:8px; }
+.store-profile-modal-grid small,.store-profile-modal-grid b { display:block; }
+.store-profile-modal-grid small { color:var(--store-muted);font-size:7px; }
+.store-profile-modal-grid b { font-size:9px;margin-top:2px; }
+.store-notification-list { padding:8px 18px 16px; }
+.store-notification-list article { display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;align-items:center;padding:11px 2px;border-bottom:1px solid #edf2f7; }
+.store-notification-list article:last-child { border-bottom:0; }
+.store-notification-icon { width:31px;height:31px;border-radius:8px;display:grid;place-items:center; }
+.store-notification-icon.green { background:#dcfce7;color:#16a34a; }
+.store-notification-icon.amber { background:#fff7ed;color:#d97706; }
+.store-notification-list b,.store-notification-list small { display:block; }
+.store-notification-list b { font-size:9px; }
+.store-notification-list small { color:var(--store-muted);font-size:8px;margin-top:2px;line-height:1.45; }
+
+@media (max-width:760px) {
+  .store-profile-modal-body { grid-template-columns:1fr; }
+  .store-profile-modal-grid { grid-template-columns:1fr; }
 }
