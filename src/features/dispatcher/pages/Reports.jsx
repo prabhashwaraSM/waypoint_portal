@@ -5,9 +5,9 @@ import {
 } from "lucide-react";
 import { loadOrderReport, STATUS_LABELS, DISPATCH_TYPES } from "../data/dispatchStore";
 import { fmtDate } from "../data/fleetStore";
-import Logo from "../components/Logo";
-import { getSession } from "../auth/auth";
-import "./reports.css";
+import Logo from "../../../shared/components/Logo";
+import { getSession } from "../../../shared/auth/auth";
+import "../styles/reports.css";
 
 const PAGE_SIZE = 50;
 

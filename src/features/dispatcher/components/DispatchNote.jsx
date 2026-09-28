@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { CheckCircle2, Printer, X, Navigation, FileBarChart, Plus, Send } from "lucide-react";
-import Logo from "./Logo";
+import Logo from "../../../shared/components/Logo";
 import { fmtDate } from "../data/fleetStore";
 
 // Dispatch note shown for review before confirming, and as the printable record afterwards.

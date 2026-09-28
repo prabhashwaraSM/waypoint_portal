@@ -5,9 +5,9 @@ import { loadFleet, saveDispatchedTrip, fmtDate } from "../data/fleetStore";
 import {
   DISPATCH_TYPES, loadDrivers, loadParties, saveDispatchRecords, getAppDispatchRecords, nextInvoiceNo, nextDispatchNo
 } from "../data/dispatchStore";
-import { getSession } from "../auth/auth";
+import { getSession } from "../../../shared/auth/auth";
 import DispatchNote from "../components/DispatchNote";
-import "./dispatch.css";
+import "../styles/dispatch.css";
 import { 
   Truck, 
   Package, 

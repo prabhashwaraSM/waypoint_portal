@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, NavLink, useLocation, useNavigate } from "react-router-dom";
-import Logo from "./Logo";
-import { getSession, logout } from "../auth/auth";
+import Logo from "../../../shared/components/Logo";
+import { getSession, logout } from "../../../shared/auth/auth";
+import "../styles/dispatcher.css";
 import { 
   Bell, 
   UserCircle, 

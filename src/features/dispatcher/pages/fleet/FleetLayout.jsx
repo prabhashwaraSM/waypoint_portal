@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import { NavLink, Outlet, useOutletContext } from "react-router-dom";
 import { ClipboardList, Navigation, RefreshCw } from "lucide-react";
 import { loadFleet } from "../../data/fleetStore";
-import "./fleet.css";
+import "../../styles/fleet.css";
 
 export default function FleetLayout() {
   const parent = useOutletContext() || {};

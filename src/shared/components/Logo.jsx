@@ -1,4 +1,5 @@
 import React from "react";
+import "./logo.css";
 
 // Waypoint mark: a delivery route running from a depot dot to a drop pin.
 export function LogoMark({ size = 40, accent = "#6366f1" }) {
