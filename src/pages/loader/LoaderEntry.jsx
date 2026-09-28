@@ -314,6 +314,7 @@ export default function LoaderEntry() {
               <Bell size={18} /><i>{stats.openIssues}</i>
             </button>
             <div className="loader-profile"><UserCircle size={23} /><span><b>{session?.name || "Warehouse Loader"}</b><small>Loader • Shift A</small></span></div>
+            <button className="loader-icon-btn loader-mobile-logout" title="Sign out" aria-label="Sign out" onClick={signOut}><LogOut size={18} /></button>
           </div>
         </header>
 
@@ -538,15 +539,15 @@ function LoadingPlan({ trips, tripStatuses, planSearch, setPlanSearch, planBrand
                 const totals = tripTotals(trip);
                 return (
                   <tr key={trip.id}>
-                    <td><div className="loader-table-primary"><span className="loader-table-icon"><Truck size={17} /></span><span><b>{trip.vehicleId}</b><small>{BRAND_SHORT[trip.brand]} • Trip {trip.tripNo}</small></span></div></td>
-                    <td><b>{trip.district}</b><small className="loader-cell-sub">{trip.routeCode}</small></td>
-                    <td><b>{trip.vehicleType}</b><small className="loader-cell-sub">{trip.vehicleTemp}</small></td>
-                    <td>{trip.loadingBay}</td>
-                    <td>{trip.stops.length}</td>
-                    <td><div className="loader-mini-meter"><span><i style={{ width: String(totals.volumePct) + "%" }} /></span><small>{trip.load.volume}/{trip.capacity.volume} m³</small></div></td>
-                    <td><b>{trip.plannedDeparture}</b><small className="loader-cell-sub">Plan {trip.planVersion}</small></td>
-                    <td><b className={"loader-status " + statusClass(tripStatuses[trip.id])}>{tripStatuses[trip.id]}</b></td>
-                    <td><button className="loader-row-action" onClick={function () { onOpenTrip(trip.id); }}>Open load <ChevronRight size={15} /></button></td>
+                    <td data-label="Vehicle / trip"><div className="loader-table-primary"><span className="loader-table-icon"><Truck size={17} /></span><span><b>{trip.vehicleId}</b><small>{BRAND_SHORT[trip.brand]} • Trip {trip.tripNo}</small></span></div></td>
+                    <td data-label="Route"><b>{trip.district}</b><small className="loader-cell-sub">{trip.routeCode}</small></td>
+                    <td data-label="Vehicle type"><b>{trip.vehicleType}</b><small className="loader-cell-sub">{trip.vehicleTemp}</small></td>
+                    <td data-label="Loading bay">{trip.loadingBay}</td>
+                    <td data-label="Stops">{trip.stops.length}</td>
+                    <td data-label="Capacity"><div className="loader-mini-meter"><span><i style={{ width: String(totals.volumePct) + "%" }} /></span><small>{trip.load.volume}/{trip.capacity.volume} m³</small></div></td>
+                    <td data-label="Departure"><b>{trip.plannedDeparture}</b><small className="loader-cell-sub">Plan {trip.planVersion}</small></td>
+                    <td data-label="Status"><b className={"loader-status " + statusClass(tripStatuses[trip.id])}>{tripStatuses[trip.id]}</b></td>
+                    <td data-label="Action"><button className="loader-row-action" onClick={function () { onOpenTrip(trip.id); }}>Open load <ChevronRight size={15} /></button></td>
                   </tr>
                 );
               })}
@@ -720,14 +721,14 @@ function Inventory({ rows, search, setSearch, onOpenIssues }) {
               {rows.map(function (row) {
                 return (
                   <tr key={row.sku}>
-                    <td><b>{row.sku}</b></td>
-                    <td>{row.item}</td>
-                    <td><span className={"loader-temp " + row.category.toLowerCase()}>{row.category}</span></td>
-                    <td><b>{row.zone}</b></td>
-                    <td>{row.onHand} {row.unit}</td>
-                    <td>{row.allocated} {row.unit}</td>
-                    <td><b>{row.onHand - row.allocated} {row.unit}</b></td>
-                    <td><b className={"loader-inventory-status " + row.status.toLowerCase()}>{row.status}</b></td>
+                    <td data-label="SKU"><b>{row.sku}</b></td>
+                    <td data-label="Item">{row.item}</td>
+                    <td data-label="Category"><span className={"loader-temp " + row.category.toLowerCase()}>{row.category}</span></td>
+                    <td data-label="Pick zone"><b>{row.zone}</b></td>
+                    <td data-label="On hand">{row.onHand} {row.unit}</td>
+                    <td data-label="Allocated today">{row.allocated} {row.unit}</td>
+                    <td data-label="Balance"><b>{row.onHand - row.allocated} {row.unit}</b></td>
+                    <td data-label="Status"><b className={"loader-inventory-status " + row.status.toLowerCase()}>{row.status}</b></td>
                   </tr>
                 );
               })}
