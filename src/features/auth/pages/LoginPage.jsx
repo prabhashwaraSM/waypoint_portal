@@ -3,6 +3,7 @@ import { Navigate, useNavigate } from "react-router-dom";
 import { Eye, EyeOff, LogIn, ShieldCheck, Boxes, Truck, Smartphone, Store } from "lucide-react";
 import Logo from "../../../shared/components/Logo";
 import { getRoleHome, getSession, login } from "../../../shared/auth/auth";
+import "../styles/login.css";
 
 const rolePreview = [
   { name: "Dispatcher", icon: Truck, status: "Available" },
