@@ -1,0 +1,35 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo svg {
+  flex-shrink: 0;
+  filter: drop-shadow(0 4px 10px rgba(79, 70, 229, 0.35));
+}
+
+.logo-text strong {
+  display: block;
+  white-space: nowrap;
+  font-size: 15.5px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  line-height: 1.15;
+}
+
+.logo-text strong span {
+  color: #a5b4fc;
+}
+
+.logo-text small {
+  display: block;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.logo-light .logo-text strong { color: #ffffff; }
+.logo-light .logo-text small { color: #94a3b8; }
+.logo-dark .logo-text strong { color: var(--text-main); }
+.logo-dark .logo-text strong span { color: var(--primary); }
+.logo-dark .logo-text small { color: var(--text-muted); }
