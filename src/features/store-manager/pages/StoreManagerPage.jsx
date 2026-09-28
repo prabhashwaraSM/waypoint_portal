@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
-import { Bell, Boxes, CheckCircle2, ClipboardList, History, LayoutDashboard, LogOut, Menu, PackageCheck, ShoppingCart, Store, UserCircle, Wifi } from "lucide-react";
+import { Boxes, ClipboardList, History, LayoutDashboard, PackageCheck, ShoppingCart } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import Logo from "../../../shared/components/Logo";
+import PortalChrome from "../../../shared/components/PortalChrome";
 import { getSession, logout } from "../../../shared/auth/auth";
 import { getStoreProfile } from "../data/storeManagerData";
 import DashboardPage from "./DashboardPage";
@@ -12,6 +12,7 @@ import StyleAdjustmentsPage from "./StyleAdjustmentsPage";
 import TechAdjustmentsPage from "./TechAdjustmentsPage";
 import StoreUtilityModal from "../components/StoreUtilityModal";
 import "../styles/storeManager.css";
+import "../../../shared/styles/portalLayout.css";
 
 function navForStore(profile) {
   const receiveLabel = profile.key === "style" ? "Receive Order" : "Receive Delivery";
@@ -46,63 +47,42 @@ export default function StoreManagerPage() {
     if (section === "place-order") return <PlaceOrderPage profile={profile} />;
     if (section === "receive") return <ReceiveDeliveryPage profile={profile} />;
     if (section === "wastage") return <FreshWastagePage profile={profile} />;
-    if (section === "adjustments" && profile.key === "style") return <StyleAdjustmentsPage profile={profile} onNavigate={setSection} />;
-    if (section === "adjustments" && profile.key === "tech") return <TechAdjustmentsPage profile={profile} onNavigate={setSection} />;
+    if (section === "adjustments" && profile.key === "style") {
+      return <StyleAdjustmentsPage profile={profile} onNavigate={setSection} />;
+    }
+    if (section === "adjustments" && profile.key === "tech") {
+      return <TechAdjustmentsPage profile={profile} onNavigate={setSection} />;
+    }
     return <DashboardPage profile={profile} onNavigate={setSection} />;
   };
 
+  const nav = navItems.map(({ id, label, icon: Icon }) => (
+    <button
+      key={id}
+      className={"portal-nav-item " + (section === id ? "active" : "")}
+      onClick={() => setSection(id)}
+    >
+      <Icon size={20} />
+      <span>{label}</span>
+    </button>
+  ));
+
   return (
-    <div className="store-shell">
-      <aside className="store-sidebar">
-        <div className="store-brand">
-          <Logo size={38} product="Store" subtitle="Outlet Operations" accent="#16a34a" />
-          <div className="store-role-pill"><Store size={13} /> Role: <b>Store Manager</b></div>
-        </div>
-
-        <div className="store-outlet-card">
-          <span className="store-outlet-icon"><Store size={18} /></span>
-          <div><b>{profile.brand}</b><small>{profile.outlet} • {profile.outletId}</small></div>
-        </div>
-
-        <nav className="store-nav">
-          {navItems.map(({ id, label, icon: Icon }) => (
-            <button key={id} className={section === id ? "active" : ""} onClick={() => setSection(id)}>
-              <Icon size={18} />
-              <span>{label}</span>
-            </button>
-          ))}
-        </nav>
-
-        <div className="store-sidebar-state">
-          <span><Wifi size={13} /> Outlet system online</span>
-          <small>Plan & ETA sync active</small>
-        </div>
-
-        <div className="store-user">
-          <div className="store-avatar">SM</div>
-          <div><strong>{session.name || profile.manager}</strong><small>{profile.brand} • {profile.outlet}</small></div>
-          <button onClick={signOut} title="Sign out"><LogOut size={17} /></button>
-        </div>
-      </aside>
-
-      <div className="store-main-area">
-        <header className="store-topbar">
-          <div className="store-topbar-title">
-            <strong>Waypoint Group PVT LTD</strong>
-            <span>{profile.brand} • {profile.outlet} store operations</span>
-          </div>
-          <div className="store-topbar-meta">
-            <div className="store-sync"><Wifi size={15} /><span><b>Live</b><small>Synced</small></span></div>
-            <button className="store-icon-btn" title="Notifications" onClick={() => setUtilityModal("notifications")}><Bell size={18} /><i>2</i></button>
-            <button className="store-profile" title="Open profile" onClick={() => setUtilityModal("profile")}><UserCircle size={23} /><span><b>{session.name || profile.manager}</b><small>{profile.label}</small></span></button>
-            <button className="store-icon-btn store-mobile-logout" onClick={signOut} title="Sign out" aria-label="Sign out"><LogOut size={18} /></button>
-          </div>
-        </header>
-
-        <main className="store-content">
-          {renderPage()}
-        </main>
-      </div>
+    <>
+      <PortalChrome
+        theme="store-theme"
+        product="Store"
+        accent="#16a34a"
+        session={session}
+        role="Store Manager"
+        nav={nav}
+        notificationCount={2}
+        onNotifications={() => setUtilityModal("notifications")}
+        onLogout={signOut}
+        contentClassName="store-content"
+      >
+        {renderPage()}
+      </PortalChrome>
 
       <StoreUtilityModal
         type={utilityModal}
@@ -111,6 +91,6 @@ export default function StoreManagerPage() {
         profile={profile}
         session={session}
       />
-    </div>
+    </>
   );
 }
