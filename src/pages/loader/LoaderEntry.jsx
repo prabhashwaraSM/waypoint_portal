@@ -314,6 +314,7 @@ export default function LoaderEntry() {
               <Bell size={18} /><i>{stats.openIssues}</i>
             </button>
             <div className="loader-profile"><UserCircle size={23} /><span><b>{session?.name || "Warehouse Loader"}</b><small>Loader • Shift A</small></span></div>
+            <button className="loader-icon-btn loader-mobile-logout" title="Sign out" aria-label="Sign out" onClick={signOut}><LogOut size={18} /></button>
           </div>
         </header>
 
