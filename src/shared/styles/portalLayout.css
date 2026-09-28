@@ -587,3 +587,79 @@
     min-width: 78px;
   }
 }
+
+
+/* ---------- Unified operational text scale ---------- */
+.portal-content .loader-stat-card strong,
+.portal-content .store-stat-card strong,
+.portal-content .stat-content strong {
+  font-size: 21px !important;
+}
+
+.portal-content .loader-stat-card b,
+.portal-content .store-stat-card b,
+.portal-content .loader-trip-card-top strong,
+.portal-content .loader-stop-copy strong,
+.portal-content .store-delivery-route h3,
+.portal-content .store-order-row strong,
+.portal-content .store-receive-card-head b {
+  font-size: 12px !important;
+}
+
+.portal-content .loader-stat-card small,
+.portal-content .store-stat-card small,
+.portal-content .loader-trip-card-top small,
+.portal-content .loader-stop-copy small,
+.portal-content .loader-trip-card-meta small,
+.portal-content .loader-panel-head p,
+.portal-content .store-panel-head p,
+.portal-content .store-order-row small,
+.portal-content .store-delivery-route p,
+.portal-content .store-receive-card-head small {
+  font-size: 11px !important;
+}
+
+.portal-content .loader-trip-route,
+.portal-content .loader-trip-card-meta b,
+.portal-content .loader-item-row,
+.portal-content .loader-data-table td,
+.portal-content .store-delivery-meta b,
+.portal-content .store-cart-list b,
+.portal-content .store-cart-list strong,
+.portal-content .store-table td,
+.portal-content .store-history-list b,
+.portal-content .store-rma-list b {
+  font-size: 12px !important;
+}
+
+.portal-content .loader-data-table th,
+.portal-content .loader-item-row.head,
+.portal-content .store-table th {
+  font-size: 10px !important;
+}
+
+.portal-content .loader-status,
+.portal-content .store-status,
+.portal-content .loader-temp,
+.portal-content .store-condition-chip,
+.portal-content .store-inventory-status {
+  font-size: 10px !important;
+}
+
+.portal-content .loader-primary-btn,
+.portal-content .loader-secondary-btn,
+.portal-content .loader-danger-btn,
+.portal-content .loader-row-action,
+.portal-content .store-primary-btn,
+.portal-content .store-secondary-btn,
+.portal-content .store-danger-btn {
+  font-size: 12px !important;
+}
+
+.portal-content .loader-search input,
+.portal-content .loader-select select,
+.portal-content .store-field input,
+.portal-content .store-field select,
+.portal-content .store-field textarea {
+  font-size: 12px !important;
+}
