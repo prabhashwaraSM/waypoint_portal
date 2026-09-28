@@ -6,10 +6,10 @@ import { getRoleHome, getSession, login } from "../../../shared/auth/auth";
 import "../styles/login.css";
 
 const rolePreview = [
-  { name: "Dispatcher", icon: Truck, status: "Available" },
-  { name: "Loader", icon: Boxes, status: "Available" },
-  { name: "Driver", icon: Smartphone, status: "Next phase" },
-  { name: "Store Manager", icon: Store, status: "Next phase" }
+  { name: "Dispatcher", icon: Truck, status: "Available", tone: "dispatcher" },
+  { name: "Loader", icon: Boxes, status: "Available", tone: "loader" },
+  { name: "Driver", icon: Smartphone, status: "Next phase", tone: "driver" },
+  { name: "Store Manager", icon: Store, status: "Available", tone: "store" }
 ];
 
 export default function Login() {
@@ -49,12 +49,12 @@ export default function Login() {
           <h1>One portal. Four roles. One delivery flow.</h1>
           <p>
             Sign in once and Waypoint automatically opens the workspace assigned to your role.
-            Dispatcher planning and Loader operations stay separate while sharing the same delivery workflow.
+            Dispatcher planning, Loader dock execution and Store Manager receiving stay separate while sharing the same delivery workflow.
           </p>
 
           <div className="role-preview-grid">
-            {rolePreview.map(({ name, icon: Icon, status }) => (
-              <div className="role-preview-card" key={name}>
+            {rolePreview.map(({ name, icon: Icon, status, tone }) => (
+              <div className={"role-preview-card " + tone} key={name}>
                 <Icon size={19} />
                 <div>
                   <strong>{name}</strong>
