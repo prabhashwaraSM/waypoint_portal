@@ -77,7 +77,13 @@ export default function LoaderEntry() {
   const [tripStatuses, setTripStatuses] = useState(function () {
     return Object.fromEntries(loaderTrips.map(function (trip) { return [trip.id, trip.status]; }));
   });
-  const [resolvedItems, setResolvedItems] = useState({});
+  const [resolvedItems, setResolvedItems] = useState(function () {
+    const initial = {};
+    initialLoaderIssues.forEach(function (issue) {
+      if (issue.stopSequence) initial[issue.tripId + "::" + issue.stopSequence + "::" + issue.sku] = "issue";
+    });
+    return initial;
+  });
   const [expandedStops, setExpandedStops] = useState({ 6: true, 5: true });
   const [issues, setIssues] = useState(initialLoaderIssues);
   const [enquiries, setEnquiries] = useState(initialLoaderEnquiries);
