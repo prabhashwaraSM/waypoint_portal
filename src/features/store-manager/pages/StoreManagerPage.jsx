@@ -25,7 +25,6 @@ import StyleAdjustmentsPage from "./StyleAdjustmentsPage";
 import TechAdjustmentsPage from "./TechAdjustmentsPage";
 
 import StoreUtilityModal from "../components/StoreUtilityModal";
-import OfflineMode from "../components/OfflineMode";
 
 import "../styles/storeManager.css";
 import "../styles/offline-mode.css";
@@ -82,7 +81,6 @@ function navForStore(profile) {
 
 
 export default function StoreManagerPage() {
-
   const navigate = useNavigate();
 
   const session =
@@ -102,7 +100,8 @@ export default function StoreManagerPage() {
     [profile]
   );
 
-  const [section, setSection] = useState("dashboard");
+  const [section, setSection] =
+    useState("dashboard");
 
   const [utilityModal, setUtilityModal] =
     useState(null);
@@ -118,7 +117,6 @@ export default function StoreManagerPage() {
 
 
   const renderPage = () => {
-
     if (section === "place-order") {
       return (
         <PlaceOrderPage
@@ -126,7 +124,6 @@ export default function StoreManagerPage() {
         />
       );
     }
-
 
     if (section === "receive") {
       return (
@@ -136,7 +133,6 @@ export default function StoreManagerPage() {
       );
     }
 
-
     if (section === "wastage") {
       return (
         <FreshWastagePage
@@ -144,7 +140,6 @@ export default function StoreManagerPage() {
         />
       );
     }
-
 
     if (
       section === "adjustments" &&
@@ -158,7 +153,6 @@ export default function StoreManagerPage() {
       );
     }
 
-
     if (
       section === "adjustments" &&
       profile.key === "tech"
@@ -171,7 +165,6 @@ export default function StoreManagerPage() {
       );
     }
 
-
     return (
       <DashboardPage
         profile={profile}
@@ -183,7 +176,6 @@ export default function StoreManagerPage() {
 
   const nav = navItems.map(
     ({ id, label, icon: Icon }) => (
-
       <button
         key={id}
         className={
@@ -192,22 +184,18 @@ export default function StoreManagerPage() {
         }
         onClick={() => setSection(id)}
       >
-
         <Icon size={20} />
 
         <span>
           {label}
         </span>
-
       </button>
-
     )
   );
 
 
   return (
     <>
-
       <PortalChrome
         theme="store-theme"
         product="Store"
@@ -221,26 +209,24 @@ export default function StoreManagerPage() {
         }
         onLogout={signOut}
         contentClassName="store-content"
+
+        /* ======================================
+           ENABLE OFFLINE MODE
+           
+           This makes OfflineMode appear
+           between Live Link and Bell
+           in PortalChrome.
+        ====================================== */
+
+        showOfflineMode={true}
       >
-
-        {/* =========================================
-            OFFLINE MODE
-            ========================================= */}
-
-        <OfflineMode />
-
-        {/* =========================================
-            CURRENT STORE MANAGER PAGE
-            ========================================= */}
-
         {renderPage()}
-
       </PortalChrome>
 
 
-      {/* =========================================
+      {/* ======================================
           STORE UTILITY MODAL
-          ========================================= */}
+      ====================================== */}
 
       <StoreUtilityModal
         type={utilityModal}
@@ -251,7 +237,6 @@ export default function StoreManagerPage() {
         profile={profile}
         session={session}
       />
-
     </>
   );
 }
