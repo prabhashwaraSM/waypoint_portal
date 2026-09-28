@@ -32,7 +32,7 @@ import {
   Wifi,
   X
 } from "lucide-react";
-import Logo from "../../../shared/components/Logo";
+import PortalChrome from "../../../shared/components/PortalChrome";
 import { getSession, logout } from "../../../shared/auth/auth";
 import {
   allTripItems,
@@ -43,6 +43,7 @@ import {
   tripTotals
 } from "../data/loaderData";
 import "../styles/loader.css";
+import "../../../shared/styles/portalLayout.css";
 import Overview from "./OverviewPage";
 import LoadingPlan from "./LoadingPlanPage";
 import LoadingSequence from "./LoadingSequencePage";
@@ -252,137 +253,105 @@ export default function LoaderPage() {
     };
   }, [issues, tripStatuses]);
 
+  const nav = NAV_ITEMS.map(function (item) {
+    const Icon = item.icon;
+    return (
+      <button
+        key={item.id}
+        className={"portal-nav-item " + (section === item.id ? "active" : "")}
+        onClick={function () { setSection(item.id); }}
+      >
+        <Icon size={20} />
+        <span>{item.label}</span>
+        {item.id === "issues" && stats.openIssues > 0 && (
+          <b className="portal-nav-badge">{stats.openIssues}</b>
+        )}
+      </button>
+    );
+  });
+
   return (
-    <div className="loader-shell">
-      <aside className="loader-sidebar">
-        <div className="loader-brand">
-          <Logo size={38} product="Loader" subtitle="Warehouse Operations" accent="#f59e0b" />
-          <div className="loader-role-pill"><ShieldCheck size={13} /> Role: <b>Loader</b></div>
-        </div>
+    <PortalChrome
+      theme="loader-theme"
+      product="Loader"
+      accent="#f59e0b"
+      session={session}
+      role="Loader"
+      nav={nav}
+      notificationCount={stats.openIssues}
+      onNotifications={function () { setSection("issues"); }}
+      onLogout={signOut}
+      contentClassName="loader-content"
+    >
+      {section === "overview" && (
+        <Overview
+          stats={stats}
+          tripStatuses={tripStatuses}
+          issues={issues}
+          onOpenTrip={function (id) { selectTrip(id, "sequence"); }}
+          onOpenPlan={function () { setSection("plan"); }}
+          onOpenIssues={function () { setSection("issues"); }}
+        />
+      )}
 
-        <nav className="loader-nav">
-          {NAV_ITEMS.map(function (item) {
-            const Icon = item.icon;
-            return (
-              <button
-                key={item.id}
-                className={section === item.id ? "active" : ""}
-                onClick={function () { setSection(item.id); }}
-              >
-                <Icon size={18} />
-                <span>{item.label}</span>
-                {item.id === "issues" && stats.openIssues > 0 && <b className="loader-nav-count">{stats.openIssues}</b>}
-              </button>
-            );
-          })}
-        </nav>
+      {section === "plan" && (
+        <LoadingPlan
+          trips={filteredTrips}
+          tripStatuses={tripStatuses}
+          planSearch={planSearch}
+          setPlanSearch={setPlanSearch}
+          planBrand={planBrand}
+          setPlanBrand={setPlanBrand}
+          onOpenTrip={function (id) { selectTrip(id, "sequence"); }}
+        />
+      )}
 
-        <div className="loader-sidebar-state">
-          <span><CircleDot size={13} /> Dock system online</span>
-          <small>Plan sync: just now</small>
-        </div>
+      {section === "sequence" && (
+        <LoadingSequence
+          trip={selectedTrip}
+          totals={selectedTotals}
+          items={selectedItems}
+          completionPct={completionPct}
+          unresolvedCount={unresolvedCount}
+          resolvedItems={resolvedItems}
+          expandedStops={expandedStops}
+          setExpandedStops={setExpandedStops}
+          itemKey={itemKey}
+          onLoaded={markItemLoaded}
+          onIssue={openIssue}
+          onReady={markTripReady}
+          currentStatus={tripStatuses[selectedTrip.id]}
+          onBack={function () { setSection("plan"); }}
+          scanValue={scanValue}
+          setScanValue={setScanValue}
+          onScan={handleScan}
+        />
+      )}
 
-        <div className="loader-user">
-          <div className="loader-avatar">WL</div>
-          <div>
-            <strong>{session?.name || "Warehouse Loader"}</strong>
-            <small>{session?.depot || "Peliyagoda"} depot • Shift A</small>
-          </div>
-          <button onClick={signOut} title="Sign out"><LogOut size={17} /></button>
-        </div>
-      </aside>
+      {section === "inventory" && (
+        <Inventory
+          rows={filteredInventory}
+          search={inventorySearch}
+          setSearch={setInventorySearch}
+          onOpenIssues={function () { setSection("issues"); }}
+        />
+      )}
 
-      <div className="loader-main-area">
-        <header className="loader-topbar">
-          <div className="loader-topbar-title">
-            <strong>Waypoint Group PVT LTD</strong>
-            <span>Warehouse execution • {session?.depot || "Peliyagoda"}</span>
-          </div>
+      {section === "issues" && (
+        <IssuesAndEnquiries
+          issues={issues}
+          enquiries={enquiries}
+          enquiryTrip={enquiryTrip}
+          setEnquiryTrip={setEnquiryTrip}
+          enquirySubject={enquirySubject}
+          setEnquirySubject={setEnquirySubject}
+          enquiryMessage={enquiryMessage}
+          setEnquiryMessage={setEnquiryMessage}
+          onSubmit={submitEnquiry}
+        />
+      )}
 
-          <div className="loader-topbar-meta">
-            <div className="loader-sync"><Wifi size={15} /><span><b>Live</b><small>Synced</small></span></div>
-            <button className="loader-icon-btn" title="Notifications">
-              <Bell size={18} /><i>{stats.openIssues}</i>
-            </button>
-            <div className="loader-profile"><UserCircle size={23} /><span><b>{session?.name || "Warehouse Loader"}</b><small>Loader • Shift A</small></span></div>
-            <button className="loader-icon-btn loader-mobile-logout" title="Sign out" aria-label="Sign out" onClick={signOut}><LogOut size={18} /></button>
-          </div>
-        </header>
-
-        <main className="loader-content">
-          {section === "overview" && (
-            <Overview
-              stats={stats}
-              tripStatuses={tripStatuses}
-              issues={issues}
-              onOpenTrip={function (id) { selectTrip(id, "sequence"); }}
-              onOpenPlan={function () { setSection("plan"); }}
-              onOpenIssues={function () { setSection("issues"); }}
-            />
-          )}
-
-          {section === "plan" && (
-            <LoadingPlan
-              trips={filteredTrips}
-              tripStatuses={tripStatuses}
-              planSearch={planSearch}
-              setPlanSearch={setPlanSearch}
-              planBrand={planBrand}
-              setPlanBrand={setPlanBrand}
-              onOpenTrip={function (id) { selectTrip(id, "sequence"); }}
-            />
-          )}
-
-          {section === "sequence" && (
-            <LoadingSequence
-              trip={selectedTrip}
-              totals={selectedTotals}
-              items={selectedItems}
-              completionPct={completionPct}
-              unresolvedCount={unresolvedCount}
-              resolvedItems={resolvedItems}
-              expandedStops={expandedStops}
-              setExpandedStops={setExpandedStops}
-              itemKey={itemKey}
-              onLoaded={markItemLoaded}
-              onIssue={openIssue}
-              onReady={markTripReady}
-              currentStatus={tripStatuses[selectedTrip.id]}
-              onBack={function () { setSection("plan"); }}
-              scanValue={scanValue}
-              setScanValue={setScanValue}
-              onScan={handleScan}
-            />
-          )}
-
-          {section === "inventory" && (
-            <Inventory
-              rows={filteredInventory}
-              search={inventorySearch}
-              setSearch={setInventorySearch}
-              onOpenIssues={function () { setSection("issues"); }}
-            />
-          )}
-
-          {section === "issues" && (
-            <IssuesAndEnquiries
-              issues={issues}
-              enquiries={enquiries}
-              enquiryTrip={enquiryTrip}
-              setEnquiryTrip={setEnquiryTrip}
-              enquirySubject={enquirySubject}
-              setEnquirySubject={setEnquirySubject}
-              enquiryMessage={enquiryMessage}
-              setEnquiryMessage={setEnquiryMessage}
-              onSubmit={submitEnquiry}
-            />
-          )}
-
-          {section === "history" && (
-            <HistoryView tripStatuses={tripStatuses} />
-          )}
-        </main>
-      </div>
+      {section === "history" && <HistoryView tripStatuses={tripStatuses} />}
 
       {issueModal && (
         <IssueModal
@@ -400,6 +369,6 @@ export default function LoaderPage() {
       )}
 
       {toast && <div className="loader-toast"><CheckCircle2 size={17} /> {toast}</div>}
-    </div>
+    </PortalChrome>
   );
 }
