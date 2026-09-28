@@ -1,0 +1,67 @@
+driver_id,driver_name,phone,licence_no,licence_class,licence_expiry,depot,default_vehicle_id,experience_years,status
+DRV001,Mahesh Senanayake,072-3530829,B7624039,"B1, C1, C",2030-07-01,Peliyagoda,VEH001,3,active
+DRV002,Janaka Perera,070-9990608,B2579240,"B1, C1, C",2028-11-23,Peliyagoda,VEH002,20,active
+DRV003,Nuwan Kumara,070-9513358,B4602037,"B1, C1, C",2027-01-21,Peliyagoda,VEH003,4,active
+DRV004,Nuwan Perera,075-8015764,B2171979,"B1, C1, C",2028-03-12,Peliyagoda,VEH004,4,active
+DRV005,Tharindu Fernando,076-8122250,B1991709,"B1, C1, C",2030-01-07,Peliyagoda,VEH005,5,active
+DRV006,Asanka Rathnayake,071-2037872,B7655194,"B1, C1, C",2027-02-15,Peliyagoda,VEH006,9,active
+DRV007,Pradeep Wijesinghe,070-3234302,B5858837,"B1, C1, C",2029-03-13,Peliyagoda,VEH007,6,active
+DRV008,Chaminda Bandara,076-2976225,B6175466,"B1, C1, C",2029-12-27,Peliyagoda,VEH008,7,active
+DRV009,Janaka Jayasinghe,070-4151952,B7247794,"B1, C1, C",2027-05-24,Peliyagoda,VEH009,19,active
+DRV010,Roshan Jayasinghe,077-2053424,B1999941,"B1, C1, C",2030-04-26,Peliyagoda,VEH010,8,active
+DRV011,Kelum Wijesinghe,075-9920785,B8173808,"B1, C1, C",2028-08-10,Peliyagoda,VEH011,16,active
+DRV012,Pradeep Fernando,076-8603172,B7066345,"B1, C1, C",2028-07-11,Peliyagoda,VEH012,9,active
+DRV013,Pradeep Dissanayake,078-4015985,B5095259,"B1, C1, C",2027-04-22,Peliyagoda,VEH013,20,active
+DRV014,Mahesh Kumara,072-9811335,B9306674,"B1, C1, C",2028-10-09,Peliyagoda,VEH014,16,active
+DRV015,Kasun Herath,072-2228106,B2980815,"B1, C1, C",2029-09-19,Peliyagoda,VEH015,15,active
+DRV016,Kelum Jayasinghe,071-6738744,B3549877,"B1, C1, C",2029-08-03,Peliyagoda,VEH016,15,active
+DRV017,Isuru Herath,070-2302255,B6263809,"B1, C1, C",2028-10-02,Peliyagoda,VEH017,13,active
+DRV018,Asanka Bandara,076-9332820,B8653855,"B1, C1, C",2027-03-26,Peliyagoda,VEH018,4,active
+DRV019,Dinesh Herath,072-8954050,B2090518,"B1, C1, C",2027-03-10,Peliyagoda,VEH019,11,active
+DRV020,Kelum Fernando,077-8476611,B5774720,"B1, C1, C",2029-01-04,Peliyagoda,VEH020,13,active
+DRV021,Amila Perera,070-8745961,B6963698,"B1, C1, C",2027-10-16,Peliyagoda,VEH021,21,active
+DRV022,Sunil Wijesinghe,070-9282794,B1989091,"B1, C1, C",2028-01-26,Peliyagoda,VEH022,11,active
+DRV023,Nimal Silva,071-5154287,B7675615,"B1, C1, C",2029-01-14,Peliyagoda,VEH023,17,active
+DRV024,Sampath Kumara,070-3791163,B8536114,"B1, C1, C",2029-02-05,Peliyagoda,VEH024,19,active
+DRV025,Isuru Jayasinghe,072-3297239,B8222954,"B1, C1, C",2029-12-06,Peliyagoda,VEH025,10,active
+DRV026,Kelum Rathnayake,077-7967519,B7019181,"B1, C1, C",2030-09-04,Peliyagoda,VEH026,14,active
+DRV027,Kasun Fernando,071-3532032,B2392252,"B1, C1, C",2027-11-01,Peliyagoda,VEH027,6,active
+DRV028,Sampath Silva,071-4914729,B1202384,"B1, C1, C",2029-07-26,Peliyagoda,VEH028,20,active
+DRV029,Tharindu Kumara,071-5408156,B5730012,"B1, C1, C",2026-11-14,Peliyagoda,VEH029,6,active
+DRV030,Chaminda Wijesinghe,075-9968948,B7195046,"B1, C1, C",2030-04-07,Peliyagoda,VEH030,20,active
+DRV031,Saman Herath,072-3105398,B9648511,"B1, C1, C",2030-04-23,Peliyagoda,VEH031,22,active
+DRV032,Sampath Senanayake,077-1905850,B8661210,"B1, C1, C",2030-08-30,Peliyagoda,VEH032,19,active
+DRV033,Sampath Herath,075-7678500,B7693754,"B1, C1, C",2029-01-21,Peliyagoda,VEH033,5,active
+DRV034,Lahiru Kumara,075-7718312,B2044345,"B1, C1, C",2027-12-01,Peliyagoda,VEH034,4,active
+DRV035,Sunil Kumara,071-8392492,B3722995,"B1, C1",2027-06-19,Peliyagoda,VEH035,12,active
+DRV036,Pradeep Silva,076-1882072,B2717644,"B1, C1",2026-11-06,Peliyagoda,VEH036,20,active
+DRV037,Lahiru Gunawardena,071-2702289,B7100362,"B1, C1",2030-04-15,Peliyagoda,VEH037,2,active
+DRV038,Asanka Perera,070-4488867,B7312081,"B1, C1",2027-09-06,Peliyagoda,VEH038,22,active
+DRV039,Ruwan Bandara,072-6828229,B7109648,"B1, C1, C",2029-07-04,Kandy,VEH039,5,active
+DRV040,Dinesh Bandara,070-9188423,B8818005,"B1, C1, C",2029-07-16,Kandy,VEH040,17,active
+DRV041,Tharindu Dissanayake,072-2440905,B3417890,"B1, C1, C",2027-06-03,Kandy,VEH041,12,active
+DRV042,Roshan Perera,077-5441883,B9029943,"B1, C1, C",2030-09-23,Kandy,VEH042,7,active
+DRV043,Asanka Kumara,076-1387481,B4442936,"B1, C1, C",2029-10-22,Kandy,VEH043,13,active
+DRV044,Isuru Perera,071-1453697,B9860206,"B1, C1, C",2028-07-08,Kandy,VEH044,22,active
+DRV045,Isuru Senanayake,078-2526903,B5380786,"B1, C1, C",2029-10-02,Kandy,VEH045,13,active
+DRV046,Tharindu Jayasinghe,071-6967591,B4737842,"B1, C1, C",2029-10-31,Kandy,VEH046,19,active
+DRV047,Sampath Fernando,078-9433856,B6530860,"B1, C1, C",2030-06-01,Kandy,VEH047,9,active
+DRV048,Janaka Silva,076-4274007,B5016258,"B1, C1, C",2029-02-03,Kandy,VEH048,9,active
+DRV049,Tharindu Herath,071-9684536,B9267507,"B1, C1, C",2028-11-03,Kandy,VEH049,2,active
+DRV050,Sampath Wijesinghe,070-5687865,B8922873,"B1, C1, C",2028-04-19,Kandy,VEH050,8,active
+DRV051,Janaka Fernando,077-6776075,B8503235,"B1, C1, C",2028-10-21,Kandy,VEH051,13,active
+DRV052,Kasun Silva,070-4698744,B2713912,"B1, C1, C",2028-02-13,Kandy,VEH052,17,active
+DRV053,Kasun Gunawardena,071-6666294,B4428816,"B1, C1, C",2029-07-21,Kandy,VEH053,21,active
+DRV054,Buddhika Bandara,076-1032016,B9044229,"B1, C1, C",2030-07-05,Kandy,VEH054,13,active
+DRV055,Kasun Kumara,078-2422346,B3011649,"B1, C1, C",2029-01-09,Kandy,VEH055,8,active
+DRV056,Kasun Jayasinghe,075-3995097,B8280054,"B1, C1, C",2030-05-31,Kandy,VEH056,12,active
+DRV057,Roshan Senanayake,070-7641067,B8770544,"B1, C1",2029-02-05,Kandy,VEH057,4,active
+DRV058,Ruwan Jayasinghe,077-3665162,B3852188,"B1, C1",2027-07-24,Kandy,VEH058,2,active
+DRV059,Pradeep Herath,071-8807342,B3452397,"B1, C1",2030-04-11,Kandy,VEH059,21,active
+DRV060,Amila Gunawardena,075-6878862,B3615776,"B1, C1",2029-12-03,Kandy,VEH060,19,active
+DRV061,Upul Karunaratne,071-1358976,B1238956,"B1, C1, C",2030-06-28,Peliyagoda,,3,relief
+DRV062,Sandun Weerakoon,076-3336239,B8278114,"B1, C1, C",2027-12-09,Peliyagoda,,15,relief
+DRV063,Thilina Madushanka,078-4540702,B1469656,"B1, C1, C",2028-04-04,Peliyagoda,,5,relief
+DRV064,Gayan Priyadarshana,072-9408101,B5035581,"B1, C1, C",2030-02-19,Kandy,,7,relief
+DRV065,Harsha Wickramasinghe,072-8029864,B3199051,"B1, C1, C",2027-03-10,Kandy,,13,relief
+DRV066,Chathura Ranasinghe,072-8686665,B9669808,"B1, C1, C",2029-03-16,Peliyagoda,,15,relief

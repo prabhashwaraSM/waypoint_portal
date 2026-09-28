@@ -1,0 +1,701 @@
+product_id,brand,category,product_name,unit,storage_type,source_product_id
+FRESH-001,Fresh,Fresh Produce,Tomato,kg,fresh,FR001
+FRESH-002,Fresh,Fresh Produce,Potato,kg,fresh,FR002
+FRESH-003,Fresh,Fresh Produce,Red Onion,kg,fresh,FR003
+FRESH-004,Fresh,Fresh Produce,Big Onion,kg,fresh,FR004
+FRESH-005,Fresh,Fresh Produce,Carrot,kg,fresh,FR005
+FRESH-006,Fresh,Fresh Produce,Cabbage,kg,fresh,FR006
+FRESH-007,Fresh,Fresh Produce,Beans,kg,fresh,FR007
+FRESH-008,Fresh,Fresh Produce,Leeks,kg,fresh,FR008
+FRESH-009,Fresh,Fresh Produce,Brinjal,kg,fresh,FR009
+FRESH-010,Fresh,Fresh Produce,Ladies Finger,kg,fresh,FR010
+FRESH-011,Fresh,Fresh Produce,Pumpkin,kg,fresh,FR011
+FRESH-012,Fresh,Fresh Produce,Snake Gourd,kg,fresh,FR012
+FRESH-013,Fresh,Fresh Produce,Bottle Gourd,kg,fresh,FR013
+FRESH-014,Fresh,Fresh Produce,Bitter Gourd,kg,fresh,FR014
+FRESH-015,Fresh,Fresh Produce,Drumstick,kg,fresh,FR015
+FRESH-016,Fresh,Fresh Produce,Beetroot,kg,fresh,FR016
+FRESH-017,Fresh,Fresh Produce,Radish,kg,fresh,FR017
+FRESH-018,Fresh,Fresh Produce,Cucumber,kg,fresh,FR018
+FRESH-019,Fresh,Fresh Produce,Green Chilli,kg,fresh,FR019
+FRESH-020,Fresh,Fresh Produce,Capsicum,kg,fresh,FR020
+FRESH-021,Fresh,Fresh Produce,Green Peas,kg,fresh,FR021
+FRESH-022,Fresh,Fresh Produce,Sweet Corn,kg,fresh,FR022
+FRESH-023,Fresh,Fresh Produce,Cauliflower,kg,fresh,FR023
+FRESH-024,Fresh,Fresh Produce,Broccoli,kg,fresh,FR024
+FRESH-025,Fresh,Fresh Produce,Spinach,kg,fresh,FR025
+FRESH-026,Fresh,Fresh Produce,Gotukola,kg,fresh,FR026
+FRESH-027,Fresh,Fresh Produce,Mukunuwenna,kg,fresh,FR027
+FRESH-028,Fresh,Fresh Produce,Kangkung,kg,fresh,FR028
+FRESH-029,Fresh,Fresh Produce,Coriander Leaves,kg,fresh,FR029
+FRESH-030,Fresh,Fresh Produce,Mint Leaves,kg,fresh,FR030
+FRESH-031,Fresh,Fresh Produce,Curry Leaves,kg,fresh,FR031
+FRESH-032,Fresh,Fresh Produce,Spring Onion,kg,fresh,FR032
+FRESH-033,Fresh,Fresh Produce,Garlic,kg,fresh,FR033
+FRESH-034,Fresh,Fresh Produce,Ginger,kg,fresh,FR034
+FRESH-035,Fresh,Fresh Produce,Turmeric Root,kg,fresh,FR035
+FRESH-036,Fresh,Fresh Produce,Lime,kg,fresh,FR036
+FRESH-037,Fresh,Fresh Produce,Lemon,kg,fresh,FR037
+FRESH-038,Fresh,Fresh Produce,Green Apple,kg,fresh,FR038
+FRESH-039,Fresh,Fresh Produce,Red Apple,kg,fresh,FR039
+FRESH-040,Fresh,Fresh Produce,Banana Kolikuttu,kg,fresh,FR040
+FRESH-041,Fresh,Fresh Produce,Banana Seeni,kg,fresh,FR041
+FRESH-042,Fresh,Fresh Produce,Banana Ambul,kg,fresh,FR042
+FRESH-043,Fresh,Fresh Produce,Papaya,kg,fresh,FR043
+FRESH-044,Fresh,Fresh Produce,Pineapple,kg,fresh,FR044
+FRESH-045,Fresh,Fresh Produce,Mango,kg,fresh,FR045
+FRESH-046,Fresh,Fresh Produce,Avocado,kg,fresh,FR046
+FRESH-047,Fresh,Fresh Produce,Watermelon,kg,fresh,FR047
+FRESH-048,Fresh,Fresh Produce,Guava,kg,fresh,FR048
+FRESH-049,Fresh,Fresh Produce,Orange,kg,fresh,FR049
+FRESH-050,Fresh,Fresh Produce,Mandarin,kg,fresh,FR050
+FRESH-051,Fresh,Fresh Produce,Grapes Green,kg,fresh,FR051
+FRESH-052,Fresh,Fresh Produce,Grapes Red,kg,fresh,FR052
+FRESH-053,Fresh,Fresh Produce,Pomegranate,kg,fresh,FR053
+FRESH-054,Fresh,Fresh Produce,Pear,kg,fresh,FR054
+FRESH-055,Fresh,Fresh Produce,Kiwi,kg,fresh,FR055
+FRESH-056,Fresh,Fresh Produce,Strawberry,kg,fresh,FR056
+FRESH-057,Fresh,Fresh Produce,Dragon Fruit,kg,fresh,FR057
+FRESH-058,Fresh,Fresh Produce,Passion Fruit,kg,fresh,FR058
+FRESH-059,Fresh,Fresh Produce,Wood Apple,kg,fresh,FR059
+FRESH-060,Fresh,Fresh Produce,Coconut,kg,fresh,FR060
+FRESH-061,Fresh,Fresh Produce,King Coconut,kg,fresh,FR061
+FRESH-062,Fresh,Fresh Produce,Eggplant,kg,fresh,FR062
+FRESH-063,Fresh,Fresh Produce,Celery,kg,fresh,FR063
+FRESH-064,Fresh,Fresh Produce,Parsley,kg,fresh,FR064
+FRESH-065,Fresh,Fresh Produce,Dill,kg,fresh,FR065
+FRESH-066,Fresh,Fresh Produce,Rosemary,kg,fresh,FR066
+FRESH-067,Fresh,Fresh Produce,Thyme,kg,fresh,FR067
+FRESH-068,Fresh,Fresh Produce,Basil,kg,fresh,FR068
+FRESH-069,Fresh,Fresh Produce,Mushroom,kg,fresh,FR069
+FRESH-070,Fresh,Fresh Produce,Baby Corn,kg,fresh,FR070
+FRESH-071,Fresh,Fresh Produce,French Beans,kg,fresh,FR071
+FRESH-072,Fresh,Fresh Produce,Zucchini,kg,fresh,FR072
+FRESH-073,Fresh,Fresh Produce,Chayote,kg,fresh,FR073
+FRESH-074,Fresh,Fresh Produce,Turnip,kg,fresh,FR074
+FRESH-075,Fresh,Fresh Produce,Sweet Potato,kg,fresh,FR075
+FRESH-076,Fresh,Fresh Produce,Cassava,kg,fresh,FR076
+FRESH-077,Fresh,Fresh Produce,Yam,kg,fresh,FR077
+FRESH-078,Fresh,Fresh Produce,Taro,kg,fresh,FR078
+FRESH-079,Fresh,Fresh Produce,Jackfruit,kg,fresh,FR079
+FRESH-080,Fresh,Fresh Produce,Breadfruit,kg,fresh,FR080
+FRESH-081,Fresh,Fresh Produce,Ridge Gourd,kg,fresh,FR081
+FRESH-082,Fresh,Fresh Produce,Winged Bean,kg,fresh,FR082
+FRESH-083,Fresh,Fresh Produce,Long Bean,kg,fresh,FR083
+FRESH-084,Fresh,Fresh Produce,Ash Plantain,kg,fresh,FR084
+FRESH-085,Fresh,Fresh Produce,Raw Banana,kg,fresh,FR085
+FRESH-086,Fresh,Fresh Produce,Green Papaya,kg,fresh,FR086
+FRESH-087,Fresh,Fresh Produce,Green Mango,kg,fresh,FR087
+FRESH-088,Fresh,Fresh Produce,Red Cabbage,kg,fresh,FR088
+FRESH-089,Fresh,Fresh Produce,Cherry Tomato,kg,fresh,FR089
+FRESH-090,Fresh,Fresh Produce,Baby Spinach,kg,fresh,FR090
+FRESH-091,Fresh,Fresh Produce,Rocket Leaves,kg,fresh,FR091
+FRESH-092,Fresh,Fresh Produce,Iceberg Lettuce,kg,fresh,FR092
+FRESH-093,Fresh,Fresh Produce,Butterhead Lettuce,kg,fresh,FR093
+FRESH-094,Fresh,Fresh Produce,Romaine Lettuce,kg,fresh,FR094
+FRESH-095,Fresh,Fresh Produce,Chinese Cabbage,kg,fresh,FR095
+FRESH-096,Fresh,Fresh Produce,Pak Choi,kg,fresh,FR096
+FRESH-097,Fresh,Fresh Produce,Bell Pepper Red,kg,fresh,FR097
+FRESH-098,Fresh,Fresh Produce,Bell Pepper Yellow,kg,fresh,FR098
+FRESH-099,Fresh,Fresh Produce,Bell Pepper Green,kg,fresh,FR099
+FRESH-100,Fresh,Fresh Produce,Asparagus,kg,fresh,FR100
+FRESH-101,Fresh,Fresh Produce,Spring Garlic,kg,fresh,FR101
+FRESH-102,Fresh,Fresh Produce,Shallot,kg,fresh,FR102
+FRESH-103,Fresh,Fresh Produce,Shiitake Mushroom,kg,fresh,FR103
+FRESH-104,Fresh,Fresh Produce,Oyster Mushroom,kg,fresh,FR104
+FRESH-105,Fresh,Fresh Produce,Enoki Mushroom,kg,fresh,FR105
+FRESH-106,Fresh,Fresh Produce,Fresh Peanuts,kg,fresh,FR106
+FRESH-107,Fresh,Fresh Produce,Corn Cob,kg,fresh,FR107
+FRESH-108,Fresh,Fresh Produce,Fresh Okra,kg,fresh,FR108
+FRESH-109,Fresh,Fresh Produce,Fresh Green Peas,kg,fresh,FR109
+FRESH-110,Fresh,Fresh Produce,Fresh Soybean,kg,fresh,FR110
+FRESH-111,Fresh,Frozen Food,Frozen Chicken Breast,pack,frozen,FR111
+FRESH-112,Fresh,Frozen Food,Frozen Chicken Thigh,pack,frozen,FR112
+FRESH-113,Fresh,Frozen Food,Frozen Chicken Wings,pack,frozen,FR113
+FRESH-114,Fresh,Frozen Food,Frozen Chicken Drumsticks,pack,frozen,FR114
+FRESH-115,Fresh,Frozen Food,Frozen Chicken Nuggets,pack,frozen,FR115
+FRESH-116,Fresh,Frozen Food,Frozen Chicken Sausage,pack,frozen,FR116
+FRESH-117,Fresh,Frozen Food,Frozen Fish Fillet,pack,frozen,FR117
+FRESH-118,Fresh,Frozen Food,Frozen Tuna Steak,pack,frozen,FR118
+FRESH-119,Fresh,Frozen Food,Frozen Seer Fish,pack,frozen,FR119
+FRESH-120,Fresh,Frozen Food,Frozen Prawns,pack,frozen,FR120
+FRESH-121,Fresh,Frozen Food,Frozen Squid,pack,frozen,FR121
+FRESH-122,Fresh,Frozen Food,Frozen Cuttlefish,pack,frozen,FR122
+FRESH-123,Fresh,Frozen Food,Frozen Crab Meat,pack,frozen,FR123
+FRESH-124,Fresh,Frozen Food,Frozen Mixed Seafood,pack,frozen,FR124
+FRESH-125,Fresh,Frozen Food,Frozen Fish Fingers,pack,frozen,FR125
+FRESH-126,Fresh,Frozen Food,Frozen French Fries,pack,frozen,FR126
+FRESH-127,Fresh,Frozen Food,Frozen Potato Wedges,pack,frozen,FR127
+FRESH-128,Fresh,Frozen Food,Frozen Hash Browns,pack,frozen,FR128
+FRESH-129,Fresh,Frozen Food,Frozen Sweet Corn,pack,frozen,FR129
+FRESH-130,Fresh,Frozen Food,Frozen Green Peas,pack,frozen,FR130
+FRESH-131,Fresh,Frozen Food,Frozen Mixed Vegetables,pack,frozen,FR131
+FRESH-132,Fresh,Frozen Food,Frozen Carrot Cubes,pack,frozen,FR132
+FRESH-133,Fresh,Frozen Food,Frozen Broccoli,pack,frozen,FR133
+FRESH-134,Fresh,Frozen Food,Frozen Cauliflower,pack,frozen,FR134
+FRESH-135,Fresh,Frozen Food,Frozen Spinach,pack,frozen,FR135
+FRESH-136,Fresh,Frozen Food,Frozen Mixed Berries,pack,frozen,FR136
+FRESH-137,Fresh,Frozen Food,Frozen Strawberry,pack,frozen,FR137
+FRESH-138,Fresh,Frozen Food,Frozen Blueberry,pack,frozen,FR138
+FRESH-139,Fresh,Frozen Food,Frozen Mango Chunks,pack,frozen,FR139
+FRESH-140,Fresh,Frozen Food,Frozen Pineapple Chunks,pack,frozen,FR140
+FRESH-141,Fresh,Frozen Food,Frozen Paratha,pack,frozen,FR141
+FRESH-142,Fresh,Frozen Food,Frozen Roti,pack,frozen,FR142
+FRESH-143,Fresh,Frozen Food,Frozen Chapati,pack,frozen,FR143
+FRESH-144,Fresh,Frozen Food,Frozen String Hopper,pack,frozen,FR144
+FRESH-145,Fresh,Frozen Food,Frozen Vegetable Samosa,pack,frozen,FR145
+FRESH-146,Fresh,Frozen Food,Frozen Chicken Samosa,pack,frozen,FR146
+FRESH-147,Fresh,Frozen Food,Frozen Spring Rolls,pack,frozen,FR147
+FRESH-148,Fresh,Frozen Food,Frozen Vegetable Rolls,pack,frozen,FR148
+FRESH-149,Fresh,Frozen Food,Frozen Fish Cutlet,pack,frozen,FR149
+FRESH-150,Fresh,Frozen Food,Frozen Chicken Cutlet,pack,frozen,FR150
+FRESH-151,Fresh,Frozen Food,Frozen Pizza,pack,frozen,FR151
+FRESH-152,Fresh,Frozen Food,Frozen Garlic Bread,pack,frozen,FR152
+FRESH-153,Fresh,Frozen Food,Frozen Burger Patties,pack,frozen,FR153
+FRESH-154,Fresh,Frozen Food,Frozen Chicken Burger Patties,pack,frozen,FR154
+FRESH-155,Fresh,Frozen Food,Frozen Beef Burger Patties,pack,frozen,FR155
+FRESH-156,Fresh,Frozen Food,Frozen Meatballs,pack,frozen,FR156
+FRESH-157,Fresh,Frozen Food,Frozen Chicken Meatballs,pack,frozen,FR157
+FRESH-158,Fresh,Frozen Food,Frozen Sausage,pack,frozen,FR158
+FRESH-159,Fresh,Frozen Food,Frozen Edamame,pack,frozen,FR159
+FRESH-160,Fresh,Frozen Food,Frozen French Beans,pack,frozen,FR160
+FRESH-161,Fresh,Frozen Food,Frozen Okra,pack,frozen,FR161
+FRESH-162,Fresh,Frozen Food,Frozen Sweet Potato Fries,pack,frozen,FR162
+FRESH-163,Fresh,Frozen Food,Frozen Onion Rings,pack,frozen,FR163
+FRESH-164,Fresh,Frozen Food,Frozen Hash Brown Patties,pack,frozen,FR164
+FRESH-165,Fresh,Frozen Food,Frozen Corn Nuggets,pack,frozen,FR165
+FRESH-166,Fresh,Other Groceries,White Rice 5kg,unit,ambient,FR166
+FRESH-167,Fresh,Other Groceries,Red Rice 5kg,unit,ambient,FR167
+FRESH-168,Fresh,Other Groceries,Basmati Rice 5kg,unit,ambient,FR168
+FRESH-169,Fresh,Other Groceries,Nadu Rice 5kg,unit,ambient,FR169
+FRESH-170,Fresh,Other Groceries,Samba Rice 5kg,unit,ambient,FR170
+FRESH-171,Fresh,Other Groceries,Keeri Samba Rice 5kg,unit,ambient,FR171
+FRESH-172,Fresh,Other Groceries,Wheat Flour 1kg,unit,ambient,FR172
+FRESH-173,Fresh,Other Groceries,All Purpose Flour 1kg,unit,ambient,FR173
+FRESH-174,Fresh,Other Groceries,Kurakkan Flour 500g,unit,ambient,FR174
+FRESH-175,Fresh,Other Groceries,Corn Flour 500g,unit,ambient,FR175
+FRESH-176,Fresh,Other Groceries,Rice Flour 1kg,unit,ambient,FR176
+FRESH-177,Fresh,Other Groceries,Bread Flour 1kg,unit,ambient,FR177
+FRESH-178,Fresh,Other Groceries,Sugar 1kg,unit,ambient,FR178
+FRESH-179,Fresh,Other Groceries,Brown Sugar 1kg,unit,ambient,FR179
+FRESH-180,Fresh,Other Groceries,Iodized Salt 1kg,unit,ambient,FR180
+FRESH-181,Fresh,Other Groceries,Coconut Milk Powder 300g,unit,ambient,FR181
+FRESH-182,Fresh,Other Groceries,Milk Powder 400g,unit,ambient,FR182
+FRESH-183,Fresh,Other Groceries,Milk Powder 1kg,unit,ambient,FR183
+FRESH-184,Fresh,Other Groceries,Tea 200g,unit,ambient,FR184
+FRESH-185,Fresh,Other Groceries,Tea Bags 100s,unit,ambient,FR185
+FRESH-186,Fresh,Other Groceries,Coffee 100g,unit,ambient,FR186
+FRESH-187,Fresh,Other Groceries,Instant Coffee 200g,unit,ambient,FR187
+FRESH-188,Fresh,Other Groceries,Cocoa Powder 100g,unit,ambient,FR188
+FRESH-189,Fresh,Other Groceries,Malted Drink 400g,unit,ambient,FR189
+FRESH-190,Fresh,Other Groceries,Cooking Oil 1L,unit,ambient,FR190
+FRESH-191,Fresh,Other Groceries,Coconut Oil 750ml,unit,ambient,FR191
+FRESH-192,Fresh,Other Groceries,Olive Oil 500ml,unit,ambient,FR192
+FRESH-193,Fresh,Other Groceries,Sesame Oil 250ml,unit,ambient,FR193
+FRESH-194,Fresh,Other Groceries,Vinegar 750ml,unit,ambient,FR194
+FRESH-195,Fresh,Other Groceries,Apple Cider Vinegar 500ml,unit,ambient,FR195
+FRESH-196,Fresh,Other Groceries,Soy Sauce 500ml,unit,ambient,FR196
+FRESH-197,Fresh,Other Groceries,Chilli Sauce 500ml,unit,ambient,FR197
+FRESH-198,Fresh,Other Groceries,Tomato Sauce 500ml,unit,ambient,FR198
+FRESH-199,Fresh,Other Groceries,Mustard Sauce 250g,unit,ambient,FR199
+FRESH-200,Fresh,Other Groceries,Mayonnaise 500ml,unit,ambient,FR200
+FRESH-201,Fresh,Other Groceries,Oyster Sauce 300ml,unit,ambient,FR201
+FRESH-202,Fresh,Other Groceries,Fish Sauce 300ml,unit,ambient,FR202
+FRESH-203,Fresh,Other Groceries,Hot Sauce 150ml,unit,ambient,FR203
+FRESH-204,Fresh,Other Groceries,Chilli Powder 100g,unit,ambient,FR204
+FRESH-205,Fresh,Other Groceries,Curry Powder 100g,unit,ambient,FR205
+FRESH-206,Fresh,Other Groceries,Roasted Curry Powder 100g,unit,ambient,FR206
+FRESH-207,Fresh,Other Groceries,Turmeric Powder 100g,unit,ambient,FR207
+FRESH-208,Fresh,Other Groceries,Pepper Powder 100g,unit,ambient,FR208
+FRESH-209,Fresh,Other Groceries,Pepper Seeds 100g,unit,ambient,FR209
+FRESH-210,Fresh,Other Groceries,Cumin 100g,unit,ambient,FR210
+FRESH-211,Fresh,Other Groceries,Coriander Powder 100g,unit,ambient,FR211
+FRESH-212,Fresh,Other Groceries,Fennel Seeds 100g,unit,ambient,FR212
+FRESH-213,Fresh,Other Groceries,Cinnamon 50g,unit,ambient,FR213
+FRESH-214,Fresh,Other Groceries,Cardamom 25g,unit,ambient,FR214
+FRESH-215,Fresh,Other Groceries,Cloves 25g,unit,ambient,FR215
+FRESH-216,Fresh,Other Groceries,Garam Masala 100g,unit,ambient,FR216
+FRESH-217,Fresh,Other Groceries,Chilli Flakes 100g,unit,ambient,FR217
+FRESH-218,Fresh,Other Groceries,Paprika 100g,unit,ambient,FR218
+FRESH-219,Fresh,Other Groceries,Ginger Powder 100g,unit,ambient,FR219
+FRESH-220,Fresh,Other Groceries,Garlic Powder 100g,unit,ambient,FR220
+FRESH-221,Fresh,Other Groceries,Baking Powder 100g,unit,ambient,FR221
+FRESH-222,Fresh,Other Groceries,Baking Soda 100g,unit,ambient,FR222
+FRESH-223,Fresh,Other Groceries,Yeast 100g,unit,ambient,FR223
+FRESH-224,Fresh,Other Groceries,Vanilla Essence 100ml,unit,ambient,FR224
+FRESH-225,Fresh,Other Groceries,Custard Powder 200g,unit,ambient,FR225
+FRESH-226,Fresh,Other Groceries,Jelly 100g,unit,ambient,FR226
+FRESH-227,Fresh,Other Groceries,Cornflakes 500g,unit,ambient,FR227
+FRESH-228,Fresh,Other Groceries,Oats 500g,unit,ambient,FR228
+FRESH-229,Fresh,Other Groceries,Muesli 500g,unit,ambient,FR229
+FRESH-230,Fresh,Other Groceries,Granola 500g,unit,ambient,FR230
+FRESH-231,Fresh,Other Groceries,Pasta 500g,unit,ambient,FR231
+FRESH-232,Fresh,Other Groceries,Macaroni 500g,unit,ambient,FR232
+FRESH-233,Fresh,Other Groceries,Spaghetti 500g,unit,ambient,FR233
+FRESH-234,Fresh,Other Groceries,Noodles 400g,unit,ambient,FR234
+FRESH-235,Fresh,Other Groceries,Rice Noodles 400g,unit,ambient,FR235
+FRESH-236,Fresh,Other Groceries,Instant Noodles 5 Pack,unit,ambient,FR236
+FRESH-237,Fresh,Other Groceries,Canned Tuna 185g,unit,ambient,FR237
+FRESH-238,Fresh,Other Groceries,Canned Sardines 425g,unit,ambient,FR238
+FRESH-239,Fresh,Other Groceries,Canned Chickpeas 400g,unit,ambient,FR239
+FRESH-240,Fresh,Other Groceries,Canned Red Kidney Beans 400g,unit,ambient,FR240
+FRESH-241,Fresh,Other Groceries,Canned Sweet Corn 400g,unit,ambient,FR241
+FRESH-242,Fresh,Other Groceries,Baked Beans 420g,unit,ambient,FR242
+FRESH-243,Fresh,Other Groceries,Tomato Paste 210g,unit,ambient,FR243
+FRESH-244,Fresh,Other Groceries,Peanut Butter 340g,unit,ambient,FR244
+FRESH-245,Fresh,Other Groceries,Jam Strawberry 450g,unit,ambient,FR245
+FRESH-246,Fresh,Other Groceries,Jam Mixed Fruit 450g,unit,ambient,FR246
+FRESH-247,Fresh,Other Groceries,Honey 375g,unit,ambient,FR247
+FRESH-248,Fresh,Other Groceries,Kithul Treacle 375ml,unit,ambient,FR248
+FRESH-249,Fresh,Other Groceries,Desiccated Coconut 200g,unit,ambient,FR249
+FRESH-250,Fresh,Other Groceries,Peanuts 500g,unit,ambient,FR250
+FRESH-251,Fresh,Other Groceries,Cashew 250g,unit,ambient,FR251
+FRESH-252,Fresh,Other Groceries,Almonds 250g,unit,ambient,FR252
+FRESH-253,Fresh,Other Groceries,Raisins 250g,unit,ambient,FR253
+FRESH-254,Fresh,Other Groceries,Dates 500g,unit,ambient,FR254
+FRESH-255,Fresh,Other Groceries,Dried Chillies 100g,unit,ambient,FR255
+FRESH-256,Fresh,Other Groceries,Papad 200g,unit,ambient,FR256
+FRESH-257,Fresh,Other Groceries,Crackers 250g,unit,ambient,FR257
+FRESH-258,Fresh,Other Groceries,Cream Crackers 500g,unit,ambient,FR258
+FRESH-259,Fresh,Other Groceries,Biscuits Assorted 400g,unit,ambient,FR259
+FRESH-260,Fresh,Other Groceries,Chocolate Bar 100g,unit,ambient,FR260
+FRESH-261,Fresh,Other Groceries,Wafers 150g,unit,ambient,FR261
+FRESH-262,Fresh,Other Groceries,Potato Chips 100g,unit,ambient,FR262
+FRESH-263,Fresh,Other Groceries,Popcorn 100g,unit,ambient,FR263
+FRESH-264,Fresh,Other Groceries,Peanut Snacks 100g,unit,ambient,FR264
+FRESH-265,Fresh,Other Groceries,Coconut Biscuits 200g,unit,ambient,FR265
+FRESH-266,Fresh,Other Groceries,Bread White 450g,unit,ambient,FR266
+FRESH-267,Fresh,Other Groceries,Bread Wholemeal 450g,unit,ambient,FR267
+FRESH-268,Fresh,Other Groceries,Buns Pack 6,unit,ambient,FR268
+FRESH-269,Fresh,Other Groceries,Burger Buns Pack 4,unit,ambient,FR269
+FRESH-270,Fresh,Other Groceries,Hot Dog Buns Pack 4,unit,ambient,FR270
+FRESH-271,Fresh,Other Groceries,Eggs 10 Pack,unit,ambient,FR271
+FRESH-272,Fresh,Other Groceries,Eggs 30 Pack,unit,ambient,FR272
+FRESH-273,Fresh,Other Groceries,Fresh Milk 1L,unit,ambient,FR273
+FRESH-274,Fresh,Other Groceries,Yoghurt Cup 80g,unit,ambient,FR274
+FRESH-275,Fresh,Other Groceries,Curd 450ml,unit,ambient,FR275
+FRESH-276,Fresh,Other Groceries,Butter 200g,unit,ambient,FR276
+FRESH-277,Fresh,Other Groceries,Margarine 250g,unit,ambient,FR277
+FRESH-278,Fresh,Other Groceries,Cheddar Cheese 200g,unit,ambient,FR278
+FRESH-279,Fresh,Other Groceries,Mozzarella Cheese 200g,unit,ambient,FR279
+FRESH-280,Fresh,Other Groceries,Processed Cheese 200g,unit,ambient,FR280
+FRESH-281,Fresh,Other Groceries,Cream Cheese 200g,unit,ambient,FR281
+FRESH-282,Fresh,Other Groceries,Whipping Cream 200ml,unit,ambient,FR282
+FRESH-283,Fresh,Other Groceries,Cooking Cream 200ml,unit,ambient,FR283
+FRESH-284,Fresh,Other Groceries,Ice Cream Vanilla 1L,unit,ambient,FR284
+FRESH-285,Fresh,Other Groceries,Ice Cream Chocolate 1L,unit,ambient,FR285
+FRESH-286,Fresh,Other Groceries,Ice Cream Strawberry 1L,unit,ambient,FR286
+FRESH-287,Fresh,Other Groceries,Ice Cream Family Pack 1.5L,unit,ambient,FR287
+FRESH-288,Fresh,Other Groceries,Mineral Water 1.5L,unit,ambient,FR288
+FRESH-289,Fresh,Other Groceries,Mineral Water 500ml,unit,ambient,FR289
+FRESH-290,Fresh,Other Groceries,Sparkling Water 1L,unit,ambient,FR290
+FRESH-291,Fresh,Other Groceries,Orange Juice 1L,unit,ambient,FR291
+FRESH-292,Fresh,Other Groceries,Mango Juice 1L,unit,ambient,FR292
+FRESH-293,Fresh,Other Groceries,Apple Juice 1L,unit,ambient,FR293
+FRESH-294,Fresh,Other Groceries,Mixed Fruit Juice 1L,unit,ambient,FR294
+FRESH-295,Fresh,Other Groceries,Soft Drink Cola 1.5L,unit,ambient,FR295
+FRESH-296,Fresh,Other Groceries,Soft Drink Orange 1.5L,unit,ambient,FR296
+FRESH-297,Fresh,Other Groceries,Soft Drink Lemon 1.5L,unit,ambient,FR297
+FRESH-298,Fresh,Other Groceries,Energy Drink 250ml,unit,ambient,FR298
+FRESH-299,Fresh,Other Groceries,Coconut Water 500ml,unit,ambient,FR299
+FRESH-300,Fresh,Other Groceries,Sports Drink 500ml,unit,ambient,FR300
+TECH-001,Waypoint Tech,Mobile Phones,Smartphone,pcs,,WAY-001
+TECH-002,Waypoint Tech,Mobile Phones,Feature Phone,pcs,,WAY-002
+TECH-003,Waypoint Tech,Tablets,Android Tablet,pcs,,WAY-003
+TECH-004,Waypoint Tech,Laptops,Laptop,pcs,,WAY-004
+TECH-005,Waypoint Tech,Laptops,Chromebook,pcs,,WAY-005
+TECH-006,Waypoint Tech,Computing,Desktop PC,pcs,,WAY-006
+TECH-007,Waypoint Tech,Computing,Monitor 24-inch,pcs,,WAY-007
+TECH-008,Waypoint Tech,Computing,Monitor 27-inch,pcs,,WAY-008
+TECH-009,Waypoint Tech,Computing,Keyboard,pcs,,WAY-009
+TECH-010,Waypoint Tech,Computing,Wireless Mouse,pcs,,WAY-010
+TECH-011,Waypoint Tech,Computing,Webcam,pcs,,WAY-011
+TECH-012,Waypoint Tech,Computing,USB-C Hub,pcs,,WAY-012
+TECH-013,Waypoint Tech,Computing,Laptop Stand,pcs,,WAY-013
+TECH-014,Waypoint Tech,Storage,USB Flash Drive 64GB,pcs,,WAY-014
+TECH-015,Waypoint Tech,Storage,USB Flash Drive 128GB,pcs,,WAY-015
+TECH-016,Waypoint Tech,Storage,External SSD 1TB,pcs,,WAY-016
+TECH-017,Waypoint Tech,Storage,MicroSD 128GB,pcs,,WAY-017
+TECH-018,Waypoint Tech,Networking,Wi-Fi Router,pcs,,WAY-018
+TECH-019,Waypoint Tech,Networking,Wi-Fi Extender,pcs,,WAY-019
+TECH-020,Waypoint Tech,Networking,Ethernet Cable 5m,pcs,,WAY-020
+TECH-021,Waypoint Tech,Audio,Bluetooth Earbuds,pcs,,WAY-021
+TECH-022,Waypoint Tech,Audio,Bluetooth Headphones,pcs,,WAY-022
+TECH-023,Waypoint Tech,Audio,Bluetooth Speaker,pcs,,WAY-023
+TECH-024,Waypoint Tech,Accessories,Phone Charger,pcs,,WAY-024
+TECH-025,Waypoint Tech,Accessories,USB-C Cable,pcs,,WAY-025
+TECH-026,Waypoint Tech,Accessories,Lightning Cable,pcs,,WAY-026
+TECH-027,Waypoint Tech,Accessories,Power Bank 10000mAh,pcs,,WAY-027
+TECH-028,Waypoint Tech,Accessories,Power Bank 20000mAh,pcs,,WAY-028
+TECH-029,Waypoint Tech,Accessories,Phone Case,pcs,,WAY-029
+TECH-030,Waypoint Tech,Accessories,Screen Protector,pcs,,WAY-030
+TECH-031,Waypoint Tech,Mobile Phones,Smartphone V2,pcs,,WAY-031
+TECH-032,Waypoint Tech,Mobile Phones,Feature Phone V2,pcs,,WAY-032
+TECH-033,Waypoint Tech,Tablets,Android Tablet V2,pcs,,WAY-033
+TECH-034,Waypoint Tech,Laptops,Laptop V2,pcs,,WAY-034
+TECH-035,Waypoint Tech,Laptops,Chromebook V2,pcs,,WAY-035
+TECH-036,Waypoint Tech,Computing,Desktop PC V2,pcs,,WAY-036
+TECH-037,Waypoint Tech,Computing,Monitor 24-inch V2,pcs,,WAY-037
+TECH-038,Waypoint Tech,Computing,Monitor 27-inch V2,pcs,,WAY-038
+TECH-039,Waypoint Tech,Computing,Keyboard V2,pcs,,WAY-039
+TECH-040,Waypoint Tech,Computing,Wireless Mouse V2,pcs,,WAY-040
+TECH-041,Waypoint Tech,Computing,Webcam V2,pcs,,WAY-041
+TECH-042,Waypoint Tech,Computing,USB-C Hub V2,pcs,,WAY-042
+TECH-043,Waypoint Tech,Computing,Laptop Stand V2,pcs,,WAY-043
+TECH-044,Waypoint Tech,Storage,USB Flash Drive 64GB V2,pcs,,WAY-044
+TECH-045,Waypoint Tech,Storage,USB Flash Drive 128GB V2,pcs,,WAY-045
+TECH-046,Waypoint Tech,Storage,External SSD 1TB V2,pcs,,WAY-046
+TECH-047,Waypoint Tech,Storage,MicroSD 128GB V2,pcs,,WAY-047
+TECH-048,Waypoint Tech,Networking,Wi-Fi Router V2,pcs,,WAY-048
+TECH-049,Waypoint Tech,Networking,Wi-Fi Extender V2,pcs,,WAY-049
+TECH-050,Waypoint Tech,Networking,Ethernet Cable 5m V2,pcs,,WAY-050
+TECH-051,Waypoint Tech,Audio,Bluetooth Earbuds V2,pcs,,WAY-051
+TECH-052,Waypoint Tech,Audio,Bluetooth Headphones V2,pcs,,WAY-052
+TECH-053,Waypoint Tech,Audio,Bluetooth Speaker V2,pcs,,WAY-053
+TECH-054,Waypoint Tech,Accessories,Phone Charger V2,pcs,,WAY-054
+TECH-055,Waypoint Tech,Accessories,USB-C Cable V2,pcs,,WAY-055
+TECH-056,Waypoint Tech,Accessories,Lightning Cable V2,pcs,,WAY-056
+TECH-057,Waypoint Tech,Accessories,Power Bank 10000mAh V2,pcs,,WAY-057
+TECH-058,Waypoint Tech,Accessories,Power Bank 20000mAh V2,pcs,,WAY-058
+TECH-059,Waypoint Tech,Accessories,Phone Case V2,pcs,,WAY-059
+TECH-060,Waypoint Tech,Accessories,Screen Protector V2,pcs,,WAY-060
+TECH-061,Waypoint Tech,Mobile Phones,Smartphone V3,pcs,,WAY-061
+TECH-062,Waypoint Tech,Mobile Phones,Feature Phone V3,pcs,,WAY-062
+TECH-063,Waypoint Tech,Tablets,Android Tablet V3,pcs,,WAY-063
+TECH-064,Waypoint Tech,Laptops,Laptop V3,pcs,,WAY-064
+TECH-065,Waypoint Tech,Laptops,Chromebook V3,pcs,,WAY-065
+TECH-066,Waypoint Tech,Computing,Desktop PC V3,pcs,,WAY-066
+TECH-067,Waypoint Tech,Computing,Monitor 24-inch V3,pcs,,WAY-067
+TECH-068,Waypoint Tech,Computing,Monitor 27-inch V3,pcs,,WAY-068
+TECH-069,Waypoint Tech,Computing,Keyboard V3,pcs,,WAY-069
+TECH-070,Waypoint Tech,Computing,Wireless Mouse V3,pcs,,WAY-070
+TECH-071,Waypoint Tech,Computing,Webcam V3,pcs,,WAY-071
+TECH-072,Waypoint Tech,Computing,USB-C Hub V3,pcs,,WAY-072
+TECH-073,Waypoint Tech,Computing,Laptop Stand V3,pcs,,WAY-073
+TECH-074,Waypoint Tech,Storage,USB Flash Drive 64GB V3,pcs,,WAY-074
+TECH-075,Waypoint Tech,Storage,USB Flash Drive 128GB V3,pcs,,WAY-075
+TECH-076,Waypoint Tech,Storage,External SSD 1TB V3,pcs,,WAY-076
+TECH-077,Waypoint Tech,Storage,MicroSD 128GB V3,pcs,,WAY-077
+TECH-078,Waypoint Tech,Networking,Wi-Fi Router V3,pcs,,WAY-078
+TECH-079,Waypoint Tech,Networking,Wi-Fi Extender V3,pcs,,WAY-079
+TECH-080,Waypoint Tech,Networking,Ethernet Cable 5m V3,pcs,,WAY-080
+TECH-081,Waypoint Tech,Audio,Bluetooth Earbuds V3,pcs,,WAY-081
+TECH-082,Waypoint Tech,Audio,Bluetooth Headphones V3,pcs,,WAY-082
+TECH-083,Waypoint Tech,Audio,Bluetooth Speaker V3,pcs,,WAY-083
+TECH-084,Waypoint Tech,Accessories,Phone Charger V3,pcs,,WAY-084
+TECH-085,Waypoint Tech,Accessories,USB-C Cable V3,pcs,,WAY-085
+TECH-086,Waypoint Tech,Accessories,Lightning Cable V3,pcs,,WAY-086
+TECH-087,Waypoint Tech,Accessories,Power Bank 10000mAh V3,pcs,,WAY-087
+TECH-088,Waypoint Tech,Accessories,Power Bank 20000mAh V3,pcs,,WAY-088
+TECH-089,Waypoint Tech,Accessories,Phone Case V3,pcs,,WAY-089
+TECH-090,Waypoint Tech,Accessories,Screen Protector V3,pcs,,WAY-090
+TECH-091,Waypoint Tech,Mobile Phones,Smartphone V4,pcs,,WAY-091
+TECH-092,Waypoint Tech,Mobile Phones,Feature Phone V4,pcs,,WAY-092
+TECH-093,Waypoint Tech,Tablets,Android Tablet V4,pcs,,WAY-093
+TECH-094,Waypoint Tech,Laptops,Laptop V4,pcs,,WAY-094
+TECH-095,Waypoint Tech,Laptops,Chromebook V4,pcs,,WAY-095
+TECH-096,Waypoint Tech,Computing,Desktop PC V4,pcs,,WAY-096
+TECH-097,Waypoint Tech,Computing,Monitor 24-inch V4,pcs,,WAY-097
+TECH-098,Waypoint Tech,Computing,Monitor 27-inch V4,pcs,,WAY-098
+TECH-099,Waypoint Tech,Computing,Keyboard V4,pcs,,WAY-099
+TECH-100,Waypoint Tech,Computing,Wireless Mouse V4,pcs,,WAY-100
+TECH-101,Waypoint Tech,Computing,Webcam V4,pcs,,WAY-101
+TECH-102,Waypoint Tech,Computing,USB-C Hub V4,pcs,,WAY-102
+TECH-103,Waypoint Tech,Computing,Laptop Stand V4,pcs,,WAY-103
+TECH-104,Waypoint Tech,Storage,USB Flash Drive 64GB V4,pcs,,WAY-104
+TECH-105,Waypoint Tech,Storage,USB Flash Drive 128GB V4,pcs,,WAY-105
+TECH-106,Waypoint Tech,Storage,External SSD 1TB V4,pcs,,WAY-106
+TECH-107,Waypoint Tech,Storage,MicroSD 128GB V4,pcs,,WAY-107
+TECH-108,Waypoint Tech,Networking,Wi-Fi Router V4,pcs,,WAY-108
+TECH-109,Waypoint Tech,Networking,Wi-Fi Extender V4,pcs,,WAY-109
+TECH-110,Waypoint Tech,Networking,Ethernet Cable 5m V4,pcs,,WAY-110
+TECH-111,Waypoint Tech,Audio,Bluetooth Earbuds V4,pcs,,WAY-111
+TECH-112,Waypoint Tech,Audio,Bluetooth Headphones V4,pcs,,WAY-112
+TECH-113,Waypoint Tech,Audio,Bluetooth Speaker V4,pcs,,WAY-113
+TECH-114,Waypoint Tech,Accessories,Phone Charger V4,pcs,,WAY-114
+TECH-115,Waypoint Tech,Accessories,USB-C Cable V4,pcs,,WAY-115
+TECH-116,Waypoint Tech,Accessories,Lightning Cable V4,pcs,,WAY-116
+TECH-117,Waypoint Tech,Accessories,Power Bank 10000mAh V4,pcs,,WAY-117
+TECH-118,Waypoint Tech,Accessories,Power Bank 20000mAh V4,pcs,,WAY-118
+TECH-119,Waypoint Tech,Accessories,Phone Case V4,pcs,,WAY-119
+TECH-120,Waypoint Tech,Accessories,Screen Protector V4,pcs,,WAY-120
+TECH-121,Waypoint Tech,Mobile Phones,Smartphone V5,pcs,,WAY-121
+TECH-122,Waypoint Tech,Mobile Phones,Feature Phone V5,pcs,,WAY-122
+TECH-123,Waypoint Tech,Tablets,Android Tablet V5,pcs,,WAY-123
+TECH-124,Waypoint Tech,Laptops,Laptop V5,pcs,,WAY-124
+TECH-125,Waypoint Tech,Laptops,Chromebook V5,pcs,,WAY-125
+TECH-126,Waypoint Tech,Computing,Desktop PC V5,pcs,,WAY-126
+TECH-127,Waypoint Tech,Computing,Monitor 24-inch V5,pcs,,WAY-127
+TECH-128,Waypoint Tech,Computing,Monitor 27-inch V5,pcs,,WAY-128
+TECH-129,Waypoint Tech,Computing,Keyboard V5,pcs,,WAY-129
+TECH-130,Waypoint Tech,Computing,Wireless Mouse V5,pcs,,WAY-130
+TECH-131,Waypoint Tech,Computing,Webcam V5,pcs,,WAY-131
+TECH-132,Waypoint Tech,Computing,USB-C Hub V5,pcs,,WAY-132
+TECH-133,Waypoint Tech,Computing,Laptop Stand V5,pcs,,WAY-133
+TECH-134,Waypoint Tech,Storage,USB Flash Drive 64GB V5,pcs,,WAY-134
+TECH-135,Waypoint Tech,Storage,USB Flash Drive 128GB V5,pcs,,WAY-135
+TECH-136,Waypoint Tech,Storage,External SSD 1TB V5,pcs,,WAY-136
+TECH-137,Waypoint Tech,Storage,MicroSD 128GB V5,pcs,,WAY-137
+TECH-138,Waypoint Tech,Networking,Wi-Fi Router V5,pcs,,WAY-138
+TECH-139,Waypoint Tech,Networking,Wi-Fi Extender V5,pcs,,WAY-139
+TECH-140,Waypoint Tech,Networking,Ethernet Cable 5m V5,pcs,,WAY-140
+TECH-141,Waypoint Tech,Audio,Bluetooth Earbuds V5,pcs,,WAY-141
+TECH-142,Waypoint Tech,Audio,Bluetooth Headphones V5,pcs,,WAY-142
+TECH-143,Waypoint Tech,Audio,Bluetooth Speaker V5,pcs,,WAY-143
+TECH-144,Waypoint Tech,Accessories,Phone Charger V5,pcs,,WAY-144
+TECH-145,Waypoint Tech,Accessories,USB-C Cable V5,pcs,,WAY-145
+TECH-146,Waypoint Tech,Accessories,Lightning Cable V5,pcs,,WAY-146
+TECH-147,Waypoint Tech,Accessories,Power Bank 10000mAh V5,pcs,,WAY-147
+TECH-148,Waypoint Tech,Accessories,Power Bank 20000mAh V5,pcs,,WAY-148
+TECH-149,Waypoint Tech,Accessories,Phone Case V5,pcs,,WAY-149
+TECH-150,Waypoint Tech,Accessories,Screen Protector V5,pcs,,WAY-150
+TECH-151,Waypoint Tech,Mobile Phones,Smartphone V6,pcs,,WAY-151
+TECH-152,Waypoint Tech,Mobile Phones,Feature Phone V6,pcs,,WAY-152
+TECH-153,Waypoint Tech,Tablets,Android Tablet V6,pcs,,WAY-153
+TECH-154,Waypoint Tech,Laptops,Laptop V6,pcs,,WAY-154
+TECH-155,Waypoint Tech,Laptops,Chromebook V6,pcs,,WAY-155
+TECH-156,Waypoint Tech,Computing,Desktop PC V6,pcs,,WAY-156
+TECH-157,Waypoint Tech,Computing,Monitor 24-inch V6,pcs,,WAY-157
+TECH-158,Waypoint Tech,Computing,Monitor 27-inch V6,pcs,,WAY-158
+TECH-159,Waypoint Tech,Computing,Keyboard V6,pcs,,WAY-159
+TECH-160,Waypoint Tech,Computing,Wireless Mouse V6,pcs,,WAY-160
+TECH-161,Waypoint Tech,Computing,Webcam V6,pcs,,WAY-161
+TECH-162,Waypoint Tech,Computing,USB-C Hub V6,pcs,,WAY-162
+TECH-163,Waypoint Tech,Computing,Laptop Stand V6,pcs,,WAY-163
+TECH-164,Waypoint Tech,Storage,USB Flash Drive 64GB V6,pcs,,WAY-164
+TECH-165,Waypoint Tech,Storage,USB Flash Drive 128GB V6,pcs,,WAY-165
+TECH-166,Waypoint Tech,Storage,External SSD 1TB V6,pcs,,WAY-166
+TECH-167,Waypoint Tech,Storage,MicroSD 128GB V6,pcs,,WAY-167
+TECH-168,Waypoint Tech,Networking,Wi-Fi Router V6,pcs,,WAY-168
+TECH-169,Waypoint Tech,Networking,Wi-Fi Extender V6,pcs,,WAY-169
+TECH-170,Waypoint Tech,Networking,Ethernet Cable 5m V6,pcs,,WAY-170
+TECH-171,Waypoint Tech,Audio,Bluetooth Earbuds V6,pcs,,WAY-171
+TECH-172,Waypoint Tech,Audio,Bluetooth Headphones V6,pcs,,WAY-172
+TECH-173,Waypoint Tech,Audio,Bluetooth Speaker V6,pcs,,WAY-173
+TECH-174,Waypoint Tech,Accessories,Phone Charger V6,pcs,,WAY-174
+TECH-175,Waypoint Tech,Accessories,USB-C Cable V6,pcs,,WAY-175
+TECH-176,Waypoint Tech,Accessories,Lightning Cable V6,pcs,,WAY-176
+TECH-177,Waypoint Tech,Accessories,Power Bank 10000mAh V6,pcs,,WAY-177
+TECH-178,Waypoint Tech,Accessories,Power Bank 20000mAh V6,pcs,,WAY-178
+TECH-179,Waypoint Tech,Accessories,Phone Case V6,pcs,,WAY-179
+TECH-180,Waypoint Tech,Accessories,Screen Protector V6,pcs,,WAY-180
+TECH-181,Waypoint Tech,Mobile Phones,Smartphone V7,pcs,,WAY-181
+TECH-182,Waypoint Tech,Mobile Phones,Feature Phone V7,pcs,,WAY-182
+TECH-183,Waypoint Tech,Tablets,Android Tablet V7,pcs,,WAY-183
+TECH-184,Waypoint Tech,Laptops,Laptop V7,pcs,,WAY-184
+TECH-185,Waypoint Tech,Laptops,Chromebook V7,pcs,,WAY-185
+TECH-186,Waypoint Tech,Computing,Desktop PC V7,pcs,,WAY-186
+TECH-187,Waypoint Tech,Computing,Monitor 24-inch V7,pcs,,WAY-187
+TECH-188,Waypoint Tech,Computing,Monitor 27-inch V7,pcs,,WAY-188
+TECH-189,Waypoint Tech,Computing,Keyboard V7,pcs,,WAY-189
+TECH-190,Waypoint Tech,Computing,Wireless Mouse V7,pcs,,WAY-190
+TECH-191,Waypoint Tech,Computing,Webcam V7,pcs,,WAY-191
+TECH-192,Waypoint Tech,Computing,USB-C Hub V7,pcs,,WAY-192
+TECH-193,Waypoint Tech,Computing,Laptop Stand V7,pcs,,WAY-193
+TECH-194,Waypoint Tech,Storage,USB Flash Drive 64GB V7,pcs,,WAY-194
+TECH-195,Waypoint Tech,Storage,USB Flash Drive 128GB V7,pcs,,WAY-195
+TECH-196,Waypoint Tech,Storage,External SSD 1TB V7,pcs,,WAY-196
+TECH-197,Waypoint Tech,Storage,MicroSD 128GB V7,pcs,,WAY-197
+TECH-198,Waypoint Tech,Networking,Wi-Fi Router V7,pcs,,WAY-198
+TECH-199,Waypoint Tech,Networking,Wi-Fi Extender V7,pcs,,WAY-199
+TECH-200,Waypoint Tech,Networking,Ethernet Cable 5m V7,pcs,,WAY-200
+STYLE-001,Waypoint Style,Men,Men's T-Shirt,pcs,,WAY-001
+STYLE-002,Waypoint Style,Men,Men's Polo Shirt,pcs,,WAY-002
+STYLE-003,Waypoint Style,Men,Men's Casual Shirt,pcs,,WAY-003
+STYLE-004,Waypoint Style,Men,Men's Formal Shirt,pcs,,WAY-004
+STYLE-005,Waypoint Style,Men,Men's Jeans,pcs,,WAY-005
+STYLE-006,Waypoint Style,Men,Men's Chino,pcs,,WAY-006
+STYLE-007,Waypoint Style,Men,Men's Shorts,pcs,,WAY-007
+STYLE-008,Waypoint Style,Men,Men's Hoodie,pcs,,WAY-008
+STYLE-009,Waypoint Style,Men,Men's Jacket,pcs,,WAY-009
+STYLE-010,Waypoint Style,Women,Women's T-Shirt,pcs,,WAY-010
+STYLE-011,Waypoint Style,Women,Women's Blouse,pcs,,WAY-011
+STYLE-012,Waypoint Style,Women,Women's Dress,pcs,,WAY-012
+STYLE-013,Waypoint Style,Women,Women's Jeans,pcs,,WAY-013
+STYLE-014,Waypoint Style,Women,Women's Trousers,pcs,,WAY-014
+STYLE-015,Waypoint Style,Women,Women's Skirt,pcs,,WAY-015
+STYLE-016,Waypoint Style,Women,Women's Hoodie,pcs,,WAY-016
+STYLE-017,Waypoint Style,Women,Women's Jacket,pcs,,WAY-017
+STYLE-018,Waypoint Style,Kids,Kids T-Shirt,pcs,,WAY-018
+STYLE-019,Waypoint Style,Kids,Kids Jeans,pcs,,WAY-019
+STYLE-020,Waypoint Style,Kids,Kids Shorts,pcs,,WAY-020
+STYLE-021,Waypoint Style,Kids,Kids Dress,pcs,,WAY-021
+STYLE-022,Waypoint Style,Footwear,Men's Sneakers,pairs,,WAY-022
+STYLE-023,Waypoint Style,Footwear,Women's Sneakers,pairs,,WAY-023
+STYLE-024,Waypoint Style,Footwear,Men's Sandals,pairs,,WAY-024
+STYLE-025,Waypoint Style,Footwear,Women's Sandals,pairs,,WAY-025
+STYLE-026,Waypoint Style,Footwear,Kids' Shoes,pairs,,WAY-026
+STYLE-027,Waypoint Style,Accessories,Backpack,pcs,,WAY-027
+STYLE-028,Waypoint Style,Accessories,Wallet,pcs,,WAY-028
+STYLE-029,Waypoint Style,Accessories,Cap,pcs,,WAY-029
+STYLE-030,Waypoint Style,Accessories,Belt,pcs,,WAY-030
+STYLE-031,Waypoint Style,Men,Men's T-Shirt V2,pcs,,WAY-031
+STYLE-032,Waypoint Style,Men,Men's Polo Shirt V2,pcs,,WAY-032
+STYLE-033,Waypoint Style,Men,Men's Casual Shirt V2,pcs,,WAY-033
+STYLE-034,Waypoint Style,Men,Men's Formal Shirt V2,pcs,,WAY-034
+STYLE-035,Waypoint Style,Men,Men's Jeans V2,pcs,,WAY-035
+STYLE-036,Waypoint Style,Men,Men's Chino V2,pcs,,WAY-036
+STYLE-037,Waypoint Style,Men,Men's Shorts V2,pcs,,WAY-037
+STYLE-038,Waypoint Style,Men,Men's Hoodie V2,pcs,,WAY-038
+STYLE-039,Waypoint Style,Men,Men's Jacket V2,pcs,,WAY-039
+STYLE-040,Waypoint Style,Women,Women's T-Shirt V2,pcs,,WAY-040
+STYLE-041,Waypoint Style,Women,Women's Blouse V2,pcs,,WAY-041
+STYLE-042,Waypoint Style,Women,Women's Dress V2,pcs,,WAY-042
+STYLE-043,Waypoint Style,Women,Women's Jeans V2,pcs,,WAY-043
+STYLE-044,Waypoint Style,Women,Women's Trousers V2,pcs,,WAY-044
+STYLE-045,Waypoint Style,Women,Women's Skirt V2,pcs,,WAY-045
+STYLE-046,Waypoint Style,Women,Women's Hoodie V2,pcs,,WAY-046
+STYLE-047,Waypoint Style,Women,Women's Jacket V2,pcs,,WAY-047
+STYLE-048,Waypoint Style,Kids,Kids T-Shirt V2,pcs,,WAY-048
+STYLE-049,Waypoint Style,Kids,Kids Jeans V2,pcs,,WAY-049
+STYLE-050,Waypoint Style,Kids,Kids Shorts V2,pcs,,WAY-050
+STYLE-051,Waypoint Style,Kids,Kids Dress V2,pcs,,WAY-051
+STYLE-052,Waypoint Style,Footwear,Men's Sneakers V2,pairs,,WAY-052
+STYLE-053,Waypoint Style,Footwear,Women's Sneakers V2,pairs,,WAY-053
+STYLE-054,Waypoint Style,Footwear,Men's Sandals V2,pairs,,WAY-054
+STYLE-055,Waypoint Style,Footwear,Women's Sandals V2,pairs,,WAY-055
+STYLE-056,Waypoint Style,Footwear,Kids' Shoes V2,pairs,,WAY-056
+STYLE-057,Waypoint Style,Accessories,Backpack V2,pcs,,WAY-057
+STYLE-058,Waypoint Style,Accessories,Wallet V2,pcs,,WAY-058
+STYLE-059,Waypoint Style,Accessories,Cap V2,pcs,,WAY-059
+STYLE-060,Waypoint Style,Accessories,Belt V2,pcs,,WAY-060
+STYLE-061,Waypoint Style,Men,Men's T-Shirt V3,pcs,,WAY-061
+STYLE-062,Waypoint Style,Men,Men's Polo Shirt V3,pcs,,WAY-062
+STYLE-063,Waypoint Style,Men,Men's Casual Shirt V3,pcs,,WAY-063
+STYLE-064,Waypoint Style,Men,Men's Formal Shirt V3,pcs,,WAY-064
+STYLE-065,Waypoint Style,Men,Men's Jeans V3,pcs,,WAY-065
+STYLE-066,Waypoint Style,Men,Men's Chino V3,pcs,,WAY-066
+STYLE-067,Waypoint Style,Men,Men's Shorts V3,pcs,,WAY-067
+STYLE-068,Waypoint Style,Men,Men's Hoodie V3,pcs,,WAY-068
+STYLE-069,Waypoint Style,Men,Men's Jacket V3,pcs,,WAY-069
+STYLE-070,Waypoint Style,Women,Women's T-Shirt V3,pcs,,WAY-070
+STYLE-071,Waypoint Style,Women,Women's Blouse V3,pcs,,WAY-071
+STYLE-072,Waypoint Style,Women,Women's Dress V3,pcs,,WAY-072
+STYLE-073,Waypoint Style,Women,Women's Jeans V3,pcs,,WAY-073
+STYLE-074,Waypoint Style,Women,Women's Trousers V3,pcs,,WAY-074
+STYLE-075,Waypoint Style,Women,Women's Skirt V3,pcs,,WAY-075
+STYLE-076,Waypoint Style,Women,Women's Hoodie V3,pcs,,WAY-076
+STYLE-077,Waypoint Style,Women,Women's Jacket V3,pcs,,WAY-077
+STYLE-078,Waypoint Style,Kids,Kids T-Shirt V3,pcs,,WAY-078
+STYLE-079,Waypoint Style,Kids,Kids Jeans V3,pcs,,WAY-079
+STYLE-080,Waypoint Style,Kids,Kids Shorts V3,pcs,,WAY-080
+STYLE-081,Waypoint Style,Kids,Kids Dress V3,pcs,,WAY-081
+STYLE-082,Waypoint Style,Footwear,Men's Sneakers V3,pairs,,WAY-082
+STYLE-083,Waypoint Style,Footwear,Women's Sneakers V3,pairs,,WAY-083
+STYLE-084,Waypoint Style,Footwear,Men's Sandals V3,pairs,,WAY-084
+STYLE-085,Waypoint Style,Footwear,Women's Sandals V3,pairs,,WAY-085
+STYLE-086,Waypoint Style,Footwear,Kids' Shoes V3,pairs,,WAY-086
+STYLE-087,Waypoint Style,Accessories,Backpack V3,pcs,,WAY-087
+STYLE-088,Waypoint Style,Accessories,Wallet V3,pcs,,WAY-088
+STYLE-089,Waypoint Style,Accessories,Cap V3,pcs,,WAY-089
+STYLE-090,Waypoint Style,Accessories,Belt V3,pcs,,WAY-090
+STYLE-091,Waypoint Style,Men,Men's T-Shirt V4,pcs,,WAY-091
+STYLE-092,Waypoint Style,Men,Men's Polo Shirt V4,pcs,,WAY-092
+STYLE-093,Waypoint Style,Men,Men's Casual Shirt V4,pcs,,WAY-093
+STYLE-094,Waypoint Style,Men,Men's Formal Shirt V4,pcs,,WAY-094
+STYLE-095,Waypoint Style,Men,Men's Jeans V4,pcs,,WAY-095
+STYLE-096,Waypoint Style,Men,Men's Chino V4,pcs,,WAY-096
+STYLE-097,Waypoint Style,Men,Men's Shorts V4,pcs,,WAY-097
+STYLE-098,Waypoint Style,Men,Men's Hoodie V4,pcs,,WAY-098
+STYLE-099,Waypoint Style,Men,Men's Jacket V4,pcs,,WAY-099
+STYLE-100,Waypoint Style,Women,Women's T-Shirt V4,pcs,,WAY-100
+STYLE-101,Waypoint Style,Women,Women's Blouse V4,pcs,,WAY-101
+STYLE-102,Waypoint Style,Women,Women's Dress V4,pcs,,WAY-102
+STYLE-103,Waypoint Style,Women,Women's Jeans V4,pcs,,WAY-103
+STYLE-104,Waypoint Style,Women,Women's Trousers V4,pcs,,WAY-104
+STYLE-105,Waypoint Style,Women,Women's Skirt V4,pcs,,WAY-105
+STYLE-106,Waypoint Style,Women,Women's Hoodie V4,pcs,,WAY-106
+STYLE-107,Waypoint Style,Women,Women's Jacket V4,pcs,,WAY-107
+STYLE-108,Waypoint Style,Kids,Kids T-Shirt V4,pcs,,WAY-108
+STYLE-109,Waypoint Style,Kids,Kids Jeans V4,pcs,,WAY-109
+STYLE-110,Waypoint Style,Kids,Kids Shorts V4,pcs,,WAY-110
+STYLE-111,Waypoint Style,Kids,Kids Dress V4,pcs,,WAY-111
+STYLE-112,Waypoint Style,Footwear,Men's Sneakers V4,pairs,,WAY-112
+STYLE-113,Waypoint Style,Footwear,Women's Sneakers V4,pairs,,WAY-113
+STYLE-114,Waypoint Style,Footwear,Men's Sandals V4,pairs,,WAY-114
+STYLE-115,Waypoint Style,Footwear,Women's Sandals V4,pairs,,WAY-115
+STYLE-116,Waypoint Style,Footwear,Kids' Shoes V4,pairs,,WAY-116
+STYLE-117,Waypoint Style,Accessories,Backpack V4,pcs,,WAY-117
+STYLE-118,Waypoint Style,Accessories,Wallet V4,pcs,,WAY-118
+STYLE-119,Waypoint Style,Accessories,Cap V4,pcs,,WAY-119
+STYLE-120,Waypoint Style,Accessories,Belt V4,pcs,,WAY-120
+STYLE-121,Waypoint Style,Men,Men's T-Shirt V5,pcs,,WAY-121
+STYLE-122,Waypoint Style,Men,Men's Polo Shirt V5,pcs,,WAY-122
+STYLE-123,Waypoint Style,Men,Men's Casual Shirt V5,pcs,,WAY-123
+STYLE-124,Waypoint Style,Men,Men's Formal Shirt V5,pcs,,WAY-124
+STYLE-125,Waypoint Style,Men,Men's Jeans V5,pcs,,WAY-125
+STYLE-126,Waypoint Style,Men,Men's Chino V5,pcs,,WAY-126
+STYLE-127,Waypoint Style,Men,Men's Shorts V5,pcs,,WAY-127
+STYLE-128,Waypoint Style,Men,Men's Hoodie V5,pcs,,WAY-128
+STYLE-129,Waypoint Style,Men,Men's Jacket V5,pcs,,WAY-129
+STYLE-130,Waypoint Style,Women,Women's T-Shirt V5,pcs,,WAY-130
+STYLE-131,Waypoint Style,Women,Women's Blouse V5,pcs,,WAY-131
+STYLE-132,Waypoint Style,Women,Women's Dress V5,pcs,,WAY-132
+STYLE-133,Waypoint Style,Women,Women's Jeans V5,pcs,,WAY-133
+STYLE-134,Waypoint Style,Women,Women's Trousers V5,pcs,,WAY-134
+STYLE-135,Waypoint Style,Women,Women's Skirt V5,pcs,,WAY-135
+STYLE-136,Waypoint Style,Women,Women's Hoodie V5,pcs,,WAY-136
+STYLE-137,Waypoint Style,Women,Women's Jacket V5,pcs,,WAY-137
+STYLE-138,Waypoint Style,Kids,Kids T-Shirt V5,pcs,,WAY-138
+STYLE-139,Waypoint Style,Kids,Kids Jeans V5,pcs,,WAY-139
+STYLE-140,Waypoint Style,Kids,Kids Shorts V5,pcs,,WAY-140
+STYLE-141,Waypoint Style,Kids,Kids Dress V5,pcs,,WAY-141
+STYLE-142,Waypoint Style,Footwear,Men's Sneakers V5,pairs,,WAY-142
+STYLE-143,Waypoint Style,Footwear,Women's Sneakers V5,pairs,,WAY-143
+STYLE-144,Waypoint Style,Footwear,Men's Sandals V5,pairs,,WAY-144
+STYLE-145,Waypoint Style,Footwear,Women's Sandals V5,pairs,,WAY-145
+STYLE-146,Waypoint Style,Footwear,Kids' Shoes V5,pairs,,WAY-146
+STYLE-147,Waypoint Style,Accessories,Backpack V5,pcs,,WAY-147
+STYLE-148,Waypoint Style,Accessories,Wallet V5,pcs,,WAY-148
+STYLE-149,Waypoint Style,Accessories,Cap V5,pcs,,WAY-149
+STYLE-150,Waypoint Style,Accessories,Belt V5,pcs,,WAY-150
+STYLE-151,Waypoint Style,Men,Men's T-Shirt V6,pcs,,WAY-151
+STYLE-152,Waypoint Style,Men,Men's Polo Shirt V6,pcs,,WAY-152
+STYLE-153,Waypoint Style,Men,Men's Casual Shirt V6,pcs,,WAY-153
+STYLE-154,Waypoint Style,Men,Men's Formal Shirt V6,pcs,,WAY-154
+STYLE-155,Waypoint Style,Men,Men's Jeans V6,pcs,,WAY-155
+STYLE-156,Waypoint Style,Men,Men's Chino V6,pcs,,WAY-156
+STYLE-157,Waypoint Style,Men,Men's Shorts V6,pcs,,WAY-157
+STYLE-158,Waypoint Style,Men,Men's Hoodie V6,pcs,,WAY-158
+STYLE-159,Waypoint Style,Men,Men's Jacket V6,pcs,,WAY-159
+STYLE-160,Waypoint Style,Women,Women's T-Shirt V6,pcs,,WAY-160
+STYLE-161,Waypoint Style,Women,Women's Blouse V6,pcs,,WAY-161
+STYLE-162,Waypoint Style,Women,Women's Dress V6,pcs,,WAY-162
+STYLE-163,Waypoint Style,Women,Women's Jeans V6,pcs,,WAY-163
+STYLE-164,Waypoint Style,Women,Women's Trousers V6,pcs,,WAY-164
+STYLE-165,Waypoint Style,Women,Women's Skirt V6,pcs,,WAY-165
+STYLE-166,Waypoint Style,Women,Women's Hoodie V6,pcs,,WAY-166
+STYLE-167,Waypoint Style,Women,Women's Jacket V6,pcs,,WAY-167
+STYLE-168,Waypoint Style,Kids,Kids T-Shirt V6,pcs,,WAY-168
+STYLE-169,Waypoint Style,Kids,Kids Jeans V6,pcs,,WAY-169
+STYLE-170,Waypoint Style,Kids,Kids Shorts V6,pcs,,WAY-170
+STYLE-171,Waypoint Style,Kids,Kids Dress V6,pcs,,WAY-171
+STYLE-172,Waypoint Style,Footwear,Men's Sneakers V6,pairs,,WAY-172
+STYLE-173,Waypoint Style,Footwear,Women's Sneakers V6,pairs,,WAY-173
+STYLE-174,Waypoint Style,Footwear,Men's Sandals V6,pairs,,WAY-174
+STYLE-175,Waypoint Style,Footwear,Women's Sandals V6,pairs,,WAY-175
+STYLE-176,Waypoint Style,Footwear,Kids' Shoes V6,pairs,,WAY-176
+STYLE-177,Waypoint Style,Accessories,Backpack V6,pcs,,WAY-177
+STYLE-178,Waypoint Style,Accessories,Wallet V6,pcs,,WAY-178
+STYLE-179,Waypoint Style,Accessories,Cap V6,pcs,,WAY-179
+STYLE-180,Waypoint Style,Accessories,Belt V6,pcs,,WAY-180
+STYLE-181,Waypoint Style,Men,Men's T-Shirt V7,pcs,,WAY-181
+STYLE-182,Waypoint Style,Men,Men's Polo Shirt V7,pcs,,WAY-182
+STYLE-183,Waypoint Style,Men,Men's Casual Shirt V7,pcs,,WAY-183
+STYLE-184,Waypoint Style,Men,Men's Formal Shirt V7,pcs,,WAY-184
+STYLE-185,Waypoint Style,Men,Men's Jeans V7,pcs,,WAY-185
+STYLE-186,Waypoint Style,Men,Men's Chino V7,pcs,,WAY-186
+STYLE-187,Waypoint Style,Men,Men's Shorts V7,pcs,,WAY-187
+STYLE-188,Waypoint Style,Men,Men's Hoodie V7,pcs,,WAY-188
+STYLE-189,Waypoint Style,Men,Men's Jacket V7,pcs,,WAY-189
+STYLE-190,Waypoint Style,Women,Women's T-Shirt V7,pcs,,WAY-190
+STYLE-191,Waypoint Style,Women,Women's Blouse V7,pcs,,WAY-191
+STYLE-192,Waypoint Style,Women,Women's Dress V7,pcs,,WAY-192
+STYLE-193,Waypoint Style,Women,Women's Jeans V7,pcs,,WAY-193
+STYLE-194,Waypoint Style,Women,Women's Trousers V7,pcs,,WAY-194
+STYLE-195,Waypoint Style,Women,Women's Skirt V7,pcs,,WAY-195
+STYLE-196,Waypoint Style,Women,Women's Hoodie V7,pcs,,WAY-196
+STYLE-197,Waypoint Style,Women,Women's Jacket V7,pcs,,WAY-197
+STYLE-198,Waypoint Style,Kids,Kids T-Shirt V7,pcs,,WAY-198
+STYLE-199,Waypoint Style,Kids,Kids Jeans V7,pcs,,WAY-199
+STYLE-200,Waypoint Style,Kids,Kids Shorts V7,pcs,,WAY-200

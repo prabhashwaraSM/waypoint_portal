@@ -1,0 +1,201 @@
+product_id,brand,category,product_name,unit
+WAY-001,Waypoint Style,Men,Men's T-Shirt,pcs
+WAY-002,Waypoint Style,Men,Men's Polo Shirt,pcs
+WAY-003,Waypoint Style,Men,Men's Casual Shirt,pcs
+WAY-004,Waypoint Style,Men,Men's Formal Shirt,pcs
+WAY-005,Waypoint Style,Men,Men's Jeans,pcs
+WAY-006,Waypoint Style,Men,Men's Chino,pcs
+WAY-007,Waypoint Style,Men,Men's Shorts,pcs
+WAY-008,Waypoint Style,Men,Men's Hoodie,pcs
+WAY-009,Waypoint Style,Men,Men's Jacket,pcs
+WAY-010,Waypoint Style,Women,Women's T-Shirt,pcs
+WAY-011,Waypoint Style,Women,Women's Blouse,pcs
+WAY-012,Waypoint Style,Women,Women's Dress,pcs
+WAY-013,Waypoint Style,Women,Women's Jeans,pcs
+WAY-014,Waypoint Style,Women,Women's Trousers,pcs
+WAY-015,Waypoint Style,Women,Women's Skirt,pcs
+WAY-016,Waypoint Style,Women,Women's Hoodie,pcs
+WAY-017,Waypoint Style,Women,Women's Jacket,pcs
+WAY-018,Waypoint Style,Kids,Kids T-Shirt,pcs
+WAY-019,Waypoint Style,Kids,Kids Jeans,pcs
+WAY-020,Waypoint Style,Kids,Kids Shorts,pcs
+WAY-021,Waypoint Style,Kids,Kids Dress,pcs
+WAY-022,Waypoint Style,Footwear,Men's Sneakers,pairs
+WAY-023,Waypoint Style,Footwear,Women's Sneakers,pairs
+WAY-024,Waypoint Style,Footwear,Men's Sandals,pairs
+WAY-025,Waypoint Style,Footwear,Women's Sandals,pairs
+WAY-026,Waypoint Style,Footwear,Kids' Shoes,pairs
+WAY-027,Waypoint Style,Accessories,Backpack,pcs
+WAY-028,Waypoint Style,Accessories,Wallet,pcs
+WAY-029,Waypoint Style,Accessories,Cap,pcs
+WAY-030,Waypoint Style,Accessories,Belt,pcs
+WAY-031,Waypoint Style,Men,Men's T-Shirt V2,pcs
+WAY-032,Waypoint Style,Men,Men's Polo Shirt V2,pcs
+WAY-033,Waypoint Style,Men,Men's Casual Shirt V2,pcs
+WAY-034,Waypoint Style,Men,Men's Formal Shirt V2,pcs
+WAY-035,Waypoint Style,Men,Men's Jeans V2,pcs
+WAY-036,Waypoint Style,Men,Men's Chino V2,pcs
+WAY-037,Waypoint Style,Men,Men's Shorts V2,pcs
+WAY-038,Waypoint Style,Men,Men's Hoodie V2,pcs
+WAY-039,Waypoint Style,Men,Men's Jacket V2,pcs
+WAY-040,Waypoint Style,Women,Women's T-Shirt V2,pcs
+WAY-041,Waypoint Style,Women,Women's Blouse V2,pcs
+WAY-042,Waypoint Style,Women,Women's Dress V2,pcs
+WAY-043,Waypoint Style,Women,Women's Jeans V2,pcs
+WAY-044,Waypoint Style,Women,Women's Trousers V2,pcs
+WAY-045,Waypoint Style,Women,Women's Skirt V2,pcs
+WAY-046,Waypoint Style,Women,Women's Hoodie V2,pcs
+WAY-047,Waypoint Style,Women,Women's Jacket V2,pcs
+WAY-048,Waypoint Style,Kids,Kids T-Shirt V2,pcs
+WAY-049,Waypoint Style,Kids,Kids Jeans V2,pcs
+WAY-050,Waypoint Style,Kids,Kids Shorts V2,pcs
+WAY-051,Waypoint Style,Kids,Kids Dress V2,pcs
+WAY-052,Waypoint Style,Footwear,Men's Sneakers V2,pairs
+WAY-053,Waypoint Style,Footwear,Women's Sneakers V2,pairs
+WAY-054,Waypoint Style,Footwear,Men's Sandals V2,pairs
+WAY-055,Waypoint Style,Footwear,Women's Sandals V2,pairs
+WAY-056,Waypoint Style,Footwear,Kids' Shoes V2,pairs
+WAY-057,Waypoint Style,Accessories,Backpack V2,pcs
+WAY-058,Waypoint Style,Accessories,Wallet V2,pcs
+WAY-059,Waypoint Style,Accessories,Cap V2,pcs
+WAY-060,Waypoint Style,Accessories,Belt V2,pcs
+WAY-061,Waypoint Style,Men,Men's T-Shirt V3,pcs
+WAY-062,Waypoint Style,Men,Men's Polo Shirt V3,pcs
+WAY-063,Waypoint Style,Men,Men's Casual Shirt V3,pcs
+WAY-064,Waypoint Style,Men,Men's Formal Shirt V3,pcs
+WAY-065,Waypoint Style,Men,Men's Jeans V3,pcs
+WAY-066,Waypoint Style,Men,Men's Chino V3,pcs
+WAY-067,Waypoint Style,Men,Men's Shorts V3,pcs
+WAY-068,Waypoint Style,Men,Men's Hoodie V3,pcs
+WAY-069,Waypoint Style,Men,Men's Jacket V3,pcs
+WAY-070,Waypoint Style,Women,Women's T-Shirt V3,pcs
+WAY-071,Waypoint Style,Women,Women's Blouse V3,pcs
+WAY-072,Waypoint Style,Women,Women's Dress V3,pcs
+WAY-073,Waypoint Style,Women,Women's Jeans V3,pcs
+WAY-074,Waypoint Style,Women,Women's Trousers V3,pcs
+WAY-075,Waypoint Style,Women,Women's Skirt V3,pcs
+WAY-076,Waypoint Style,Women,Women's Hoodie V3,pcs
+WAY-077,Waypoint Style,Women,Women's Jacket V3,pcs
+WAY-078,Waypoint Style,Kids,Kids T-Shirt V3,pcs
+WAY-079,Waypoint Style,Kids,Kids Jeans V3,pcs
+WAY-080,Waypoint Style,Kids,Kids Shorts V3,pcs
+WAY-081,Waypoint Style,Kids,Kids Dress V3,pcs
+WAY-082,Waypoint Style,Footwear,Men's Sneakers V3,pairs
+WAY-083,Waypoint Style,Footwear,Women's Sneakers V3,pairs
+WAY-084,Waypoint Style,Footwear,Men's Sandals V3,pairs
+WAY-085,Waypoint Style,Footwear,Women's Sandals V3,pairs
+WAY-086,Waypoint Style,Footwear,Kids' Shoes V3,pairs
+WAY-087,Waypoint Style,Accessories,Backpack V3,pcs
+WAY-088,Waypoint Style,Accessories,Wallet V3,pcs
+WAY-089,Waypoint Style,Accessories,Cap V3,pcs
+WAY-090,Waypoint Style,Accessories,Belt V3,pcs
+WAY-091,Waypoint Style,Men,Men's T-Shirt V4,pcs
+WAY-092,Waypoint Style,Men,Men's Polo Shirt V4,pcs
+WAY-093,Waypoint Style,Men,Men's Casual Shirt V4,pcs
+WAY-094,Waypoint Style,Men,Men's Formal Shirt V4,pcs
+WAY-095,Waypoint Style,Men,Men's Jeans V4,pcs
+WAY-096,Waypoint Style,Men,Men's Chino V4,pcs
+WAY-097,Waypoint Style,Men,Men's Shorts V4,pcs
+WAY-098,Waypoint Style,Men,Men's Hoodie V4,pcs
+WAY-099,Waypoint Style,Men,Men's Jacket V4,pcs
+WAY-100,Waypoint Style,Women,Women's T-Shirt V4,pcs
+WAY-101,Waypoint Style,Women,Women's Blouse V4,pcs
+WAY-102,Waypoint Style,Women,Women's Dress V4,pcs
+WAY-103,Waypoint Style,Women,Women's Jeans V4,pcs
+WAY-104,Waypoint Style,Women,Women's Trousers V4,pcs
+WAY-105,Waypoint Style,Women,Women's Skirt V4,pcs
+WAY-106,Waypoint Style,Women,Women's Hoodie V4,pcs
+WAY-107,Waypoint Style,Women,Women's Jacket V4,pcs
+WAY-108,Waypoint Style,Kids,Kids T-Shirt V4,pcs
+WAY-109,Waypoint Style,Kids,Kids Jeans V4,pcs
+WAY-110,Waypoint Style,Kids,Kids Shorts V4,pcs
+WAY-111,Waypoint Style,Kids,Kids Dress V4,pcs
+WAY-112,Waypoint Style,Footwear,Men's Sneakers V4,pairs
+WAY-113,Waypoint Style,Footwear,Women's Sneakers V4,pairs
+WAY-114,Waypoint Style,Footwear,Men's Sandals V4,pairs
+WAY-115,Waypoint Style,Footwear,Women's Sandals V4,pairs
+WAY-116,Waypoint Style,Footwear,Kids' Shoes V4,pairs
+WAY-117,Waypoint Style,Accessories,Backpack V4,pcs
+WAY-118,Waypoint Style,Accessories,Wallet V4,pcs
+WAY-119,Waypoint Style,Accessories,Cap V4,pcs
+WAY-120,Waypoint Style,Accessories,Belt V4,pcs
+WAY-121,Waypoint Style,Men,Men's T-Shirt V5,pcs
+WAY-122,Waypoint Style,Men,Men's Polo Shirt V5,pcs
+WAY-123,Waypoint Style,Men,Men's Casual Shirt V5,pcs
+WAY-124,Waypoint Style,Men,Men's Formal Shirt V5,pcs
+WAY-125,Waypoint Style,Men,Men's Jeans V5,pcs
+WAY-126,Waypoint Style,Men,Men's Chino V5,pcs
+WAY-127,Waypoint Style,Men,Men's Shorts V5,pcs
+WAY-128,Waypoint Style,Men,Men's Hoodie V5,pcs
+WAY-129,Waypoint Style,Men,Men's Jacket V5,pcs
+WAY-130,Waypoint Style,Women,Women's T-Shirt V5,pcs
+WAY-131,Waypoint Style,Women,Women's Blouse V5,pcs
+WAY-132,Waypoint Style,Women,Women's Dress V5,pcs
+WAY-133,Waypoint Style,Women,Women's Jeans V5,pcs
+WAY-134,Waypoint Style,Women,Women's Trousers V5,pcs
+WAY-135,Waypoint Style,Women,Women's Skirt V5,pcs
+WAY-136,Waypoint Style,Women,Women's Hoodie V5,pcs
+WAY-137,Waypoint Style,Women,Women's Jacket V5,pcs
+WAY-138,Waypoint Style,Kids,Kids T-Shirt V5,pcs
+WAY-139,Waypoint Style,Kids,Kids Jeans V5,pcs
+WAY-140,Waypoint Style,Kids,Kids Shorts V5,pcs
+WAY-141,Waypoint Style,Kids,Kids Dress V5,pcs
+WAY-142,Waypoint Style,Footwear,Men's Sneakers V5,pairs
+WAY-143,Waypoint Style,Footwear,Women's Sneakers V5,pairs
+WAY-144,Waypoint Style,Footwear,Men's Sandals V5,pairs
+WAY-145,Waypoint Style,Footwear,Women's Sandals V5,pairs
+WAY-146,Waypoint Style,Footwear,Kids' Shoes V5,pairs
+WAY-147,Waypoint Style,Accessories,Backpack V5,pcs
+WAY-148,Waypoint Style,Accessories,Wallet V5,pcs
+WAY-149,Waypoint Style,Accessories,Cap V5,pcs
+WAY-150,Waypoint Style,Accessories,Belt V5,pcs
+WAY-151,Waypoint Style,Men,Men's T-Shirt V6,pcs
+WAY-152,Waypoint Style,Men,Men's Polo Shirt V6,pcs
+WAY-153,Waypoint Style,Men,Men's Casual Shirt V6,pcs
+WAY-154,Waypoint Style,Men,Men's Formal Shirt V6,pcs
+WAY-155,Waypoint Style,Men,Men's Jeans V6,pcs
+WAY-156,Waypoint Style,Men,Men's Chino V6,pcs
+WAY-157,Waypoint Style,Men,Men's Shorts V6,pcs
+WAY-158,Waypoint Style,Men,Men's Hoodie V6,pcs
+WAY-159,Waypoint Style,Men,Men's Jacket V6,pcs
+WAY-160,Waypoint Style,Women,Women's T-Shirt V6,pcs
+WAY-161,Waypoint Style,Women,Women's Blouse V6,pcs
+WAY-162,Waypoint Style,Women,Women's Dress V6,pcs
+WAY-163,Waypoint Style,Women,Women's Jeans V6,pcs
+WAY-164,Waypoint Style,Women,Women's Trousers V6,pcs
+WAY-165,Waypoint Style,Women,Women's Skirt V6,pcs
+WAY-166,Waypoint Style,Women,Women's Hoodie V6,pcs
+WAY-167,Waypoint Style,Women,Women's Jacket V6,pcs
+WAY-168,Waypoint Style,Kids,Kids T-Shirt V6,pcs
+WAY-169,Waypoint Style,Kids,Kids Jeans V6,pcs
+WAY-170,Waypoint Style,Kids,Kids Shorts V6,pcs
+WAY-171,Waypoint Style,Kids,Kids Dress V6,pcs
+WAY-172,Waypoint Style,Footwear,Men's Sneakers V6,pairs
+WAY-173,Waypoint Style,Footwear,Women's Sneakers V6,pairs
+WAY-174,Waypoint Style,Footwear,Men's Sandals V6,pairs
+WAY-175,Waypoint Style,Footwear,Women's Sandals V6,pairs
+WAY-176,Waypoint Style,Footwear,Kids' Shoes V6,pairs
+WAY-177,Waypoint Style,Accessories,Backpack V6,pcs
+WAY-178,Waypoint Style,Accessories,Wallet V6,pcs
+WAY-179,Waypoint Style,Accessories,Cap V6,pcs
+WAY-180,Waypoint Style,Accessories,Belt V6,pcs
+WAY-181,Waypoint Style,Men,Men's T-Shirt V7,pcs
+WAY-182,Waypoint Style,Men,Men's Polo Shirt V7,pcs
+WAY-183,Waypoint Style,Men,Men's Casual Shirt V7,pcs
+WAY-184,Waypoint Style,Men,Men's Formal Shirt V7,pcs
+WAY-185,Waypoint Style,Men,Men's Jeans V7,pcs
+WAY-186,Waypoint Style,Men,Men's Chino V7,pcs
+WAY-187,Waypoint Style,Men,Men's Shorts V7,pcs
+WAY-188,Waypoint Style,Men,Men's Hoodie V7,pcs
+WAY-189,Waypoint Style,Men,Men's Jacket V7,pcs
+WAY-190,Waypoint Style,Women,Women's T-Shirt V7,pcs
+WAY-191,Waypoint Style,Women,Women's Blouse V7,pcs
+WAY-192,Waypoint Style,Women,Women's Dress V7,pcs
+WAY-193,Waypoint Style,Women,Women's Jeans V7,pcs
+WAY-194,Waypoint Style,Women,Women's Trousers V7,pcs
+WAY-195,Waypoint Style,Women,Women's Skirt V7,pcs
+WAY-196,Waypoint Style,Women,Women's Hoodie V7,pcs
+WAY-197,Waypoint Style,Women,Women's Jacket V7,pcs
+WAY-198,Waypoint Style,Kids,Kids T-Shirt V7,pcs
+WAY-199,Waypoint Style,Kids,Kids Jeans V7,pcs
+WAY-200,Waypoint Style,Kids,Kids Shorts V7,pcs

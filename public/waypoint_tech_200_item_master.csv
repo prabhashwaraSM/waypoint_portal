@@ -1,0 +1,201 @@
+product_id,brand,category,product_name,unit
+WAY-001,Waypoint Tech,Mobile Phones,Smartphone,pcs
+WAY-002,Waypoint Tech,Mobile Phones,Feature Phone,pcs
+WAY-003,Waypoint Tech,Tablets,Android Tablet,pcs
+WAY-004,Waypoint Tech,Laptops,Laptop,pcs
+WAY-005,Waypoint Tech,Laptops,Chromebook,pcs
+WAY-006,Waypoint Tech,Computing,Desktop PC,pcs
+WAY-007,Waypoint Tech,Computing,Monitor 24-inch,pcs
+WAY-008,Waypoint Tech,Computing,Monitor 27-inch,pcs
+WAY-009,Waypoint Tech,Computing,Keyboard,pcs
+WAY-010,Waypoint Tech,Computing,Wireless Mouse,pcs
+WAY-011,Waypoint Tech,Computing,Webcam,pcs
+WAY-012,Waypoint Tech,Computing,USB-C Hub,pcs
+WAY-013,Waypoint Tech,Computing,Laptop Stand,pcs
+WAY-014,Waypoint Tech,Storage,USB Flash Drive 64GB,pcs
+WAY-015,Waypoint Tech,Storage,USB Flash Drive 128GB,pcs
+WAY-016,Waypoint Tech,Storage,External SSD 1TB,pcs
+WAY-017,Waypoint Tech,Storage,MicroSD 128GB,pcs
+WAY-018,Waypoint Tech,Networking,Wi-Fi Router,pcs
+WAY-019,Waypoint Tech,Networking,Wi-Fi Extender,pcs
+WAY-020,Waypoint Tech,Networking,Ethernet Cable 5m,pcs
+WAY-021,Waypoint Tech,Audio,Bluetooth Earbuds,pcs
+WAY-022,Waypoint Tech,Audio,Bluetooth Headphones,pcs
+WAY-023,Waypoint Tech,Audio,Bluetooth Speaker,pcs
+WAY-024,Waypoint Tech,Accessories,Phone Charger,pcs
+WAY-025,Waypoint Tech,Accessories,USB-C Cable,pcs
+WAY-026,Waypoint Tech,Accessories,Lightning Cable,pcs
+WAY-027,Waypoint Tech,Accessories,Power Bank 10000mAh,pcs
+WAY-028,Waypoint Tech,Accessories,Power Bank 20000mAh,pcs
+WAY-029,Waypoint Tech,Accessories,Phone Case,pcs
+WAY-030,Waypoint Tech,Accessories,Screen Protector,pcs
+WAY-031,Waypoint Tech,Mobile Phones,Smartphone V2,pcs
+WAY-032,Waypoint Tech,Mobile Phones,Feature Phone V2,pcs
+WAY-033,Waypoint Tech,Tablets,Android Tablet V2,pcs
+WAY-034,Waypoint Tech,Laptops,Laptop V2,pcs
+WAY-035,Waypoint Tech,Laptops,Chromebook V2,pcs
+WAY-036,Waypoint Tech,Computing,Desktop PC V2,pcs
+WAY-037,Waypoint Tech,Computing,Monitor 24-inch V2,pcs
+WAY-038,Waypoint Tech,Computing,Monitor 27-inch V2,pcs
+WAY-039,Waypoint Tech,Computing,Keyboard V2,pcs
+WAY-040,Waypoint Tech,Computing,Wireless Mouse V2,pcs
+WAY-041,Waypoint Tech,Computing,Webcam V2,pcs
+WAY-042,Waypoint Tech,Computing,USB-C Hub V2,pcs
+WAY-043,Waypoint Tech,Computing,Laptop Stand V2,pcs
+WAY-044,Waypoint Tech,Storage,USB Flash Drive 64GB V2,pcs
+WAY-045,Waypoint Tech,Storage,USB Flash Drive 128GB V2,pcs
+WAY-046,Waypoint Tech,Storage,External SSD 1TB V2,pcs
+WAY-047,Waypoint Tech,Storage,MicroSD 128GB V2,pcs
+WAY-048,Waypoint Tech,Networking,Wi-Fi Router V2,pcs
+WAY-049,Waypoint Tech,Networking,Wi-Fi Extender V2,pcs
+WAY-050,Waypoint Tech,Networking,Ethernet Cable 5m V2,pcs
+WAY-051,Waypoint Tech,Audio,Bluetooth Earbuds V2,pcs
+WAY-052,Waypoint Tech,Audio,Bluetooth Headphones V2,pcs
+WAY-053,Waypoint Tech,Audio,Bluetooth Speaker V2,pcs
+WAY-054,Waypoint Tech,Accessories,Phone Charger V2,pcs
+WAY-055,Waypoint Tech,Accessories,USB-C Cable V2,pcs
+WAY-056,Waypoint Tech,Accessories,Lightning Cable V2,pcs
+WAY-057,Waypoint Tech,Accessories,Power Bank 10000mAh V2,pcs
+WAY-058,Waypoint Tech,Accessories,Power Bank 20000mAh V2,pcs
+WAY-059,Waypoint Tech,Accessories,Phone Case V2,pcs
+WAY-060,Waypoint Tech,Accessories,Screen Protector V2,pcs
+WAY-061,Waypoint Tech,Mobile Phones,Smartphone V3,pcs
+WAY-062,Waypoint Tech,Mobile Phones,Feature Phone V3,pcs
+WAY-063,Waypoint Tech,Tablets,Android Tablet V3,pcs
+WAY-064,Waypoint Tech,Laptops,Laptop V3,pcs
+WAY-065,Waypoint Tech,Laptops,Chromebook V3,pcs
+WAY-066,Waypoint Tech,Computing,Desktop PC V3,pcs
+WAY-067,Waypoint Tech,Computing,Monitor 24-inch V3,pcs
+WAY-068,Waypoint Tech,Computing,Monitor 27-inch V3,pcs
+WAY-069,Waypoint Tech,Computing,Keyboard V3,pcs
+WAY-070,Waypoint Tech,Computing,Wireless Mouse V3,pcs
+WAY-071,Waypoint Tech,Computing,Webcam V3,pcs
+WAY-072,Waypoint Tech,Computing,USB-C Hub V3,pcs
+WAY-073,Waypoint Tech,Computing,Laptop Stand V3,pcs
+WAY-074,Waypoint Tech,Storage,USB Flash Drive 64GB V3,pcs
+WAY-075,Waypoint Tech,Storage,USB Flash Drive 128GB V3,pcs
+WAY-076,Waypoint Tech,Storage,External SSD 1TB V3,pcs
+WAY-077,Waypoint Tech,Storage,MicroSD 128GB V3,pcs
+WAY-078,Waypoint Tech,Networking,Wi-Fi Router V3,pcs
+WAY-079,Waypoint Tech,Networking,Wi-Fi Extender V3,pcs
+WAY-080,Waypoint Tech,Networking,Ethernet Cable 5m V3,pcs
+WAY-081,Waypoint Tech,Audio,Bluetooth Earbuds V3,pcs
+WAY-082,Waypoint Tech,Audio,Bluetooth Headphones V3,pcs
+WAY-083,Waypoint Tech,Audio,Bluetooth Speaker V3,pcs
+WAY-084,Waypoint Tech,Accessories,Phone Charger V3,pcs
+WAY-085,Waypoint Tech,Accessories,USB-C Cable V3,pcs
+WAY-086,Waypoint Tech,Accessories,Lightning Cable V3,pcs
+WAY-087,Waypoint Tech,Accessories,Power Bank 10000mAh V3,pcs
+WAY-088,Waypoint Tech,Accessories,Power Bank 20000mAh V3,pcs
+WAY-089,Waypoint Tech,Accessories,Phone Case V3,pcs
+WAY-090,Waypoint Tech,Accessories,Screen Protector V3,pcs
+WAY-091,Waypoint Tech,Mobile Phones,Smartphone V4,pcs
+WAY-092,Waypoint Tech,Mobile Phones,Feature Phone V4,pcs
+WAY-093,Waypoint Tech,Tablets,Android Tablet V4,pcs
+WAY-094,Waypoint Tech,Laptops,Laptop V4,pcs
+WAY-095,Waypoint Tech,Laptops,Chromebook V4,pcs
+WAY-096,Waypoint Tech,Computing,Desktop PC V4,pcs
+WAY-097,Waypoint Tech,Computing,Monitor 24-inch V4,pcs
+WAY-098,Waypoint Tech,Computing,Monitor 27-inch V4,pcs
+WAY-099,Waypoint Tech,Computing,Keyboard V4,pcs
+WAY-100,Waypoint Tech,Computing,Wireless Mouse V4,pcs
+WAY-101,Waypoint Tech,Computing,Webcam V4,pcs
+WAY-102,Waypoint Tech,Computing,USB-C Hub V4,pcs
+WAY-103,Waypoint Tech,Computing,Laptop Stand V4,pcs
+WAY-104,Waypoint Tech,Storage,USB Flash Drive 64GB V4,pcs
+WAY-105,Waypoint Tech,Storage,USB Flash Drive 128GB V4,pcs
+WAY-106,Waypoint Tech,Storage,External SSD 1TB V4,pcs
+WAY-107,Waypoint Tech,Storage,MicroSD 128GB V4,pcs
+WAY-108,Waypoint Tech,Networking,Wi-Fi Router V4,pcs
+WAY-109,Waypoint Tech,Networking,Wi-Fi Extender V4,pcs
+WAY-110,Waypoint Tech,Networking,Ethernet Cable 5m V4,pcs
+WAY-111,Waypoint Tech,Audio,Bluetooth Earbuds V4,pcs
+WAY-112,Waypoint Tech,Audio,Bluetooth Headphones V4,pcs
+WAY-113,Waypoint Tech,Audio,Bluetooth Speaker V4,pcs
+WAY-114,Waypoint Tech,Accessories,Phone Charger V4,pcs
+WAY-115,Waypoint Tech,Accessories,USB-C Cable V4,pcs
+WAY-116,Waypoint Tech,Accessories,Lightning Cable V4,pcs
+WAY-117,Waypoint Tech,Accessories,Power Bank 10000mAh V4,pcs
+WAY-118,Waypoint Tech,Accessories,Power Bank 20000mAh V4,pcs
+WAY-119,Waypoint Tech,Accessories,Phone Case V4,pcs
+WAY-120,Waypoint Tech,Accessories,Screen Protector V4,pcs
+WAY-121,Waypoint Tech,Mobile Phones,Smartphone V5,pcs
+WAY-122,Waypoint Tech,Mobile Phones,Feature Phone V5,pcs
+WAY-123,Waypoint Tech,Tablets,Android Tablet V5,pcs
+WAY-124,Waypoint Tech,Laptops,Laptop V5,pcs
+WAY-125,Waypoint Tech,Laptops,Chromebook V5,pcs
+WAY-126,Waypoint Tech,Computing,Desktop PC V5,pcs
+WAY-127,Waypoint Tech,Computing,Monitor 24-inch V5,pcs
+WAY-128,Waypoint Tech,Computing,Monitor 27-inch V5,pcs
+WAY-129,Waypoint Tech,Computing,Keyboard V5,pcs
+WAY-130,Waypoint Tech,Computing,Wireless Mouse V5,pcs
+WAY-131,Waypoint Tech,Computing,Webcam V5,pcs
+WAY-132,Waypoint Tech,Computing,USB-C Hub V5,pcs
+WAY-133,Waypoint Tech,Computing,Laptop Stand V5,pcs
+WAY-134,Waypoint Tech,Storage,USB Flash Drive 64GB V5,pcs
+WAY-135,Waypoint Tech,Storage,USB Flash Drive 128GB V5,pcs
+WAY-136,Waypoint Tech,Storage,External SSD 1TB V5,pcs
+WAY-137,Waypoint Tech,Storage,MicroSD 128GB V5,pcs
+WAY-138,Waypoint Tech,Networking,Wi-Fi Router V5,pcs
+WAY-139,Waypoint Tech,Networking,Wi-Fi Extender V5,pcs
+WAY-140,Waypoint Tech,Networking,Ethernet Cable 5m V5,pcs
+WAY-141,Waypoint Tech,Audio,Bluetooth Earbuds V5,pcs
+WAY-142,Waypoint Tech,Audio,Bluetooth Headphones V5,pcs
+WAY-143,Waypoint Tech,Audio,Bluetooth Speaker V5,pcs
+WAY-144,Waypoint Tech,Accessories,Phone Charger V5,pcs
+WAY-145,Waypoint Tech,Accessories,USB-C Cable V5,pcs
+WAY-146,Waypoint Tech,Accessories,Lightning Cable V5,pcs
+WAY-147,Waypoint Tech,Accessories,Power Bank 10000mAh V5,pcs
+WAY-148,Waypoint Tech,Accessories,Power Bank 20000mAh V5,pcs
+WAY-149,Waypoint Tech,Accessories,Phone Case V5,pcs
+WAY-150,Waypoint Tech,Accessories,Screen Protector V5,pcs
+WAY-151,Waypoint Tech,Mobile Phones,Smartphone V6,pcs
+WAY-152,Waypoint Tech,Mobile Phones,Feature Phone V6,pcs
+WAY-153,Waypoint Tech,Tablets,Android Tablet V6,pcs
+WAY-154,Waypoint Tech,Laptops,Laptop V6,pcs
+WAY-155,Waypoint Tech,Laptops,Chromebook V6,pcs
+WAY-156,Waypoint Tech,Computing,Desktop PC V6,pcs
+WAY-157,Waypoint Tech,Computing,Monitor 24-inch V6,pcs
+WAY-158,Waypoint Tech,Computing,Monitor 27-inch V6,pcs
+WAY-159,Waypoint Tech,Computing,Keyboard V6,pcs
+WAY-160,Waypoint Tech,Computing,Wireless Mouse V6,pcs
+WAY-161,Waypoint Tech,Computing,Webcam V6,pcs
+WAY-162,Waypoint Tech,Computing,USB-C Hub V6,pcs
+WAY-163,Waypoint Tech,Computing,Laptop Stand V6,pcs
+WAY-164,Waypoint Tech,Storage,USB Flash Drive 64GB V6,pcs
+WAY-165,Waypoint Tech,Storage,USB Flash Drive 128GB V6,pcs
+WAY-166,Waypoint Tech,Storage,External SSD 1TB V6,pcs
+WAY-167,Waypoint Tech,Storage,MicroSD 128GB V6,pcs
+WAY-168,Waypoint Tech,Networking,Wi-Fi Router V6,pcs
+WAY-169,Waypoint Tech,Networking,Wi-Fi Extender V6,pcs
+WAY-170,Waypoint Tech,Networking,Ethernet Cable 5m V6,pcs
+WAY-171,Waypoint Tech,Audio,Bluetooth Earbuds V6,pcs
+WAY-172,Waypoint Tech,Audio,Bluetooth Headphones V6,pcs
+WAY-173,Waypoint Tech,Audio,Bluetooth Speaker V6,pcs
+WAY-174,Waypoint Tech,Accessories,Phone Charger V6,pcs
+WAY-175,Waypoint Tech,Accessories,USB-C Cable V6,pcs
+WAY-176,Waypoint Tech,Accessories,Lightning Cable V6,pcs
+WAY-177,Waypoint Tech,Accessories,Power Bank 10000mAh V6,pcs
+WAY-178,Waypoint Tech,Accessories,Power Bank 20000mAh V6,pcs
+WAY-179,Waypoint Tech,Accessories,Phone Case V6,pcs
+WAY-180,Waypoint Tech,Accessories,Screen Protector V6,pcs
+WAY-181,Waypoint Tech,Mobile Phones,Smartphone V7,pcs
+WAY-182,Waypoint Tech,Mobile Phones,Feature Phone V7,pcs
+WAY-183,Waypoint Tech,Tablets,Android Tablet V7,pcs
+WAY-184,Waypoint Tech,Laptops,Laptop V7,pcs
+WAY-185,Waypoint Tech,Laptops,Chromebook V7,pcs
+WAY-186,Waypoint Tech,Computing,Desktop PC V7,pcs
+WAY-187,Waypoint Tech,Computing,Monitor 24-inch V7,pcs
+WAY-188,Waypoint Tech,Computing,Monitor 27-inch V7,pcs
+WAY-189,Waypoint Tech,Computing,Keyboard V7,pcs
+WAY-190,Waypoint Tech,Computing,Wireless Mouse V7,pcs
+WAY-191,Waypoint Tech,Computing,Webcam V7,pcs
+WAY-192,Waypoint Tech,Computing,USB-C Hub V7,pcs
+WAY-193,Waypoint Tech,Computing,Laptop Stand V7,pcs
+WAY-194,Waypoint Tech,Storage,USB Flash Drive 64GB V7,pcs
+WAY-195,Waypoint Tech,Storage,USB Flash Drive 128GB V7,pcs
+WAY-196,Waypoint Tech,Storage,External SSD 1TB V7,pcs
+WAY-197,Waypoint Tech,Storage,MicroSD 128GB V7,pcs
+WAY-198,Waypoint Tech,Networking,Wi-Fi Router V7,pcs
+WAY-199,Waypoint Tech,Networking,Wi-Fi Extender V7,pcs
+WAY-200,Waypoint Tech,Networking,Ethernet Cable 5m V7,pcs

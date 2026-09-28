@@ -1,0 +1,13 @@
+party_id,party_type,name,city,district,contact_person,phone,address
+AGT001,Agent,Lanka Fresh Distributors,Negombo,Gampaha,Ruwan Silva,076-3193843,"No. 45, Main Street, Negombo"
+AGT002,Agent,Southern Grocery Agencies,Galle,Galle,Priyantha Jayawardena,076-3547391,"12 Wakwella Road, Galle"
+AGT003,Agent,Hill Country Traders,Kandy,Kandy,Nalin Bandara,076-9565557,"88 Peradeniya Road, Kandy"
+AGT004,Agent,Wayamba Retail Agents,Kurunegala,Kurunegala,Dammika Herath,070-8384070,"21 Colombo Road, Kurunegala"
+AGT005,Agent,Uva Distribution Co.,Badulla,Badulla,Chandana Rajapaksha,078-4072040,"5 Bandarawela Road, Badulla"
+AGT006,Distributor,Metro Tech Distributors,Colombo 03,Colombo,Shehan Perera,076-1065976,"110 Galle Road, Colombo 03"
+AGT007,Distributor,StyleHub Wholesale,Maharagama,Colombo,Dilini Fernando,078-3513268,"34 High Level Road, Maharagama"
+CUS001,Customer,Cinnamon Grand Hotel (Kitchen),Colombo 03,Colombo,Procurement Desk,071-3374965,"77 Galle Road, Colombo 03"
+CUS002,Customer,Nawaloka Hospital Canteen,Colombo 02,Colombo,Stores Manager,075-3018913,"23 Deshamanya H.K. Dharmadasa Mw, Colombo 02"
+CUS003,Customer,Earl's Regency Hotel,Kandy,Kandy,Purchasing Office,076-2036081,"Tennekumbura, Kandy"
+CUS004,Customer,Hayleys Corporate Office,Colombo 02,Colombo,Admin Division,072-9696448,"400 Deans Road, Colombo 10"
+CUS005,Customer,Galle Face Hotel,Colombo 03,Colombo,Receiving Bay,076-9094788,"2 Galle Road, Colombo 03"

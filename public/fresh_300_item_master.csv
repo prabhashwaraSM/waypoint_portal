@@ -1,0 +1,301 @@
+product_id,brand,category,product_name,unit,storage_type
+FR001,Fresh,Fresh Produce,Tomato,kg,fresh
+FR002,Fresh,Fresh Produce,Potato,kg,fresh
+FR003,Fresh,Fresh Produce,Red Onion,kg,fresh
+FR004,Fresh,Fresh Produce,Big Onion,kg,fresh
+FR005,Fresh,Fresh Produce,Carrot,kg,fresh
+FR006,Fresh,Fresh Produce,Cabbage,kg,fresh
+FR007,Fresh,Fresh Produce,Beans,kg,fresh
+FR008,Fresh,Fresh Produce,Leeks,kg,fresh
+FR009,Fresh,Fresh Produce,Brinjal,kg,fresh
+FR010,Fresh,Fresh Produce,Ladies Finger,kg,fresh
+FR011,Fresh,Fresh Produce,Pumpkin,kg,fresh
+FR012,Fresh,Fresh Produce,Snake Gourd,kg,fresh
+FR013,Fresh,Fresh Produce,Bottle Gourd,kg,fresh
+FR014,Fresh,Fresh Produce,Bitter Gourd,kg,fresh
+FR015,Fresh,Fresh Produce,Drumstick,kg,fresh
+FR016,Fresh,Fresh Produce,Beetroot,kg,fresh
+FR017,Fresh,Fresh Produce,Radish,kg,fresh
+FR018,Fresh,Fresh Produce,Cucumber,kg,fresh
+FR019,Fresh,Fresh Produce,Green Chilli,kg,fresh
+FR020,Fresh,Fresh Produce,Capsicum,kg,fresh
+FR021,Fresh,Fresh Produce,Green Peas,kg,fresh
+FR022,Fresh,Fresh Produce,Sweet Corn,kg,fresh
+FR023,Fresh,Fresh Produce,Cauliflower,kg,fresh
+FR024,Fresh,Fresh Produce,Broccoli,kg,fresh
+FR025,Fresh,Fresh Produce,Spinach,kg,fresh
+FR026,Fresh,Fresh Produce,Gotukola,kg,fresh
+FR027,Fresh,Fresh Produce,Mukunuwenna,kg,fresh
+FR028,Fresh,Fresh Produce,Kangkung,kg,fresh
+FR029,Fresh,Fresh Produce,Coriander Leaves,kg,fresh
+FR030,Fresh,Fresh Produce,Mint Leaves,kg,fresh
+FR031,Fresh,Fresh Produce,Curry Leaves,kg,fresh
+FR032,Fresh,Fresh Produce,Spring Onion,kg,fresh
+FR033,Fresh,Fresh Produce,Garlic,kg,fresh
+FR034,Fresh,Fresh Produce,Ginger,kg,fresh
+FR035,Fresh,Fresh Produce,Turmeric Root,kg,fresh
+FR036,Fresh,Fresh Produce,Lime,kg,fresh
+FR037,Fresh,Fresh Produce,Lemon,kg,fresh
+FR038,Fresh,Fresh Produce,Green Apple,kg,fresh
+FR039,Fresh,Fresh Produce,Red Apple,kg,fresh
+FR040,Fresh,Fresh Produce,Banana Kolikuttu,kg,fresh
+FR041,Fresh,Fresh Produce,Banana Seeni,kg,fresh
+FR042,Fresh,Fresh Produce,Banana Ambul,kg,fresh
+FR043,Fresh,Fresh Produce,Papaya,kg,fresh
+FR044,Fresh,Fresh Produce,Pineapple,kg,fresh
+FR045,Fresh,Fresh Produce,Mango,kg,fresh
+FR046,Fresh,Fresh Produce,Avocado,kg,fresh
+FR047,Fresh,Fresh Produce,Watermelon,kg,fresh
+FR048,Fresh,Fresh Produce,Guava,kg,fresh
+FR049,Fresh,Fresh Produce,Orange,kg,fresh
+FR050,Fresh,Fresh Produce,Mandarin,kg,fresh
+FR051,Fresh,Fresh Produce,Grapes Green,kg,fresh
+FR052,Fresh,Fresh Produce,Grapes Red,kg,fresh
+FR053,Fresh,Fresh Produce,Pomegranate,kg,fresh
+FR054,Fresh,Fresh Produce,Pear,kg,fresh
+FR055,Fresh,Fresh Produce,Kiwi,kg,fresh
+FR056,Fresh,Fresh Produce,Strawberry,kg,fresh
+FR057,Fresh,Fresh Produce,Dragon Fruit,kg,fresh
+FR058,Fresh,Fresh Produce,Passion Fruit,kg,fresh
+FR059,Fresh,Fresh Produce,Wood Apple,kg,fresh
+FR060,Fresh,Fresh Produce,Coconut,kg,fresh
+FR061,Fresh,Fresh Produce,King Coconut,kg,fresh
+FR062,Fresh,Fresh Produce,Eggplant,kg,fresh
+FR063,Fresh,Fresh Produce,Celery,kg,fresh
+FR064,Fresh,Fresh Produce,Parsley,kg,fresh
+FR065,Fresh,Fresh Produce,Dill,kg,fresh
+FR066,Fresh,Fresh Produce,Rosemary,kg,fresh
+FR067,Fresh,Fresh Produce,Thyme,kg,fresh
+FR068,Fresh,Fresh Produce,Basil,kg,fresh
+FR069,Fresh,Fresh Produce,Mushroom,kg,fresh
+FR070,Fresh,Fresh Produce,Baby Corn,kg,fresh
+FR071,Fresh,Fresh Produce,French Beans,kg,fresh
+FR072,Fresh,Fresh Produce,Zucchini,kg,fresh
+FR073,Fresh,Fresh Produce,Chayote,kg,fresh
+FR074,Fresh,Fresh Produce,Turnip,kg,fresh
+FR075,Fresh,Fresh Produce,Sweet Potato,kg,fresh
+FR076,Fresh,Fresh Produce,Cassava,kg,fresh
+FR077,Fresh,Fresh Produce,Yam,kg,fresh
+FR078,Fresh,Fresh Produce,Taro,kg,fresh
+FR079,Fresh,Fresh Produce,Jackfruit,kg,fresh
+FR080,Fresh,Fresh Produce,Breadfruit,kg,fresh
+FR081,Fresh,Fresh Produce,Ridge Gourd,kg,fresh
+FR082,Fresh,Fresh Produce,Winged Bean,kg,fresh
+FR083,Fresh,Fresh Produce,Long Bean,kg,fresh
+FR084,Fresh,Fresh Produce,Ash Plantain,kg,fresh
+FR085,Fresh,Fresh Produce,Raw Banana,kg,fresh
+FR086,Fresh,Fresh Produce,Green Papaya,kg,fresh
+FR087,Fresh,Fresh Produce,Green Mango,kg,fresh
+FR088,Fresh,Fresh Produce,Red Cabbage,kg,fresh
+FR089,Fresh,Fresh Produce,Cherry Tomato,kg,fresh
+FR090,Fresh,Fresh Produce,Baby Spinach,kg,fresh
+FR091,Fresh,Fresh Produce,Rocket Leaves,kg,fresh
+FR092,Fresh,Fresh Produce,Iceberg Lettuce,kg,fresh
+FR093,Fresh,Fresh Produce,Butterhead Lettuce,kg,fresh
+FR094,Fresh,Fresh Produce,Romaine Lettuce,kg,fresh
+FR095,Fresh,Fresh Produce,Chinese Cabbage,kg,fresh
+FR096,Fresh,Fresh Produce,Pak Choi,kg,fresh
+FR097,Fresh,Fresh Produce,Bell Pepper Red,kg,fresh
+FR098,Fresh,Fresh Produce,Bell Pepper Yellow,kg,fresh
+FR099,Fresh,Fresh Produce,Bell Pepper Green,kg,fresh
+FR100,Fresh,Fresh Produce,Asparagus,kg,fresh
+FR101,Fresh,Fresh Produce,Spring Garlic,kg,fresh
+FR102,Fresh,Fresh Produce,Shallot,kg,fresh
+FR103,Fresh,Fresh Produce,Shiitake Mushroom,kg,fresh
+FR104,Fresh,Fresh Produce,Oyster Mushroom,kg,fresh
+FR105,Fresh,Fresh Produce,Enoki Mushroom,kg,fresh
+FR106,Fresh,Fresh Produce,Fresh Peanuts,kg,fresh
+FR107,Fresh,Fresh Produce,Corn Cob,kg,fresh
+FR108,Fresh,Fresh Produce,Fresh Okra,kg,fresh
+FR109,Fresh,Fresh Produce,Fresh Green Peas,kg,fresh
+FR110,Fresh,Fresh Produce,Fresh Soybean,kg,fresh
+FR111,Fresh,Frozen Food,Frozen Chicken Breast,pack,frozen
+FR112,Fresh,Frozen Food,Frozen Chicken Thigh,pack,frozen
+FR113,Fresh,Frozen Food,Frozen Chicken Wings,pack,frozen
+FR114,Fresh,Frozen Food,Frozen Chicken Drumsticks,pack,frozen
+FR115,Fresh,Frozen Food,Frozen Chicken Nuggets,pack,frozen
+FR116,Fresh,Frozen Food,Frozen Chicken Sausage,pack,frozen
+FR117,Fresh,Frozen Food,Frozen Fish Fillet,pack,frozen
+FR118,Fresh,Frozen Food,Frozen Tuna Steak,pack,frozen
+FR119,Fresh,Frozen Food,Frozen Seer Fish,pack,frozen
+FR120,Fresh,Frozen Food,Frozen Prawns,pack,frozen
+FR121,Fresh,Frozen Food,Frozen Squid,pack,frozen
+FR122,Fresh,Frozen Food,Frozen Cuttlefish,pack,frozen
+FR123,Fresh,Frozen Food,Frozen Crab Meat,pack,frozen
+FR124,Fresh,Frozen Food,Frozen Mixed Seafood,pack,frozen
+FR125,Fresh,Frozen Food,Frozen Fish Fingers,pack,frozen
+FR126,Fresh,Frozen Food,Frozen French Fries,pack,frozen
+FR127,Fresh,Frozen Food,Frozen Potato Wedges,pack,frozen
+FR128,Fresh,Frozen Food,Frozen Hash Browns,pack,frozen
+FR129,Fresh,Frozen Food,Frozen Sweet Corn,pack,frozen
+FR130,Fresh,Frozen Food,Frozen Green Peas,pack,frozen
+FR131,Fresh,Frozen Food,Frozen Mixed Vegetables,pack,frozen
+FR132,Fresh,Frozen Food,Frozen Carrot Cubes,pack,frozen
+FR133,Fresh,Frozen Food,Frozen Broccoli,pack,frozen
+FR134,Fresh,Frozen Food,Frozen Cauliflower,pack,frozen
+FR135,Fresh,Frozen Food,Frozen Spinach,pack,frozen
+FR136,Fresh,Frozen Food,Frozen Mixed Berries,pack,frozen
+FR137,Fresh,Frozen Food,Frozen Strawberry,pack,frozen
+FR138,Fresh,Frozen Food,Frozen Blueberry,pack,frozen
+FR139,Fresh,Frozen Food,Frozen Mango Chunks,pack,frozen
+FR140,Fresh,Frozen Food,Frozen Pineapple Chunks,pack,frozen
+FR141,Fresh,Frozen Food,Frozen Paratha,pack,frozen
+FR142,Fresh,Frozen Food,Frozen Roti,pack,frozen
+FR143,Fresh,Frozen Food,Frozen Chapati,pack,frozen
+FR144,Fresh,Frozen Food,Frozen String Hopper,pack,frozen
+FR145,Fresh,Frozen Food,Frozen Vegetable Samosa,pack,frozen
+FR146,Fresh,Frozen Food,Frozen Chicken Samosa,pack,frozen
+FR147,Fresh,Frozen Food,Frozen Spring Rolls,pack,frozen
+FR148,Fresh,Frozen Food,Frozen Vegetable Rolls,pack,frozen
+FR149,Fresh,Frozen Food,Frozen Fish Cutlet,pack,frozen
+FR150,Fresh,Frozen Food,Frozen Chicken Cutlet,pack,frozen
+FR151,Fresh,Frozen Food,Frozen Pizza,pack,frozen
+FR152,Fresh,Frozen Food,Frozen Garlic Bread,pack,frozen
+FR153,Fresh,Frozen Food,Frozen Burger Patties,pack,frozen
+FR154,Fresh,Frozen Food,Frozen Chicken Burger Patties,pack,frozen
+FR155,Fresh,Frozen Food,Frozen Beef Burger Patties,pack,frozen
+FR156,Fresh,Frozen Food,Frozen Meatballs,pack,frozen
+FR157,Fresh,Frozen Food,Frozen Chicken Meatballs,pack,frozen
+FR158,Fresh,Frozen Food,Frozen Sausage,pack,frozen
+FR159,Fresh,Frozen Food,Frozen Edamame,pack,frozen
+FR160,Fresh,Frozen Food,Frozen French Beans,pack,frozen
+FR161,Fresh,Frozen Food,Frozen Okra,pack,frozen
+FR162,Fresh,Frozen Food,Frozen Sweet Potato Fries,pack,frozen
+FR163,Fresh,Frozen Food,Frozen Onion Rings,pack,frozen
+FR164,Fresh,Frozen Food,Frozen Hash Brown Patties,pack,frozen
+FR165,Fresh,Frozen Food,Frozen Corn Nuggets,pack,frozen
+FR166,Fresh,Other Groceries,White Rice 5kg,unit,ambient
+FR167,Fresh,Other Groceries,Red Rice 5kg,unit,ambient
+FR168,Fresh,Other Groceries,Basmati Rice 5kg,unit,ambient
+FR169,Fresh,Other Groceries,Nadu Rice 5kg,unit,ambient
+FR170,Fresh,Other Groceries,Samba Rice 5kg,unit,ambient
+FR171,Fresh,Other Groceries,Keeri Samba Rice 5kg,unit,ambient
+FR172,Fresh,Other Groceries,Wheat Flour 1kg,unit,ambient
+FR173,Fresh,Other Groceries,All Purpose Flour 1kg,unit,ambient
+FR174,Fresh,Other Groceries,Kurakkan Flour 500g,unit,ambient
+FR175,Fresh,Other Groceries,Corn Flour 500g,unit,ambient
+FR176,Fresh,Other Groceries,Rice Flour 1kg,unit,ambient
+FR177,Fresh,Other Groceries,Bread Flour 1kg,unit,ambient
+FR178,Fresh,Other Groceries,Sugar 1kg,unit,ambient
+FR179,Fresh,Other Groceries,Brown Sugar 1kg,unit,ambient
+FR180,Fresh,Other Groceries,Iodized Salt 1kg,unit,ambient
+FR181,Fresh,Other Groceries,Coconut Milk Powder 300g,unit,ambient
+FR182,Fresh,Other Groceries,Milk Powder 400g,unit,ambient
+FR183,Fresh,Other Groceries,Milk Powder 1kg,unit,ambient
+FR184,Fresh,Other Groceries,Tea 200g,unit,ambient
+FR185,Fresh,Other Groceries,Tea Bags 100s,unit,ambient
+FR186,Fresh,Other Groceries,Coffee 100g,unit,ambient
+FR187,Fresh,Other Groceries,Instant Coffee 200g,unit,ambient
+FR188,Fresh,Other Groceries,Cocoa Powder 100g,unit,ambient
+FR189,Fresh,Other Groceries,Malted Drink 400g,unit,ambient
+FR190,Fresh,Other Groceries,Cooking Oil 1L,unit,ambient
+FR191,Fresh,Other Groceries,Coconut Oil 750ml,unit,ambient
+FR192,Fresh,Other Groceries,Olive Oil 500ml,unit,ambient
+FR193,Fresh,Other Groceries,Sesame Oil 250ml,unit,ambient
+FR194,Fresh,Other Groceries,Vinegar 750ml,unit,ambient
+FR195,Fresh,Other Groceries,Apple Cider Vinegar 500ml,unit,ambient
+FR196,Fresh,Other Groceries,Soy Sauce 500ml,unit,ambient
+FR197,Fresh,Other Groceries,Chilli Sauce 500ml,unit,ambient
+FR198,Fresh,Other Groceries,Tomato Sauce 500ml,unit,ambient
+FR199,Fresh,Other Groceries,Mustard Sauce 250g,unit,ambient
+FR200,Fresh,Other Groceries,Mayonnaise 500ml,unit,ambient
+FR201,Fresh,Other Groceries,Oyster Sauce 300ml,unit,ambient
+FR202,Fresh,Other Groceries,Fish Sauce 300ml,unit,ambient
+FR203,Fresh,Other Groceries,Hot Sauce 150ml,unit,ambient
+FR204,Fresh,Other Groceries,Chilli Powder 100g,unit,ambient
+FR205,Fresh,Other Groceries,Curry Powder 100g,unit,ambient
+FR206,Fresh,Other Groceries,Roasted Curry Powder 100g,unit,ambient
+FR207,Fresh,Other Groceries,Turmeric Powder 100g,unit,ambient
+FR208,Fresh,Other Groceries,Pepper Powder 100g,unit,ambient
+FR209,Fresh,Other Groceries,Pepper Seeds 100g,unit,ambient
+FR210,Fresh,Other Groceries,Cumin 100g,unit,ambient
+FR211,Fresh,Other Groceries,Coriander Powder 100g,unit,ambient
+FR212,Fresh,Other Groceries,Fennel Seeds 100g,unit,ambient
+FR213,Fresh,Other Groceries,Cinnamon 50g,unit,ambient
+FR214,Fresh,Other Groceries,Cardamom 25g,unit,ambient
+FR215,Fresh,Other Groceries,Cloves 25g,unit,ambient
+FR216,Fresh,Other Groceries,Garam Masala 100g,unit,ambient
+FR217,Fresh,Other Groceries,Chilli Flakes 100g,unit,ambient
+FR218,Fresh,Other Groceries,Paprika 100g,unit,ambient
+FR219,Fresh,Other Groceries,Ginger Powder 100g,unit,ambient
+FR220,Fresh,Other Groceries,Garlic Powder 100g,unit,ambient
+FR221,Fresh,Other Groceries,Baking Powder 100g,unit,ambient
+FR222,Fresh,Other Groceries,Baking Soda 100g,unit,ambient
+FR223,Fresh,Other Groceries,Yeast 100g,unit,ambient
+FR224,Fresh,Other Groceries,Vanilla Essence 100ml,unit,ambient
+FR225,Fresh,Other Groceries,Custard Powder 200g,unit,ambient
+FR226,Fresh,Other Groceries,Jelly 100g,unit,ambient
+FR227,Fresh,Other Groceries,Cornflakes 500g,unit,ambient
+FR228,Fresh,Other Groceries,Oats 500g,unit,ambient
+FR229,Fresh,Other Groceries,Muesli 500g,unit,ambient
+FR230,Fresh,Other Groceries,Granola 500g,unit,ambient
+FR231,Fresh,Other Groceries,Pasta 500g,unit,ambient
+FR232,Fresh,Other Groceries,Macaroni 500g,unit,ambient
+FR233,Fresh,Other Groceries,Spaghetti 500g,unit,ambient
+FR234,Fresh,Other Groceries,Noodles 400g,unit,ambient
+FR235,Fresh,Other Groceries,Rice Noodles 400g,unit,ambient
+FR236,Fresh,Other Groceries,Instant Noodles 5 Pack,unit,ambient
+FR237,Fresh,Other Groceries,Canned Tuna 185g,unit,ambient
+FR238,Fresh,Other Groceries,Canned Sardines 425g,unit,ambient
+FR239,Fresh,Other Groceries,Canned Chickpeas 400g,unit,ambient
+FR240,Fresh,Other Groceries,Canned Red Kidney Beans 400g,unit,ambient
+FR241,Fresh,Other Groceries,Canned Sweet Corn 400g,unit,ambient
+FR242,Fresh,Other Groceries,Baked Beans 420g,unit,ambient
+FR243,Fresh,Other Groceries,Tomato Paste 210g,unit,ambient
+FR244,Fresh,Other Groceries,Peanut Butter 340g,unit,ambient
+FR245,Fresh,Other Groceries,Jam Strawberry 450g,unit,ambient
+FR246,Fresh,Other Groceries,Jam Mixed Fruit 450g,unit,ambient
+FR247,Fresh,Other Groceries,Honey 375g,unit,ambient
+FR248,Fresh,Other Groceries,Kithul Treacle 375ml,unit,ambient
+FR249,Fresh,Other Groceries,Desiccated Coconut 200g,unit,ambient
+FR250,Fresh,Other Groceries,Peanuts 500g,unit,ambient
+FR251,Fresh,Other Groceries,Cashew 250g,unit,ambient
+FR252,Fresh,Other Groceries,Almonds 250g,unit,ambient
+FR253,Fresh,Other Groceries,Raisins 250g,unit,ambient
+FR254,Fresh,Other Groceries,Dates 500g,unit,ambient
+FR255,Fresh,Other Groceries,Dried Chillies 100g,unit,ambient
+FR256,Fresh,Other Groceries,Papad 200g,unit,ambient
+FR257,Fresh,Other Groceries,Crackers 250g,unit,ambient
+FR258,Fresh,Other Groceries,Cream Crackers 500g,unit,ambient
+FR259,Fresh,Other Groceries,Biscuits Assorted 400g,unit,ambient
+FR260,Fresh,Other Groceries,Chocolate Bar 100g,unit,ambient
+FR261,Fresh,Other Groceries,Wafers 150g,unit,ambient
+FR262,Fresh,Other Groceries,Potato Chips 100g,unit,ambient
+FR263,Fresh,Other Groceries,Popcorn 100g,unit,ambient
+FR264,Fresh,Other Groceries,Peanut Snacks 100g,unit,ambient
+FR265,Fresh,Other Groceries,Coconut Biscuits 200g,unit,ambient
+FR266,Fresh,Other Groceries,Bread White 450g,unit,ambient
+FR267,Fresh,Other Groceries,Bread Wholemeal 450g,unit,ambient
+FR268,Fresh,Other Groceries,Buns Pack 6,unit,ambient
+FR269,Fresh,Other Groceries,Burger Buns Pack 4,unit,ambient
+FR270,Fresh,Other Groceries,Hot Dog Buns Pack 4,unit,ambient
+FR271,Fresh,Other Groceries,Eggs 10 Pack,unit,ambient
+FR272,Fresh,Other Groceries,Eggs 30 Pack,unit,ambient
+FR273,Fresh,Other Groceries,Fresh Milk 1L,unit,ambient
+FR274,Fresh,Other Groceries,Yoghurt Cup 80g,unit,ambient
+FR275,Fresh,Other Groceries,Curd 450ml,unit,ambient
+FR276,Fresh,Other Groceries,Butter 200g,unit,ambient
+FR277,Fresh,Other Groceries,Margarine 250g,unit,ambient
+FR278,Fresh,Other Groceries,Cheddar Cheese 200g,unit,ambient
+FR279,Fresh,Other Groceries,Mozzarella Cheese 200g,unit,ambient
+FR280,Fresh,Other Groceries,Processed Cheese 200g,unit,ambient
+FR281,Fresh,Other Groceries,Cream Cheese 200g,unit,ambient
+FR282,Fresh,Other Groceries,Whipping Cream 200ml,unit,ambient
+FR283,Fresh,Other Groceries,Cooking Cream 200ml,unit,ambient
+FR284,Fresh,Other Groceries,Ice Cream Vanilla 1L,unit,ambient
+FR285,Fresh,Other Groceries,Ice Cream Chocolate 1L,unit,ambient
+FR286,Fresh,Other Groceries,Ice Cream Strawberry 1L,unit,ambient
+FR287,Fresh,Other Groceries,Ice Cream Family Pack 1.5L,unit,ambient
+FR288,Fresh,Other Groceries,Mineral Water 1.5L,unit,ambient
+FR289,Fresh,Other Groceries,Mineral Water 500ml,unit,ambient
+FR290,Fresh,Other Groceries,Sparkling Water 1L,unit,ambient
+FR291,Fresh,Other Groceries,Orange Juice 1L,unit,ambient
+FR292,Fresh,Other Groceries,Mango Juice 1L,unit,ambient
+FR293,Fresh,Other Groceries,Apple Juice 1L,unit,ambient
+FR294,Fresh,Other Groceries,Mixed Fruit Juice 1L,unit,ambient
+FR295,Fresh,Other Groceries,Soft Drink Cola 1.5L,unit,ambient
+FR296,Fresh,Other Groceries,Soft Drink Orange 1.5L,unit,ambient
+FR297,Fresh,Other Groceries,Soft Drink Lemon 1.5L,unit,ambient
+FR298,Fresh,Other Groceries,Energy Drink 250ml,unit,ambient
+FR299,Fresh,Other Groceries,Coconut Water 500ml,unit,ambient
+FR300,Fresh,Other Groceries,Sports Drink 500ml,unit,ambient

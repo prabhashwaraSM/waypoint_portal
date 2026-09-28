@@ -1,0 +1,121 @@
+inspection_id,vehicle_id,inspection_date,inspector,tyres,brakes,lights,engine_oil,coolant,wipers,body,reefer_unit,documents,result,remarks
+INS-0002,VEH001,2026-07-20,R. Bandara,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0001,VEH001,2026-08-19,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0004,VEH002,2026-07-21,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0003,VEH002,2026-08-24,K. Perera,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0006,VEH003,2026-07-18,M. Fernando,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0005,VEH003,2026-08-20,M. Fernando,OK,OK,OK,OK,Attention,OK,OK,OK,OK,Pass with notes,Coolant below min
+INS-0008,VEH004,2026-07-30,M. Fernando,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0007,VEH004,2026-09-01,R. Bandara,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0010,VEH005,2026-07-20,R. Bandara,OK,Fail,OK,OK,Attention,Attention,OK,OK,OK,Fail,Brake pads worn; Coolant below min; Wiper blades worn
+INS-0009,VEH005,2026-08-23,R. Bandara,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0012,VEH006,2026-08-25,K. Perera,OK,OK,OK,OK,Attention,OK,OK,OK,OK,Pass with notes,Coolant below min
+INS-0011,VEH006,2026-09-23,S. Wickramasinghe,OK,OK,OK,Attention,OK,OK,OK,OK,OK,Pass with notes,Oil level low
+INS-0014,VEH007,2026-08-07,R. Bandara,OK,OK,OK,OK,Attention,OK,OK,OK,Attention,Pass with notes,Coolant below min; Insurance renewal pending
+INS-0013,VEH007,2026-09-10,M. Fernando,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0016,VEH008,2026-08-07,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0015,VEH008,2026-09-10,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0018,VEH009,2026-07-25,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,Fail,N/A,OK,Fail,Rear door seal damaged
+INS-0017,VEH009,2026-08-24,R. Bandara,Attention,OK,OK,OK,Attention,OK,OK,N/A,OK,Pass with notes,Rear tyre tread low; Coolant below min
+INS-0020,VEH010,2026-07-19,K. Perera,OK,OK,OK,OK,OK,Attention,OK,N/A,OK,Pass with notes,Wiper blades worn
+INS-0019,VEH010,2026-08-16,R. Bandara,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0022,VEH011,2026-08-18,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0021,VEH011,2026-09-16,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0024,VEH012,2026-08-03,K. Perera,OK,OK,OK,OK,Fail,OK,Attention,N/A,OK,Fail,Coolant below min; Rear door seal damaged
+INS-0023,VEH012,2026-09-05,S. Wickramasinghe,Attention,Attention,OK,OK,Attention,OK,OK,N/A,OK,Pass with notes,Rear tyre tread low; Brake pads worn; Coolant below min
+INS-0026,VEH013,2026-08-22,R. Bandara,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0025,VEH013,2026-09-22,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0028,VEH014,2026-07-24,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0027,VEH014,2026-08-22,R. Bandara,OK,OK,Attention,OK,OK,OK,Attention,N/A,OK,Pass with notes,Left tail light faulty; Rear door seal damaged
+INS-0030,VEH015,2026-07-20,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0029,VEH015,2026-08-22,M. Fernando,OK,OK,OK,Attention,Attention,OK,OK,N/A,OK,Pass with notes,Oil level low; Coolant below min
+INS-0032,VEH016,2026-07-23,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0031,VEH016,2026-08-21,R. Bandara,OK,OK,OK,Fail,OK,OK,OK,N/A,OK,Fail,Oil level low
+INS-0034,VEH017,2026-08-06,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0033,VEH017,2026-09-09,K. Perera,OK,OK,OK,OK,OK,Attention,Attention,N/A,Fail,Fail,Wiper blades worn; Rear door seal damaged; Insurance renewal pending
+INS-0036,VEH018,2026-07-29,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0035,VEH018,2026-09-01,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0038,VEH019,2026-07-27,R. Bandara,OK,OK,Attention,OK,OK,OK,OK,N/A,OK,Pass with notes,Left tail light faulty
+INS-0037,VEH019,2026-08-27,R. Bandara,OK,Attention,OK,OK,OK,OK,OK,N/A,OK,Pass with notes,Brake pads worn
+INS-0040,VEH020,2026-07-22,M. Fernando,OK,OK,OK,OK,OK,Fail,OK,N/A,OK,Fail,Wiper blades worn
+INS-0039,VEH020,2026-08-23,M. Fernando,OK,OK,OK,OK,OK,Attention,OK,N/A,OK,Pass with notes,Wiper blades worn
+INS-0042,VEH021,2026-07-25,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0041,VEH021,2026-08-25,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0044,VEH022,2026-07-23,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0043,VEH022,2026-08-25,K. Perera,Attention,OK,Attention,OK,OK,OK,OK,N/A,OK,Pass with notes,Rear tyre tread low; Left tail light faulty
+INS-0046,VEH023,2026-08-19,M. Fernando,OK,OK,Fail,OK,OK,OK,OK,N/A,OK,Fail,Left tail light faulty
+INS-0045,VEH023,2026-09-17,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0048,VEH024,2026-07-15,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0047,VEH024,2026-08-18,K. Perera,OK,OK,OK,OK,Attention,OK,OK,N/A,OK,Pass with notes,Coolant below min
+INS-0050,VEH025,2026-07-21,S. Wickramasinghe,OK,OK,OK,Fail,OK,Fail,OK,N/A,OK,Fail,Oil level low; Wiper blades worn
+INS-0049,VEH025,2026-08-20,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0052,VEH026,2026-08-12,R. Bandara,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0051,VEH026,2026-09-13,R. Bandara,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0054,VEH027,2026-07-24,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0053,VEH027,2026-08-21,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0056,VEH028,2026-08-20,R. Bandara,OK,OK,OK,Attention,OK,OK,OK,N/A,Fail,Fail,Oil level low; Insurance renewal pending
+INS-0055,VEH028,2026-09-21,S. Wickramasinghe,OK,OK,OK,Attention,OK,OK,OK,N/A,OK,Pass with notes,Oil level low
+INS-0058,VEH029,2026-08-25,R. Bandara,OK,OK,OK,OK,OK,OK,Attention,N/A,Attention,Pass with notes,Rear door seal damaged; Insurance renewal pending
+INS-0057,VEH029,2026-09-24,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0060,VEH030,2026-07-24,R. Bandara,OK,OK,Attention,OK,OK,OK,OK,N/A,OK,Pass with notes,Left tail light faulty
+INS-0059,VEH030,2026-08-22,R. Bandara,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0062,VEH031,2026-07-29,K. Perera,OK,Attention,OK,OK,OK,OK,OK,N/A,OK,Pass with notes,Brake pads worn
+INS-0061,VEH031,2026-08-29,K. Perera,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0064,VEH032,2026-08-12,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0063,VEH032,2026-09-10,R. Bandara,OK,Attention,OK,OK,Attention,OK,OK,N/A,OK,Pass with notes,Brake pads worn; Coolant below min
+INS-0066,VEH033,2026-08-08,R. Bandara,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0065,VEH033,2026-09-11,K. Perera,OK,OK,OK,OK,Attention,OK,OK,N/A,Fail,Fail,Coolant below min; Insurance renewal pending
+INS-0068,VEH034,2026-08-12,R. Bandara,OK,OK,OK,OK,Fail,OK,OK,N/A,OK,Fail,Coolant below min
+INS-0067,VEH034,2026-09-12,M. Fernando,OK,OK,OK,OK,OK,Attention,OK,N/A,OK,Pass with notes,Wiper blades worn
+INS-0070,VEH035,2026-07-23,M. Fernando,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0069,VEH035,2026-08-22,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0072,VEH036,2026-08-16,R. Bandara,OK,Attention,Attention,OK,OK,OK,OK,Attention,OK,Pass with notes,Brake pads worn; Left tail light faulty; Reefer slow to reach set temp
+INS-0071,VEH036,2026-09-17,R. Bandara,OK,Fail,OK,OK,OK,OK,OK,OK,OK,Fail,Brake pads worn
+INS-0074,VEH037,2026-07-31,M. Fernando,OK,OK,OK,OK,OK,Attention,OK,N/A,OK,Pass with notes,Wiper blades worn
+INS-0073,VEH037,2026-09-03,M. Fernando,OK,OK,OK,Fail,OK,OK,OK,N/A,OK,Fail,Oil level low
+INS-0076,VEH038,2026-08-17,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0075,VEH038,2026-09-16,R. Bandara,OK,OK,OK,OK,OK,OK,Attention,N/A,OK,Pass with notes,Rear door seal damaged
+INS-0078,VEH039,2026-08-16,R. Bandara,OK,Attention,OK,OK,Attention,OK,OK,OK,OK,Pass with notes,Brake pads worn; Coolant below min
+INS-0077,VEH039,2026-09-16,K. Perera,OK,Fail,OK,OK,OK,OK,Attention,OK,OK,Fail,Brake pads worn; Rear door seal damaged
+INS-0080,VEH040,2026-08-08,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0079,VEH040,2026-09-11,S. Wickramasinghe,OK,OK,OK,OK,OK,Attention,OK,OK,OK,Pass with notes,Wiper blades worn
+INS-0082,VEH041,2026-07-16,S. Wickramasinghe,OK,OK,OK,OK,Fail,OK,OK,OK,Fail,Fail,Coolant below min; Insurance renewal pending
+INS-0081,VEH041,2026-08-17,K. Perera,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0084,VEH042,2026-08-10,R. Bandara,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0083,VEH042,2026-09-08,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0086,VEH043,2026-08-13,S. Wickramasinghe,Fail,OK,OK,OK,OK,Fail,Attention,Fail,OK,Fail,Rear tyre tread low; Wiper blades worn; Rear door seal damaged; Reefer slow to reach set temp
+INS-0085,VEH043,2026-09-14,K. Perera,OK,OK,OK,OK,OK,OK,OK,OK,Fail,Fail,Insurance renewal pending
+INS-0088,VEH044,2026-07-25,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0087,VEH044,2026-08-26,K. Perera,OK,OK,OK,OK,OK,OK,Attention,N/A,OK,Pass with notes,Rear door seal damaged
+INS-0090,VEH045,2026-08-22,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,Attention,Pass with notes,Insurance renewal pending
+INS-0089,VEH045,2026-09-24,M. Fernando,OK,OK,Attention,OK,OK,OK,OK,N/A,OK,Pass with notes,Left tail light faulty
+INS-0092,VEH046,2026-08-09,K. Perera,OK,OK,Attention,OK,Attention,OK,OK,N/A,OK,Pass with notes,Left tail light faulty; Coolant below min
+INS-0091,VEH046,2026-09-11,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,Fail,N/A,Attention,Fail,Rear door seal damaged; Insurance renewal pending
+INS-0094,VEH047,2026-08-02,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0093,VEH047,2026-09-04,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0096,VEH048,2026-07-21,R. Bandara,OK,OK,OK,Fail,OK,OK,OK,N/A,Fail,Fail,Oil level low; Insurance renewal pending
+INS-0095,VEH048,2026-08-21,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,Attention,Pass with notes,Insurance renewal pending
+INS-0098,VEH049,2026-07-19,K. Perera,OK,OK,Attention,OK,Attention,OK,OK,N/A,Attention,Pass with notes,Left tail light faulty; Coolant below min; Insurance renewal pending
+INS-0097,VEH049,2026-08-18,R. Bandara,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0100,VEH050,2026-08-17,S. Wickramasinghe,OK,OK,OK,OK,Attention,OK,Attention,N/A,OK,Pass with notes,Coolant below min; Rear door seal damaged
+INS-0099,VEH050,2026-09-14,K. Perera,Attention,OK,OK,OK,OK,OK,OK,N/A,OK,Pass with notes,Rear tyre tread low
+INS-0102,VEH051,2026-08-06,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0101,VEH051,2026-09-03,K. Perera,OK,Attention,OK,OK,OK,OK,Attention,N/A,OK,Pass with notes,Brake pads worn; Rear door seal damaged
+INS-0104,VEH052,2026-08-18,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0103,VEH052,2026-09-20,R. Bandara,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0106,VEH053,2026-08-09,R. Bandara,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0105,VEH053,2026-09-06,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0108,VEH054,2026-08-11,S. Wickramasinghe,OK,OK,OK,OK,OK,Attention,OK,N/A,OK,Pass with notes,Wiper blades worn
+INS-0107,VEH054,2026-09-09,M. Fernando,OK,OK,OK,OK,Attention,OK,OK,N/A,OK,Pass with notes,Coolant below min
+INS-0110,VEH055,2026-07-22,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0109,VEH055,2026-08-21,R. Bandara,OK,Attention,OK,Attention,OK,OK,OK,N/A,OK,Pass with notes,Brake pads worn; Oil level low
+INS-0112,VEH056,2026-08-04,K. Perera,OK,OK,OK,OK,OK,OK,Attention,N/A,OK,Pass with notes,Rear door seal damaged
+INS-0111,VEH056,2026-09-07,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0114,VEH057,2026-08-03,K. Perera,Attention,OK,OK,OK,Attention,OK,OK,OK,OK,Pass with notes,Rear tyre tread low; Coolant below min
+INS-0113,VEH057,2026-09-01,M. Fernando,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0116,VEH058,2026-08-04,K. Perera,OK,Attention,OK,OK,OK,OK,OK,OK,OK,Pass with notes,Brake pads worn
+INS-0115,VEH058,2026-09-07,M. Fernando,OK,OK,OK,OK,OK,OK,OK,OK,OK,Pass,No defects found
+INS-0118,VEH059,2026-07-27,R. Bandara,OK,Fail,OK,OK,Attention,OK,OK,N/A,OK,Fail,Brake pads worn; Coolant below min
+INS-0117,VEH059,2026-08-29,M. Fernando,OK,OK,OK,OK,OK,OK,OK,N/A,OK,Pass,No defects found
+INS-0120,VEH060,2026-07-30,S. Wickramasinghe,OK,OK,OK,OK,OK,OK,Attention,N/A,OK,Pass with notes,Rear door seal damaged
+INS-0119,VEH060,2026-08-28,S. Wickramasinghe,OK,Fail,OK,OK,OK,OK,OK,N/A,Fail,Fail,Brake pads worn; Insurance renewal pending

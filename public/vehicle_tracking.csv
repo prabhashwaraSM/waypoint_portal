@@ -1,0 +1,15 @@
+trip_id,vehicle_id,driver_name,brand,depot,departure_time,stops,start_fuel_pct,return_to_depot
+TRP-2601,VEH001,Mahesh Senanayake,Waypoint Fresh,Peliyagoda,04:30,OUT004|OUT001|OUT005|OUT014|OUT009,88,yes
+TRP-2602,VEH008,Chaminda Bandara,Waypoint Fresh,Peliyagoda,04:45,OUT003|OUT001|OUT012|OUT007,89,yes
+TRP-2603,VEH009,Janaka Jayasinghe,Waypoint Fresh,Peliyagoda,05:00,OUT034|OUT026|OUT030|OUT029|OUT032,86,yes
+TRP-2604,VEH010,Roshan Jayasinghe,Waypoint Fresh,Peliyagoda,05:15,OUT042|OUT043|OUT045,78,yes
+TRP-2605,VEH002,Janaka Perera,Waypoint Fresh,Peliyagoda,05:30,OUT052|OUT053|OUT054|OUT051|OUT055,82,yes
+TRP-2606,VEH011,Kelum Wijesinghe,Waypoint Style,Peliyagoda,06:00,OUT016|OUT020|OUT018,91,yes
+TRP-2607,VEH012,Pradeep Fernando,Waypoint Tech,Peliyagoda,06:30,OUT022|OUT024|OUT023,97,yes
+TRP-2608,VEH013,Pradeep Dissanayake,Waypoint Fresh,Peliyagoda,07:00,OUT066|OUT068|OUT065|OUT067,96,yes
+TRP-2609,VEH015,Kasun Herath,Waypoint Style,Peliyagoda,07:30,OUT035|OUT037|OUT036,87,yes
+TRP-2610,VEH040,Dinesh Bandara,Waypoint Fresh,Kandy,08:00,OUT085|OUT078|OUT084|OUT082|OUT087,98,yes
+TRP-2611,VEH044,Isuru Perera,Waypoint Fresh,Kandy,08:30,OUT097|OUT098|OUT100|OUT096|OUT099,83,yes
+TRP-2612,VEH045,Isuru Senanayake,Waypoint Style,Kandy,09:00,OUT088|OUT092|OUT090|OUT089,91,yes
+TRP-2613,VEH047,Sampath Fernando,Waypoint Fresh,Kandy,05:45,OUT108|OUT106|OUT107|OUT104,81,yes
+TRP-2614,VEH048,Janaka Silva,Waypoint Fresh,Kandy,06:15,OUT117|OUT119|OUT116,97,yes

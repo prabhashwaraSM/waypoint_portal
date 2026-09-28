@@ -1,0 +1,1401 @@
+warehouse_id,warehouse_name,product_id,brand,category,product_name,unit,storage_type,stock,reserved,available_stock,demand,incoming,reorder_level,status
+WH-PAL,Paliyagoda,FRESH-001,Fresh,Fresh Produce,Tomato,kg,fresh,117,5,112,44,250,138,low_stock
+WH-PAL,Paliyagoda,FRESH-002,Fresh,Fresh Produce,Potato,kg,fresh,338,23,315,200,0,109,in_stock
+WH-PAL,Paliyagoda,FRESH-003,Fresh,Fresh Produce,Red Onion,kg,fresh,270,63,207,236,50,137,in_stock
+WH-PAL,Paliyagoda,FRESH-004,Fresh,Fresh Produce,Big Onion,kg,fresh,145,52,93,219,0,159,low_stock
+WH-PAL,Paliyagoda,FRESH-005,Fresh,Fresh Produce,Carrot,kg,fresh,446,69,377,196,50,195,in_stock
+WH-PAL,Paliyagoda,FRESH-006,Fresh,Fresh Produce,Cabbage,kg,fresh,436,20,416,89,0,214,in_stock
+WH-PAL,Paliyagoda,FRESH-007,Fresh,Fresh Produce,Beans,kg,fresh,245,44,201,104,50,166,in_stock
+WH-PAL,Paliyagoda,FRESH-008,Fresh,Fresh Produce,Leeks,kg,fresh,86,54,32,279,100,144,low_stock
+WH-PAL,Paliyagoda,FRESH-009,Fresh,Fresh Produce,Brinjal,kg,fresh,457,3,454,242,0,125,in_stock
+WH-PAL,Paliyagoda,FRESH-010,Fresh,Fresh Produce,Ladies Finger,kg,fresh,364,48,316,214,150,124,in_stock
+WH-PAL,Paliyagoda,FRESH-011,Fresh,Fresh Produce,Pumpkin,kg,fresh,291,13,278,180,50,182,in_stock
+WH-PAL,Paliyagoda,FRESH-012,Fresh,Fresh Produce,Snake Gourd,kg,fresh,159,20,139,84,50,100,in_stock
+WH-PAL,Paliyagoda,FRESH-013,Fresh,Fresh Produce,Bottle Gourd,kg,fresh,267,5,262,183,0,198,in_stock
+WH-PAL,Paliyagoda,FRESH-014,Fresh,Fresh Produce,Bitter Gourd,kg,fresh,496,29,467,109,100,189,in_stock
+WH-PAL,Paliyagoda,FRESH-015,Fresh,Fresh Produce,Drumstick,kg,fresh,416,4,412,215,0,112,in_stock
+WH-PAL,Paliyagoda,FRESH-016,Fresh,Fresh Produce,Beetroot,kg,fresh,259,13,246,70,250,95,in_stock
+WH-PAL,Paliyagoda,FRESH-017,Fresh,Fresh Produce,Radish,kg,fresh,382,28,354,245,50,212,in_stock
+WH-PAL,Paliyagoda,FRESH-018,Fresh,Fresh Produce,Cucumber,kg,fresh,313,50,263,59,50,88,in_stock
+WH-PAL,Paliyagoda,FRESH-019,Fresh,Fresh Produce,Green Chilli,kg,fresh,260,19,241,149,150,185,in_stock
+WH-PAL,Paliyagoda,FRESH-020,Fresh,Fresh Produce,Capsicum,kg,fresh,318,48,270,237,100,159,in_stock
+WH-PAL,Paliyagoda,FRESH-021,Fresh,Fresh Produce,Green Peas,kg,fresh,369,68,301,171,250,88,in_stock
+WH-PAL,Paliyagoda,FRESH-022,Fresh,Fresh Produce,Sweet Corn,kg,fresh,297,39,258,180,50,112,in_stock
+WH-PAL,Paliyagoda,FRESH-023,Fresh,Fresh Produce,Cauliflower,kg,fresh,283,1,282,187,0,93,in_stock
+WH-PAL,Paliyagoda,FRESH-024,Fresh,Fresh Produce,Broccoli,kg,fresh,233,31,202,165,50,127,in_stock
+WH-PAL,Paliyagoda,FRESH-025,Fresh,Fresh Produce,Spinach,kg,fresh,205,61,144,210,250,85,in_stock
+WH-PAL,Paliyagoda,FRESH-026,Fresh,Fresh Produce,Gotukola,kg,fresh,125,59,66,126,100,217,low_stock
+WH-PAL,Paliyagoda,FRESH-027,Fresh,Fresh Produce,Mukunuwenna,kg,fresh,235,64,171,190,150,218,low_stock
+WH-PAL,Paliyagoda,FRESH-028,Fresh,Fresh Produce,Kangkung,kg,fresh,172,49,123,47,100,84,in_stock
+WH-PAL,Paliyagoda,FRESH-029,Fresh,Fresh Produce,Coriander Leaves,kg,fresh,379,13,366,166,100,126,in_stock
+WH-PAL,Paliyagoda,FRESH-030,Fresh,Fresh Produce,Mint Leaves,kg,fresh,251,2,249,210,50,85,in_stock
+WH-PAL,Paliyagoda,FRESH-031,Fresh,Fresh Produce,Curry Leaves,kg,fresh,260,78,182,243,250,210,low_stock
+WH-PAL,Paliyagoda,FRESH-032,Fresh,Fresh Produce,Spring Onion,kg,fresh,362,6,356,164,0,187,in_stock
+WH-PAL,Paliyagoda,FRESH-033,Fresh,Fresh Produce,Garlic,kg,fresh,268,44,224,132,250,161,in_stock
+WH-PAL,Paliyagoda,FRESH-034,Fresh,Fresh Produce,Ginger,kg,fresh,214,49,165,241,100,84,in_stock
+WH-PAL,Paliyagoda,FRESH-035,Fresh,Fresh Produce,Turmeric Root,kg,fresh,373,56,317,228,250,159,in_stock
+WH-PAL,Paliyagoda,FRESH-036,Fresh,Fresh Produce,Lime,kg,fresh,309,15,294,243,150,82,in_stock
+WH-PAL,Paliyagoda,FRESH-037,Fresh,Fresh Produce,Lemon,kg,fresh,364,59,305,271,150,98,in_stock
+WH-PAL,Paliyagoda,FRESH-038,Fresh,Fresh Produce,Green Apple,kg,fresh,157,56,101,251,250,184,low_stock
+WH-PAL,Paliyagoda,FRESH-039,Fresh,Fresh Produce,Red Apple,kg,fresh,387,51,336,238,0,112,in_stock
+WH-PAL,Paliyagoda,FRESH-040,Fresh,Fresh Produce,Banana Kolikuttu,kg,fresh,106,24,82,76,0,98,low_stock
+WH-PAL,Paliyagoda,FRESH-041,Fresh,Fresh Produce,Banana Seeni,kg,fresh,211,48,163,107,100,164,low_stock
+WH-PAL,Paliyagoda,FRESH-042,Fresh,Fresh Produce,Banana Ambul,kg,fresh,153,53,100,85,0,130,low_stock
+WH-PAL,Paliyagoda,FRESH-043,Fresh,Fresh Produce,Papaya,kg,fresh,391,59,332,68,0,97,in_stock
+WH-PAL,Paliyagoda,FRESH-044,Fresh,Fresh Produce,Pineapple,kg,fresh,362,0,362,238,100,183,in_stock
+WH-PAL,Paliyagoda,FRESH-045,Fresh,Fresh Produce,Mango,kg,fresh,370,67,303,42,0,180,in_stock
+WH-PAL,Paliyagoda,FRESH-046,Fresh,Fresh Produce,Avocado,kg,fresh,388,73,315,51,0,180,in_stock
+WH-PAL,Paliyagoda,FRESH-047,Fresh,Fresh Produce,Watermelon,kg,fresh,298,66,232,212,250,121,in_stock
+WH-PAL,Paliyagoda,FRESH-048,Fresh,Fresh Produce,Guava,kg,fresh,135,76,59,234,0,205,low_stock
+WH-PAL,Paliyagoda,FRESH-049,Fresh,Fresh Produce,Orange,kg,fresh,387,3,384,106,100,214,in_stock
+WH-PAL,Paliyagoda,FRESH-050,Fresh,Fresh Produce,Mandarin,kg,fresh,168,11,157,168,250,86,in_stock
+WH-PAL,Paliyagoda,FRESH-051,Fresh,Fresh Produce,Grapes Green,kg,fresh,317,0,317,243,250,127,in_stock
+WH-PAL,Paliyagoda,FRESH-052,Fresh,Fresh Produce,Grapes Red,kg,fresh,88,40,48,47,50,155,low_stock
+WH-PAL,Paliyagoda,FRESH-053,Fresh,Fresh Produce,Pomegranate,kg,fresh,421,25,396,64,150,162,in_stock
+WH-PAL,Paliyagoda,FRESH-054,Fresh,Fresh Produce,Pear,kg,fresh,154,53,101,185,0,191,low_stock
+WH-PAL,Paliyagoda,FRESH-055,Fresh,Fresh Produce,Kiwi,kg,fresh,232,79,153,200,50,109,in_stock
+WH-PAL,Paliyagoda,FRESH-056,Fresh,Fresh Produce,Strawberry,kg,fresh,190,22,168,238,100,85,in_stock
+WH-PAL,Paliyagoda,FRESH-057,Fresh,Fresh Produce,Dragon Fruit,kg,fresh,481,5,476,195,0,206,in_stock
+WH-PAL,Paliyagoda,FRESH-058,Fresh,Fresh Produce,Passion Fruit,kg,fresh,285,61,224,225,0,151,in_stock
+WH-PAL,Paliyagoda,FRESH-059,Fresh,Fresh Produce,Wood Apple,kg,fresh,296,13,283,266,50,96,in_stock
+WH-PAL,Paliyagoda,FRESH-060,Fresh,Fresh Produce,Coconut,kg,fresh,343,78,265,191,250,87,in_stock
+WH-PAL,Paliyagoda,FRESH-061,Fresh,Fresh Produce,King Coconut,kg,fresh,351,67,284,156,150,95,in_stock
+WH-PAL,Paliyagoda,FRESH-062,Fresh,Fresh Produce,Eggplant,kg,fresh,261,74,187,278,150,179,in_stock
+WH-PAL,Paliyagoda,FRESH-063,Fresh,Fresh Produce,Celery,kg,fresh,424,1,423,237,50,200,in_stock
+WH-PAL,Paliyagoda,FRESH-064,Fresh,Fresh Produce,Parsley,kg,fresh,303,39,264,157,100,131,in_stock
+WH-PAL,Paliyagoda,FRESH-065,Fresh,Fresh Produce,Dill,kg,fresh,127,33,94,261,50,152,low_stock
+WH-PAL,Paliyagoda,FRESH-066,Fresh,Fresh Produce,Rosemary,kg,fresh,320,26,294,77,250,144,in_stock
+WH-PAL,Paliyagoda,FRESH-067,Fresh,Fresh Produce,Thyme,kg,fresh,224,45,179,277,0,80,in_stock
+WH-PAL,Paliyagoda,FRESH-068,Fresh,Fresh Produce,Basil,kg,fresh,184,8,176,239,0,196,low_stock
+WH-PAL,Paliyagoda,FRESH-069,Fresh,Fresh Produce,Mushroom,kg,fresh,135,29,106,203,50,159,low_stock
+WH-PAL,Paliyagoda,FRESH-070,Fresh,Fresh Produce,Baby Corn,kg,fresh,432,6,426,67,50,90,in_stock
+WH-PAL,Paliyagoda,FRESH-071,Fresh,Fresh Produce,French Beans,kg,fresh,106,62,44,255,250,193,low_stock
+WH-PAL,Paliyagoda,FRESH-072,Fresh,Fresh Produce,Zucchini,kg,fresh,149,72,77,191,50,139,low_stock
+WH-PAL,Paliyagoda,FRESH-073,Fresh,Fresh Produce,Chayote,kg,fresh,183,14,169,229,150,85,in_stock
+WH-PAL,Paliyagoda,FRESH-074,Fresh,Fresh Produce,Turnip,kg,fresh,485,49,436,146,250,118,in_stock
+WH-PAL,Paliyagoda,FRESH-075,Fresh,Fresh Produce,Sweet Potato,kg,fresh,185,52,133,152,250,104,in_stock
+WH-PAL,Paliyagoda,FRESH-076,Fresh,Fresh Produce,Cassava,kg,fresh,337,35,302,187,150,165,in_stock
+WH-PAL,Paliyagoda,FRESH-077,Fresh,Fresh Produce,Yam,kg,fresh,185,35,150,69,250,216,low_stock
+WH-PAL,Paliyagoda,FRESH-078,Fresh,Fresh Produce,Taro,kg,fresh,312,74,238,198,50,165,in_stock
+WH-PAL,Paliyagoda,FRESH-079,Fresh,Fresh Produce,Jackfruit,kg,fresh,397,19,378,171,150,157,in_stock
+WH-PAL,Paliyagoda,FRESH-080,Fresh,Fresh Produce,Breadfruit,kg,fresh,393,49,344,125,150,179,in_stock
+WH-PAL,Paliyagoda,FRESH-081,Fresh,Fresh Produce,Ridge Gourd,kg,fresh,411,50,361,276,100,172,in_stock
+WH-PAL,Paliyagoda,FRESH-082,Fresh,Fresh Produce,Winged Bean,kg,fresh,372,17,355,82,100,151,in_stock
+WH-PAL,Paliyagoda,FRESH-083,Fresh,Fresh Produce,Long Bean,kg,fresh,435,33,402,218,0,154,in_stock
+WH-PAL,Paliyagoda,FRESH-084,Fresh,Fresh Produce,Ash Plantain,kg,fresh,153,41,112,171,50,115,low_stock
+WH-PAL,Paliyagoda,FRESH-085,Fresh,Fresh Produce,Raw Banana,kg,fresh,238,24,214,91,0,158,in_stock
+WH-PAL,Paliyagoda,FRESH-086,Fresh,Fresh Produce,Green Papaya,kg,fresh,464,56,408,208,0,123,in_stock
+WH-PAL,Paliyagoda,FRESH-087,Fresh,Fresh Produce,Green Mango,kg,fresh,360,8,352,212,0,110,in_stock
+WH-PAL,Paliyagoda,FRESH-088,Fresh,Fresh Produce,Red Cabbage,kg,fresh,269,11,258,54,50,138,in_stock
+WH-PAL,Paliyagoda,FRESH-089,Fresh,Fresh Produce,Cherry Tomato,kg,fresh,424,76,348,197,50,143,in_stock
+WH-PAL,Paliyagoda,FRESH-090,Fresh,Fresh Produce,Baby Spinach,kg,fresh,138,62,76,138,100,122,low_stock
+WH-PAL,Paliyagoda,FRESH-091,Fresh,Fresh Produce,Rocket Leaves,kg,fresh,450,50,400,73,0,105,in_stock
+WH-PAL,Paliyagoda,FRESH-092,Fresh,Fresh Produce,Iceberg Lettuce,kg,fresh,158,20,138,126,50,104,in_stock
+WH-PAL,Paliyagoda,FRESH-093,Fresh,Fresh Produce,Butterhead Lettuce,kg,fresh,182,47,135,277,100,190,low_stock
+WH-PAL,Paliyagoda,FRESH-094,Fresh,Fresh Produce,Romaine Lettuce,kg,fresh,287,43,244,67,150,182,in_stock
+WH-PAL,Paliyagoda,FRESH-095,Fresh,Fresh Produce,Chinese Cabbage,kg,fresh,344,11,333,173,250,160,in_stock
+WH-PAL,Paliyagoda,FRESH-096,Fresh,Fresh Produce,Pak Choi,kg,fresh,294,41,253,224,100,213,in_stock
+WH-PAL,Paliyagoda,FRESH-097,Fresh,Fresh Produce,Bell Pepper Red,kg,fresh,338,52,286,134,150,89,in_stock
+WH-PAL,Paliyagoda,FRESH-098,Fresh,Fresh Produce,Bell Pepper Yellow,kg,fresh,485,3,482,203,50,152,in_stock
+WH-PAL,Paliyagoda,FRESH-099,Fresh,Fresh Produce,Bell Pepper Green,kg,fresh,188,11,177,173,50,203,low_stock
+WH-PAL,Paliyagoda,FRESH-100,Fresh,Fresh Produce,Asparagus,kg,fresh,354,62,292,216,100,205,in_stock
+WH-PAL,Paliyagoda,FRESH-101,Fresh,Fresh Produce,Spring Garlic,kg,fresh,170,29,141,260,50,135,in_stock
+WH-PAL,Paliyagoda,FRESH-102,Fresh,Fresh Produce,Shallot,kg,fresh,479,59,420,234,250,199,in_stock
+WH-PAL,Paliyagoda,FRESH-103,Fresh,Fresh Produce,Shiitake Mushroom,kg,fresh,310,29,281,254,250,183,in_stock
+WH-PAL,Paliyagoda,FRESH-104,Fresh,Fresh Produce,Oyster Mushroom,kg,fresh,385,54,331,220,50,195,in_stock
+WH-PAL,Paliyagoda,FRESH-105,Fresh,Fresh Produce,Enoki Mushroom,kg,fresh,425,60,365,221,50,86,in_stock
+WH-PAL,Paliyagoda,FRESH-106,Fresh,Fresh Produce,Fresh Peanuts,kg,fresh,164,66,98,249,100,193,low_stock
+WH-PAL,Paliyagoda,FRESH-107,Fresh,Fresh Produce,Corn Cob,kg,fresh,441,3,438,219,100,139,in_stock
+WH-PAL,Paliyagoda,FRESH-108,Fresh,Fresh Produce,Fresh Okra,kg,fresh,89,63,26,63,100,80,low_stock
+WH-PAL,Paliyagoda,FRESH-109,Fresh,Fresh Produce,Fresh Green Peas,kg,fresh,169,11,158,250,50,103,in_stock
+WH-PAL,Paliyagoda,FRESH-110,Fresh,Fresh Produce,Fresh Soybean,kg,fresh,166,30,136,253,50,184,low_stock
+WH-PAL,Paliyagoda,FRESH-111,Fresh,Frozen Food,Frozen Chicken Breast,pack,frozen,282,74,208,222,250,177,in_stock
+WH-PAL,Paliyagoda,FRESH-112,Fresh,Frozen Food,Frozen Chicken Thigh,pack,frozen,129,6,123,141,100,217,low_stock
+WH-PAL,Paliyagoda,FRESH-113,Fresh,Frozen Food,Frozen Chicken Wings,pack,frozen,243,22,221,249,50,135,in_stock
+WH-PAL,Paliyagoda,FRESH-114,Fresh,Frozen Food,Frozen Chicken Drumsticks,pack,frozen,431,24,407,70,0,107,in_stock
+WH-PAL,Paliyagoda,FRESH-115,Fresh,Frozen Food,Frozen Chicken Nuggets,pack,frozen,307,41,266,40,150,159,in_stock
+WH-PAL,Paliyagoda,FRESH-116,Fresh,Frozen Food,Frozen Chicken Sausage,pack,frozen,159,13,146,86,0,134,in_stock
+WH-PAL,Paliyagoda,FRESH-117,Fresh,Frozen Food,Frozen Fish Fillet,pack,frozen,416,10,406,123,100,140,in_stock
+WH-PAL,Paliyagoda,FRESH-118,Fresh,Frozen Food,Frozen Tuna Steak,pack,frozen,99,78,21,52,250,170,low_stock
+WH-PAL,Paliyagoda,FRESH-119,Fresh,Frozen Food,Frozen Seer Fish,pack,frozen,435,43,392,109,0,113,in_stock
+WH-PAL,Paliyagoda,FRESH-120,Fresh,Frozen Food,Frozen Prawns,pack,frozen,172,36,136,245,100,183,low_stock
+WH-PAL,Paliyagoda,FRESH-121,Fresh,Frozen Food,Frozen Squid,pack,frozen,488,13,475,130,150,157,in_stock
+WH-PAL,Paliyagoda,FRESH-122,Fresh,Frozen Food,Frozen Cuttlefish,pack,frozen,137,77,60,156,150,204,low_stock
+WH-PAL,Paliyagoda,FRESH-123,Fresh,Frozen Food,Frozen Crab Meat,pack,frozen,479,80,399,109,50,152,in_stock
+WH-PAL,Paliyagoda,FRESH-124,Fresh,Frozen Food,Frozen Mixed Seafood,pack,frozen,110,31,79,232,0,107,low_stock
+WH-PAL,Paliyagoda,FRESH-125,Fresh,Frozen Food,Frozen Fish Fingers,pack,frozen,434,7,427,126,0,129,in_stock
+WH-PAL,Paliyagoda,FRESH-126,Fresh,Frozen Food,Frozen French Fries,pack,frozen,313,18,295,235,50,177,in_stock
+WH-PAL,Paliyagoda,FRESH-127,Fresh,Frozen Food,Frozen Potato Wedges,pack,frozen,420,25,395,207,150,217,in_stock
+WH-PAL,Paliyagoda,FRESH-128,Fresh,Frozen Food,Frozen Hash Browns,pack,frozen,404,37,367,80,50,169,in_stock
+WH-PAL,Paliyagoda,FRESH-129,Fresh,Frozen Food,Frozen Sweet Corn,pack,frozen,438,59,379,222,100,121,in_stock
+WH-PAL,Paliyagoda,FRESH-130,Fresh,Frozen Food,Frozen Green Peas,pack,frozen,296,4,292,214,100,147,in_stock
+WH-PAL,Paliyagoda,FRESH-131,Fresh,Frozen Food,Frozen Mixed Vegetables,pack,frozen,193,69,124,126,50,206,low_stock
+WH-PAL,Paliyagoda,FRESH-132,Fresh,Frozen Food,Frozen Carrot Cubes,pack,frozen,497,13,484,222,150,145,in_stock
+WH-PAL,Paliyagoda,FRESH-133,Fresh,Frozen Food,Frozen Broccoli,pack,frozen,173,12,161,272,250,87,in_stock
+WH-PAL,Paliyagoda,FRESH-134,Fresh,Frozen Food,Frozen Cauliflower,pack,frozen,292,42,250,228,100,208,in_stock
+WH-PAL,Paliyagoda,FRESH-135,Fresh,Frozen Food,Frozen Spinach,pack,frozen,223,48,175,195,250,116,in_stock
+WH-PAL,Paliyagoda,FRESH-136,Fresh,Frozen Food,Frozen Mixed Berries,pack,frozen,401,53,348,98,150,157,in_stock
+WH-PAL,Paliyagoda,FRESH-137,Fresh,Frozen Food,Frozen Strawberry,pack,frozen,259,30,229,279,100,200,in_stock
+WH-PAL,Paliyagoda,FRESH-138,Fresh,Frozen Food,Frozen Blueberry,pack,frozen,129,79,50,261,250,83,low_stock
+WH-PAL,Paliyagoda,FRESH-139,Fresh,Frozen Food,Frozen Mango Chunks,pack,frozen,254,73,181,266,250,165,in_stock
+WH-PAL,Paliyagoda,FRESH-140,Fresh,Frozen Food,Frozen Pineapple Chunks,pack,frozen,139,14,125,230,250,180,low_stock
+WH-PAL,Paliyagoda,FRESH-141,Fresh,Frozen Food,Frozen Paratha,pack,frozen,220,57,163,112,50,171,low_stock
+WH-PAL,Paliyagoda,FRESH-142,Fresh,Frozen Food,Frozen Roti,pack,frozen,373,26,347,147,100,198,in_stock
+WH-PAL,Paliyagoda,FRESH-143,Fresh,Frozen Food,Frozen Chapati,pack,frozen,171,56,115,226,150,169,low_stock
+WH-PAL,Paliyagoda,FRESH-144,Fresh,Frozen Food,Frozen String Hopper,pack,frozen,129,14,115,98,250,203,low_stock
+WH-PAL,Paliyagoda,FRESH-145,Fresh,Frozen Food,Frozen Vegetable Samosa,pack,frozen,363,18,345,212,250,209,in_stock
+WH-PAL,Paliyagoda,FRESH-146,Fresh,Frozen Food,Frozen Chicken Samosa,pack,frozen,139,11,128,232,50,97,in_stock
+WH-PAL,Paliyagoda,FRESH-147,Fresh,Frozen Food,Frozen Spring Rolls,pack,frozen,356,73,283,223,250,143,in_stock
+WH-PAL,Paliyagoda,FRESH-148,Fresh,Frozen Food,Frozen Vegetable Rolls,pack,frozen,80,28,52,150,50,82,low_stock
+WH-PAL,Paliyagoda,FRESH-149,Fresh,Frozen Food,Frozen Fish Cutlet,pack,frozen,139,18,121,111,0,97,in_stock
+WH-PAL,Paliyagoda,FRESH-150,Fresh,Frozen Food,Frozen Chicken Cutlet,pack,frozen,226,39,187,40,0,107,in_stock
+WH-PAL,Paliyagoda,FRESH-151,Fresh,Frozen Food,Frozen Pizza,pack,frozen,451,70,381,225,100,107,in_stock
+WH-PAL,Paliyagoda,FRESH-152,Fresh,Frozen Food,Frozen Garlic Bread,pack,frozen,464,0,464,173,250,143,in_stock
+WH-PAL,Paliyagoda,FRESH-153,Fresh,Frozen Food,Frozen Burger Patties,pack,frozen,113,78,35,239,250,203,low_stock
+WH-PAL,Paliyagoda,FRESH-154,Fresh,Frozen Food,Frozen Chicken Burger Patties,pack,frozen,106,44,62,220,150,109,low_stock
+WH-PAL,Paliyagoda,FRESH-155,Fresh,Frozen Food,Frozen Beef Burger Patties,pack,frozen,224,53,171,213,150,117,in_stock
+WH-PAL,Paliyagoda,FRESH-156,Fresh,Frozen Food,Frozen Meatballs,pack,frozen,301,19,282,172,50,138,in_stock
+WH-PAL,Paliyagoda,FRESH-157,Fresh,Frozen Food,Frozen Chicken Meatballs,pack,frozen,236,27,209,174,250,135,in_stock
+WH-PAL,Paliyagoda,FRESH-158,Fresh,Frozen Food,Frozen Sausage,pack,frozen,94,49,45,93,250,97,low_stock
+WH-PAL,Paliyagoda,FRESH-159,Fresh,Frozen Food,Frozen Edamame,pack,frozen,235,54,181,102,150,176,in_stock
+WH-PAL,Paliyagoda,FRESH-160,Fresh,Frozen Food,Frozen French Beans,pack,frozen,491,10,481,68,0,99,in_stock
+WH-PAL,Paliyagoda,FRESH-161,Fresh,Frozen Food,Frozen Okra,pack,frozen,93,61,32,243,150,104,low_stock
+WH-PAL,Paliyagoda,FRESH-162,Fresh,Frozen Food,Frozen Sweet Potato Fries,pack,frozen,120,78,42,200,150,217,low_stock
+WH-PAL,Paliyagoda,FRESH-163,Fresh,Frozen Food,Frozen Onion Rings,pack,frozen,291,9,282,263,0,215,in_stock
+WH-PAL,Paliyagoda,FRESH-164,Fresh,Frozen Food,Frozen Hash Brown Patties,pack,frozen,401,33,368,239,150,103,in_stock
+WH-PAL,Paliyagoda,FRESH-165,Fresh,Frozen Food,Frozen Corn Nuggets,pack,frozen,459,42,417,157,100,195,in_stock
+WH-PAL,Paliyagoda,FRESH-166,Fresh,Other Groceries,White Rice 5kg,unit,ambient,171,46,125,278,0,214,low_stock
+WH-PAL,Paliyagoda,FRESH-167,Fresh,Other Groceries,Red Rice 5kg,unit,ambient,414,2,412,179,0,125,in_stock
+WH-PAL,Paliyagoda,FRESH-168,Fresh,Other Groceries,Basmati Rice 5kg,unit,ambient,417,51,366,109,100,105,in_stock
+WH-PAL,Paliyagoda,FRESH-169,Fresh,Other Groceries,Nadu Rice 5kg,unit,ambient,200,54,146,57,0,105,in_stock
+WH-PAL,Paliyagoda,FRESH-170,Fresh,Other Groceries,Samba Rice 5kg,unit,ambient,127,10,117,248,150,205,low_stock
+WH-PAL,Paliyagoda,FRESH-171,Fresh,Other Groceries,Keeri Samba Rice 5kg,unit,ambient,333,72,261,263,0,180,in_stock
+WH-PAL,Paliyagoda,FRESH-172,Fresh,Other Groceries,Wheat Flour 1kg,unit,ambient,153,69,84,243,0,148,low_stock
+WH-PAL,Paliyagoda,FRESH-173,Fresh,Other Groceries,All Purpose Flour 1kg,unit,ambient,408,50,358,59,250,175,in_stock
+WH-PAL,Paliyagoda,FRESH-174,Fresh,Other Groceries,Kurakkan Flour 500g,unit,ambient,334,8,326,220,0,170,in_stock
+WH-PAL,Paliyagoda,FRESH-175,Fresh,Other Groceries,Corn Flour 500g,unit,ambient,325,21,304,156,0,159,in_stock
+WH-PAL,Paliyagoda,FRESH-176,Fresh,Other Groceries,Rice Flour 1kg,unit,ambient,285,58,227,75,150,177,in_stock
+WH-PAL,Paliyagoda,FRESH-177,Fresh,Other Groceries,Bread Flour 1kg,unit,ambient,346,0,346,54,0,159,in_stock
+WH-PAL,Paliyagoda,FRESH-178,Fresh,Other Groceries,Sugar 1kg,unit,ambient,463,25,438,120,100,146,in_stock
+WH-PAL,Paliyagoda,FRESH-179,Fresh,Other Groceries,Brown Sugar 1kg,unit,ambient,230,53,177,158,0,152,in_stock
+WH-PAL,Paliyagoda,FRESH-180,Fresh,Other Groceries,Iodized Salt 1kg,unit,ambient,150,3,147,208,150,173,low_stock
+WH-PAL,Paliyagoda,FRESH-181,Fresh,Other Groceries,Coconut Milk Powder 300g,unit,ambient,438,78,360,220,250,83,in_stock
+WH-PAL,Paliyagoda,FRESH-182,Fresh,Other Groceries,Milk Powder 400g,unit,ambient,382,3,379,147,50,147,in_stock
+WH-PAL,Paliyagoda,FRESH-183,Fresh,Other Groceries,Milk Powder 1kg,unit,ambient,434,29,405,208,0,97,in_stock
+WH-PAL,Paliyagoda,FRESH-184,Fresh,Other Groceries,Tea 200g,unit,ambient,454,36,418,47,250,118,in_stock
+WH-PAL,Paliyagoda,FRESH-185,Fresh,Other Groceries,Tea Bags 100s,unit,ambient,314,48,266,106,250,133,in_stock
+WH-PAL,Paliyagoda,FRESH-186,Fresh,Other Groceries,Coffee 100g,unit,ambient,293,46,247,268,150,190,in_stock
+WH-PAL,Paliyagoda,FRESH-187,Fresh,Other Groceries,Instant Coffee 200g,unit,ambient,380,80,300,71,250,183,in_stock
+WH-PAL,Paliyagoda,FRESH-188,Fresh,Other Groceries,Cocoa Powder 100g,unit,ambient,81,31,50,208,150,145,low_stock
+WH-PAL,Paliyagoda,FRESH-189,Fresh,Other Groceries,Malted Drink 400g,unit,ambient,446,48,398,85,150,81,in_stock
+WH-PAL,Paliyagoda,FRESH-190,Fresh,Other Groceries,Cooking Oil 1L,unit,ambient,438,63,375,272,100,147,in_stock
+WH-PAL,Paliyagoda,FRESH-191,Fresh,Other Groceries,Coconut Oil 750ml,unit,ambient,446,27,419,176,50,178,in_stock
+WH-PAL,Paliyagoda,FRESH-192,Fresh,Other Groceries,Olive Oil 500ml,unit,ambient,117,30,87,180,0,102,low_stock
+WH-PAL,Paliyagoda,FRESH-193,Fresh,Other Groceries,Sesame Oil 250ml,unit,ambient,448,12,436,169,150,124,in_stock
+WH-PAL,Paliyagoda,FRESH-194,Fresh,Other Groceries,Vinegar 750ml,unit,ambient,223,27,196,68,0,90,in_stock
+WH-PAL,Paliyagoda,FRESH-195,Fresh,Other Groceries,Apple Cider Vinegar 500ml,unit,ambient,233,4,229,175,150,128,in_stock
+WH-PAL,Paliyagoda,FRESH-196,Fresh,Other Groceries,Soy Sauce 500ml,unit,ambient,434,36,398,201,250,181,in_stock
+WH-PAL,Paliyagoda,FRESH-197,Fresh,Other Groceries,Chilli Sauce 500ml,unit,ambient,330,50,280,158,0,215,in_stock
+WH-PAL,Paliyagoda,FRESH-198,Fresh,Other Groceries,Tomato Sauce 500ml,unit,ambient,195,25,170,54,150,166,in_stock
+WH-PAL,Paliyagoda,FRESH-199,Fresh,Other Groceries,Mustard Sauce 250g,unit,ambient,124,70,54,109,100,111,low_stock
+WH-PAL,Paliyagoda,FRESH-200,Fresh,Other Groceries,Mayonnaise 500ml,unit,ambient,270,76,194,113,250,193,in_stock
+WH-PAL,Paliyagoda,FRESH-201,Fresh,Other Groceries,Oyster Sauce 300ml,unit,ambient,341,0,341,74,100,136,in_stock
+WH-PAL,Paliyagoda,FRESH-202,Fresh,Other Groceries,Fish Sauce 300ml,unit,ambient,199,50,149,267,150,133,in_stock
+WH-PAL,Paliyagoda,FRESH-203,Fresh,Other Groceries,Hot Sauce 150ml,unit,ambient,278,80,198,176,50,115,in_stock
+WH-PAL,Paliyagoda,FRESH-204,Fresh,Other Groceries,Chilli Powder 100g,unit,ambient,264,72,192,94,150,163,in_stock
+WH-PAL,Paliyagoda,FRESH-205,Fresh,Other Groceries,Curry Powder 100g,unit,ambient,303,78,225,77,250,211,in_stock
+WH-PAL,Paliyagoda,FRESH-206,Fresh,Other Groceries,Roasted Curry Powder 100g,unit,ambient,439,33,406,178,150,149,in_stock
+WH-PAL,Paliyagoda,FRESH-207,Fresh,Other Groceries,Turmeric Powder 100g,unit,ambient,129,58,71,197,250,139,low_stock
+WH-PAL,Paliyagoda,FRESH-208,Fresh,Other Groceries,Pepper Powder 100g,unit,ambient,264,27,237,215,50,116,in_stock
+WH-PAL,Paliyagoda,FRESH-209,Fresh,Other Groceries,Pepper Seeds 100g,unit,ambient,238,79,159,113,50,157,in_stock
+WH-PAL,Paliyagoda,FRESH-210,Fresh,Other Groceries,Cumin 100g,unit,ambient,209,60,149,182,50,102,in_stock
+WH-PAL,Paliyagoda,FRESH-211,Fresh,Other Groceries,Coriander Powder 100g,unit,ambient,338,5,333,106,100,218,in_stock
+WH-PAL,Paliyagoda,FRESH-212,Fresh,Other Groceries,Fennel Seeds 100g,unit,ambient,440,36,404,261,250,163,in_stock
+WH-PAL,Paliyagoda,FRESH-213,Fresh,Other Groceries,Cinnamon 50g,unit,ambient,282,53,229,65,150,99,in_stock
+WH-PAL,Paliyagoda,FRESH-214,Fresh,Other Groceries,Cardamom 25g,unit,ambient,398,35,363,137,150,142,in_stock
+WH-PAL,Paliyagoda,FRESH-215,Fresh,Other Groceries,Cloves 25g,unit,ambient,322,7,315,204,150,187,in_stock
+WH-PAL,Paliyagoda,FRESH-216,Fresh,Other Groceries,Garam Masala 100g,unit,ambient,421,32,389,203,100,197,in_stock
+WH-PAL,Paliyagoda,FRESH-217,Fresh,Other Groceries,Chilli Flakes 100g,unit,ambient,265,64,201,136,50,151,in_stock
+WH-PAL,Paliyagoda,FRESH-218,Fresh,Other Groceries,Paprika 100g,unit,ambient,268,14,254,108,150,113,in_stock
+WH-PAL,Paliyagoda,FRESH-219,Fresh,Other Groceries,Ginger Powder 100g,unit,ambient,378,51,327,115,0,214,in_stock
+WH-PAL,Paliyagoda,FRESH-220,Fresh,Other Groceries,Garlic Powder 100g,unit,ambient,253,58,195,189,100,102,in_stock
+WH-PAL,Paliyagoda,FRESH-221,Fresh,Other Groceries,Baking Powder 100g,unit,ambient,168,34,134,222,50,165,low_stock
+WH-PAL,Paliyagoda,FRESH-222,Fresh,Other Groceries,Baking Soda 100g,unit,ambient,494,48,446,251,0,113,in_stock
+WH-PAL,Paliyagoda,FRESH-223,Fresh,Other Groceries,Yeast 100g,unit,ambient,331,3,328,98,150,104,in_stock
+WH-PAL,Paliyagoda,FRESH-224,Fresh,Other Groceries,Vanilla Essence 100ml,unit,ambient,84,18,66,224,100,207,low_stock
+WH-PAL,Paliyagoda,FRESH-225,Fresh,Other Groceries,Custard Powder 200g,unit,ambient,427,11,416,99,150,105,in_stock
+WH-PAL,Paliyagoda,FRESH-226,Fresh,Other Groceries,Jelly 100g,unit,ambient,356,31,325,231,50,111,in_stock
+WH-PAL,Paliyagoda,FRESH-227,Fresh,Other Groceries,Cornflakes 500g,unit,ambient,422,53,369,178,0,214,in_stock
+WH-PAL,Paliyagoda,FRESH-228,Fresh,Other Groceries,Oats 500g,unit,ambient,302,48,254,159,0,147,in_stock
+WH-PAL,Paliyagoda,FRESH-229,Fresh,Other Groceries,Muesli 500g,unit,ambient,263,24,239,154,50,219,in_stock
+WH-PAL,Paliyagoda,FRESH-230,Fresh,Other Groceries,Granola 500g,unit,ambient,175,23,152,129,50,216,low_stock
+WH-PAL,Paliyagoda,FRESH-231,Fresh,Other Groceries,Pasta 500g,unit,ambient,496,58,438,245,250,136,in_stock
+WH-PAL,Paliyagoda,FRESH-232,Fresh,Other Groceries,Macaroni 500g,unit,ambient,410,45,365,78,150,169,in_stock
+WH-PAL,Paliyagoda,FRESH-233,Fresh,Other Groceries,Spaghetti 500g,unit,ambient,473,60,413,204,0,120,in_stock
+WH-PAL,Paliyagoda,FRESH-234,Fresh,Other Groceries,Noodles 400g,unit,ambient,291,17,274,100,250,201,in_stock
+WH-PAL,Paliyagoda,FRESH-235,Fresh,Other Groceries,Rice Noodles 400g,unit,ambient,425,29,396,171,150,180,in_stock
+WH-PAL,Paliyagoda,FRESH-236,Fresh,Other Groceries,Instant Noodles 5 Pack,unit,ambient,455,73,382,194,100,208,in_stock
+WH-PAL,Paliyagoda,FRESH-237,Fresh,Other Groceries,Canned Tuna 185g,unit,ambient,350,32,318,134,50,167,in_stock
+WH-PAL,Paliyagoda,FRESH-238,Fresh,Other Groceries,Canned Sardines 425g,unit,ambient,86,45,41,275,50,85,low_stock
+WH-PAL,Paliyagoda,FRESH-239,Fresh,Other Groceries,Canned Chickpeas 400g,unit,ambient,290,75,215,142,0,97,in_stock
+WH-PAL,Paliyagoda,FRESH-240,Fresh,Other Groceries,Canned Red Kidney Beans 400g,unit,ambient,273,19,254,248,150,210,in_stock
+WH-PAL,Paliyagoda,FRESH-241,Fresh,Other Groceries,Canned Sweet Corn 400g,unit,ambient,270,76,194,123,250,208,low_stock
+WH-PAL,Paliyagoda,FRESH-242,Fresh,Other Groceries,Baked Beans 420g,unit,ambient,132,36,96,55,150,202,low_stock
+WH-PAL,Paliyagoda,FRESH-243,Fresh,Other Groceries,Tomato Paste 210g,unit,ambient,219,24,195,225,0,147,in_stock
+WH-PAL,Paliyagoda,FRESH-244,Fresh,Other Groceries,Peanut Butter 340g,unit,ambient,386,49,337,237,150,142,in_stock
+WH-PAL,Paliyagoda,FRESH-245,Fresh,Other Groceries,Jam Strawberry 450g,unit,ambient,216,27,189,92,250,85,in_stock
+WH-PAL,Paliyagoda,FRESH-246,Fresh,Other Groceries,Jam Mixed Fruit 450g,unit,ambient,154,45,109,121,50,97,in_stock
+WH-PAL,Paliyagoda,FRESH-247,Fresh,Other Groceries,Honey 375g,unit,ambient,485,67,418,230,50,137,in_stock
+WH-PAL,Paliyagoda,FRESH-248,Fresh,Other Groceries,Kithul Treacle 375ml,unit,ambient,219,10,209,214,50,127,in_stock
+WH-PAL,Paliyagoda,FRESH-249,Fresh,Other Groceries,Desiccated Coconut 200g,unit,ambient,212,78,134,74,100,215,low_stock
+WH-PAL,Paliyagoda,FRESH-250,Fresh,Other Groceries,Peanuts 500g,unit,ambient,305,65,240,117,150,123,in_stock
+WH-PAL,Paliyagoda,FRESH-251,Fresh,Other Groceries,Cashew 250g,unit,ambient,343,50,293,171,50,105,in_stock
+WH-PAL,Paliyagoda,FRESH-252,Fresh,Other Groceries,Almonds 250g,unit,ambient,300,6,294,158,50,118,in_stock
+WH-PAL,Paliyagoda,FRESH-253,Fresh,Other Groceries,Raisins 250g,unit,ambient,139,37,102,247,250,111,low_stock
+WH-PAL,Paliyagoda,FRESH-254,Fresh,Other Groceries,Dates 500g,unit,ambient,115,29,86,90,100,204,low_stock
+WH-PAL,Paliyagoda,FRESH-255,Fresh,Other Groceries,Dried Chillies 100g,unit,ambient,87,15,72,42,50,200,low_stock
+WH-PAL,Paliyagoda,FRESH-256,Fresh,Other Groceries,Papad 200g,unit,ambient,243,62,181,237,250,110,in_stock
+WH-PAL,Paliyagoda,FRESH-257,Fresh,Other Groceries,Crackers 250g,unit,ambient,356,77,279,226,150,123,in_stock
+WH-PAL,Paliyagoda,FRESH-258,Fresh,Other Groceries,Cream Crackers 500g,unit,ambient,443,40,403,72,250,189,in_stock
+WH-PAL,Paliyagoda,FRESH-259,Fresh,Other Groceries,Biscuits Assorted 400g,unit,ambient,422,71,351,138,50,98,in_stock
+WH-PAL,Paliyagoda,FRESH-260,Fresh,Other Groceries,Chocolate Bar 100g,unit,ambient,313,15,298,47,50,143,in_stock
+WH-PAL,Paliyagoda,FRESH-261,Fresh,Other Groceries,Wafers 150g,unit,ambient,175,26,149,276,100,95,in_stock
+WH-PAL,Paliyagoda,FRESH-262,Fresh,Other Groceries,Potato Chips 100g,unit,ambient,241,36,205,54,0,196,in_stock
+WH-PAL,Paliyagoda,FRESH-263,Fresh,Other Groceries,Popcorn 100g,unit,ambient,312,5,307,190,250,183,in_stock
+WH-PAL,Paliyagoda,FRESH-264,Fresh,Other Groceries,Peanut Snacks 100g,unit,ambient,387,10,377,206,100,116,in_stock
+WH-PAL,Paliyagoda,FRESH-265,Fresh,Other Groceries,Coconut Biscuits 200g,unit,ambient,254,27,227,184,150,80,in_stock
+WH-PAL,Paliyagoda,FRESH-266,Fresh,Other Groceries,Bread White 450g,unit,ambient,304,47,257,57,50,128,in_stock
+WH-PAL,Paliyagoda,FRESH-267,Fresh,Other Groceries,Bread Wholemeal 450g,unit,ambient,224,79,145,110,50,148,low_stock
+WH-PAL,Paliyagoda,FRESH-268,Fresh,Other Groceries,Buns Pack 6,unit,ambient,337,73,264,150,0,84,in_stock
+WH-PAL,Paliyagoda,FRESH-269,Fresh,Other Groceries,Burger Buns Pack 4,unit,ambient,432,61,371,55,100,161,in_stock
+WH-PAL,Paliyagoda,FRESH-270,Fresh,Other Groceries,Hot Dog Buns Pack 4,unit,ambient,111,42,69,177,100,126,low_stock
+WH-PAL,Paliyagoda,FRESH-271,Fresh,Other Groceries,Eggs 10 Pack,unit,ambient,284,38,246,231,50,80,in_stock
+WH-PAL,Paliyagoda,FRESH-272,Fresh,Other Groceries,Eggs 30 Pack,unit,ambient,360,8,352,112,50,127,in_stock
+WH-PAL,Paliyagoda,FRESH-273,Fresh,Other Groceries,Fresh Milk 1L,unit,ambient,136,69,67,199,250,122,low_stock
+WH-PAL,Paliyagoda,FRESH-274,Fresh,Other Groceries,Yoghurt Cup 80g,unit,ambient,226,28,198,100,250,165,in_stock
+WH-PAL,Paliyagoda,FRESH-275,Fresh,Other Groceries,Curd 450ml,unit,ambient,283,59,224,66,150,197,in_stock
+WH-PAL,Paliyagoda,FRESH-276,Fresh,Other Groceries,Butter 200g,unit,ambient,275,8,267,171,250,192,in_stock
+WH-PAL,Paliyagoda,FRESH-277,Fresh,Other Groceries,Margarine 250g,unit,ambient,256,47,209,245,0,107,in_stock
+WH-PAL,Paliyagoda,FRESH-278,Fresh,Other Groceries,Cheddar Cheese 200g,unit,ambient,443,53,390,208,0,96,in_stock
+WH-PAL,Paliyagoda,FRESH-279,Fresh,Other Groceries,Mozzarella Cheese 200g,unit,ambient,325,8,317,188,50,157,in_stock
+WH-PAL,Paliyagoda,FRESH-280,Fresh,Other Groceries,Processed Cheese 200g,unit,ambient,476,60,416,239,150,106,in_stock
+WH-PAL,Paliyagoda,FRESH-281,Fresh,Other Groceries,Cream Cheese 200g,unit,ambient,370,49,321,131,150,124,in_stock
+WH-PAL,Paliyagoda,FRESH-282,Fresh,Other Groceries,Whipping Cream 200ml,unit,ambient,411,28,383,198,150,111,in_stock
+WH-PAL,Paliyagoda,FRESH-283,Fresh,Other Groceries,Cooking Cream 200ml,unit,ambient,356,58,298,92,150,194,in_stock
+WH-PAL,Paliyagoda,FRESH-284,Fresh,Other Groceries,Ice Cream Vanilla 1L,unit,ambient,148,25,123,270,50,166,low_stock
+WH-PAL,Paliyagoda,FRESH-285,Fresh,Other Groceries,Ice Cream Chocolate 1L,unit,ambient,268,77,191,97,50,91,in_stock
+WH-PAL,Paliyagoda,FRESH-286,Fresh,Other Groceries,Ice Cream Strawberry 1L,unit,ambient,476,32,444,167,250,157,in_stock
+WH-PAL,Paliyagoda,FRESH-287,Fresh,Other Groceries,Ice Cream Family Pack 1.5L,unit,ambient,381,29,352,199,0,206,in_stock
+WH-PAL,Paliyagoda,FRESH-288,Fresh,Other Groceries,Mineral Water 1.5L,unit,ambient,358,30,328,257,100,176,in_stock
+WH-PAL,Paliyagoda,FRESH-289,Fresh,Other Groceries,Mineral Water 500ml,unit,ambient,106,24,82,166,0,206,low_stock
+WH-PAL,Paliyagoda,FRESH-290,Fresh,Other Groceries,Sparkling Water 1L,unit,ambient,436,23,413,269,150,118,in_stock
+WH-PAL,Paliyagoda,FRESH-291,Fresh,Other Groceries,Orange Juice 1L,unit,ambient,137,76,61,188,50,137,low_stock
+WH-PAL,Paliyagoda,FRESH-292,Fresh,Other Groceries,Mango Juice 1L,unit,ambient,172,48,124,125,150,136,low_stock
+WH-PAL,Paliyagoda,FRESH-293,Fresh,Other Groceries,Apple Juice 1L,unit,ambient,173,0,173,258,100,103,in_stock
+WH-PAL,Paliyagoda,FRESH-294,Fresh,Other Groceries,Mixed Fruit Juice 1L,unit,ambient,334,76,258,251,250,128,in_stock
+WH-PAL,Paliyagoda,FRESH-295,Fresh,Other Groceries,Soft Drink Cola 1.5L,unit,ambient,352,69,283,157,0,94,in_stock
+WH-PAL,Paliyagoda,FRESH-296,Fresh,Other Groceries,Soft Drink Orange 1.5L,unit,ambient,243,37,206,58,50,83,in_stock
+WH-PAL,Paliyagoda,FRESH-297,Fresh,Other Groceries,Soft Drink Lemon 1.5L,unit,ambient,233,46,187,163,150,115,in_stock
+WH-PAL,Paliyagoda,FRESH-298,Fresh,Other Groceries,Energy Drink 250ml,unit,ambient,266,9,257,239,150,161,in_stock
+WH-PAL,Paliyagoda,FRESH-299,Fresh,Other Groceries,Coconut Water 500ml,unit,ambient,320,4,316,116,50,145,in_stock
+WH-PAL,Paliyagoda,FRESH-300,Fresh,Other Groceries,Sports Drink 500ml,unit,ambient,87,64,23,261,50,173,low_stock
+WH-PAL,Paliyagoda,TECH-001,Waypoint Tech,Mobile Phones,Smartphone,pcs,ambient,51,12,39,35,10,35,in_stock
+WH-PAL,Paliyagoda,TECH-002,Waypoint Tech,Mobile Phones,Feature Phone,pcs,ambient,45,8,37,51,5,31,in_stock
+WH-PAL,Paliyagoda,TECH-003,Waypoint Tech,Tablets,Android Tablet,pcs,ambient,31,0,31,42,20,25,in_stock
+WH-PAL,Paliyagoda,TECH-004,Waypoint Tech,Laptops,Laptop,pcs,ambient,56,13,43,21,5,29,in_stock
+WH-PAL,Paliyagoda,TECH-005,Waypoint Tech,Laptops,Chromebook,pcs,ambient,39,13,26,9,10,18,in_stock
+WH-PAL,Paliyagoda,TECH-006,Waypoint Tech,Computing,Desktop PC,pcs,ambient,33,6,27,9,40,21,in_stock
+WH-PAL,Paliyagoda,TECH-007,Waypoint Tech,Computing,Monitor 24-inch,pcs,ambient,36,13,23,40,40,40,low_stock
+WH-PAL,Paliyagoda,TECH-008,Waypoint Tech,Computing,Monitor 27-inch,pcs,ambient,39,0,39,51,0,28,in_stock
+WH-PAL,Paliyagoda,TECH-009,Waypoint Tech,Computing,Keyboard,pcs,ambient,32,0,32,12,40,18,in_stock
+WH-PAL,Paliyagoda,TECH-010,Waypoint Tech,Computing,Wireless Mouse,pcs,ambient,55,10,45,38,0,18,in_stock
+WH-PAL,Paliyagoda,TECH-011,Waypoint Tech,Computing,Webcam,pcs,ambient,96,14,82,33,0,25,in_stock
+WH-PAL,Paliyagoda,TECH-012,Waypoint Tech,Computing,USB-C Hub,pcs,ambient,73,2,71,39,0,32,in_stock
+WH-PAL,Paliyagoda,TECH-013,Waypoint Tech,Computing,Laptop Stand,pcs,ambient,29,8,21,37,20,28,low_stock
+WH-PAL,Paliyagoda,TECH-014,Waypoint Tech,Storage,USB Flash Drive 64GB,pcs,ambient,51,7,44,52,20,11,in_stock
+WH-PAL,Paliyagoda,TECH-015,Waypoint Tech,Storage,USB Flash Drive 128GB,pcs,ambient,65,4,61,44,5,33,in_stock
+WH-PAL,Paliyagoda,TECH-016,Waypoint Tech,Storage,External SSD 1TB,pcs,ambient,83,10,73,38,40,10,in_stock
+WH-PAL,Paliyagoda,TECH-017,Waypoint Tech,Storage,MicroSD 128GB,pcs,ambient,93,13,80,12,0,36,in_stock
+WH-PAL,Paliyagoda,TECH-018,Waypoint Tech,Networking,Wi-Fi Router,pcs,ambient,61,7,54,15,0,36,in_stock
+WH-PAL,Paliyagoda,TECH-019,Waypoint Tech,Networking,Wi-Fi Extender,pcs,ambient,29,5,24,46,40,35,low_stock
+WH-PAL,Paliyagoda,TECH-020,Waypoint Tech,Networking,Ethernet Cable 5m,pcs,ambient,89,1,88,8,40,33,in_stock
+WH-PAL,Paliyagoda,TECH-021,Waypoint Tech,Audio,Bluetooth Earbuds,pcs,ambient,22,4,18,53,20,20,low_stock
+WH-PAL,Paliyagoda,TECH-022,Waypoint Tech,Audio,Bluetooth Headphones,pcs,ambient,37,7,30,42,5,31,low_stock
+WH-PAL,Paliyagoda,TECH-023,Waypoint Tech,Audio,Bluetooth Speaker,pcs,ambient,46,2,44,37,5,19,in_stock
+WH-PAL,Paliyagoda,TECH-024,Waypoint Tech,Accessories,Phone Charger,pcs,ambient,63,8,55,7,10,13,in_stock
+WH-PAL,Paliyagoda,TECH-025,Waypoint Tech,Accessories,USB-C Cable,pcs,ambient,84,1,83,25,10,27,in_stock
+WH-PAL,Paliyagoda,TECH-026,Waypoint Tech,Accessories,Lightning Cable,pcs,ambient,80,14,66,8,10,31,in_stock
+WH-PAL,Paliyagoda,TECH-027,Waypoint Tech,Accessories,Power Bank 10000mAh,pcs,ambient,84,14,70,12,5,16,in_stock
+WH-PAL,Paliyagoda,TECH-028,Waypoint Tech,Accessories,Power Bank 20000mAh,pcs,ambient,21,8,13,17,40,22,low_stock
+WH-PAL,Paliyagoda,TECH-029,Waypoint Tech,Accessories,Phone Case,pcs,ambient,59,8,51,43,20,20,in_stock
+WH-PAL,Paliyagoda,TECH-030,Waypoint Tech,Accessories,Screen Protector,pcs,ambient,75,2,73,37,0,40,in_stock
+WH-PAL,Paliyagoda,TECH-031,Waypoint Tech,Mobile Phones,Smartphone V2,pcs,ambient,89,10,79,25,5,22,in_stock
+WH-PAL,Paliyagoda,TECH-032,Waypoint Tech,Mobile Phones,Feature Phone V2,pcs,ambient,91,14,77,38,5,27,in_stock
+WH-PAL,Paliyagoda,TECH-033,Waypoint Tech,Tablets,Android Tablet V2,pcs,ambient,69,14,55,38,10,31,in_stock
+WH-PAL,Paliyagoda,TECH-034,Waypoint Tech,Laptops,Laptop V2,pcs,ambient,70,5,65,39,5,28,in_stock
+WH-PAL,Paliyagoda,TECH-035,Waypoint Tech,Laptops,Chromebook V2,pcs,ambient,36,8,28,6,20,34,low_stock
+WH-PAL,Paliyagoda,TECH-036,Waypoint Tech,Computing,Desktop PC V2,pcs,ambient,96,6,90,16,5,32,in_stock
+WH-PAL,Paliyagoda,TECH-037,Waypoint Tech,Computing,Monitor 24-inch V2,pcs,ambient,57,0,57,14,10,26,in_stock
+WH-PAL,Paliyagoda,TECH-038,Waypoint Tech,Computing,Monitor 27-inch V2,pcs,ambient,72,10,62,6,20,33,in_stock
+WH-PAL,Paliyagoda,TECH-039,Waypoint Tech,Computing,Keyboard V2,pcs,ambient,81,15,66,44,10,11,in_stock
+WH-PAL,Paliyagoda,TECH-040,Waypoint Tech,Computing,Wireless Mouse V2,pcs,ambient,51,15,36,8,5,13,in_stock
+WH-PAL,Paliyagoda,TECH-041,Waypoint Tech,Computing,Webcam V2,pcs,ambient,86,10,76,6,20,12,in_stock
+WH-PAL,Paliyagoda,TECH-042,Waypoint Tech,Computing,USB-C Hub V2,pcs,ambient,99,2,97,6,10,28,in_stock
+WH-PAL,Paliyagoda,TECH-043,Waypoint Tech,Computing,Laptop Stand V2,pcs,ambient,96,3,93,17,5,12,in_stock
+WH-PAL,Paliyagoda,TECH-044,Waypoint Tech,Storage,USB Flash Drive 64GB V2,pcs,ambient,36,1,35,54,10,32,in_stock
+WH-PAL,Paliyagoda,TECH-045,Waypoint Tech,Storage,USB Flash Drive 128GB V2,pcs,ambient,85,8,77,26,40,13,in_stock
+WH-PAL,Paliyagoda,TECH-046,Waypoint Tech,Storage,External SSD 1TB V2,pcs,ambient,32,9,23,30,10,29,low_stock
+WH-PAL,Paliyagoda,TECH-047,Waypoint Tech,Storage,MicroSD 128GB V2,pcs,ambient,67,10,57,34,10,38,in_stock
+WH-PAL,Paliyagoda,TECH-048,Waypoint Tech,Networking,Wi-Fi Router V2,pcs,ambient,78,2,76,15,0,38,in_stock
+WH-PAL,Paliyagoda,TECH-049,Waypoint Tech,Networking,Wi-Fi Extender V2,pcs,ambient,87,5,82,22,20,32,in_stock
+WH-PAL,Paliyagoda,TECH-050,Waypoint Tech,Networking,Ethernet Cable 5m V2,pcs,ambient,17,1,16,52,5,15,in_stock
+WH-PAL,Paliyagoda,TECH-051,Waypoint Tech,Audio,Bluetooth Earbuds V2,pcs,ambient,36,7,29,43,20,28,in_stock
+WH-PAL,Paliyagoda,TECH-052,Waypoint Tech,Audio,Bluetooth Headphones V2,pcs,ambient,67,11,56,49,0,27,in_stock
+WH-PAL,Paliyagoda,TECH-053,Waypoint Tech,Audio,Bluetooth Speaker V2,pcs,ambient,29,7,22,32,5,29,low_stock
+WH-PAL,Paliyagoda,TECH-054,Waypoint Tech,Accessories,Phone Charger V2,pcs,ambient,91,2,89,40,0,15,in_stock
+WH-PAL,Paliyagoda,TECH-055,Waypoint Tech,Accessories,USB-C Cable V2,pcs,ambient,62,2,60,23,0,25,in_stock
+WH-PAL,Paliyagoda,TECH-056,Waypoint Tech,Accessories,Lightning Cable V2,pcs,ambient,22,5,17,41,0,21,low_stock
+WH-PAL,Paliyagoda,TECH-057,Waypoint Tech,Accessories,Power Bank 10000mAh V2,pcs,ambient,86,1,85,22,5,34,in_stock
+WH-PAL,Paliyagoda,TECH-058,Waypoint Tech,Accessories,Power Bank 20000mAh V2,pcs,ambient,60,11,49,11,20,37,in_stock
+WH-PAL,Paliyagoda,TECH-059,Waypoint Tech,Accessories,Phone Case V2,pcs,ambient,91,10,81,34,10,31,in_stock
+WH-PAL,Paliyagoda,TECH-060,Waypoint Tech,Accessories,Screen Protector V2,pcs,ambient,43,15,28,53,5,22,in_stock
+WH-PAL,Paliyagoda,TECH-061,Waypoint Tech,Mobile Phones,Smartphone V3,pcs,ambient,78,10,68,39,40,33,in_stock
+WH-PAL,Paliyagoda,TECH-062,Waypoint Tech,Mobile Phones,Feature Phone V3,pcs,ambient,92,13,79,20,20,30,in_stock
+WH-PAL,Paliyagoda,TECH-063,Waypoint Tech,Tablets,Android Tablet V3,pcs,ambient,89,12,77,5,0,25,in_stock
+WH-PAL,Paliyagoda,TECH-064,Waypoint Tech,Laptops,Laptop V3,pcs,ambient,99,1,98,33,10,33,in_stock
+WH-PAL,Paliyagoda,TECH-065,Waypoint Tech,Laptops,Chromebook V3,pcs,ambient,82,14,68,16,40,13,in_stock
+WH-PAL,Paliyagoda,TECH-066,Waypoint Tech,Computing,Desktop PC V3,pcs,ambient,50,9,41,35,0,18,in_stock
+WH-PAL,Paliyagoda,TECH-067,Waypoint Tech,Computing,Monitor 24-inch V3,pcs,ambient,93,3,90,53,10,22,in_stock
+WH-PAL,Paliyagoda,TECH-068,Waypoint Tech,Computing,Monitor 27-inch V3,pcs,ambient,79,11,68,54,40,23,in_stock
+WH-PAL,Paliyagoda,TECH-069,Waypoint Tech,Computing,Keyboard V3,pcs,ambient,44,6,38,26,0,40,low_stock
+WH-PAL,Paliyagoda,TECH-070,Waypoint Tech,Computing,Wireless Mouse V3,pcs,ambient,79,8,71,8,10,37,in_stock
+WH-PAL,Paliyagoda,TECH-071,Waypoint Tech,Computing,Webcam V3,pcs,ambient,21,2,19,41,5,34,low_stock
+WH-PAL,Paliyagoda,TECH-072,Waypoint Tech,Computing,USB-C Hub V3,pcs,ambient,87,10,77,29,40,37,in_stock
+WH-PAL,Paliyagoda,TECH-073,Waypoint Tech,Computing,Laptop Stand V3,pcs,ambient,22,15,7,7,10,30,low_stock
+WH-PAL,Paliyagoda,TECH-074,Waypoint Tech,Storage,USB Flash Drive 64GB V3,pcs,ambient,89,1,88,44,20,35,in_stock
+WH-PAL,Paliyagoda,TECH-075,Waypoint Tech,Storage,USB Flash Drive 128GB V3,pcs,ambient,44,0,44,44,10,17,in_stock
+WH-PAL,Paliyagoda,TECH-076,Waypoint Tech,Storage,External SSD 1TB V3,pcs,ambient,52,1,51,28,5,12,in_stock
+WH-PAL,Paliyagoda,TECH-077,Waypoint Tech,Storage,MicroSD 128GB V3,pcs,ambient,71,6,65,24,20,40,in_stock
+WH-PAL,Paliyagoda,TECH-078,Waypoint Tech,Networking,Wi-Fi Router V3,pcs,ambient,37,7,30,10,40,21,in_stock
+WH-PAL,Paliyagoda,TECH-079,Waypoint Tech,Networking,Wi-Fi Extender V3,pcs,ambient,81,4,77,40,10,37,in_stock
+WH-PAL,Paliyagoda,TECH-080,Waypoint Tech,Networking,Ethernet Cable 5m V3,pcs,ambient,66,9,57,35,20,39,in_stock
+WH-PAL,Paliyagoda,TECH-081,Waypoint Tech,Audio,Bluetooth Earbuds V3,pcs,ambient,63,7,56,29,10,39,in_stock
+WH-PAL,Paliyagoda,TECH-082,Waypoint Tech,Audio,Bluetooth Headphones V3,pcs,ambient,29,7,22,11,5,15,in_stock
+WH-PAL,Paliyagoda,TECH-083,Waypoint Tech,Audio,Bluetooth Speaker V3,pcs,ambient,96,15,81,21,10,24,in_stock
+WH-PAL,Paliyagoda,TECH-084,Waypoint Tech,Accessories,Phone Charger V3,pcs,ambient,62,11,51,12,5,38,in_stock
+WH-PAL,Paliyagoda,TECH-085,Waypoint Tech,Accessories,USB-C Cable V3,pcs,ambient,65,6,59,32,10,17,in_stock
+WH-PAL,Paliyagoda,TECH-086,Waypoint Tech,Accessories,Lightning Cable V3,pcs,ambient,47,9,38,22,10,13,in_stock
+WH-PAL,Paliyagoda,TECH-087,Waypoint Tech,Accessories,Power Bank 10000mAh V3,pcs,ambient,24,15,9,42,40,14,low_stock
+WH-PAL,Paliyagoda,TECH-088,Waypoint Tech,Accessories,Power Bank 20000mAh V3,pcs,ambient,69,8,61,36,0,18,in_stock
+WH-PAL,Paliyagoda,TECH-089,Waypoint Tech,Accessories,Phone Case V3,pcs,ambient,86,4,82,32,10,22,in_stock
+WH-PAL,Paliyagoda,TECH-090,Waypoint Tech,Accessories,Screen Protector V3,pcs,ambient,31,14,17,46,40,14,in_stock
+WH-PAL,Paliyagoda,TECH-091,Waypoint Tech,Mobile Phones,Smartphone V4,pcs,ambient,43,8,35,46,40,13,in_stock
+WH-PAL,Paliyagoda,TECH-092,Waypoint Tech,Mobile Phones,Feature Phone V4,pcs,ambient,16,4,12,34,10,25,low_stock
+WH-PAL,Paliyagoda,TECH-093,Waypoint Tech,Tablets,Android Tablet V4,pcs,ambient,84,10,74,45,40,19,in_stock
+WH-PAL,Paliyagoda,TECH-094,Waypoint Tech,Laptops,Laptop V4,pcs,ambient,99,1,98,46,5,20,in_stock
+WH-PAL,Paliyagoda,TECH-095,Waypoint Tech,Laptops,Chromebook V4,pcs,ambient,45,5,40,27,0,33,in_stock
+WH-PAL,Paliyagoda,TECH-096,Waypoint Tech,Computing,Desktop PC V4,pcs,ambient,56,0,56,27,0,31,in_stock
+WH-PAL,Paliyagoda,TECH-097,Waypoint Tech,Computing,Monitor 24-inch V4,pcs,ambient,34,13,21,42,40,29,low_stock
+WH-PAL,Paliyagoda,TECH-098,Waypoint Tech,Computing,Monitor 27-inch V4,pcs,ambient,44,3,41,50,5,18,in_stock
+WH-PAL,Paliyagoda,TECH-099,Waypoint Tech,Computing,Keyboard V4,pcs,ambient,31,2,29,35,0,38,low_stock
+WH-PAL,Paliyagoda,TECH-100,Waypoint Tech,Computing,Wireless Mouse V4,pcs,ambient,30,2,28,38,5,26,in_stock
+WH-PAL,Paliyagoda,TECH-101,Waypoint Tech,Computing,Webcam V4,pcs,ambient,25,10,15,51,5,22,low_stock
+WH-PAL,Paliyagoda,TECH-102,Waypoint Tech,Computing,USB-C Hub V4,pcs,ambient,87,11,76,47,40,40,in_stock
+WH-PAL,Paliyagoda,TECH-103,Waypoint Tech,Computing,Laptop Stand V4,pcs,ambient,36,11,25,15,40,15,in_stock
+WH-PAL,Paliyagoda,TECH-104,Waypoint Tech,Storage,USB Flash Drive 64GB V4,pcs,ambient,90,2,88,25,5,16,in_stock
+WH-PAL,Paliyagoda,TECH-105,Waypoint Tech,Storage,USB Flash Drive 128GB V4,pcs,ambient,71,11,60,10,20,12,in_stock
+WH-PAL,Paliyagoda,TECH-106,Waypoint Tech,Storage,External SSD 1TB V4,pcs,ambient,63,1,62,55,20,31,in_stock
+WH-PAL,Paliyagoda,TECH-107,Waypoint Tech,Storage,MicroSD 128GB V4,pcs,ambient,41,4,37,42,10,37,low_stock
+WH-PAL,Paliyagoda,TECH-108,Waypoint Tech,Networking,Wi-Fi Router V4,pcs,ambient,92,15,77,22,40,20,in_stock
+WH-PAL,Paliyagoda,TECH-109,Waypoint Tech,Networking,Wi-Fi Extender V4,pcs,ambient,56,11,45,23,5,12,in_stock
+WH-PAL,Paliyagoda,TECH-110,Waypoint Tech,Networking,Ethernet Cable 5m V4,pcs,ambient,50,13,37,26,5,16,in_stock
+WH-PAL,Paliyagoda,TECH-111,Waypoint Tech,Audio,Bluetooth Earbuds V4,pcs,ambient,18,11,7,7,5,24,low_stock
+WH-PAL,Paliyagoda,TECH-112,Waypoint Tech,Audio,Bluetooth Headphones V4,pcs,ambient,27,9,18,34,10,34,low_stock
+WH-PAL,Paliyagoda,TECH-113,Waypoint Tech,Audio,Bluetooth Speaker V4,pcs,ambient,28,1,27,32,10,35,low_stock
+WH-PAL,Paliyagoda,TECH-114,Waypoint Tech,Accessories,Phone Charger V4,pcs,ambient,92,13,79,25,40,16,in_stock
+WH-PAL,Paliyagoda,TECH-115,Waypoint Tech,Accessories,USB-C Cable V4,pcs,ambient,52,3,49,16,5,32,in_stock
+WH-PAL,Paliyagoda,TECH-116,Waypoint Tech,Accessories,Lightning Cable V4,pcs,ambient,20,5,15,51,20,32,low_stock
+WH-PAL,Paliyagoda,TECH-117,Waypoint Tech,Accessories,Power Bank 10000mAh V4,pcs,ambient,45,7,38,10,20,13,in_stock
+WH-PAL,Paliyagoda,TECH-118,Waypoint Tech,Accessories,Power Bank 20000mAh V4,pcs,ambient,56,3,53,35,20,26,in_stock
+WH-PAL,Paliyagoda,TECH-119,Waypoint Tech,Accessories,Phone Case V4,pcs,ambient,67,13,54,18,5,27,in_stock
+WH-PAL,Paliyagoda,TECH-120,Waypoint Tech,Accessories,Screen Protector V4,pcs,ambient,100,7,93,11,20,14,in_stock
+WH-PAL,Paliyagoda,TECH-121,Waypoint Tech,Mobile Phones,Smartphone V5,pcs,ambient,34,9,25,47,5,36,low_stock
+WH-PAL,Paliyagoda,TECH-122,Waypoint Tech,Mobile Phones,Feature Phone V5,pcs,ambient,32,7,25,8,0,39,low_stock
+WH-PAL,Paliyagoda,TECH-123,Waypoint Tech,Tablets,Android Tablet V5,pcs,ambient,70,11,59,31,0,34,in_stock
+WH-PAL,Paliyagoda,TECH-124,Waypoint Tech,Laptops,Laptop V5,pcs,ambient,93,9,84,29,5,29,in_stock
+WH-PAL,Paliyagoda,TECH-125,Waypoint Tech,Laptops,Chromebook V5,pcs,ambient,84,8,76,22,40,24,in_stock
+WH-PAL,Paliyagoda,TECH-126,Waypoint Tech,Computing,Desktop PC V5,pcs,ambient,65,12,53,21,10,31,in_stock
+WH-PAL,Paliyagoda,TECH-127,Waypoint Tech,Computing,Monitor 24-inch V5,pcs,ambient,80,6,74,9,20,28,in_stock
+WH-PAL,Paliyagoda,TECH-128,Waypoint Tech,Computing,Monitor 27-inch V5,pcs,ambient,80,15,65,29,10,32,in_stock
+WH-PAL,Paliyagoda,TECH-129,Waypoint Tech,Computing,Keyboard V5,pcs,ambient,17,15,2,35,20,37,low_stock
+WH-PAL,Paliyagoda,TECH-130,Waypoint Tech,Computing,Wireless Mouse V5,pcs,ambient,79,8,71,31,10,14,in_stock
+WH-PAL,Paliyagoda,TECH-131,Waypoint Tech,Computing,Webcam V5,pcs,ambient,64,1,63,20,10,37,in_stock
+WH-PAL,Paliyagoda,TECH-132,Waypoint Tech,Computing,USB-C Hub V5,pcs,ambient,83,8,75,50,0,17,in_stock
+WH-PAL,Paliyagoda,TECH-133,Waypoint Tech,Computing,Laptop Stand V5,pcs,ambient,92,6,86,43,40,15,in_stock
+WH-PAL,Paliyagoda,TECH-134,Waypoint Tech,Storage,USB Flash Drive 64GB V5,pcs,ambient,43,6,37,37,40,39,low_stock
+WH-PAL,Paliyagoda,TECH-135,Waypoint Tech,Storage,USB Flash Drive 128GB V5,pcs,ambient,81,13,68,35,20,35,in_stock
+WH-PAL,Paliyagoda,TECH-136,Waypoint Tech,Storage,External SSD 1TB V5,pcs,ambient,18,11,7,35,0,21,low_stock
+WH-PAL,Paliyagoda,TECH-137,Waypoint Tech,Storage,MicroSD 128GB V5,pcs,ambient,91,15,76,5,5,23,in_stock
+WH-PAL,Paliyagoda,TECH-138,Waypoint Tech,Networking,Wi-Fi Router V5,pcs,ambient,79,1,78,42,40,10,in_stock
+WH-PAL,Paliyagoda,TECH-139,Waypoint Tech,Networking,Wi-Fi Extender V5,pcs,ambient,73,15,58,49,5,39,in_stock
+WH-PAL,Paliyagoda,TECH-140,Waypoint Tech,Networking,Ethernet Cable 5m V5,pcs,ambient,99,5,94,13,40,31,in_stock
+WH-PAL,Paliyagoda,TECH-141,Waypoint Tech,Audio,Bluetooth Earbuds V5,pcs,ambient,86,12,74,48,5,31,in_stock
+WH-PAL,Paliyagoda,TECH-142,Waypoint Tech,Audio,Bluetooth Headphones V5,pcs,ambient,68,5,63,24,5,27,in_stock
+WH-PAL,Paliyagoda,TECH-143,Waypoint Tech,Audio,Bluetooth Speaker V5,pcs,ambient,57,11,46,16,20,40,in_stock
+WH-PAL,Paliyagoda,TECH-144,Waypoint Tech,Accessories,Phone Charger V5,pcs,ambient,60,8,52,17,10,27,in_stock
+WH-PAL,Paliyagoda,TECH-145,Waypoint Tech,Accessories,USB-C Cable V5,pcs,ambient,88,10,78,30,40,21,in_stock
+WH-PAL,Paliyagoda,TECH-146,Waypoint Tech,Accessories,Lightning Cable V5,pcs,ambient,27,3,24,33,5,25,low_stock
+WH-PAL,Paliyagoda,TECH-147,Waypoint Tech,Accessories,Power Bank 10000mAh V5,pcs,ambient,36,10,26,37,10,13,in_stock
+WH-PAL,Paliyagoda,TECH-148,Waypoint Tech,Accessories,Power Bank 20000mAh V5,pcs,ambient,16,3,13,15,10,23,low_stock
+WH-PAL,Paliyagoda,TECH-149,Waypoint Tech,Accessories,Phone Case V5,pcs,ambient,88,0,88,42,0,25,in_stock
+WH-PAL,Paliyagoda,TECH-150,Waypoint Tech,Accessories,Screen Protector V5,pcs,ambient,46,4,42,34,5,30,in_stock
+WH-PAL,Paliyagoda,TECH-151,Waypoint Tech,Mobile Phones,Smartphone V6,pcs,ambient,66,14,52,32,40,21,in_stock
+WH-PAL,Paliyagoda,TECH-152,Waypoint Tech,Mobile Phones,Feature Phone V6,pcs,ambient,46,2,44,42,40,32,in_stock
+WH-PAL,Paliyagoda,TECH-153,Waypoint Tech,Tablets,Android Tablet V6,pcs,ambient,81,8,73,19,20,17,in_stock
+WH-PAL,Paliyagoda,TECH-154,Waypoint Tech,Laptops,Laptop V6,pcs,ambient,35,12,23,46,5,21,in_stock
+WH-PAL,Paliyagoda,TECH-155,Waypoint Tech,Laptops,Chromebook V6,pcs,ambient,39,4,35,26,5,15,in_stock
+WH-PAL,Paliyagoda,TECH-156,Waypoint Tech,Computing,Desktop PC V6,pcs,ambient,73,14,59,52,10,32,in_stock
+WH-PAL,Paliyagoda,TECH-157,Waypoint Tech,Computing,Monitor 24-inch V6,pcs,ambient,60,8,52,29,5,25,in_stock
+WH-PAL,Paliyagoda,TECH-158,Waypoint Tech,Computing,Monitor 27-inch V6,pcs,ambient,39,1,38,13,20,33,in_stock
+WH-PAL,Paliyagoda,TECH-159,Waypoint Tech,Computing,Keyboard V6,pcs,ambient,51,5,46,6,20,22,in_stock
+WH-PAL,Paliyagoda,TECH-160,Waypoint Tech,Computing,Wireless Mouse V6,pcs,ambient,28,2,26,25,5,33,low_stock
+WH-PAL,Paliyagoda,TECH-161,Waypoint Tech,Computing,Webcam V6,pcs,ambient,56,1,55,6,20,26,in_stock
+WH-PAL,Paliyagoda,TECH-162,Waypoint Tech,Computing,USB-C Hub V6,pcs,ambient,57,6,51,31,40,20,in_stock
+WH-PAL,Paliyagoda,TECH-163,Waypoint Tech,Computing,Laptop Stand V6,pcs,ambient,57,11,46,29,10,22,in_stock
+WH-PAL,Paliyagoda,TECH-164,Waypoint Tech,Storage,USB Flash Drive 64GB V6,pcs,ambient,21,11,10,44,40,24,low_stock
+WH-PAL,Paliyagoda,TECH-165,Waypoint Tech,Storage,USB Flash Drive 128GB V6,pcs,ambient,100,11,89,10,5,34,in_stock
+WH-PAL,Paliyagoda,TECH-166,Waypoint Tech,Storage,External SSD 1TB V6,pcs,ambient,51,14,37,28,20,11,in_stock
+WH-PAL,Paliyagoda,TECH-167,Waypoint Tech,Storage,MicroSD 128GB V6,pcs,ambient,88,9,79,36,10,37,in_stock
+WH-PAL,Paliyagoda,TECH-168,Waypoint Tech,Networking,Wi-Fi Router V6,pcs,ambient,95,13,82,18,10,13,in_stock
+WH-PAL,Paliyagoda,TECH-169,Waypoint Tech,Networking,Wi-Fi Extender V6,pcs,ambient,65,10,55,9,5,31,in_stock
+WH-PAL,Paliyagoda,TECH-170,Waypoint Tech,Networking,Ethernet Cable 5m V6,pcs,ambient,98,10,88,35,10,13,in_stock
+WH-PAL,Paliyagoda,TECH-171,Waypoint Tech,Audio,Bluetooth Earbuds V6,pcs,ambient,78,6,72,13,0,14,in_stock
+WH-PAL,Paliyagoda,TECH-172,Waypoint Tech,Audio,Bluetooth Headphones V6,pcs,ambient,20,15,5,26,10,20,low_stock
+WH-PAL,Paliyagoda,TECH-173,Waypoint Tech,Audio,Bluetooth Speaker V6,pcs,ambient,58,15,43,51,10,40,in_stock
+WH-PAL,Paliyagoda,TECH-174,Waypoint Tech,Accessories,Phone Charger V6,pcs,ambient,17,10,7,49,20,39,low_stock
+WH-PAL,Paliyagoda,TECH-175,Waypoint Tech,Accessories,USB-C Cable V6,pcs,ambient,22,2,20,22,20,34,low_stock
+WH-PAL,Paliyagoda,TECH-176,Waypoint Tech,Accessories,Lightning Cable V6,pcs,ambient,47,14,33,31,10,21,in_stock
+WH-PAL,Paliyagoda,TECH-177,Waypoint Tech,Accessories,Power Bank 10000mAh V6,pcs,ambient,35,11,24,48,40,16,in_stock
+WH-PAL,Paliyagoda,TECH-178,Waypoint Tech,Accessories,Power Bank 20000mAh V6,pcs,ambient,22,7,15,7,20,29,low_stock
+WH-PAL,Paliyagoda,TECH-179,Waypoint Tech,Accessories,Phone Case V6,pcs,ambient,79,14,65,35,10,40,in_stock
+WH-PAL,Paliyagoda,TECH-180,Waypoint Tech,Accessories,Screen Protector V6,pcs,ambient,38,11,27,21,5,17,in_stock
+WH-PAL,Paliyagoda,TECH-181,Waypoint Tech,Mobile Phones,Smartphone V7,pcs,ambient,24,9,15,22,20,35,low_stock
+WH-PAL,Paliyagoda,TECH-182,Waypoint Tech,Mobile Phones,Feature Phone V7,pcs,ambient,36,4,32,17,40,35,low_stock
+WH-PAL,Paliyagoda,TECH-183,Waypoint Tech,Tablets,Android Tablet V7,pcs,ambient,36,0,36,39,10,28,in_stock
+WH-PAL,Paliyagoda,TECH-184,Waypoint Tech,Laptops,Laptop V7,pcs,ambient,22,11,11,9,5,20,low_stock
+WH-PAL,Paliyagoda,TECH-185,Waypoint Tech,Laptops,Chromebook V7,pcs,ambient,38,6,32,53,10,12,in_stock
+WH-PAL,Paliyagoda,TECH-186,Waypoint Tech,Computing,Desktop PC V7,pcs,ambient,42,4,38,46,10,35,in_stock
+WH-PAL,Paliyagoda,TECH-187,Waypoint Tech,Computing,Monitor 24-inch V7,pcs,ambient,71,12,59,17,0,39,in_stock
+WH-PAL,Paliyagoda,TECH-188,Waypoint Tech,Computing,Monitor 27-inch V7,pcs,ambient,49,3,46,42,20,23,in_stock
+WH-PAL,Paliyagoda,TECH-189,Waypoint Tech,Computing,Keyboard V7,pcs,ambient,86,15,71,39,20,19,in_stock
+WH-PAL,Paliyagoda,TECH-190,Waypoint Tech,Computing,Wireless Mouse V7,pcs,ambient,26,0,26,54,20,28,low_stock
+WH-PAL,Paliyagoda,TECH-191,Waypoint Tech,Computing,Webcam V7,pcs,ambient,17,14,3,5,20,39,low_stock
+WH-PAL,Paliyagoda,TECH-192,Waypoint Tech,Computing,USB-C Hub V7,pcs,ambient,28,7,21,48,40,30,low_stock
+WH-PAL,Paliyagoda,TECH-193,Waypoint Tech,Computing,Laptop Stand V7,pcs,ambient,72,13,59,36,0,37,in_stock
+WH-PAL,Paliyagoda,TECH-194,Waypoint Tech,Storage,USB Flash Drive 64GB V7,pcs,ambient,47,4,43,48,5,12,in_stock
+WH-PAL,Paliyagoda,TECH-195,Waypoint Tech,Storage,USB Flash Drive 128GB V7,pcs,ambient,34,10,24,12,10,29,low_stock
+WH-PAL,Paliyagoda,TECH-196,Waypoint Tech,Storage,External SSD 1TB V7,pcs,ambient,19,3,16,8,40,30,low_stock
+WH-PAL,Paliyagoda,TECH-197,Waypoint Tech,Storage,MicroSD 128GB V7,pcs,ambient,25,3,22,49,10,16,in_stock
+WH-PAL,Paliyagoda,TECH-198,Waypoint Tech,Networking,Wi-Fi Router V7,pcs,ambient,45,15,30,33,10,23,in_stock
+WH-PAL,Paliyagoda,TECH-199,Waypoint Tech,Networking,Wi-Fi Extender V7,pcs,ambient,51,2,49,6,20,19,in_stock
+WH-PAL,Paliyagoda,TECH-200,Waypoint Tech,Networking,Ethernet Cable 5m V7,pcs,ambient,80,5,75,32,20,16,in_stock
+WH-PAL,Paliyagoda,STYLE-001,Waypoint Style,Men,Men's T-Shirt,pcs,ambient,173,4,169,15,10,40,in_stock
+WH-PAL,Paliyagoda,STYLE-002,Waypoint Style,Men,Men's Polo Shirt,pcs,ambient,104,22,82,70,20,56,in_stock
+WH-PAL,Paliyagoda,STYLE-003,Waypoint Style,Men,Men's Casual Shirt,pcs,ambient,128,1,127,63,20,24,in_stock
+WH-PAL,Paliyagoda,STYLE-004,Waypoint Style,Men,Men's Formal Shirt,pcs,ambient,127,1,126,79,10,21,in_stock
+WH-PAL,Paliyagoda,STYLE-005,Waypoint Style,Men,Men's Jeans,pcs,ambient,102,2,100,61,60,62,in_stock
+WH-PAL,Paliyagoda,STYLE-006,Waypoint Style,Men,Men's Chino,pcs,ambient,106,21,85,33,60,46,in_stock
+WH-PAL,Paliyagoda,STYLE-007,Waypoint Style,Men,Men's Shorts,pcs,ambient,107,14,93,12,0,49,in_stock
+WH-PAL,Paliyagoda,STYLE-008,Waypoint Style,Men,Men's Hoodie,pcs,ambient,98,25,73,59,60,59,in_stock
+WH-PAL,Paliyagoda,STYLE-009,Waypoint Style,Men,Men's Jacket,pcs,ambient,140,19,121,52,0,46,in_stock
+WH-PAL,Paliyagoda,STYLE-010,Waypoint Style,Women,Women's T-Shirt,pcs,ambient,138,8,130,41,10,47,in_stock
+WH-PAL,Paliyagoda,STYLE-011,Waypoint Style,Women,Women's Blouse,pcs,ambient,130,27,103,90,60,33,in_stock
+WH-PAL,Paliyagoda,STYLE-012,Waypoint Style,Women,Women's Dress,pcs,ambient,83,9,74,43,10,52,in_stock
+WH-PAL,Paliyagoda,STYLE-013,Waypoint Style,Women,Women's Jeans,pcs,ambient,106,12,94,62,20,33,in_stock
+WH-PAL,Paliyagoda,STYLE-014,Waypoint Style,Women,Women's Trousers,pcs,ambient,79,8,71,75,10,43,in_stock
+WH-PAL,Paliyagoda,STYLE-015,Waypoint Style,Women,Women's Skirt,pcs,ambient,35,6,29,83,60,48,low_stock
+WH-PAL,Paliyagoda,STYLE-016,Waypoint Style,Women,Women's Hoodie,pcs,ambient,58,3,55,77,20,21,in_stock
+WH-PAL,Paliyagoda,STYLE-017,Waypoint Style,Women,Women's Jacket,pcs,ambient,49,26,23,44,0,41,low_stock
+WH-PAL,Paliyagoda,STYLE-018,Waypoint Style,Kids,Kids T-Shirt,pcs,ambient,32,1,31,65,20,64,low_stock
+WH-PAL,Paliyagoda,STYLE-019,Waypoint Style,Kids,Kids Jeans,pcs,ambient,117,22,95,40,10,34,in_stock
+WH-PAL,Paliyagoda,STYLE-020,Waypoint Style,Kids,Kids Shorts,pcs,ambient,51,21,30,22,10,39,low_stock
+WH-PAL,Paliyagoda,STYLE-021,Waypoint Style,Kids,Kids Dress,pcs,ambient,40,12,28,81,20,33,low_stock
+WH-PAL,Paliyagoda,STYLE-022,Waypoint Style,Footwear,Men's Sneakers,pairs,ambient,88,6,82,33,60,20,in_stock
+WH-PAL,Paliyagoda,STYLE-023,Waypoint Style,Footwear,Women's Sneakers,pairs,ambient,167,3,164,34,40,56,in_stock
+WH-PAL,Paliyagoda,STYLE-024,Waypoint Style,Footwear,Men's Sandals,pairs,ambient,171,23,148,74,40,70,in_stock
+WH-PAL,Paliyagoda,STYLE-025,Waypoint Style,Footwear,Women's Sandals,pairs,ambient,113,4,109,34,60,56,in_stock
+WH-PAL,Paliyagoda,STYLE-026,Waypoint Style,Footwear,Kids' Shoes,pairs,ambient,95,5,90,36,20,51,in_stock
+WH-PAL,Paliyagoda,STYLE-027,Waypoint Style,Accessories,Backpack,pcs,ambient,47,26,21,34,60,28,low_stock
+WH-PAL,Paliyagoda,STYLE-028,Waypoint Style,Accessories,Wallet,pcs,ambient,146,19,127,11,0,48,in_stock
+WH-PAL,Paliyagoda,STYLE-029,Waypoint Style,Accessories,Cap,pcs,ambient,82,29,53,35,40,55,low_stock
+WH-PAL,Paliyagoda,STYLE-030,Waypoint Style,Accessories,Belt,pcs,ambient,86,12,74,30,40,58,in_stock
+WH-PAL,Paliyagoda,STYLE-031,Waypoint Style,Men,Men's T-Shirt V2,pcs,ambient,58,19,39,84,60,20,in_stock
+WH-PAL,Paliyagoda,STYLE-032,Waypoint Style,Men,Men's Polo Shirt V2,pcs,ambient,96,0,96,61,10,36,in_stock
+WH-PAL,Paliyagoda,STYLE-033,Waypoint Style,Men,Men's Casual Shirt V2,pcs,ambient,122,0,122,75,60,50,in_stock
+WH-PAL,Paliyagoda,STYLE-034,Waypoint Style,Men,Men's Formal Shirt V2,pcs,ambient,55,11,44,78,0,25,in_stock
+WH-PAL,Paliyagoda,STYLE-035,Waypoint Style,Men,Men's Jeans V2,pcs,ambient,130,25,105,53,60,23,in_stock
+WH-PAL,Paliyagoda,STYLE-036,Waypoint Style,Men,Men's Chino V2,pcs,ambient,115,11,104,14,40,55,in_stock
+WH-PAL,Paliyagoda,STYLE-037,Waypoint Style,Men,Men's Shorts V2,pcs,ambient,133,18,115,85,60,42,in_stock
+WH-PAL,Paliyagoda,STYLE-038,Waypoint Style,Men,Men's Hoodie V2,pcs,ambient,162,16,146,50,10,46,in_stock
+WH-PAL,Paliyagoda,STYLE-039,Waypoint Style,Men,Men's Jacket V2,pcs,ambient,63,0,63,85,20,64,low_stock
+WH-PAL,Paliyagoda,STYLE-040,Waypoint Style,Women,Women's T-Shirt V2,pcs,ambient,149,30,119,81,60,38,in_stock
+WH-PAL,Paliyagoda,STYLE-041,Waypoint Style,Women,Women's Blouse V2,pcs,ambient,78,16,62,51,60,41,in_stock
+WH-PAL,Paliyagoda,STYLE-042,Waypoint Style,Women,Women's Dress V2,pcs,ambient,37,23,14,83,0,36,low_stock
+WH-PAL,Paliyagoda,STYLE-043,Waypoint Style,Women,Women's Jeans V2,pcs,ambient,114,30,84,33,40,23,in_stock
+WH-PAL,Paliyagoda,STYLE-044,Waypoint Style,Women,Women's Trousers V2,pcs,ambient,120,9,111,38,10,47,in_stock
+WH-PAL,Paliyagoda,STYLE-045,Waypoint Style,Women,Women's Skirt V2,pcs,ambient,59,18,41,88,40,70,low_stock
+WH-PAL,Paliyagoda,STYLE-046,Waypoint Style,Women,Women's Hoodie V2,pcs,ambient,135,15,120,78,20,55,in_stock
+WH-PAL,Paliyagoda,STYLE-047,Waypoint Style,Women,Women's Jacket V2,pcs,ambient,150,12,138,68,20,31,in_stock
+WH-PAL,Paliyagoda,STYLE-048,Waypoint Style,Kids,Kids T-Shirt V2,pcs,ambient,155,28,127,23,0,31,in_stock
+WH-PAL,Paliyagoda,STYLE-049,Waypoint Style,Kids,Kids Jeans V2,pcs,ambient,97,27,70,32,60,41,in_stock
+WH-PAL,Paliyagoda,STYLE-050,Waypoint Style,Kids,Kids Shorts V2,pcs,ambient,120,2,118,41,10,64,in_stock
+WH-PAL,Paliyagoda,STYLE-051,Waypoint Style,Kids,Kids Dress V2,pcs,ambient,81,3,78,23,10,21,in_stock
+WH-PAL,Paliyagoda,STYLE-052,Waypoint Style,Footwear,Men's Sneakers V2,pairs,ambient,127,20,107,61,0,51,in_stock
+WH-PAL,Paliyagoda,STYLE-053,Waypoint Style,Footwear,Women's Sneakers V2,pairs,ambient,162,29,133,66,60,44,in_stock
+WH-PAL,Paliyagoda,STYLE-054,Waypoint Style,Footwear,Men's Sandals V2,pairs,ambient,173,6,167,15,0,22,in_stock
+WH-PAL,Paliyagoda,STYLE-055,Waypoint Style,Footwear,Women's Sandals V2,pairs,ambient,96,10,86,52,0,46,in_stock
+WH-PAL,Paliyagoda,STYLE-056,Waypoint Style,Footwear,Kids' Shoes V2,pairs,ambient,179,22,157,24,40,62,in_stock
+WH-PAL,Paliyagoda,STYLE-057,Waypoint Style,Accessories,Backpack V2,pcs,ambient,39,0,39,28,20,31,in_stock
+WH-PAL,Paliyagoda,STYLE-058,Waypoint Style,Accessories,Wallet V2,pcs,ambient,139,12,127,64,40,48,in_stock
+WH-PAL,Paliyagoda,STYLE-059,Waypoint Style,Accessories,Cap V2,pcs,ambient,58,21,37,30,10,27,in_stock
+WH-PAL,Paliyagoda,STYLE-060,Waypoint Style,Accessories,Belt V2,pcs,ambient,135,6,129,62,10,49,in_stock
+WH-PAL,Paliyagoda,STYLE-061,Waypoint Style,Men,Men's T-Shirt V3,pcs,ambient,66,13,53,33,20,46,in_stock
+WH-PAL,Paliyagoda,STYLE-062,Waypoint Style,Men,Men's Polo Shirt V3,pcs,ambient,72,20,52,83,10,24,in_stock
+WH-PAL,Paliyagoda,STYLE-063,Waypoint Style,Men,Men's Casual Shirt V3,pcs,ambient,51,12,39,45,20,53,low_stock
+WH-PAL,Paliyagoda,STYLE-064,Waypoint Style,Men,Men's Formal Shirt V3,pcs,ambient,144,3,141,29,40,70,in_stock
+WH-PAL,Paliyagoda,STYLE-065,Waypoint Style,Men,Men's Jeans V3,pcs,ambient,48,8,40,67,40,55,low_stock
+WH-PAL,Paliyagoda,STYLE-066,Waypoint Style,Men,Men's Chino V3,pcs,ambient,137,23,114,15,20,59,in_stock
+WH-PAL,Paliyagoda,STYLE-067,Waypoint Style,Men,Men's Shorts V3,pcs,ambient,98,25,73,44,60,68,in_stock
+WH-PAL,Paliyagoda,STYLE-068,Waypoint Style,Men,Men's Hoodie V3,pcs,ambient,149,26,123,40,0,59,in_stock
+WH-PAL,Paliyagoda,STYLE-069,Waypoint Style,Men,Men's Jacket V3,pcs,ambient,130,16,114,83,0,23,in_stock
+WH-PAL,Paliyagoda,STYLE-070,Waypoint Style,Women,Women's T-Shirt V3,pcs,ambient,91,9,82,54,10,21,in_stock
+WH-PAL,Paliyagoda,STYLE-071,Waypoint Style,Women,Women's Blouse V3,pcs,ambient,164,27,137,64,60,66,in_stock
+WH-PAL,Paliyagoda,STYLE-072,Waypoint Style,Women,Women's Dress V3,pcs,ambient,34,14,20,43,10,50,low_stock
+WH-PAL,Paliyagoda,STYLE-073,Waypoint Style,Women,Women's Jeans V3,pcs,ambient,106,22,84,71,60,62,in_stock
+WH-PAL,Paliyagoda,STYLE-074,Waypoint Style,Women,Women's Trousers V3,pcs,ambient,48,11,37,60,0,49,low_stock
+WH-PAL,Paliyagoda,STYLE-075,Waypoint Style,Women,Women's Skirt V3,pcs,ambient,42,23,19,41,60,67,low_stock
+WH-PAL,Paliyagoda,STYLE-076,Waypoint Style,Women,Women's Hoodie V3,pcs,ambient,155,23,132,64,0,61,in_stock
+WH-PAL,Paliyagoda,STYLE-077,Waypoint Style,Women,Women's Jacket V3,pcs,ambient,96,20,76,34,0,21,in_stock
+WH-PAL,Paliyagoda,STYLE-078,Waypoint Style,Kids,Kids T-Shirt V3,pcs,ambient,170,18,152,17,40,66,in_stock
+WH-PAL,Paliyagoda,STYLE-079,Waypoint Style,Kids,Kids Jeans V3,pcs,ambient,145,26,119,16,40,33,in_stock
+WH-PAL,Paliyagoda,STYLE-080,Waypoint Style,Kids,Kids Shorts V3,pcs,ambient,69,16,53,63,20,57,low_stock
+WH-PAL,Paliyagoda,STYLE-081,Waypoint Style,Kids,Kids Dress V3,pcs,ambient,47,27,20,71,40,39,low_stock
+WH-PAL,Paliyagoda,STYLE-082,Waypoint Style,Footwear,Men's Sneakers V3,pairs,ambient,87,4,83,48,60,50,in_stock
+WH-PAL,Paliyagoda,STYLE-083,Waypoint Style,Footwear,Women's Sneakers V3,pairs,ambient,58,21,37,59,0,62,low_stock
+WH-PAL,Paliyagoda,STYLE-084,Waypoint Style,Footwear,Men's Sandals V3,pairs,ambient,144,2,142,72,60,70,in_stock
+WH-PAL,Paliyagoda,STYLE-085,Waypoint Style,Footwear,Women's Sandals V3,pairs,ambient,90,5,85,90,20,27,in_stock
+WH-PAL,Paliyagoda,STYLE-086,Waypoint Style,Footwear,Kids' Shoes V3,pairs,ambient,95,27,68,57,0,36,in_stock
+WH-PAL,Paliyagoda,STYLE-087,Waypoint Style,Accessories,Backpack V3,pcs,ambient,145,6,139,77,60,41,in_stock
+WH-PAL,Paliyagoda,STYLE-088,Waypoint Style,Accessories,Wallet V3,pcs,ambient,119,14,105,76,10,31,in_stock
+WH-PAL,Paliyagoda,STYLE-089,Waypoint Style,Accessories,Cap V3,pcs,ambient,82,9,73,51,60,64,in_stock
+WH-PAL,Paliyagoda,STYLE-090,Waypoint Style,Accessories,Belt V3,pcs,ambient,179,22,157,76,10,62,in_stock
+WH-PAL,Paliyagoda,STYLE-091,Waypoint Style,Men,Men's T-Shirt V4,pcs,ambient,88,25,63,48,40,60,in_stock
+WH-PAL,Paliyagoda,STYLE-092,Waypoint Style,Men,Men's Polo Shirt V4,pcs,ambient,157,27,130,43,20,70,in_stock
+WH-PAL,Paliyagoda,STYLE-093,Waypoint Style,Men,Men's Casual Shirt V4,pcs,ambient,32,25,7,51,20,32,low_stock
+WH-PAL,Paliyagoda,STYLE-094,Waypoint Style,Men,Men's Formal Shirt V4,pcs,ambient,74,7,67,90,20,26,in_stock
+WH-PAL,Paliyagoda,STYLE-095,Waypoint Style,Men,Men's Jeans V4,pcs,ambient,85,27,58,65,20,38,in_stock
+WH-PAL,Paliyagoda,STYLE-096,Waypoint Style,Men,Men's Chino V4,pcs,ambient,164,6,158,72,40,56,in_stock
+WH-PAL,Paliyagoda,STYLE-097,Waypoint Style,Men,Men's Shorts V4,pcs,ambient,131,9,122,10,20,55,in_stock
+WH-PAL,Paliyagoda,STYLE-098,Waypoint Style,Men,Men's Hoodie V4,pcs,ambient,151,6,145,59,40,44,in_stock
+WH-PAL,Paliyagoda,STYLE-099,Waypoint Style,Men,Men's Jacket V4,pcs,ambient,104,10,94,85,60,57,in_stock
+WH-PAL,Paliyagoda,STYLE-100,Waypoint Style,Women,Women's T-Shirt V4,pcs,ambient,105,12,93,38,60,32,in_stock
+WH-PAL,Paliyagoda,STYLE-101,Waypoint Style,Women,Women's Blouse V4,pcs,ambient,73,28,45,66,40,70,low_stock
+WH-PAL,Paliyagoda,STYLE-102,Waypoint Style,Women,Women's Dress V4,pcs,ambient,56,30,26,88,0,29,low_stock
+WH-PAL,Paliyagoda,STYLE-103,Waypoint Style,Women,Women's Jeans V4,pcs,ambient,163,4,159,89,20,62,in_stock
+WH-PAL,Paliyagoda,STYLE-104,Waypoint Style,Women,Women's Trousers V4,pcs,ambient,38,6,32,43,20,60,low_stock
+WH-PAL,Paliyagoda,STYLE-105,Waypoint Style,Women,Women's Skirt V4,pcs,ambient,101,7,94,48,0,44,in_stock
+WH-PAL,Paliyagoda,STYLE-106,Waypoint Style,Women,Women's Hoodie V4,pcs,ambient,114,6,108,65,40,45,in_stock
+WH-PAL,Paliyagoda,STYLE-107,Waypoint Style,Women,Women's Jacket V4,pcs,ambient,94,16,78,57,0,44,in_stock
+WH-PAL,Paliyagoda,STYLE-108,Waypoint Style,Kids,Kids T-Shirt V4,pcs,ambient,171,26,145,12,60,61,in_stock
+WH-PAL,Paliyagoda,STYLE-109,Waypoint Style,Kids,Kids Jeans V4,pcs,ambient,55,21,34,69,20,45,low_stock
+WH-PAL,Paliyagoda,STYLE-110,Waypoint Style,Kids,Kids Shorts V4,pcs,ambient,83,27,56,49,0,23,in_stock
+WH-PAL,Paliyagoda,STYLE-111,Waypoint Style,Kids,Kids Dress V4,pcs,ambient,110,5,105,20,40,38,in_stock
+WH-PAL,Paliyagoda,STYLE-112,Waypoint Style,Footwear,Men's Sneakers V4,pairs,ambient,43,2,41,78,60,45,low_stock
+WH-PAL,Paliyagoda,STYLE-113,Waypoint Style,Footwear,Women's Sneakers V4,pairs,ambient,110,22,88,45,40,38,in_stock
+WH-PAL,Paliyagoda,STYLE-114,Waypoint Style,Footwear,Men's Sandals V4,pairs,ambient,88,3,85,36,60,59,in_stock
+WH-PAL,Paliyagoda,STYLE-115,Waypoint Style,Footwear,Women's Sandals V4,pairs,ambient,114,21,93,16,40,39,in_stock
+WH-PAL,Paliyagoda,STYLE-116,Waypoint Style,Footwear,Kids' Shoes V4,pairs,ambient,36,23,13,49,40,30,low_stock
+WH-PAL,Paliyagoda,STYLE-117,Waypoint Style,Accessories,Backpack V4,pcs,ambient,137,18,119,77,10,66,in_stock
+WH-PAL,Paliyagoda,STYLE-118,Waypoint Style,Accessories,Wallet V4,pcs,ambient,115,3,112,19,0,66,in_stock
+WH-PAL,Paliyagoda,STYLE-119,Waypoint Style,Accessories,Cap V4,pcs,ambient,109,9,100,77,0,69,in_stock
+WH-PAL,Paliyagoda,STYLE-120,Waypoint Style,Accessories,Belt V4,pcs,ambient,165,19,146,19,0,29,in_stock
+WH-PAL,Paliyagoda,STYLE-121,Waypoint Style,Men,Men's T-Shirt V5,pcs,ambient,144,23,121,69,20,54,in_stock
+WH-PAL,Paliyagoda,STYLE-122,Waypoint Style,Men,Men's Polo Shirt V5,pcs,ambient,163,9,154,54,10,68,in_stock
+WH-PAL,Paliyagoda,STYLE-123,Waypoint Style,Men,Men's Casual Shirt V5,pcs,ambient,98,24,74,19,60,42,in_stock
+WH-PAL,Paliyagoda,STYLE-124,Waypoint Style,Men,Men's Formal Shirt V5,pcs,ambient,97,28,69,13,10,52,in_stock
+WH-PAL,Paliyagoda,STYLE-125,Waypoint Style,Men,Men's Jeans V5,pcs,ambient,156,26,130,76,60,25,in_stock
+WH-PAL,Paliyagoda,STYLE-126,Waypoint Style,Men,Men's Chino V5,pcs,ambient,115,22,93,67,20,64,in_stock
+WH-PAL,Paliyagoda,STYLE-127,Waypoint Style,Men,Men's Shorts V5,pcs,ambient,155,25,130,75,40,67,in_stock
+WH-PAL,Paliyagoda,STYLE-128,Waypoint Style,Men,Men's Hoodie V5,pcs,ambient,51,7,44,66,10,42,in_stock
+WH-PAL,Paliyagoda,STYLE-129,Waypoint Style,Men,Men's Jacket V5,pcs,ambient,113,17,96,70,40,43,in_stock
+WH-PAL,Paliyagoda,STYLE-130,Waypoint Style,Women,Women's T-Shirt V5,pcs,ambient,168,1,167,75,40,66,in_stock
+WH-PAL,Paliyagoda,STYLE-131,Waypoint Style,Women,Women's Blouse V5,pcs,ambient,59,30,29,34,0,35,low_stock
+WH-PAL,Paliyagoda,STYLE-132,Waypoint Style,Women,Women's Dress V5,pcs,ambient,157,30,127,62,60,40,in_stock
+WH-PAL,Paliyagoda,STYLE-133,Waypoint Style,Women,Women's Jeans V5,pcs,ambient,87,14,73,61,20,54,in_stock
+WH-PAL,Paliyagoda,STYLE-134,Waypoint Style,Women,Women's Trousers V5,pcs,ambient,100,7,93,44,10,62,in_stock
+WH-PAL,Paliyagoda,STYLE-135,Waypoint Style,Women,Women's Skirt V5,pcs,ambient,78,2,76,44,10,35,in_stock
+WH-PAL,Paliyagoda,STYLE-136,Waypoint Style,Women,Women's Hoodie V5,pcs,ambient,76,28,48,35,40,30,in_stock
+WH-PAL,Paliyagoda,STYLE-137,Waypoint Style,Women,Women's Jacket V5,pcs,ambient,111,7,104,31,0,44,in_stock
+WH-PAL,Paliyagoda,STYLE-138,Waypoint Style,Kids,Kids T-Shirt V5,pcs,ambient,156,14,142,37,20,36,in_stock
+WH-PAL,Paliyagoda,STYLE-139,Waypoint Style,Kids,Kids Jeans V5,pcs,ambient,76,4,72,12,60,50,in_stock
+WH-PAL,Paliyagoda,STYLE-140,Waypoint Style,Kids,Kids Shorts V5,pcs,ambient,148,29,119,28,20,40,in_stock
+WH-PAL,Paliyagoda,STYLE-141,Waypoint Style,Kids,Kids Dress V5,pcs,ambient,161,24,137,87,0,58,in_stock
+WH-PAL,Paliyagoda,STYLE-142,Waypoint Style,Footwear,Men's Sneakers V5,pairs,ambient,68,7,61,73,20,24,in_stock
+WH-PAL,Paliyagoda,STYLE-143,Waypoint Style,Footwear,Women's Sneakers V5,pairs,ambient,87,14,73,70,10,47,in_stock
+WH-PAL,Paliyagoda,STYLE-144,Waypoint Style,Footwear,Men's Sandals V5,pairs,ambient,77,25,52,71,0,66,low_stock
+WH-PAL,Paliyagoda,STYLE-145,Waypoint Style,Footwear,Women's Sandals V5,pairs,ambient,79,4,75,24,10,29,in_stock
+WH-PAL,Paliyagoda,STYLE-146,Waypoint Style,Footwear,Kids' Shoes V5,pairs,ambient,146,30,116,39,20,56,in_stock
+WH-PAL,Paliyagoda,STYLE-147,Waypoint Style,Accessories,Backpack V5,pcs,ambient,74,9,65,22,60,33,in_stock
+WH-PAL,Paliyagoda,STYLE-148,Waypoint Style,Accessories,Wallet V5,pcs,ambient,128,21,107,16,0,35,in_stock
+WH-PAL,Paliyagoda,STYLE-149,Waypoint Style,Accessories,Cap V5,pcs,ambient,133,8,125,10,40,27,in_stock
+WH-PAL,Paliyagoda,STYLE-150,Waypoint Style,Accessories,Belt V5,pcs,ambient,105,26,79,72,0,63,in_stock
+WH-PAL,Paliyagoda,STYLE-151,Waypoint Style,Men,Men's T-Shirt V6,pcs,ambient,137,11,126,87,10,36,in_stock
+WH-PAL,Paliyagoda,STYLE-152,Waypoint Style,Men,Men's Polo Shirt V6,pcs,ambient,148,29,119,39,40,65,in_stock
+WH-PAL,Paliyagoda,STYLE-153,Waypoint Style,Men,Men's Casual Shirt V6,pcs,ambient,112,15,97,88,40,55,in_stock
+WH-PAL,Paliyagoda,STYLE-154,Waypoint Style,Men,Men's Formal Shirt V6,pcs,ambient,73,5,68,65,40,41,in_stock
+WH-PAL,Paliyagoda,STYLE-155,Waypoint Style,Men,Men's Jeans V6,pcs,ambient,76,17,59,49,40,40,in_stock
+WH-PAL,Paliyagoda,STYLE-156,Waypoint Style,Men,Men's Chino V6,pcs,ambient,101,18,83,10,20,35,in_stock
+WH-PAL,Paliyagoda,STYLE-157,Waypoint Style,Men,Men's Shorts V6,pcs,ambient,37,1,36,29,60,31,in_stock
+WH-PAL,Paliyagoda,STYLE-158,Waypoint Style,Men,Men's Hoodie V6,pcs,ambient,132,11,121,69,60,65,in_stock
+WH-PAL,Paliyagoda,STYLE-159,Waypoint Style,Men,Men's Jacket V6,pcs,ambient,148,8,140,11,10,47,in_stock
+WH-PAL,Paliyagoda,STYLE-160,Waypoint Style,Women,Women's T-Shirt V6,pcs,ambient,158,26,132,65,40,67,in_stock
+WH-PAL,Paliyagoda,STYLE-161,Waypoint Style,Women,Women's Blouse V6,pcs,ambient,40,5,35,85,10,37,low_stock
+WH-PAL,Paliyagoda,STYLE-162,Waypoint Style,Women,Women's Dress V6,pcs,ambient,118,14,104,28,10,50,in_stock
+WH-PAL,Paliyagoda,STYLE-163,Waypoint Style,Women,Women's Jeans V6,pcs,ambient,133,18,115,46,20,46,in_stock
+WH-PAL,Paliyagoda,STYLE-164,Waypoint Style,Women,Women's Trousers V6,pcs,ambient,100,13,87,68,20,67,in_stock
+WH-PAL,Paliyagoda,STYLE-165,Waypoint Style,Women,Women's Skirt V6,pcs,ambient,123,10,113,57,10,34,in_stock
+WH-PAL,Paliyagoda,STYLE-166,Waypoint Style,Women,Women's Hoodie V6,pcs,ambient,78,10,68,23,60,43,in_stock
+WH-PAL,Paliyagoda,STYLE-167,Waypoint Style,Women,Women's Jacket V6,pcs,ambient,102,23,79,80,40,59,in_stock
+WH-PAL,Paliyagoda,STYLE-168,Waypoint Style,Kids,Kids T-Shirt V6,pcs,ambient,94,14,80,25,40,65,in_stock
+WH-PAL,Paliyagoda,STYLE-169,Waypoint Style,Kids,Kids Jeans V6,pcs,ambient,81,24,57,40,60,44,in_stock
+WH-PAL,Paliyagoda,STYLE-170,Waypoint Style,Kids,Kids Shorts V6,pcs,ambient,63,9,54,16,20,40,in_stock
+WH-PAL,Paliyagoda,STYLE-171,Waypoint Style,Kids,Kids Dress V6,pcs,ambient,155,29,126,73,20,30,in_stock
+WH-PAL,Paliyagoda,STYLE-172,Waypoint Style,Footwear,Men's Sneakers V6,pairs,ambient,140,3,137,24,10,56,in_stock
+WH-PAL,Paliyagoda,STYLE-173,Waypoint Style,Footwear,Women's Sneakers V6,pairs,ambient,157,10,147,19,10,55,in_stock
+WH-PAL,Paliyagoda,STYLE-174,Waypoint Style,Footwear,Men's Sandals V6,pairs,ambient,55,24,31,55,20,22,in_stock
+WH-PAL,Paliyagoda,STYLE-175,Waypoint Style,Footwear,Women's Sandals V6,pairs,ambient,108,27,81,50,60,22,in_stock
+WH-PAL,Paliyagoda,STYLE-176,Waypoint Style,Footwear,Kids' Shoes V6,pairs,ambient,131,9,122,31,10,54,in_stock
+WH-PAL,Paliyagoda,STYLE-177,Waypoint Style,Accessories,Backpack V6,pcs,ambient,149,17,132,19,40,70,in_stock
+WH-PAL,Paliyagoda,STYLE-178,Waypoint Style,Accessories,Wallet V6,pcs,ambient,143,26,117,36,60,39,in_stock
+WH-PAL,Paliyagoda,STYLE-179,Waypoint Style,Accessories,Cap V6,pcs,ambient,117,21,96,88,0,39,in_stock
+WH-PAL,Paliyagoda,STYLE-180,Waypoint Style,Accessories,Belt V6,pcs,ambient,173,23,150,11,20,68,in_stock
+WH-PAL,Paliyagoda,STYLE-181,Waypoint Style,Men,Men's T-Shirt V7,pcs,ambient,150,18,132,15,60,45,in_stock
+WH-PAL,Paliyagoda,STYLE-182,Waypoint Style,Men,Men's Polo Shirt V7,pcs,ambient,116,20,96,43,20,22,in_stock
+WH-PAL,Paliyagoda,STYLE-183,Waypoint Style,Men,Men's Casual Shirt V7,pcs,ambient,112,9,103,63,0,57,in_stock
+WH-PAL,Paliyagoda,STYLE-184,Waypoint Style,Men,Men's Formal Shirt V7,pcs,ambient,135,5,130,50,60,43,in_stock
+WH-PAL,Paliyagoda,STYLE-185,Waypoint Style,Men,Men's Jeans V7,pcs,ambient,156,15,141,58,60,54,in_stock
+WH-PAL,Paliyagoda,STYLE-186,Waypoint Style,Men,Men's Chino V7,pcs,ambient,56,14,42,48,60,56,low_stock
+WH-PAL,Paliyagoda,STYLE-187,Waypoint Style,Men,Men's Shorts V7,pcs,ambient,41,17,24,71,60,51,low_stock
+WH-PAL,Paliyagoda,STYLE-188,Waypoint Style,Men,Men's Hoodie V7,pcs,ambient,112,23,89,79,10,61,in_stock
+WH-PAL,Paliyagoda,STYLE-189,Waypoint Style,Men,Men's Jacket V7,pcs,ambient,164,18,146,24,40,38,in_stock
+WH-PAL,Paliyagoda,STYLE-190,Waypoint Style,Women,Women's T-Shirt V7,pcs,ambient,133,5,128,23,0,32,in_stock
+WH-PAL,Paliyagoda,STYLE-191,Waypoint Style,Women,Women's Blouse V7,pcs,ambient,78,7,71,66,60,58,in_stock
+WH-PAL,Paliyagoda,STYLE-192,Waypoint Style,Women,Women's Dress V7,pcs,ambient,153,0,153,78,60,30,in_stock
+WH-PAL,Paliyagoda,STYLE-193,Waypoint Style,Women,Women's Jeans V7,pcs,ambient,152,13,139,67,20,43,in_stock
+WH-PAL,Paliyagoda,STYLE-194,Waypoint Style,Women,Women's Trousers V7,pcs,ambient,77,4,73,71,0,46,in_stock
+WH-PAL,Paliyagoda,STYLE-195,Waypoint Style,Women,Women's Skirt V7,pcs,ambient,79,27,52,67,10,39,in_stock
+WH-PAL,Paliyagoda,STYLE-196,Waypoint Style,Women,Women's Hoodie V7,pcs,ambient,125,28,97,52,10,32,in_stock
+WH-PAL,Paliyagoda,STYLE-197,Waypoint Style,Women,Women's Jacket V7,pcs,ambient,50,10,40,75,40,49,low_stock
+WH-PAL,Paliyagoda,STYLE-198,Waypoint Style,Kids,Kids T-Shirt V7,pcs,ambient,171,1,170,11,10,36,in_stock
+WH-PAL,Paliyagoda,STYLE-199,Waypoint Style,Kids,Kids Jeans V7,pcs,ambient,68,16,52,18,20,22,in_stock
+WH-PAL,Paliyagoda,STYLE-200,Waypoint Style,Kids,Kids Shorts V7,pcs,ambient,122,3,119,59,20,29,in_stock
+WH-KAN,Kandy,FRESH-001,Fresh,Fresh Produce,Tomato,kg,fresh,450,2,448,254,50,177,in_stock
+WH-KAN,Kandy,FRESH-002,Fresh,Fresh Produce,Potato,kg,fresh,495,19,476,135,100,142,in_stock
+WH-KAN,Kandy,FRESH-003,Fresh,Fresh Produce,Red Onion,kg,fresh,86,31,55,193,50,124,low_stock
+WH-KAN,Kandy,FRESH-004,Fresh,Fresh Produce,Big Onion,kg,fresh,459,56,403,115,50,109,in_stock
+WH-KAN,Kandy,FRESH-005,Fresh,Fresh Produce,Carrot,kg,fresh,364,3,361,226,250,135,in_stock
+WH-KAN,Kandy,FRESH-006,Fresh,Fresh Produce,Cabbage,kg,fresh,118,55,63,122,50,104,low_stock
+WH-KAN,Kandy,FRESH-007,Fresh,Fresh Produce,Beans,kg,fresh,313,73,240,239,250,218,in_stock
+WH-KAN,Kandy,FRESH-008,Fresh,Fresh Produce,Leeks,kg,fresh,457,9,448,162,100,101,in_stock
+WH-KAN,Kandy,FRESH-009,Fresh,Fresh Produce,Brinjal,kg,fresh,460,61,399,41,250,215,in_stock
+WH-KAN,Kandy,FRESH-010,Fresh,Fresh Produce,Ladies Finger,kg,fresh,100,64,36,270,100,144,low_stock
+WH-KAN,Kandy,FRESH-011,Fresh,Fresh Produce,Pumpkin,kg,fresh,312,62,250,222,0,139,in_stock
+WH-KAN,Kandy,FRESH-012,Fresh,Fresh Produce,Snake Gourd,kg,fresh,239,26,213,225,150,93,in_stock
+WH-KAN,Kandy,FRESH-013,Fresh,Fresh Produce,Bottle Gourd,kg,fresh,295,36,259,273,100,215,in_stock
+WH-KAN,Kandy,FRESH-014,Fresh,Fresh Produce,Bitter Gourd,kg,fresh,249,30,219,198,150,193,in_stock
+WH-KAN,Kandy,FRESH-015,Fresh,Fresh Produce,Drumstick,kg,fresh,235,0,235,85,250,197,in_stock
+WH-KAN,Kandy,FRESH-016,Fresh,Fresh Produce,Beetroot,kg,fresh,465,45,420,205,100,134,in_stock
+WH-KAN,Kandy,FRESH-017,Fresh,Fresh Produce,Radish,kg,fresh,144,44,100,143,50,141,low_stock
+WH-KAN,Kandy,FRESH-018,Fresh,Fresh Produce,Cucumber,kg,fresh,377,36,341,58,0,87,in_stock
+WH-KAN,Kandy,FRESH-019,Fresh,Fresh Produce,Green Chilli,kg,fresh,315,24,291,174,250,189,in_stock
+WH-KAN,Kandy,FRESH-020,Fresh,Fresh Produce,Capsicum,kg,fresh,369,57,312,71,100,119,in_stock
+WH-KAN,Kandy,FRESH-021,Fresh,Fresh Produce,Green Peas,kg,fresh,459,52,407,270,250,143,in_stock
+WH-KAN,Kandy,FRESH-022,Fresh,Fresh Produce,Sweet Corn,kg,fresh,496,5,491,105,150,174,in_stock
+WH-KAN,Kandy,FRESH-023,Fresh,Fresh Produce,Cauliflower,kg,fresh,227,41,186,251,0,204,low_stock
+WH-KAN,Kandy,FRESH-024,Fresh,Fresh Produce,Broccoli,kg,fresh,439,39,400,136,250,102,in_stock
+WH-KAN,Kandy,FRESH-025,Fresh,Fresh Produce,Spinach,kg,fresh,292,35,257,105,50,156,in_stock
+WH-KAN,Kandy,FRESH-026,Fresh,Fresh Produce,Gotukola,kg,fresh,266,11,255,268,0,177,in_stock
+WH-KAN,Kandy,FRESH-027,Fresh,Fresh Produce,Mukunuwenna,kg,fresh,438,27,411,211,250,211,in_stock
+WH-KAN,Kandy,FRESH-028,Fresh,Fresh Produce,Kangkung,kg,fresh,421,25,396,90,150,183,in_stock
+WH-KAN,Kandy,FRESH-029,Fresh,Fresh Produce,Coriander Leaves,kg,fresh,495,55,440,254,100,114,in_stock
+WH-KAN,Kandy,FRESH-030,Fresh,Fresh Produce,Mint Leaves,kg,fresh,216,77,139,240,100,135,in_stock
+WH-KAN,Kandy,FRESH-031,Fresh,Fresh Produce,Curry Leaves,kg,fresh,389,54,335,106,100,147,in_stock
+WH-KAN,Kandy,FRESH-032,Fresh,Fresh Produce,Spring Onion,kg,fresh,282,73,209,210,250,82,in_stock
+WH-KAN,Kandy,FRESH-033,Fresh,Fresh Produce,Garlic,kg,fresh,317,77,240,160,150,184,in_stock
+WH-KAN,Kandy,FRESH-034,Fresh,Fresh Produce,Ginger,kg,fresh,303,29,274,79,0,168,in_stock
+WH-KAN,Kandy,FRESH-035,Fresh,Fresh Produce,Turmeric Root,kg,fresh,144,29,115,172,250,132,low_stock
+WH-KAN,Kandy,FRESH-036,Fresh,Fresh Produce,Lime,kg,fresh,199,9,190,108,50,131,in_stock
+WH-KAN,Kandy,FRESH-037,Fresh,Fresh Produce,Lemon,kg,fresh,84,27,57,64,50,136,low_stock
+WH-KAN,Kandy,FRESH-038,Fresh,Fresh Produce,Green Apple,kg,fresh,125,37,88,81,250,146,low_stock
+WH-KAN,Kandy,FRESH-039,Fresh,Fresh Produce,Red Apple,kg,fresh,230,53,177,172,50,147,in_stock
+WH-KAN,Kandy,FRESH-040,Fresh,Fresh Produce,Banana Kolikuttu,kg,fresh,445,57,388,128,50,163,in_stock
+WH-KAN,Kandy,FRESH-041,Fresh,Fresh Produce,Banana Seeni,kg,fresh,383,53,330,143,0,85,in_stock
+WH-KAN,Kandy,FRESH-042,Fresh,Fresh Produce,Banana Ambul,kg,fresh,456,45,411,100,50,186,in_stock
+WH-KAN,Kandy,FRESH-043,Fresh,Fresh Produce,Papaya,kg,fresh,252,66,186,99,50,210,low_stock
+WH-KAN,Kandy,FRESH-044,Fresh,Fresh Produce,Pineapple,kg,fresh,445,20,425,191,100,151,in_stock
+WH-KAN,Kandy,FRESH-045,Fresh,Fresh Produce,Mango,kg,fresh,214,18,196,245,100,130,in_stock
+WH-KAN,Kandy,FRESH-046,Fresh,Fresh Produce,Avocado,kg,fresh,243,76,167,245,0,195,low_stock
+WH-KAN,Kandy,FRESH-047,Fresh,Fresh Produce,Watermelon,kg,fresh,477,44,433,54,0,165,in_stock
+WH-KAN,Kandy,FRESH-048,Fresh,Fresh Produce,Guava,kg,fresh,319,56,263,253,150,112,in_stock
+WH-KAN,Kandy,FRESH-049,Fresh,Fresh Produce,Orange,kg,fresh,345,70,275,214,250,199,in_stock
+WH-KAN,Kandy,FRESH-050,Fresh,Fresh Produce,Mandarin,kg,fresh,118,27,91,85,100,212,low_stock
+WH-KAN,Kandy,FRESH-051,Fresh,Fresh Produce,Grapes Green,kg,fresh,312,68,244,229,250,198,in_stock
+WH-KAN,Kandy,FRESH-052,Fresh,Fresh Produce,Grapes Red,kg,fresh,496,73,423,140,250,110,in_stock
+WH-KAN,Kandy,FRESH-053,Fresh,Fresh Produce,Pomegranate,kg,fresh,196,54,142,55,50,216,low_stock
+WH-KAN,Kandy,FRESH-054,Fresh,Fresh Produce,Pear,kg,fresh,410,56,354,177,150,115,in_stock
+WH-KAN,Kandy,FRESH-055,Fresh,Fresh Produce,Kiwi,kg,fresh,395,70,325,143,0,219,in_stock
+WH-KAN,Kandy,FRESH-056,Fresh,Fresh Produce,Strawberry,kg,fresh,190,21,169,95,150,160,in_stock
+WH-KAN,Kandy,FRESH-057,Fresh,Fresh Produce,Dragon Fruit,kg,fresh,332,37,295,273,150,99,in_stock
+WH-KAN,Kandy,FRESH-058,Fresh,Fresh Produce,Passion Fruit,kg,fresh,113,4,109,96,0,123,low_stock
+WH-KAN,Kandy,FRESH-059,Fresh,Fresh Produce,Wood Apple,kg,fresh,467,19,448,245,0,115,in_stock
+WH-KAN,Kandy,FRESH-060,Fresh,Fresh Produce,Coconut,kg,fresh,329,53,276,166,150,173,in_stock
+WH-KAN,Kandy,FRESH-061,Fresh,Fresh Produce,King Coconut,kg,fresh,136,43,93,247,250,168,low_stock
+WH-KAN,Kandy,FRESH-062,Fresh,Fresh Produce,Eggplant,kg,fresh,179,51,128,66,250,125,in_stock
+WH-KAN,Kandy,FRESH-063,Fresh,Fresh Produce,Celery,kg,fresh,414,44,370,95,150,152,in_stock
+WH-KAN,Kandy,FRESH-064,Fresh,Fresh Produce,Parsley,kg,fresh,474,72,402,234,150,156,in_stock
+WH-KAN,Kandy,FRESH-065,Fresh,Fresh Produce,Dill,kg,fresh,136,66,70,211,150,84,low_stock
+WH-KAN,Kandy,FRESH-066,Fresh,Fresh Produce,Rosemary,kg,fresh,268,66,202,88,0,87,in_stock
+WH-KAN,Kandy,FRESH-067,Fresh,Fresh Produce,Thyme,kg,fresh,296,68,228,142,50,94,in_stock
+WH-KAN,Kandy,FRESH-068,Fresh,Fresh Produce,Basil,kg,fresh,419,64,355,207,250,123,in_stock
+WH-KAN,Kandy,FRESH-069,Fresh,Fresh Produce,Mushroom,kg,fresh,91,0,91,182,50,149,low_stock
+WH-KAN,Kandy,FRESH-070,Fresh,Fresh Produce,Baby Corn,kg,fresh,288,27,261,132,0,150,in_stock
+WH-KAN,Kandy,FRESH-071,Fresh,Fresh Produce,French Beans,kg,fresh,162,72,90,79,100,89,in_stock
+WH-KAN,Kandy,FRESH-072,Fresh,Fresh Produce,Zucchini,kg,fresh,99,80,19,92,250,92,low_stock
+WH-KAN,Kandy,FRESH-073,Fresh,Fresh Produce,Chayote,kg,fresh,402,32,370,187,50,177,in_stock
+WH-KAN,Kandy,FRESH-074,Fresh,Fresh Produce,Turnip,kg,fresh,152,29,123,82,150,186,low_stock
+WH-KAN,Kandy,FRESH-075,Fresh,Fresh Produce,Sweet Potato,kg,fresh,344,12,332,275,150,127,in_stock
+WH-KAN,Kandy,FRESH-076,Fresh,Fresh Produce,Cassava,kg,fresh,107,48,59,48,50,83,low_stock
+WH-KAN,Kandy,FRESH-077,Fresh,Fresh Produce,Yam,kg,fresh,406,37,369,182,0,152,in_stock
+WH-KAN,Kandy,FRESH-078,Fresh,Fresh Produce,Taro,kg,fresh,353,58,295,129,250,212,in_stock
+WH-KAN,Kandy,FRESH-079,Fresh,Fresh Produce,Jackfruit,kg,fresh,403,51,352,102,150,175,in_stock
+WH-KAN,Kandy,FRESH-080,Fresh,Fresh Produce,Breadfruit,kg,fresh,210,64,146,213,250,182,low_stock
+WH-KAN,Kandy,FRESH-081,Fresh,Fresh Produce,Ridge Gourd,kg,fresh,394,46,348,201,50,220,in_stock
+WH-KAN,Kandy,FRESH-082,Fresh,Fresh Produce,Winged Bean,kg,fresh,101,10,91,134,150,142,low_stock
+WH-KAN,Kandy,FRESH-083,Fresh,Fresh Produce,Long Bean,kg,fresh,322,48,274,194,50,208,in_stock
+WH-KAN,Kandy,FRESH-084,Fresh,Fresh Produce,Ash Plantain,kg,fresh,434,4,430,106,0,130,in_stock
+WH-KAN,Kandy,FRESH-085,Fresh,Fresh Produce,Raw Banana,kg,fresh,158,55,103,90,150,176,low_stock
+WH-KAN,Kandy,FRESH-086,Fresh,Fresh Produce,Green Papaya,kg,fresh,284,9,275,170,50,188,in_stock
+WH-KAN,Kandy,FRESH-087,Fresh,Fresh Produce,Green Mango,kg,fresh,217,23,194,53,250,125,in_stock
+WH-KAN,Kandy,FRESH-088,Fresh,Fresh Produce,Red Cabbage,kg,fresh,305,71,234,152,150,102,in_stock
+WH-KAN,Kandy,FRESH-089,Fresh,Fresh Produce,Cherry Tomato,kg,fresh,391,12,379,226,50,117,in_stock
+WH-KAN,Kandy,FRESH-090,Fresh,Fresh Produce,Baby Spinach,kg,fresh,362,51,311,101,0,196,in_stock
+WH-KAN,Kandy,FRESH-091,Fresh,Fresh Produce,Rocket Leaves,kg,fresh,203,2,201,110,50,150,in_stock
+WH-KAN,Kandy,FRESH-092,Fresh,Fresh Produce,Iceberg Lettuce,kg,fresh,87,49,38,213,0,178,low_stock
+WH-KAN,Kandy,FRESH-093,Fresh,Fresh Produce,Butterhead Lettuce,kg,fresh,146,3,143,91,100,161,low_stock
+WH-KAN,Kandy,FRESH-094,Fresh,Fresh Produce,Romaine Lettuce,kg,fresh,452,40,412,218,50,171,in_stock
+WH-KAN,Kandy,FRESH-095,Fresh,Fresh Produce,Chinese Cabbage,kg,fresh,105,53,52,224,250,99,low_stock
+WH-KAN,Kandy,FRESH-096,Fresh,Fresh Produce,Pak Choi,kg,fresh,441,62,379,158,0,210,in_stock
+WH-KAN,Kandy,FRESH-097,Fresh,Fresh Produce,Bell Pepper Red,kg,fresh,84,63,21,70,0,127,low_stock
+WH-KAN,Kandy,FRESH-098,Fresh,Fresh Produce,Bell Pepper Yellow,kg,fresh,338,65,273,223,50,195,in_stock
+WH-KAN,Kandy,FRESH-099,Fresh,Fresh Produce,Bell Pepper Green,kg,fresh,343,62,281,94,250,154,in_stock
+WH-KAN,Kandy,FRESH-100,Fresh,Fresh Produce,Asparagus,kg,fresh,414,14,400,222,50,107,in_stock
+WH-KAN,Kandy,FRESH-101,Fresh,Fresh Produce,Spring Garlic,kg,fresh,472,55,417,173,250,111,in_stock
+WH-KAN,Kandy,FRESH-102,Fresh,Fresh Produce,Shallot,kg,fresh,326,66,260,170,150,87,in_stock
+WH-KAN,Kandy,FRESH-103,Fresh,Fresh Produce,Shiitake Mushroom,kg,fresh,188,54,134,183,100,149,low_stock
+WH-KAN,Kandy,FRESH-104,Fresh,Fresh Produce,Oyster Mushroom,kg,fresh,192,43,149,49,250,201,low_stock
+WH-KAN,Kandy,FRESH-105,Fresh,Fresh Produce,Enoki Mushroom,kg,fresh,87,77,10,156,150,85,low_stock
+WH-KAN,Kandy,FRESH-106,Fresh,Fresh Produce,Fresh Peanuts,kg,fresh,259,29,230,271,150,170,in_stock
+WH-KAN,Kandy,FRESH-107,Fresh,Fresh Produce,Corn Cob,kg,fresh,220,15,205,230,100,146,in_stock
+WH-KAN,Kandy,FRESH-108,Fresh,Fresh Produce,Fresh Okra,kg,fresh,112,7,105,87,100,136,low_stock
+WH-KAN,Kandy,FRESH-109,Fresh,Fresh Produce,Fresh Green Peas,kg,fresh,260,65,195,159,0,104,in_stock
+WH-KAN,Kandy,FRESH-110,Fresh,Fresh Produce,Fresh Soybean,kg,fresh,363,37,326,207,50,123,in_stock
+WH-KAN,Kandy,FRESH-111,Fresh,Frozen Food,Frozen Chicken Breast,pack,frozen,260,0,260,59,250,133,in_stock
+WH-KAN,Kandy,FRESH-112,Fresh,Frozen Food,Frozen Chicken Thigh,pack,frozen,118,3,115,174,50,95,in_stock
+WH-KAN,Kandy,FRESH-113,Fresh,Frozen Food,Frozen Chicken Wings,pack,frozen,449,69,380,268,50,210,in_stock
+WH-KAN,Kandy,FRESH-114,Fresh,Frozen Food,Frozen Chicken Drumsticks,pack,frozen,185,57,128,154,0,128,low_stock
+WH-KAN,Kandy,FRESH-115,Fresh,Frozen Food,Frozen Chicken Nuggets,pack,frozen,405,66,339,182,0,143,in_stock
+WH-KAN,Kandy,FRESH-116,Fresh,Frozen Food,Frozen Chicken Sausage,pack,frozen,114,21,93,147,50,205,low_stock
+WH-KAN,Kandy,FRESH-117,Fresh,Frozen Food,Frozen Fish Fillet,pack,frozen,158,0,158,114,100,82,in_stock
+WH-KAN,Kandy,FRESH-118,Fresh,Frozen Food,Frozen Tuna Steak,pack,frozen,468,56,412,145,0,88,in_stock
+WH-KAN,Kandy,FRESH-119,Fresh,Frozen Food,Frozen Seer Fish,pack,frozen,287,46,241,280,0,106,in_stock
+WH-KAN,Kandy,FRESH-120,Fresh,Frozen Food,Frozen Prawns,pack,frozen,484,41,443,254,0,170,in_stock
+WH-KAN,Kandy,FRESH-121,Fresh,Frozen Food,Frozen Squid,pack,frozen,488,32,456,170,50,125,in_stock
+WH-KAN,Kandy,FRESH-122,Fresh,Frozen Food,Frozen Cuttlefish,pack,frozen,354,44,310,140,50,198,in_stock
+WH-KAN,Kandy,FRESH-123,Fresh,Frozen Food,Frozen Crab Meat,pack,frozen,436,74,362,54,250,217,in_stock
+WH-KAN,Kandy,FRESH-124,Fresh,Frozen Food,Frozen Mixed Seafood,pack,frozen,321,34,287,195,100,219,in_stock
+WH-KAN,Kandy,FRESH-125,Fresh,Frozen Food,Frozen Fish Fingers,pack,frozen,289,37,252,57,150,125,in_stock
+WH-KAN,Kandy,FRESH-126,Fresh,Frozen Food,Frozen French Fries,pack,frozen,268,50,218,275,0,123,in_stock
+WH-KAN,Kandy,FRESH-127,Fresh,Frozen Food,Frozen Potato Wedges,pack,frozen,157,27,130,86,0,211,low_stock
+WH-KAN,Kandy,FRESH-128,Fresh,Frozen Food,Frozen Hash Browns,pack,frozen,334,71,263,44,50,80,in_stock
+WH-KAN,Kandy,FRESH-129,Fresh,Frozen Food,Frozen Sweet Corn,pack,frozen,163,28,135,255,150,102,in_stock
+WH-KAN,Kandy,FRESH-130,Fresh,Frozen Food,Frozen Green Peas,pack,frozen,222,43,179,241,50,85,in_stock
+WH-KAN,Kandy,FRESH-131,Fresh,Frozen Food,Frozen Mixed Vegetables,pack,frozen,282,69,213,199,150,130,in_stock
+WH-KAN,Kandy,FRESH-132,Fresh,Frozen Food,Frozen Carrot Cubes,pack,frozen,266,14,252,198,50,167,in_stock
+WH-KAN,Kandy,FRESH-133,Fresh,Frozen Food,Frozen Broccoli,pack,frozen,476,21,455,220,0,128,in_stock
+WH-KAN,Kandy,FRESH-134,Fresh,Frozen Food,Frozen Cauliflower,pack,frozen,290,58,232,100,50,172,in_stock
+WH-KAN,Kandy,FRESH-135,Fresh,Frozen Food,Frozen Spinach,pack,frozen,266,76,190,144,250,101,in_stock
+WH-KAN,Kandy,FRESH-136,Fresh,Frozen Food,Frozen Mixed Berries,pack,frozen,382,64,318,227,0,141,in_stock
+WH-KAN,Kandy,FRESH-137,Fresh,Frozen Food,Frozen Strawberry,pack,frozen,320,75,245,124,250,141,in_stock
+WH-KAN,Kandy,FRESH-138,Fresh,Frozen Food,Frozen Blueberry,pack,frozen,376,49,327,118,50,87,in_stock
+WH-KAN,Kandy,FRESH-139,Fresh,Frozen Food,Frozen Mango Chunks,pack,frozen,298,32,266,114,250,93,in_stock
+WH-KAN,Kandy,FRESH-140,Fresh,Frozen Food,Frozen Pineapple Chunks,pack,frozen,205,77,128,103,250,89,in_stock
+WH-KAN,Kandy,FRESH-141,Fresh,Frozen Food,Frozen Paratha,pack,frozen,218,30,188,127,50,107,in_stock
+WH-KAN,Kandy,FRESH-142,Fresh,Frozen Food,Frozen Roti,pack,frozen,211,45,166,44,250,195,low_stock
+WH-KAN,Kandy,FRESH-143,Fresh,Frozen Food,Frozen Chapati,pack,frozen,388,4,384,225,250,191,in_stock
+WH-KAN,Kandy,FRESH-144,Fresh,Frozen Food,Frozen String Hopper,pack,frozen,330,42,288,95,150,97,in_stock
+WH-KAN,Kandy,FRESH-145,Fresh,Frozen Food,Frozen Vegetable Samosa,pack,frozen,260,11,249,252,50,178,in_stock
+WH-KAN,Kandy,FRESH-146,Fresh,Frozen Food,Frozen Chicken Samosa,pack,frozen,169,67,102,55,150,144,low_stock
+WH-KAN,Kandy,FRESH-147,Fresh,Frozen Food,Frozen Spring Rolls,pack,frozen,446,42,404,161,0,166,in_stock
+WH-KAN,Kandy,FRESH-148,Fresh,Frozen Food,Frozen Vegetable Rolls,pack,frozen,263,66,197,237,50,217,low_stock
+WH-KAN,Kandy,FRESH-149,Fresh,Frozen Food,Frozen Fish Cutlet,pack,frozen,170,70,100,137,250,207,low_stock
+WH-KAN,Kandy,FRESH-150,Fresh,Frozen Food,Frozen Chicken Cutlet,pack,frozen,219,79,140,87,50,219,low_stock
+WH-KAN,Kandy,FRESH-151,Fresh,Frozen Food,Frozen Pizza,pack,frozen,451,7,444,279,150,209,in_stock
+WH-KAN,Kandy,FRESH-152,Fresh,Frozen Food,Frozen Garlic Bread,pack,frozen,213,61,152,190,250,107,in_stock
+WH-KAN,Kandy,FRESH-153,Fresh,Frozen Food,Frozen Burger Patties,pack,frozen,98,66,32,154,250,89,low_stock
+WH-KAN,Kandy,FRESH-154,Fresh,Frozen Food,Frozen Chicken Burger Patties,pack,frozen,283,42,241,141,100,220,in_stock
+WH-KAN,Kandy,FRESH-155,Fresh,Frozen Food,Frozen Beef Burger Patties,pack,frozen,472,20,452,97,50,133,in_stock
+WH-KAN,Kandy,FRESH-156,Fresh,Frozen Food,Frozen Meatballs,pack,frozen,222,34,188,181,100,212,low_stock
+WH-KAN,Kandy,FRESH-157,Fresh,Frozen Food,Frozen Chicken Meatballs,pack,frozen,189,72,117,188,150,141,low_stock
+WH-KAN,Kandy,FRESH-158,Fresh,Frozen Food,Frozen Sausage,pack,frozen,367,56,311,47,0,135,in_stock
+WH-KAN,Kandy,FRESH-159,Fresh,Frozen Food,Frozen Edamame,pack,frozen,468,22,446,190,250,159,in_stock
+WH-KAN,Kandy,FRESH-160,Fresh,Frozen Food,Frozen French Beans,pack,frozen,294,9,285,80,250,103,in_stock
+WH-KAN,Kandy,FRESH-161,Fresh,Frozen Food,Frozen Okra,pack,frozen,81,30,51,151,50,213,low_stock
+WH-KAN,Kandy,FRESH-162,Fresh,Frozen Food,Frozen Sweet Potato Fries,pack,frozen,380,35,345,157,0,158,in_stock
+WH-KAN,Kandy,FRESH-163,Fresh,Frozen Food,Frozen Onion Rings,pack,frozen,421,34,387,274,50,108,in_stock
+WH-KAN,Kandy,FRESH-164,Fresh,Frozen Food,Frozen Hash Brown Patties,pack,frozen,465,58,407,184,0,199,in_stock
+WH-KAN,Kandy,FRESH-165,Fresh,Frozen Food,Frozen Corn Nuggets,pack,frozen,499,3,496,170,0,144,in_stock
+WH-KAN,Kandy,FRESH-166,Fresh,Other Groceries,White Rice 5kg,unit,ambient,230,20,210,55,50,166,in_stock
+WH-KAN,Kandy,FRESH-167,Fresh,Other Groceries,Red Rice 5kg,unit,ambient,485,15,470,57,100,103,in_stock
+WH-KAN,Kandy,FRESH-168,Fresh,Other Groceries,Basmati Rice 5kg,unit,ambient,131,29,102,55,50,182,low_stock
+WH-KAN,Kandy,FRESH-169,Fresh,Other Groceries,Nadu Rice 5kg,unit,ambient,380,3,377,156,100,220,in_stock
+WH-KAN,Kandy,FRESH-170,Fresh,Other Groceries,Samba Rice 5kg,unit,ambient,95,37,58,265,50,134,low_stock
+WH-KAN,Kandy,FRESH-171,Fresh,Other Groceries,Keeri Samba Rice 5kg,unit,ambient,401,59,342,102,100,160,in_stock
+WH-KAN,Kandy,FRESH-172,Fresh,Other Groceries,Wheat Flour 1kg,unit,ambient,106,9,97,111,250,185,low_stock
+WH-KAN,Kandy,FRESH-173,Fresh,Other Groceries,All Purpose Flour 1kg,unit,ambient,254,54,200,164,100,92,in_stock
+WH-KAN,Kandy,FRESH-174,Fresh,Other Groceries,Kurakkan Flour 500g,unit,ambient,486,51,435,197,150,99,in_stock
+WH-KAN,Kandy,FRESH-175,Fresh,Other Groceries,Corn Flour 500g,unit,ambient,226,45,181,224,150,185,low_stock
+WH-KAN,Kandy,FRESH-176,Fresh,Other Groceries,Rice Flour 1kg,unit,ambient,173,5,168,280,100,178,low_stock
+WH-KAN,Kandy,FRESH-177,Fresh,Other Groceries,Bread Flour 1kg,unit,ambient,105,77,28,75,150,181,low_stock
+WH-KAN,Kandy,FRESH-178,Fresh,Other Groceries,Sugar 1kg,unit,ambient,150,1,149,174,0,151,low_stock
+WH-KAN,Kandy,FRESH-179,Fresh,Other Groceries,Brown Sugar 1kg,unit,ambient,425,58,367,43,150,138,in_stock
+WH-KAN,Kandy,FRESH-180,Fresh,Other Groceries,Iodized Salt 1kg,unit,ambient,362,51,311,49,250,104,in_stock
+WH-KAN,Kandy,FRESH-181,Fresh,Other Groceries,Coconut Milk Powder 300g,unit,ambient,361,56,305,232,150,147,in_stock
+WH-KAN,Kandy,FRESH-182,Fresh,Other Groceries,Milk Powder 400g,unit,ambient,430,60,370,215,100,128,in_stock
+WH-KAN,Kandy,FRESH-183,Fresh,Other Groceries,Milk Powder 1kg,unit,ambient,382,46,336,244,0,207,in_stock
+WH-KAN,Kandy,FRESH-184,Fresh,Other Groceries,Tea 200g,unit,ambient,362,13,349,72,150,213,in_stock
+WH-KAN,Kandy,FRESH-185,Fresh,Other Groceries,Tea Bags 100s,unit,ambient,489,39,450,204,250,118,in_stock
+WH-KAN,Kandy,FRESH-186,Fresh,Other Groceries,Coffee 100g,unit,ambient,367,30,337,233,50,201,in_stock
+WH-KAN,Kandy,FRESH-187,Fresh,Other Groceries,Instant Coffee 200g,unit,ambient,245,26,219,80,150,190,in_stock
+WH-KAN,Kandy,FRESH-188,Fresh,Other Groceries,Cocoa Powder 100g,unit,ambient,396,18,378,170,100,137,in_stock
+WH-KAN,Kandy,FRESH-189,Fresh,Other Groceries,Malted Drink 400g,unit,ambient,304,45,259,112,0,167,in_stock
+WH-KAN,Kandy,FRESH-190,Fresh,Other Groceries,Cooking Oil 1L,unit,ambient,301,73,228,222,150,123,in_stock
+WH-KAN,Kandy,FRESH-191,Fresh,Other Groceries,Coconut Oil 750ml,unit,ambient,224,38,186,119,150,195,low_stock
+WH-KAN,Kandy,FRESH-192,Fresh,Other Groceries,Olive Oil 500ml,unit,ambient,461,6,455,226,50,116,in_stock
+WH-KAN,Kandy,FRESH-193,Fresh,Other Groceries,Sesame Oil 250ml,unit,ambient,330,1,329,254,50,197,in_stock
+WH-KAN,Kandy,FRESH-194,Fresh,Other Groceries,Vinegar 750ml,unit,ambient,145,0,145,109,150,158,low_stock
+WH-KAN,Kandy,FRESH-195,Fresh,Other Groceries,Apple Cider Vinegar 500ml,unit,ambient,442,48,394,161,50,116,in_stock
+WH-KAN,Kandy,FRESH-196,Fresh,Other Groceries,Soy Sauce 500ml,unit,ambient,457,12,445,58,150,168,in_stock
+WH-KAN,Kandy,FRESH-197,Fresh,Other Groceries,Chilli Sauce 500ml,unit,ambient,157,72,85,138,0,160,low_stock
+WH-KAN,Kandy,FRESH-198,Fresh,Other Groceries,Tomato Sauce 500ml,unit,ambient,116,62,54,62,100,96,low_stock
+WH-KAN,Kandy,FRESH-199,Fresh,Other Groceries,Mustard Sauce 250g,unit,ambient,415,1,414,177,0,87,in_stock
+WH-KAN,Kandy,FRESH-200,Fresh,Other Groceries,Mayonnaise 500ml,unit,ambient,90,76,14,266,150,153,low_stock
+WH-KAN,Kandy,FRESH-201,Fresh,Other Groceries,Oyster Sauce 300ml,unit,ambient,256,73,183,243,50,159,in_stock
+WH-KAN,Kandy,FRESH-202,Fresh,Other Groceries,Fish Sauce 300ml,unit,ambient,487,3,484,97,250,177,in_stock
+WH-KAN,Kandy,FRESH-203,Fresh,Other Groceries,Hot Sauce 150ml,unit,ambient,297,69,228,68,250,168,in_stock
+WH-KAN,Kandy,FRESH-204,Fresh,Other Groceries,Chilli Powder 100g,unit,ambient,382,21,361,260,0,85,in_stock
+WH-KAN,Kandy,FRESH-205,Fresh,Other Groceries,Curry Powder 100g,unit,ambient,227,23,204,227,250,171,in_stock
+WH-KAN,Kandy,FRESH-206,Fresh,Other Groceries,Roasted Curry Powder 100g,unit,ambient,422,67,355,113,50,200,in_stock
+WH-KAN,Kandy,FRESH-207,Fresh,Other Groceries,Turmeric Powder 100g,unit,ambient,233,59,174,164,50,136,in_stock
+WH-KAN,Kandy,FRESH-208,Fresh,Other Groceries,Pepper Powder 100g,unit,ambient,320,19,301,161,0,207,in_stock
+WH-KAN,Kandy,FRESH-209,Fresh,Other Groceries,Pepper Seeds 100g,unit,ambient,304,67,237,257,100,158,in_stock
+WH-KAN,Kandy,FRESH-210,Fresh,Other Groceries,Cumin 100g,unit,ambient,171,34,137,229,100,192,low_stock
+WH-KAN,Kandy,FRESH-211,Fresh,Other Groceries,Coriander Powder 100g,unit,ambient,309,0,309,166,250,111,in_stock
+WH-KAN,Kandy,FRESH-212,Fresh,Other Groceries,Fennel Seeds 100g,unit,ambient,239,43,196,245,0,194,in_stock
+WH-KAN,Kandy,FRESH-213,Fresh,Other Groceries,Cinnamon 50g,unit,ambient,94,60,34,166,50,91,low_stock
+WH-KAN,Kandy,FRESH-214,Fresh,Other Groceries,Cardamom 25g,unit,ambient,343,0,343,82,150,106,in_stock
+WH-KAN,Kandy,FRESH-215,Fresh,Other Groceries,Cloves 25g,unit,ambient,498,24,474,45,100,141,in_stock
+WH-KAN,Kandy,FRESH-216,Fresh,Other Groceries,Garam Masala 100g,unit,ambient,328,21,307,64,150,117,in_stock
+WH-KAN,Kandy,FRESH-217,Fresh,Other Groceries,Chilli Flakes 100g,unit,ambient,87,79,8,200,0,124,low_stock
+WH-KAN,Kandy,FRESH-218,Fresh,Other Groceries,Paprika 100g,unit,ambient,428,28,400,242,100,123,in_stock
+WH-KAN,Kandy,FRESH-219,Fresh,Other Groceries,Ginger Powder 100g,unit,ambient,116,39,77,71,250,214,low_stock
+WH-KAN,Kandy,FRESH-220,Fresh,Other Groceries,Garlic Powder 100g,unit,ambient,92,64,28,212,100,158,low_stock
+WH-KAN,Kandy,FRESH-221,Fresh,Other Groceries,Baking Powder 100g,unit,ambient,117,21,96,140,100,93,in_stock
+WH-KAN,Kandy,FRESH-222,Fresh,Other Groceries,Baking Soda 100g,unit,ambient,428,22,406,145,250,154,in_stock
+WH-KAN,Kandy,FRESH-223,Fresh,Other Groceries,Yeast 100g,unit,ambient,189,42,147,235,150,118,in_stock
+WH-KAN,Kandy,FRESH-224,Fresh,Other Groceries,Vanilla Essence 100ml,unit,ambient,315,30,285,220,100,124,in_stock
+WH-KAN,Kandy,FRESH-225,Fresh,Other Groceries,Custard Powder 200g,unit,ambient,222,68,154,217,250,215,low_stock
+WH-KAN,Kandy,FRESH-226,Fresh,Other Groceries,Jelly 100g,unit,ambient,126,65,61,207,250,110,low_stock
+WH-KAN,Kandy,FRESH-227,Fresh,Other Groceries,Cornflakes 500g,unit,ambient,106,11,95,195,250,217,low_stock
+WH-KAN,Kandy,FRESH-228,Fresh,Other Groceries,Oats 500g,unit,ambient,140,31,109,198,250,166,low_stock
+WH-KAN,Kandy,FRESH-229,Fresh,Other Groceries,Muesli 500g,unit,ambient,481,51,430,135,150,192,in_stock
+WH-KAN,Kandy,FRESH-230,Fresh,Other Groceries,Granola 500g,unit,ambient,287,37,250,272,250,132,in_stock
+WH-KAN,Kandy,FRESH-231,Fresh,Other Groceries,Pasta 500g,unit,ambient,163,75,88,150,50,219,low_stock
+WH-KAN,Kandy,FRESH-232,Fresh,Other Groceries,Macaroni 500g,unit,ambient,313,6,307,115,50,84,in_stock
+WH-KAN,Kandy,FRESH-233,Fresh,Other Groceries,Spaghetti 500g,unit,ambient,84,48,36,51,50,102,low_stock
+WH-KAN,Kandy,FRESH-234,Fresh,Other Groceries,Noodles 400g,unit,ambient,322,40,282,262,250,104,in_stock
+WH-KAN,Kandy,FRESH-235,Fresh,Other Groceries,Rice Noodles 400g,unit,ambient,283,76,207,273,50,128,in_stock
+WH-KAN,Kandy,FRESH-236,Fresh,Other Groceries,Instant Noodles 5 Pack,unit,ambient,317,17,300,147,100,142,in_stock
+WH-KAN,Kandy,FRESH-237,Fresh,Other Groceries,Canned Tuna 185g,unit,ambient,81,50,31,158,0,115,low_stock
+WH-KAN,Kandy,FRESH-238,Fresh,Other Groceries,Canned Sardines 425g,unit,ambient,275,71,204,262,50,88,in_stock
+WH-KAN,Kandy,FRESH-239,Fresh,Other Groceries,Canned Chickpeas 400g,unit,ambient,135,50,85,83,150,187,low_stock
+WH-KAN,Kandy,FRESH-240,Fresh,Other Groceries,Canned Red Kidney Beans 400g,unit,ambient,453,47,406,71,100,120,in_stock
+WH-KAN,Kandy,FRESH-241,Fresh,Other Groceries,Canned Sweet Corn 400g,unit,ambient,370,30,340,89,150,131,in_stock
+WH-KAN,Kandy,FRESH-242,Fresh,Other Groceries,Baked Beans 420g,unit,ambient,445,7,438,104,0,100,in_stock
+WH-KAN,Kandy,FRESH-243,Fresh,Other Groceries,Tomato Paste 210g,unit,ambient,205,0,205,123,250,131,in_stock
+WH-KAN,Kandy,FRESH-244,Fresh,Other Groceries,Peanut Butter 340g,unit,ambient,306,26,280,93,50,100,in_stock
+WH-KAN,Kandy,FRESH-245,Fresh,Other Groceries,Jam Strawberry 450g,unit,ambient,210,57,153,86,100,151,in_stock
+WH-KAN,Kandy,FRESH-246,Fresh,Other Groceries,Jam Mixed Fruit 450g,unit,ambient,443,23,420,143,150,180,in_stock
+WH-KAN,Kandy,FRESH-247,Fresh,Other Groceries,Honey 375g,unit,ambient,188,42,146,99,250,158,low_stock
+WH-KAN,Kandy,FRESH-248,Fresh,Other Groceries,Kithul Treacle 375ml,unit,ambient,333,29,304,67,150,159,in_stock
+WH-KAN,Kandy,FRESH-249,Fresh,Other Groceries,Desiccated Coconut 200g,unit,ambient,145,17,128,241,100,195,low_stock
+WH-KAN,Kandy,FRESH-250,Fresh,Other Groceries,Peanuts 500g,unit,ambient,81,48,33,116,50,122,low_stock
+WH-KAN,Kandy,FRESH-251,Fresh,Other Groceries,Cashew 250g,unit,ambient,212,56,156,236,100,188,low_stock
+WH-KAN,Kandy,FRESH-252,Fresh,Other Groceries,Almonds 250g,unit,ambient,177,50,127,60,150,202,low_stock
+WH-KAN,Kandy,FRESH-253,Fresh,Other Groceries,Raisins 250g,unit,ambient,249,32,217,254,50,158,in_stock
+WH-KAN,Kandy,FRESH-254,Fresh,Other Groceries,Dates 500g,unit,ambient,357,28,329,160,150,208,in_stock
+WH-KAN,Kandy,FRESH-255,Fresh,Other Groceries,Dried Chillies 100g,unit,ambient,155,25,130,227,100,110,in_stock
+WH-KAN,Kandy,FRESH-256,Fresh,Other Groceries,Papad 200g,unit,ambient,314,53,261,191,150,163,in_stock
+WH-KAN,Kandy,FRESH-257,Fresh,Other Groceries,Crackers 250g,unit,ambient,255,45,210,147,50,84,in_stock
+WH-KAN,Kandy,FRESH-258,Fresh,Other Groceries,Cream Crackers 500g,unit,ambient,486,51,435,241,50,140,in_stock
+WH-KAN,Kandy,FRESH-259,Fresh,Other Groceries,Biscuits Assorted 400g,unit,ambient,398,65,333,94,50,179,in_stock
+WH-KAN,Kandy,FRESH-260,Fresh,Other Groceries,Chocolate Bar 100g,unit,ambient,431,3,428,241,50,129,in_stock
+WH-KAN,Kandy,FRESH-261,Fresh,Other Groceries,Wafers 150g,unit,ambient,253,46,207,178,250,164,in_stock
+WH-KAN,Kandy,FRESH-262,Fresh,Other Groceries,Potato Chips 100g,unit,ambient,448,76,372,244,100,183,in_stock
+WH-KAN,Kandy,FRESH-263,Fresh,Other Groceries,Popcorn 100g,unit,ambient,392,14,378,142,250,120,in_stock
+WH-KAN,Kandy,FRESH-264,Fresh,Other Groceries,Peanut Snacks 100g,unit,ambient,255,31,224,206,50,118,in_stock
+WH-KAN,Kandy,FRESH-265,Fresh,Other Groceries,Coconut Biscuits 200g,unit,ambient,177,16,161,254,50,150,in_stock
+WH-KAN,Kandy,FRESH-266,Fresh,Other Groceries,Bread White 450g,unit,ambient,210,77,133,204,0,182,low_stock
+WH-KAN,Kandy,FRESH-267,Fresh,Other Groceries,Bread Wholemeal 450g,unit,ambient,291,45,246,130,100,212,in_stock
+WH-KAN,Kandy,FRESH-268,Fresh,Other Groceries,Buns Pack 6,unit,ambient,206,64,142,277,100,173,low_stock
+WH-KAN,Kandy,FRESH-269,Fresh,Other Groceries,Burger Buns Pack 4,unit,ambient,272,29,243,245,100,218,in_stock
+WH-KAN,Kandy,FRESH-270,Fresh,Other Groceries,Hot Dog Buns Pack 4,unit,ambient,371,23,348,166,50,151,in_stock
+WH-KAN,Kandy,FRESH-271,Fresh,Other Groceries,Eggs 10 Pack,unit,ambient,222,61,161,49,100,138,in_stock
+WH-KAN,Kandy,FRESH-272,Fresh,Other Groceries,Eggs 30 Pack,unit,ambient,418,59,359,129,50,180,in_stock
+WH-KAN,Kandy,FRESH-273,Fresh,Other Groceries,Fresh Milk 1L,unit,ambient,152,29,123,272,100,217,low_stock
+WH-KAN,Kandy,FRESH-274,Fresh,Other Groceries,Yoghurt Cup 80g,unit,ambient,167,72,95,277,100,183,low_stock
+WH-KAN,Kandy,FRESH-275,Fresh,Other Groceries,Curd 450ml,unit,ambient,156,11,145,115,250,202,low_stock
+WH-KAN,Kandy,FRESH-276,Fresh,Other Groceries,Butter 200g,unit,ambient,181,80,101,267,0,188,low_stock
+WH-KAN,Kandy,FRESH-277,Fresh,Other Groceries,Margarine 250g,unit,ambient,85,37,48,46,50,118,low_stock
+WH-KAN,Kandy,FRESH-278,Fresh,Other Groceries,Cheddar Cheese 200g,unit,ambient,186,75,111,61,0,156,low_stock
+WH-KAN,Kandy,FRESH-279,Fresh,Other Groceries,Mozzarella Cheese 200g,unit,ambient,446,33,413,193,50,220,in_stock
+WH-KAN,Kandy,FRESH-280,Fresh,Other Groceries,Processed Cheese 200g,unit,ambient,333,32,301,239,250,179,in_stock
+WH-KAN,Kandy,FRESH-281,Fresh,Other Groceries,Cream Cheese 200g,unit,ambient,236,54,182,144,150,210,low_stock
+WH-KAN,Kandy,FRESH-282,Fresh,Other Groceries,Whipping Cream 200ml,unit,ambient,211,60,151,127,150,131,in_stock
+WH-KAN,Kandy,FRESH-283,Fresh,Other Groceries,Cooking Cream 200ml,unit,ambient,485,15,470,108,150,212,in_stock
+WH-KAN,Kandy,FRESH-284,Fresh,Other Groceries,Ice Cream Vanilla 1L,unit,ambient,428,29,399,232,50,87,in_stock
+WH-KAN,Kandy,FRESH-285,Fresh,Other Groceries,Ice Cream Chocolate 1L,unit,ambient,300,15,285,132,0,129,in_stock
+WH-KAN,Kandy,FRESH-286,Fresh,Other Groceries,Ice Cream Strawberry 1L,unit,ambient,338,14,324,47,100,82,in_stock
+WH-KAN,Kandy,FRESH-287,Fresh,Other Groceries,Ice Cream Family Pack 1.5L,unit,ambient,218,75,143,64,150,122,in_stock
+WH-KAN,Kandy,FRESH-288,Fresh,Other Groceries,Mineral Water 1.5L,unit,ambient,473,47,426,168,50,185,in_stock
+WH-KAN,Kandy,FRESH-289,Fresh,Other Groceries,Mineral Water 500ml,unit,ambient,265,52,213,70,250,207,in_stock
+WH-KAN,Kandy,FRESH-290,Fresh,Other Groceries,Sparkling Water 1L,unit,ambient,491,1,490,107,100,181,in_stock
+WH-KAN,Kandy,FRESH-291,Fresh,Other Groceries,Orange Juice 1L,unit,ambient,197,7,190,132,50,191,low_stock
+WH-KAN,Kandy,FRESH-292,Fresh,Other Groceries,Mango Juice 1L,unit,ambient,151,77,74,96,250,137,low_stock
+WH-KAN,Kandy,FRESH-293,Fresh,Other Groceries,Apple Juice 1L,unit,ambient,390,44,346,251,100,179,in_stock
+WH-KAN,Kandy,FRESH-294,Fresh,Other Groceries,Mixed Fruit Juice 1L,unit,ambient,479,30,449,124,0,121,in_stock
+WH-KAN,Kandy,FRESH-295,Fresh,Other Groceries,Soft Drink Cola 1.5L,unit,ambient,461,46,415,141,0,190,in_stock
+WH-KAN,Kandy,FRESH-296,Fresh,Other Groceries,Soft Drink Orange 1.5L,unit,ambient,179,65,114,250,0,101,in_stock
+WH-KAN,Kandy,FRESH-297,Fresh,Other Groceries,Soft Drink Lemon 1.5L,unit,ambient,304,10,294,43,250,161,in_stock
+WH-KAN,Kandy,FRESH-298,Fresh,Other Groceries,Energy Drink 250ml,unit,ambient,367,7,360,154,250,208,in_stock
+WH-KAN,Kandy,FRESH-299,Fresh,Other Groceries,Coconut Water 500ml,unit,ambient,467,5,462,203,150,213,in_stock
+WH-KAN,Kandy,FRESH-300,Fresh,Other Groceries,Sports Drink 500ml,unit,ambient,414,30,384,116,150,204,in_stock
+WH-KAN,Kandy,TECH-001,Waypoint Tech,Mobile Phones,Smartphone,pcs,ambient,79,8,71,18,0,37,in_stock
+WH-KAN,Kandy,TECH-002,Waypoint Tech,Mobile Phones,Feature Phone,pcs,ambient,57,4,53,7,5,32,in_stock
+WH-KAN,Kandy,TECH-003,Waypoint Tech,Tablets,Android Tablet,pcs,ambient,59,4,55,21,10,13,in_stock
+WH-KAN,Kandy,TECH-004,Waypoint Tech,Laptops,Laptop,pcs,ambient,69,9,60,15,0,26,in_stock
+WH-KAN,Kandy,TECH-005,Waypoint Tech,Laptops,Chromebook,pcs,ambient,51,2,49,44,5,23,in_stock
+WH-KAN,Kandy,TECH-006,Waypoint Tech,Computing,Desktop PC,pcs,ambient,31,14,17,25,20,14,in_stock
+WH-KAN,Kandy,TECH-007,Waypoint Tech,Computing,Monitor 24-inch,pcs,ambient,89,4,85,36,0,36,in_stock
+WH-KAN,Kandy,TECH-008,Waypoint Tech,Computing,Monitor 27-inch,pcs,ambient,53,14,39,55,10,27,in_stock
+WH-KAN,Kandy,TECH-009,Waypoint Tech,Computing,Keyboard,pcs,ambient,67,13,54,51,5,15,in_stock
+WH-KAN,Kandy,TECH-010,Waypoint Tech,Computing,Wireless Mouse,pcs,ambient,90,15,75,52,20,21,in_stock
+WH-KAN,Kandy,TECH-011,Waypoint Tech,Computing,Webcam,pcs,ambient,75,4,71,54,0,26,in_stock
+WH-KAN,Kandy,TECH-012,Waypoint Tech,Computing,USB-C Hub,pcs,ambient,49,4,45,23,20,25,in_stock
+WH-KAN,Kandy,TECH-013,Waypoint Tech,Computing,Laptop Stand,pcs,ambient,87,14,73,17,10,26,in_stock
+WH-KAN,Kandy,TECH-014,Waypoint Tech,Storage,USB Flash Drive 64GB,pcs,ambient,91,5,86,15,5,16,in_stock
+WH-KAN,Kandy,TECH-015,Waypoint Tech,Storage,USB Flash Drive 128GB,pcs,ambient,61,1,60,8,10,39,in_stock
+WH-KAN,Kandy,TECH-016,Waypoint Tech,Storage,External SSD 1TB,pcs,ambient,89,6,83,27,10,21,in_stock
+WH-KAN,Kandy,TECH-017,Waypoint Tech,Storage,MicroSD 128GB,pcs,ambient,29,15,14,33,10,32,low_stock
+WH-KAN,Kandy,TECH-018,Waypoint Tech,Networking,Wi-Fi Router,pcs,ambient,100,0,100,21,40,19,in_stock
+WH-KAN,Kandy,TECH-019,Waypoint Tech,Networking,Wi-Fi Extender,pcs,ambient,33,5,28,5,10,40,low_stock
+WH-KAN,Kandy,TECH-020,Waypoint Tech,Networking,Ethernet Cable 5m,pcs,ambient,48,0,48,30,5,25,in_stock
+WH-KAN,Kandy,TECH-021,Waypoint Tech,Audio,Bluetooth Earbuds,pcs,ambient,46,11,35,48,0,11,in_stock
+WH-KAN,Kandy,TECH-022,Waypoint Tech,Audio,Bluetooth Headphones,pcs,ambient,54,15,39,27,20,24,in_stock
+WH-KAN,Kandy,TECH-023,Waypoint Tech,Audio,Bluetooth Speaker,pcs,ambient,80,9,71,44,40,27,in_stock
+WH-KAN,Kandy,TECH-024,Waypoint Tech,Accessories,Phone Charger,pcs,ambient,56,5,51,15,40,14,in_stock
+WH-KAN,Kandy,TECH-025,Waypoint Tech,Accessories,USB-C Cable,pcs,ambient,88,11,77,6,5,20,in_stock
+WH-KAN,Kandy,TECH-026,Waypoint Tech,Accessories,Lightning Cable,pcs,ambient,44,7,37,47,20,31,in_stock
+WH-KAN,Kandy,TECH-027,Waypoint Tech,Accessories,Power Bank 10000mAh,pcs,ambient,43,2,41,27,0,10,in_stock
+WH-KAN,Kandy,TECH-028,Waypoint Tech,Accessories,Power Bank 20000mAh,pcs,ambient,26,13,13,11,10,15,low_stock
+WH-KAN,Kandy,TECH-029,Waypoint Tech,Accessories,Phone Case,pcs,ambient,89,1,88,10,20,27,in_stock
+WH-KAN,Kandy,TECH-030,Waypoint Tech,Accessories,Screen Protector,pcs,ambient,60,10,50,18,10,39,in_stock
+WH-KAN,Kandy,TECH-031,Waypoint Tech,Mobile Phones,Smartphone V2,pcs,ambient,99,13,86,43,40,18,in_stock
+WH-KAN,Kandy,TECH-032,Waypoint Tech,Mobile Phones,Feature Phone V2,pcs,ambient,86,10,76,29,20,18,in_stock
+WH-KAN,Kandy,TECH-033,Waypoint Tech,Tablets,Android Tablet V2,pcs,ambient,15,8,7,22,40,14,low_stock
+WH-KAN,Kandy,TECH-034,Waypoint Tech,Laptops,Laptop V2,pcs,ambient,84,2,82,24,10,33,in_stock
+WH-KAN,Kandy,TECH-035,Waypoint Tech,Laptops,Chromebook V2,pcs,ambient,15,10,5,37,0,36,low_stock
+WH-KAN,Kandy,TECH-036,Waypoint Tech,Computing,Desktop PC V2,pcs,ambient,60,12,48,17,20,10,in_stock
+WH-KAN,Kandy,TECH-037,Waypoint Tech,Computing,Monitor 24-inch V2,pcs,ambient,45,13,32,21,5,37,low_stock
+WH-KAN,Kandy,TECH-038,Waypoint Tech,Computing,Monitor 27-inch V2,pcs,ambient,62,12,50,37,5,33,in_stock
+WH-KAN,Kandy,TECH-039,Waypoint Tech,Computing,Keyboard V2,pcs,ambient,37,14,23,9,10,33,low_stock
+WH-KAN,Kandy,TECH-040,Waypoint Tech,Computing,Wireless Mouse V2,pcs,ambient,67,9,58,14,5,29,in_stock
+WH-KAN,Kandy,TECH-041,Waypoint Tech,Computing,Webcam V2,pcs,ambient,90,12,78,43,40,35,in_stock
+WH-KAN,Kandy,TECH-042,Waypoint Tech,Computing,USB-C Hub V2,pcs,ambient,97,2,95,7,10,33,in_stock
+WH-KAN,Kandy,TECH-043,Waypoint Tech,Computing,Laptop Stand V2,pcs,ambient,21,8,13,13,5,14,low_stock
+WH-KAN,Kandy,TECH-044,Waypoint Tech,Storage,USB Flash Drive 64GB V2,pcs,ambient,48,7,41,32,5,19,in_stock
+WH-KAN,Kandy,TECH-045,Waypoint Tech,Storage,USB Flash Drive 128GB V2,pcs,ambient,72,3,69,15,40,29,in_stock
+WH-KAN,Kandy,TECH-046,Waypoint Tech,Storage,External SSD 1TB V2,pcs,ambient,43,1,42,16,0,26,in_stock
+WH-KAN,Kandy,TECH-047,Waypoint Tech,Storage,MicroSD 128GB V2,pcs,ambient,24,6,18,9,5,28,low_stock
+WH-KAN,Kandy,TECH-048,Waypoint Tech,Networking,Wi-Fi Router V2,pcs,ambient,23,6,17,42,20,13,in_stock
+WH-KAN,Kandy,TECH-049,Waypoint Tech,Networking,Wi-Fi Extender V2,pcs,ambient,73,12,61,45,10,34,in_stock
+WH-KAN,Kandy,TECH-050,Waypoint Tech,Networking,Ethernet Cable 5m V2,pcs,ambient,69,0,69,32,40,23,in_stock
+WH-KAN,Kandy,TECH-051,Waypoint Tech,Audio,Bluetooth Earbuds V2,pcs,ambient,91,1,90,23,40,27,in_stock
+WH-KAN,Kandy,TECH-052,Waypoint Tech,Audio,Bluetooth Headphones V2,pcs,ambient,60,14,46,45,10,13,in_stock
+WH-KAN,Kandy,TECH-053,Waypoint Tech,Audio,Bluetooth Speaker V2,pcs,ambient,62,9,53,47,20,13,in_stock
+WH-KAN,Kandy,TECH-054,Waypoint Tech,Accessories,Phone Charger V2,pcs,ambient,84,6,78,21,5,11,in_stock
+WH-KAN,Kandy,TECH-055,Waypoint Tech,Accessories,USB-C Cable V2,pcs,ambient,60,8,52,27,20,38,in_stock
+WH-KAN,Kandy,TECH-056,Waypoint Tech,Accessories,Lightning Cable V2,pcs,ambient,39,1,38,55,0,26,in_stock
+WH-KAN,Kandy,TECH-057,Waypoint Tech,Accessories,Power Bank 10000mAh V2,pcs,ambient,91,10,81,32,20,14,in_stock
+WH-KAN,Kandy,TECH-058,Waypoint Tech,Accessories,Power Bank 20000mAh V2,pcs,ambient,21,13,8,36,5,15,low_stock
+WH-KAN,Kandy,TECH-059,Waypoint Tech,Accessories,Phone Case V2,pcs,ambient,89,11,78,46,20,18,in_stock
+WH-KAN,Kandy,TECH-060,Waypoint Tech,Accessories,Screen Protector V2,pcs,ambient,89,12,77,46,20,16,in_stock
+WH-KAN,Kandy,TECH-061,Waypoint Tech,Mobile Phones,Smartphone V3,pcs,ambient,47,15,32,51,40,35,low_stock
+WH-KAN,Kandy,TECH-062,Waypoint Tech,Mobile Phones,Feature Phone V3,pcs,ambient,70,13,57,42,10,16,in_stock
+WH-KAN,Kandy,TECH-063,Waypoint Tech,Tablets,Android Tablet V3,pcs,ambient,52,5,47,28,10,22,in_stock
+WH-KAN,Kandy,TECH-064,Waypoint Tech,Laptops,Laptop V3,pcs,ambient,61,6,55,25,40,34,in_stock
+WH-KAN,Kandy,TECH-065,Waypoint Tech,Laptops,Chromebook V3,pcs,ambient,92,1,91,13,5,27,in_stock
+WH-KAN,Kandy,TECH-066,Waypoint Tech,Computing,Desktop PC V3,pcs,ambient,50,9,41,16,40,40,in_stock
+WH-KAN,Kandy,TECH-067,Waypoint Tech,Computing,Monitor 24-inch V3,pcs,ambient,70,8,62,50,20,13,in_stock
+WH-KAN,Kandy,TECH-068,Waypoint Tech,Computing,Monitor 27-inch V3,pcs,ambient,60,14,46,37,5,16,in_stock
+WH-KAN,Kandy,TECH-069,Waypoint Tech,Computing,Keyboard V3,pcs,ambient,86,2,84,38,0,35,in_stock
+WH-KAN,Kandy,TECH-070,Waypoint Tech,Computing,Wireless Mouse V3,pcs,ambient,58,8,50,31,40,24,in_stock
+WH-KAN,Kandy,TECH-071,Waypoint Tech,Computing,Webcam V3,pcs,ambient,51,2,49,28,40,34,in_stock
+WH-KAN,Kandy,TECH-072,Waypoint Tech,Computing,USB-C Hub V3,pcs,ambient,85,3,82,8,40,21,in_stock
+WH-KAN,Kandy,TECH-073,Waypoint Tech,Computing,Laptop Stand V3,pcs,ambient,99,13,86,46,5,20,in_stock
+WH-KAN,Kandy,TECH-074,Waypoint Tech,Storage,USB Flash Drive 64GB V3,pcs,ambient,39,11,28,15,10,23,in_stock
+WH-KAN,Kandy,TECH-075,Waypoint Tech,Storage,USB Flash Drive 128GB V3,pcs,ambient,62,4,58,52,40,11,in_stock
+WH-KAN,Kandy,TECH-076,Waypoint Tech,Storage,External SSD 1TB V3,pcs,ambient,35,8,27,11,40,18,in_stock
+WH-KAN,Kandy,TECH-077,Waypoint Tech,Storage,MicroSD 128GB V3,pcs,ambient,79,6,73,41,10,32,in_stock
+WH-KAN,Kandy,TECH-078,Waypoint Tech,Networking,Wi-Fi Router V3,pcs,ambient,16,13,3,44,20,34,low_stock
+WH-KAN,Kandy,TECH-079,Waypoint Tech,Networking,Wi-Fi Extender V3,pcs,ambient,78,5,73,28,0,25,in_stock
+WH-KAN,Kandy,TECH-080,Waypoint Tech,Networking,Ethernet Cable 5m V3,pcs,ambient,63,10,53,29,20,30,in_stock
+WH-KAN,Kandy,TECH-081,Waypoint Tech,Audio,Bluetooth Earbuds V3,pcs,ambient,30,6,24,36,20,26,low_stock
+WH-KAN,Kandy,TECH-082,Waypoint Tech,Audio,Bluetooth Headphones V3,pcs,ambient,54,13,41,40,20,19,in_stock
+WH-KAN,Kandy,TECH-083,Waypoint Tech,Audio,Bluetooth Speaker V3,pcs,ambient,54,11,43,16,0,25,in_stock
+WH-KAN,Kandy,TECH-084,Waypoint Tech,Accessories,Phone Charger V3,pcs,ambient,93,1,92,27,40,37,in_stock
+WH-KAN,Kandy,TECH-085,Waypoint Tech,Accessories,USB-C Cable V3,pcs,ambient,67,2,65,39,20,29,in_stock
+WH-KAN,Kandy,TECH-086,Waypoint Tech,Accessories,Lightning Cable V3,pcs,ambient,27,14,13,9,10,17,low_stock
+WH-KAN,Kandy,TECH-087,Waypoint Tech,Accessories,Power Bank 10000mAh V3,pcs,ambient,68,14,54,26,10,36,in_stock
+WH-KAN,Kandy,TECH-088,Waypoint Tech,Accessories,Power Bank 20000mAh V3,pcs,ambient,76,8,68,17,10,18,in_stock
+WH-KAN,Kandy,TECH-089,Waypoint Tech,Accessories,Phone Case V3,pcs,ambient,92,14,78,42,10,24,in_stock
+WH-KAN,Kandy,TECH-090,Waypoint Tech,Accessories,Screen Protector V3,pcs,ambient,84,10,74,27,5,40,in_stock
+WH-KAN,Kandy,TECH-091,Waypoint Tech,Mobile Phones,Smartphone V4,pcs,ambient,18,9,9,14,20,10,low_stock
+WH-KAN,Kandy,TECH-092,Waypoint Tech,Mobile Phones,Feature Phone V4,pcs,ambient,42,14,28,45,40,24,in_stock
+WH-KAN,Kandy,TECH-093,Waypoint Tech,Tablets,Android Tablet V4,pcs,ambient,36,8,28,31,0,13,in_stock
+WH-KAN,Kandy,TECH-094,Waypoint Tech,Laptops,Laptop V4,pcs,ambient,44,14,30,6,5,26,in_stock
+WH-KAN,Kandy,TECH-095,Waypoint Tech,Laptops,Chromebook V4,pcs,ambient,37,2,35,7,0,35,low_stock
+WH-KAN,Kandy,TECH-096,Waypoint Tech,Computing,Desktop PC V4,pcs,ambient,98,13,85,16,10,35,in_stock
+WH-KAN,Kandy,TECH-097,Waypoint Tech,Computing,Monitor 24-inch V4,pcs,ambient,62,2,60,47,0,32,in_stock
+WH-KAN,Kandy,TECH-098,Waypoint Tech,Computing,Monitor 27-inch V4,pcs,ambient,75,0,75,31,40,23,in_stock
+WH-KAN,Kandy,TECH-099,Waypoint Tech,Computing,Keyboard V4,pcs,ambient,32,15,17,32,20,10,in_stock
+WH-KAN,Kandy,TECH-100,Waypoint Tech,Computing,Wireless Mouse V4,pcs,ambient,45,2,43,42,0,16,in_stock
+WH-KAN,Kandy,TECH-101,Waypoint Tech,Computing,Webcam V4,pcs,ambient,62,7,55,36,10,36,in_stock
+WH-KAN,Kandy,TECH-102,Waypoint Tech,Computing,USB-C Hub V4,pcs,ambient,40,2,38,21,10,10,in_stock
+WH-KAN,Kandy,TECH-103,Waypoint Tech,Computing,Laptop Stand V4,pcs,ambient,26,7,19,10,10,34,low_stock
+WH-KAN,Kandy,TECH-104,Waypoint Tech,Storage,USB Flash Drive 64GB V4,pcs,ambient,100,0,100,47,40,40,in_stock
+WH-KAN,Kandy,TECH-105,Waypoint Tech,Storage,USB Flash Drive 128GB V4,pcs,ambient,41,0,41,32,20,36,in_stock
+WH-KAN,Kandy,TECH-106,Waypoint Tech,Storage,External SSD 1TB V4,pcs,ambient,48,8,40,35,0,13,in_stock
+WH-KAN,Kandy,TECH-107,Waypoint Tech,Storage,MicroSD 128GB V4,pcs,ambient,46,13,33,15,10,22,in_stock
+WH-KAN,Kandy,TECH-108,Waypoint Tech,Networking,Wi-Fi Router V4,pcs,ambient,17,2,15,51,10,31,low_stock
+WH-KAN,Kandy,TECH-109,Waypoint Tech,Networking,Wi-Fi Extender V4,pcs,ambient,91,13,78,36,40,26,in_stock
+WH-KAN,Kandy,TECH-110,Waypoint Tech,Networking,Ethernet Cable 5m V4,pcs,ambient,66,10,56,31,5,29,in_stock
+WH-KAN,Kandy,TECH-111,Waypoint Tech,Audio,Bluetooth Earbuds V4,pcs,ambient,34,2,32,42,0,21,in_stock
+WH-KAN,Kandy,TECH-112,Waypoint Tech,Audio,Bluetooth Headphones V4,pcs,ambient,35,15,20,31,5,14,in_stock
+WH-KAN,Kandy,TECH-113,Waypoint Tech,Audio,Bluetooth Speaker V4,pcs,ambient,39,15,24,15,10,33,low_stock
+WH-KAN,Kandy,TECH-114,Waypoint Tech,Accessories,Phone Charger V4,pcs,ambient,74,3,71,23,5,31,in_stock
+WH-KAN,Kandy,TECH-115,Waypoint Tech,Accessories,USB-C Cable V4,pcs,ambient,97,9,88,40,0,37,in_stock
+WH-KAN,Kandy,TECH-116,Waypoint Tech,Accessories,Lightning Cable V4,pcs,ambient,37,6,31,32,40,20,in_stock
+WH-KAN,Kandy,TECH-117,Waypoint Tech,Accessories,Power Bank 10000mAh V4,pcs,ambient,50,14,36,28,20,30,in_stock
+WH-KAN,Kandy,TECH-118,Waypoint Tech,Accessories,Power Bank 20000mAh V4,pcs,ambient,77,7,70,47,40,34,in_stock
+WH-KAN,Kandy,TECH-119,Waypoint Tech,Accessories,Phone Case V4,pcs,ambient,61,3,58,15,20,15,in_stock
+WH-KAN,Kandy,TECH-120,Waypoint Tech,Accessories,Screen Protector V4,pcs,ambient,56,14,42,23,5,34,in_stock
+WH-KAN,Kandy,TECH-121,Waypoint Tech,Mobile Phones,Smartphone V5,pcs,ambient,15,6,9,42,10,37,low_stock
+WH-KAN,Kandy,TECH-122,Waypoint Tech,Mobile Phones,Feature Phone V5,pcs,ambient,93,15,78,8,20,14,in_stock
+WH-KAN,Kandy,TECH-123,Waypoint Tech,Tablets,Android Tablet V5,pcs,ambient,75,14,61,40,10,32,in_stock
+WH-KAN,Kandy,TECH-124,Waypoint Tech,Laptops,Laptop V5,pcs,ambient,34,6,28,11,0,12,in_stock
+WH-KAN,Kandy,TECH-125,Waypoint Tech,Laptops,Chromebook V5,pcs,ambient,70,1,69,14,10,28,in_stock
+WH-KAN,Kandy,TECH-126,Waypoint Tech,Computing,Desktop PC V5,pcs,ambient,75,4,71,55,0,38,in_stock
+WH-KAN,Kandy,TECH-127,Waypoint Tech,Computing,Monitor 24-inch V5,pcs,ambient,15,12,3,28,5,23,low_stock
+WH-KAN,Kandy,TECH-128,Waypoint Tech,Computing,Monitor 27-inch V5,pcs,ambient,62,4,58,26,5,11,in_stock
+WH-KAN,Kandy,TECH-129,Waypoint Tech,Computing,Keyboard V5,pcs,ambient,68,9,59,25,10,17,in_stock
+WH-KAN,Kandy,TECH-130,Waypoint Tech,Computing,Wireless Mouse V5,pcs,ambient,22,1,21,18,0,17,in_stock
+WH-KAN,Kandy,TECH-131,Waypoint Tech,Computing,Webcam V5,pcs,ambient,88,14,74,19,10,16,in_stock
+WH-KAN,Kandy,TECH-132,Waypoint Tech,Computing,USB-C Hub V5,pcs,ambient,47,15,32,27,40,14,in_stock
+WH-KAN,Kandy,TECH-133,Waypoint Tech,Computing,Laptop Stand V5,pcs,ambient,15,5,10,30,40,21,low_stock
+WH-KAN,Kandy,TECH-134,Waypoint Tech,Storage,USB Flash Drive 64GB V5,pcs,ambient,52,4,48,52,0,14,in_stock
+WH-KAN,Kandy,TECH-135,Waypoint Tech,Storage,USB Flash Drive 128GB V5,pcs,ambient,89,6,83,34,40,14,in_stock
+WH-KAN,Kandy,TECH-136,Waypoint Tech,Storage,External SSD 1TB V5,pcs,ambient,46,1,45,23,10,28,in_stock
+WH-KAN,Kandy,TECH-137,Waypoint Tech,Storage,MicroSD 128GB V5,pcs,ambient,30,7,23,28,5,20,in_stock
+WH-KAN,Kandy,TECH-138,Waypoint Tech,Networking,Wi-Fi Router V5,pcs,ambient,100,11,89,22,5,14,in_stock
+WH-KAN,Kandy,TECH-139,Waypoint Tech,Networking,Wi-Fi Extender V5,pcs,ambient,63,15,48,31,20,40,in_stock
+WH-KAN,Kandy,TECH-140,Waypoint Tech,Networking,Ethernet Cable 5m V5,pcs,ambient,85,9,76,28,40,36,in_stock
+WH-KAN,Kandy,TECH-141,Waypoint Tech,Audio,Bluetooth Earbuds V5,pcs,ambient,99,13,86,46,5,12,in_stock
+WH-KAN,Kandy,TECH-142,Waypoint Tech,Audio,Bluetooth Headphones V5,pcs,ambient,96,0,96,38,0,37,in_stock
+WH-KAN,Kandy,TECH-143,Waypoint Tech,Audio,Bluetooth Speaker V5,pcs,ambient,44,5,39,6,40,24,in_stock
+WH-KAN,Kandy,TECH-144,Waypoint Tech,Accessories,Phone Charger V5,pcs,ambient,53,5,48,21,5,35,in_stock
+WH-KAN,Kandy,TECH-145,Waypoint Tech,Accessories,USB-C Cable V5,pcs,ambient,37,8,29,54,5,40,low_stock
+WH-KAN,Kandy,TECH-146,Waypoint Tech,Accessories,Lightning Cable V5,pcs,ambient,20,15,5,21,20,25,low_stock
+WH-KAN,Kandy,TECH-147,Waypoint Tech,Accessories,Power Bank 10000mAh V5,pcs,ambient,86,12,74,30,0,37,in_stock
+WH-KAN,Kandy,TECH-148,Waypoint Tech,Accessories,Power Bank 20000mAh V5,pcs,ambient,32,11,21,29,5,13,in_stock
+WH-KAN,Kandy,TECH-149,Waypoint Tech,Accessories,Phone Case V5,pcs,ambient,18,5,13,18,40,27,low_stock
+WH-KAN,Kandy,TECH-150,Waypoint Tech,Accessories,Screen Protector V5,pcs,ambient,46,7,39,10,40,21,in_stock
+WH-KAN,Kandy,TECH-151,Waypoint Tech,Mobile Phones,Smartphone V6,pcs,ambient,99,10,89,12,10,20,in_stock
+WH-KAN,Kandy,TECH-152,Waypoint Tech,Mobile Phones,Feature Phone V6,pcs,ambient,56,8,48,14,40,35,in_stock
+WH-KAN,Kandy,TECH-153,Waypoint Tech,Tablets,Android Tablet V6,pcs,ambient,28,13,15,54,0,38,low_stock
+WH-KAN,Kandy,TECH-154,Waypoint Tech,Laptops,Laptop V6,pcs,ambient,56,2,54,41,0,34,in_stock
+WH-KAN,Kandy,TECH-155,Waypoint Tech,Laptops,Chromebook V6,pcs,ambient,93,6,87,14,0,11,in_stock
+WH-KAN,Kandy,TECH-156,Waypoint Tech,Computing,Desktop PC V6,pcs,ambient,71,6,65,6,40,25,in_stock
+WH-KAN,Kandy,TECH-157,Waypoint Tech,Computing,Monitor 24-inch V6,pcs,ambient,43,2,41,49,40,38,in_stock
+WH-KAN,Kandy,TECH-158,Waypoint Tech,Computing,Monitor 27-inch V6,pcs,ambient,23,15,8,42,0,19,low_stock
+WH-KAN,Kandy,TECH-159,Waypoint Tech,Computing,Keyboard V6,pcs,ambient,68,10,58,38,20,20,in_stock
+WH-KAN,Kandy,TECH-160,Waypoint Tech,Computing,Wireless Mouse V6,pcs,ambient,51,1,50,39,0,25,in_stock
+WH-KAN,Kandy,TECH-161,Waypoint Tech,Computing,Webcam V6,pcs,ambient,59,0,59,9,0,35,in_stock
+WH-KAN,Kandy,TECH-162,Waypoint Tech,Computing,USB-C Hub V6,pcs,ambient,30,0,30,18,20,10,in_stock
+WH-KAN,Kandy,TECH-163,Waypoint Tech,Computing,Laptop Stand V6,pcs,ambient,77,0,77,20,20,30,in_stock
+WH-KAN,Kandy,TECH-164,Waypoint Tech,Storage,USB Flash Drive 64GB V6,pcs,ambient,97,14,83,19,40,31,in_stock
+WH-KAN,Kandy,TECH-165,Waypoint Tech,Storage,USB Flash Drive 128GB V6,pcs,ambient,50,12,38,51,40,40,low_stock
+WH-KAN,Kandy,TECH-166,Waypoint Tech,Storage,External SSD 1TB V6,pcs,ambient,74,8,66,9,5,34,in_stock
+WH-KAN,Kandy,TECH-167,Waypoint Tech,Storage,MicroSD 128GB V6,pcs,ambient,34,10,24,49,0,21,in_stock
+WH-KAN,Kandy,TECH-168,Waypoint Tech,Networking,Wi-Fi Router V6,pcs,ambient,68,13,55,5,20,33,in_stock
+WH-KAN,Kandy,TECH-169,Waypoint Tech,Networking,Wi-Fi Extender V6,pcs,ambient,63,4,59,23,40,35,in_stock
+WH-KAN,Kandy,TECH-170,Waypoint Tech,Networking,Ethernet Cable 5m V6,pcs,ambient,59,12,47,53,20,16,in_stock
+WH-KAN,Kandy,TECH-171,Waypoint Tech,Audio,Bluetooth Earbuds V6,pcs,ambient,97,8,89,12,0,12,in_stock
+WH-KAN,Kandy,TECH-172,Waypoint Tech,Audio,Bluetooth Headphones V6,pcs,ambient,18,14,4,50,0,15,low_stock
+WH-KAN,Kandy,TECH-173,Waypoint Tech,Audio,Bluetooth Speaker V6,pcs,ambient,33,4,29,26,10,28,in_stock
+WH-KAN,Kandy,TECH-174,Waypoint Tech,Accessories,Phone Charger V6,pcs,ambient,52,5,47,49,10,24,in_stock
+WH-KAN,Kandy,TECH-175,Waypoint Tech,Accessories,USB-C Cable V6,pcs,ambient,30,6,24,16,40,16,in_stock
+WH-KAN,Kandy,TECH-176,Waypoint Tech,Accessories,Lightning Cable V6,pcs,ambient,43,10,33,55,40,25,in_stock
+WH-KAN,Kandy,TECH-177,Waypoint Tech,Accessories,Power Bank 10000mAh V6,pcs,ambient,86,7,79,23,10,16,in_stock
+WH-KAN,Kandy,TECH-178,Waypoint Tech,Accessories,Power Bank 20000mAh V6,pcs,ambient,16,15,1,11,40,27,low_stock
+WH-KAN,Kandy,TECH-179,Waypoint Tech,Accessories,Phone Case V6,pcs,ambient,89,9,80,28,10,27,in_stock
+WH-KAN,Kandy,TECH-180,Waypoint Tech,Accessories,Screen Protector V6,pcs,ambient,57,12,45,29,40,18,in_stock
+WH-KAN,Kandy,TECH-181,Waypoint Tech,Mobile Phones,Smartphone V7,pcs,ambient,56,0,56,14,20,21,in_stock
+WH-KAN,Kandy,TECH-182,Waypoint Tech,Mobile Phones,Feature Phone V7,pcs,ambient,19,2,17,19,0,14,in_stock
+WH-KAN,Kandy,TECH-183,Waypoint Tech,Tablets,Android Tablet V7,pcs,ambient,42,2,40,15,40,12,in_stock
+WH-KAN,Kandy,TECH-184,Waypoint Tech,Laptops,Laptop V7,pcs,ambient,71,11,60,13,10,11,in_stock
+WH-KAN,Kandy,TECH-185,Waypoint Tech,Laptops,Chromebook V7,pcs,ambient,65,2,63,24,20,13,in_stock
+WH-KAN,Kandy,TECH-186,Waypoint Tech,Computing,Desktop PC V7,pcs,ambient,43,0,43,30,10,32,in_stock
+WH-KAN,Kandy,TECH-187,Waypoint Tech,Computing,Monitor 24-inch V7,pcs,ambient,53,9,44,50,40,15,in_stock
+WH-KAN,Kandy,TECH-188,Waypoint Tech,Computing,Monitor 27-inch V7,pcs,ambient,54,10,44,8,10,15,in_stock
+WH-KAN,Kandy,TECH-189,Waypoint Tech,Computing,Keyboard V7,pcs,ambient,50,3,47,22,5,38,in_stock
+WH-KAN,Kandy,TECH-190,Waypoint Tech,Computing,Wireless Mouse V7,pcs,ambient,70,1,69,37,40,22,in_stock
+WH-KAN,Kandy,TECH-191,Waypoint Tech,Computing,Webcam V7,pcs,ambient,30,5,25,35,40,28,low_stock
+WH-KAN,Kandy,TECH-192,Waypoint Tech,Computing,USB-C Hub V7,pcs,ambient,40,5,35,23,10,36,low_stock
+WH-KAN,Kandy,TECH-193,Waypoint Tech,Computing,Laptop Stand V7,pcs,ambient,30,10,20,31,0,15,in_stock
+WH-KAN,Kandy,TECH-194,Waypoint Tech,Storage,USB Flash Drive 64GB V7,pcs,ambient,39,13,26,36,0,31,low_stock
+WH-KAN,Kandy,TECH-195,Waypoint Tech,Storage,USB Flash Drive 128GB V7,pcs,ambient,77,2,75,52,0,31,in_stock
+WH-KAN,Kandy,TECH-196,Waypoint Tech,Storage,External SSD 1TB V7,pcs,ambient,72,9,63,36,0,30,in_stock
+WH-KAN,Kandy,TECH-197,Waypoint Tech,Storage,MicroSD 128GB V7,pcs,ambient,80,15,65,23,0,18,in_stock
+WH-KAN,Kandy,TECH-198,Waypoint Tech,Networking,Wi-Fi Router V7,pcs,ambient,42,12,30,36,40,10,in_stock
+WH-KAN,Kandy,TECH-199,Waypoint Tech,Networking,Wi-Fi Extender V7,pcs,ambient,81,8,73,18,40,37,in_stock
+WH-KAN,Kandy,TECH-200,Waypoint Tech,Networking,Ethernet Cable 5m V7,pcs,ambient,49,10,39,16,20,20,in_stock
+WH-KAN,Kandy,STYLE-001,Waypoint Style,Men,Men's T-Shirt,pcs,ambient,141,27,114,38,10,50,in_stock
+WH-KAN,Kandy,STYLE-002,Waypoint Style,Men,Men's Polo Shirt,pcs,ambient,176,2,174,84,60,24,in_stock
+WH-KAN,Kandy,STYLE-003,Waypoint Style,Men,Men's Casual Shirt,pcs,ambient,30,4,26,51,10,56,low_stock
+WH-KAN,Kandy,STYLE-004,Waypoint Style,Men,Men's Formal Shirt,pcs,ambient,110,6,104,25,0,43,in_stock
+WH-KAN,Kandy,STYLE-005,Waypoint Style,Men,Men's Jeans,pcs,ambient,97,18,79,10,60,36,in_stock
+WH-KAN,Kandy,STYLE-006,Waypoint Style,Men,Men's Chino,pcs,ambient,66,8,58,80,40,47,in_stock
+WH-KAN,Kandy,STYLE-007,Waypoint Style,Men,Men's Shorts,pcs,ambient,176,30,146,47,10,68,in_stock
+WH-KAN,Kandy,STYLE-008,Waypoint Style,Men,Men's Hoodie,pcs,ambient,96,10,86,47,40,58,in_stock
+WH-KAN,Kandy,STYLE-009,Waypoint Style,Men,Men's Jacket,pcs,ambient,79,29,50,70,40,64,low_stock
+WH-KAN,Kandy,STYLE-010,Waypoint Style,Women,Women's T-Shirt,pcs,ambient,66,0,66,33,10,26,in_stock
+WH-KAN,Kandy,STYLE-011,Waypoint Style,Women,Women's Blouse,pcs,ambient,32,19,13,30,20,34,low_stock
+WH-KAN,Kandy,STYLE-012,Waypoint Style,Women,Women's Dress,pcs,ambient,122,29,93,10,0,21,in_stock
+WH-KAN,Kandy,STYLE-013,Waypoint Style,Women,Women's Jeans,pcs,ambient,158,29,129,78,10,32,in_stock
+WH-KAN,Kandy,STYLE-014,Waypoint Style,Women,Women's Trousers,pcs,ambient,179,6,173,45,20,33,in_stock
+WH-KAN,Kandy,STYLE-015,Waypoint Style,Women,Women's Skirt,pcs,ambient,64,13,51,77,60,66,low_stock
+WH-KAN,Kandy,STYLE-016,Waypoint Style,Women,Women's Hoodie,pcs,ambient,85,0,85,79,60,70,in_stock
+WH-KAN,Kandy,STYLE-017,Waypoint Style,Women,Women's Jacket,pcs,ambient,129,24,105,84,20,26,in_stock
+WH-KAN,Kandy,STYLE-018,Waypoint Style,Kids,Kids T-Shirt,pcs,ambient,41,20,21,49,60,46,low_stock
+WH-KAN,Kandy,STYLE-019,Waypoint Style,Kids,Kids Jeans,pcs,ambient,170,3,167,31,60,53,in_stock
+WH-KAN,Kandy,STYLE-020,Waypoint Style,Kids,Kids Shorts,pcs,ambient,174,14,160,73,0,50,in_stock
+WH-KAN,Kandy,STYLE-021,Waypoint Style,Kids,Kids Dress,pcs,ambient,158,3,155,72,10,53,in_stock
+WH-KAN,Kandy,STYLE-022,Waypoint Style,Footwear,Men's Sneakers,pairs,ambient,136,14,122,45,60,33,in_stock
+WH-KAN,Kandy,STYLE-023,Waypoint Style,Footwear,Women's Sneakers,pairs,ambient,142,15,127,89,20,64,in_stock
+WH-KAN,Kandy,STYLE-024,Waypoint Style,Footwear,Men's Sandals,pairs,ambient,151,6,145,71,0,68,in_stock
+WH-KAN,Kandy,STYLE-025,Waypoint Style,Footwear,Women's Sandals,pairs,ambient,139,16,123,35,20,32,in_stock
+WH-KAN,Kandy,STYLE-026,Waypoint Style,Footwear,Kids' Shoes,pairs,ambient,140,7,133,64,10,48,in_stock
+WH-KAN,Kandy,STYLE-027,Waypoint Style,Accessories,Backpack,pcs,ambient,44,3,41,82,40,52,low_stock
+WH-KAN,Kandy,STYLE-028,Waypoint Style,Accessories,Wallet,pcs,ambient,116,7,109,75,40,37,in_stock
+WH-KAN,Kandy,STYLE-029,Waypoint Style,Accessories,Cap,pcs,ambient,53,4,49,87,60,29,in_stock
+WH-KAN,Kandy,STYLE-030,Waypoint Style,Accessories,Belt,pcs,ambient,70,24,46,19,0,28,in_stock
+WH-KAN,Kandy,STYLE-031,Waypoint Style,Men,Men's T-Shirt V2,pcs,ambient,112,4,108,72,10,41,in_stock
+WH-KAN,Kandy,STYLE-032,Waypoint Style,Men,Men's Polo Shirt V2,pcs,ambient,93,16,77,72,60,56,in_stock
+WH-KAN,Kandy,STYLE-033,Waypoint Style,Men,Men's Casual Shirt V2,pcs,ambient,39,5,34,49,10,22,in_stock
+WH-KAN,Kandy,STYLE-034,Waypoint Style,Men,Men's Formal Shirt V2,pcs,ambient,46,25,21,86,10,41,low_stock
+WH-KAN,Kandy,STYLE-035,Waypoint Style,Men,Men's Jeans V2,pcs,ambient,75,23,52,24,40,47,in_stock
+WH-KAN,Kandy,STYLE-036,Waypoint Style,Men,Men's Chino V2,pcs,ambient,121,10,111,83,10,26,in_stock
+WH-KAN,Kandy,STYLE-037,Waypoint Style,Men,Men's Shorts V2,pcs,ambient,57,2,55,56,20,29,in_stock
+WH-KAN,Kandy,STYLE-038,Waypoint Style,Men,Men's Hoodie V2,pcs,ambient,162,2,160,41,20,57,in_stock
+WH-KAN,Kandy,STYLE-039,Waypoint Style,Men,Men's Jacket V2,pcs,ambient,92,12,80,41,20,44,in_stock
+WH-KAN,Kandy,STYLE-040,Waypoint Style,Women,Women's T-Shirt V2,pcs,ambient,42,4,38,26,20,45,low_stock
+WH-KAN,Kandy,STYLE-041,Waypoint Style,Women,Women's Blouse V2,pcs,ambient,111,11,100,70,10,20,in_stock
+WH-KAN,Kandy,STYLE-042,Waypoint Style,Women,Women's Dress V2,pcs,ambient,42,22,20,70,20,69,low_stock
+WH-KAN,Kandy,STYLE-043,Waypoint Style,Women,Women's Jeans V2,pcs,ambient,139,4,135,17,40,22,in_stock
+WH-KAN,Kandy,STYLE-044,Waypoint Style,Women,Women's Trousers V2,pcs,ambient,141,29,112,32,10,30,in_stock
+WH-KAN,Kandy,STYLE-045,Waypoint Style,Women,Women's Skirt V2,pcs,ambient,57,10,47,14,10,49,low_stock
+WH-KAN,Kandy,STYLE-046,Waypoint Style,Women,Women's Hoodie V2,pcs,ambient,91,6,85,88,10,50,in_stock
+WH-KAN,Kandy,STYLE-047,Waypoint Style,Women,Women's Jacket V2,pcs,ambient,113,9,104,14,20,68,in_stock
+WH-KAN,Kandy,STYLE-048,Waypoint Style,Kids,Kids T-Shirt V2,pcs,ambient,35,0,35,28,40,65,low_stock
+WH-KAN,Kandy,STYLE-049,Waypoint Style,Kids,Kids Jeans V2,pcs,ambient,140,19,121,49,40,32,in_stock
+WH-KAN,Kandy,STYLE-050,Waypoint Style,Kids,Kids Shorts V2,pcs,ambient,176,22,154,55,40,53,in_stock
+WH-KAN,Kandy,STYLE-051,Waypoint Style,Kids,Kids Dress V2,pcs,ambient,142,10,132,47,10,26,in_stock
+WH-KAN,Kandy,STYLE-052,Waypoint Style,Footwear,Men's Sneakers V2,pairs,ambient,175,0,175,48,10,30,in_stock
+WH-KAN,Kandy,STYLE-053,Waypoint Style,Footwear,Women's Sneakers V2,pairs,ambient,125,7,118,35,20,53,in_stock
+WH-KAN,Kandy,STYLE-054,Waypoint Style,Footwear,Men's Sandals V2,pairs,ambient,54,5,49,78,40,33,in_stock
+WH-KAN,Kandy,STYLE-055,Waypoint Style,Footwear,Women's Sandals V2,pairs,ambient,132,19,113,17,60,24,in_stock
+WH-KAN,Kandy,STYLE-056,Waypoint Style,Footwear,Kids' Shoes V2,pairs,ambient,106,26,80,63,10,38,in_stock
+WH-KAN,Kandy,STYLE-057,Waypoint Style,Accessories,Backpack V2,pcs,ambient,96,5,91,10,10,48,in_stock
+WH-KAN,Kandy,STYLE-058,Waypoint Style,Accessories,Wallet V2,pcs,ambient,48,6,42,26,0,39,in_stock
+WH-KAN,Kandy,STYLE-059,Waypoint Style,Accessories,Cap V2,pcs,ambient,153,1,152,32,20,63,in_stock
+WH-KAN,Kandy,STYLE-060,Waypoint Style,Accessories,Belt V2,pcs,ambient,63,9,54,82,60,65,low_stock
+WH-KAN,Kandy,STYLE-061,Waypoint Style,Men,Men's T-Shirt V3,pcs,ambient,81,12,69,46,40,62,in_stock
+WH-KAN,Kandy,STYLE-062,Waypoint Style,Men,Men's Polo Shirt V3,pcs,ambient,48,1,47,18,10,68,low_stock
+WH-KAN,Kandy,STYLE-063,Waypoint Style,Men,Men's Casual Shirt V3,pcs,ambient,102,26,76,66,10,45,in_stock
+WH-KAN,Kandy,STYLE-064,Waypoint Style,Men,Men's Formal Shirt V3,pcs,ambient,39,9,30,21,20,63,low_stock
+WH-KAN,Kandy,STYLE-065,Waypoint Style,Men,Men's Jeans V3,pcs,ambient,36,15,21,86,40,27,low_stock
+WH-KAN,Kandy,STYLE-066,Waypoint Style,Men,Men's Chino V3,pcs,ambient,89,18,71,48,60,36,in_stock
+WH-KAN,Kandy,STYLE-067,Waypoint Style,Men,Men's Shorts V3,pcs,ambient,160,30,130,84,20,67,in_stock
+WH-KAN,Kandy,STYLE-068,Waypoint Style,Men,Men's Hoodie V3,pcs,ambient,38,27,11,17,40,52,low_stock
+WH-KAN,Kandy,STYLE-069,Waypoint Style,Men,Men's Jacket V3,pcs,ambient,141,26,115,18,60,69,in_stock
+WH-KAN,Kandy,STYLE-070,Waypoint Style,Women,Women's T-Shirt V3,pcs,ambient,105,24,81,83,0,41,in_stock
+WH-KAN,Kandy,STYLE-071,Waypoint Style,Women,Women's Blouse V3,pcs,ambient,164,18,146,58,60,49,in_stock
+WH-KAN,Kandy,STYLE-072,Waypoint Style,Women,Women's Dress V3,pcs,ambient,33,10,23,26,0,44,low_stock
+WH-KAN,Kandy,STYLE-073,Waypoint Style,Women,Women's Jeans V3,pcs,ambient,63,26,37,17,60,56,low_stock
+WH-KAN,Kandy,STYLE-074,Waypoint Style,Women,Women's Trousers V3,pcs,ambient,131,5,126,25,20,51,in_stock
+WH-KAN,Kandy,STYLE-075,Waypoint Style,Women,Women's Skirt V3,pcs,ambient,74,15,59,41,20,25,in_stock
+WH-KAN,Kandy,STYLE-076,Waypoint Style,Women,Women's Hoodie V3,pcs,ambient,108,3,105,56,10,68,in_stock
+WH-KAN,Kandy,STYLE-077,Waypoint Style,Women,Women's Jacket V3,pcs,ambient,88,6,82,50,20,53,in_stock
+WH-KAN,Kandy,STYLE-078,Waypoint Style,Kids,Kids T-Shirt V3,pcs,ambient,44,11,33,40,40,46,low_stock
+WH-KAN,Kandy,STYLE-079,Waypoint Style,Kids,Kids Jeans V3,pcs,ambient,96,27,69,11,20,65,in_stock
+WH-KAN,Kandy,STYLE-080,Waypoint Style,Kids,Kids Shorts V3,pcs,ambient,153,2,151,88,60,50,in_stock
+WH-KAN,Kandy,STYLE-081,Waypoint Style,Kids,Kids Dress V3,pcs,ambient,162,17,145,36,10,65,in_stock
+WH-KAN,Kandy,STYLE-082,Waypoint Style,Footwear,Men's Sneakers V3,pairs,ambient,132,0,132,29,20,69,in_stock
+WH-KAN,Kandy,STYLE-083,Waypoint Style,Footwear,Women's Sneakers V3,pairs,ambient,135,3,132,89,20,61,in_stock
+WH-KAN,Kandy,STYLE-084,Waypoint Style,Footwear,Men's Sandals V3,pairs,ambient,95,19,76,43,40,26,in_stock
+WH-KAN,Kandy,STYLE-085,Waypoint Style,Footwear,Women's Sandals V3,pairs,ambient,149,16,133,77,60,34,in_stock
+WH-KAN,Kandy,STYLE-086,Waypoint Style,Footwear,Kids' Shoes V3,pairs,ambient,129,17,112,69,20,57,in_stock
+WH-KAN,Kandy,STYLE-087,Waypoint Style,Accessories,Backpack V3,pcs,ambient,92,19,73,77,40,39,in_stock
+WH-KAN,Kandy,STYLE-088,Waypoint Style,Accessories,Wallet V3,pcs,ambient,94,18,76,24,0,30,in_stock
+WH-KAN,Kandy,STYLE-089,Waypoint Style,Accessories,Cap V3,pcs,ambient,175,11,164,37,0,60,in_stock
+WH-KAN,Kandy,STYLE-090,Waypoint Style,Accessories,Belt V3,pcs,ambient,127,26,101,52,60,48,in_stock
+WH-KAN,Kandy,STYLE-091,Waypoint Style,Men,Men's T-Shirt V4,pcs,ambient,89,9,80,44,10,36,in_stock
+WH-KAN,Kandy,STYLE-092,Waypoint Style,Men,Men's Polo Shirt V4,pcs,ambient,83,15,68,32,20,70,low_stock
+WH-KAN,Kandy,STYLE-093,Waypoint Style,Men,Men's Casual Shirt V4,pcs,ambient,127,13,114,79,20,29,in_stock
+WH-KAN,Kandy,STYLE-094,Waypoint Style,Men,Men's Formal Shirt V4,pcs,ambient,91,13,78,50,0,56,in_stock
+WH-KAN,Kandy,STYLE-095,Waypoint Style,Men,Men's Jeans V4,pcs,ambient,44,30,14,58,40,37,low_stock
+WH-KAN,Kandy,STYLE-096,Waypoint Style,Men,Men's Chino V4,pcs,ambient,95,1,94,81,40,67,in_stock
+WH-KAN,Kandy,STYLE-097,Waypoint Style,Men,Men's Shorts V4,pcs,ambient,163,20,143,71,60,29,in_stock
+WH-KAN,Kandy,STYLE-098,Waypoint Style,Men,Men's Hoodie V4,pcs,ambient,107,12,95,54,40,61,in_stock
+WH-KAN,Kandy,STYLE-099,Waypoint Style,Men,Men's Jacket V4,pcs,ambient,97,13,84,15,40,50,in_stock
+WH-KAN,Kandy,STYLE-100,Waypoint Style,Women,Women's T-Shirt V4,pcs,ambient,169,16,153,87,10,69,in_stock
+WH-KAN,Kandy,STYLE-101,Waypoint Style,Women,Women's Blouse V4,pcs,ambient,35,18,17,71,0,22,low_stock
+WH-KAN,Kandy,STYLE-102,Waypoint Style,Women,Women's Dress V4,pcs,ambient,170,7,163,25,40,58,in_stock
+WH-KAN,Kandy,STYLE-103,Waypoint Style,Women,Women's Jeans V4,pcs,ambient,146,0,146,50,40,59,in_stock
+WH-KAN,Kandy,STYLE-104,Waypoint Style,Women,Women's Trousers V4,pcs,ambient,134,15,119,21,0,32,in_stock
+WH-KAN,Kandy,STYLE-105,Waypoint Style,Women,Women's Skirt V4,pcs,ambient,93,24,69,10,10,40,in_stock
+WH-KAN,Kandy,STYLE-106,Waypoint Style,Women,Women's Hoodie V4,pcs,ambient,135,13,122,62,60,28,in_stock
+WH-KAN,Kandy,STYLE-107,Waypoint Style,Women,Women's Jacket V4,pcs,ambient,135,19,116,14,20,48,in_stock
+WH-KAN,Kandy,STYLE-108,Waypoint Style,Kids,Kids T-Shirt V4,pcs,ambient,128,17,111,36,60,41,in_stock
+WH-KAN,Kandy,STYLE-109,Waypoint Style,Kids,Kids Jeans V4,pcs,ambient,36,5,31,63,40,41,low_stock
+WH-KAN,Kandy,STYLE-110,Waypoint Style,Kids,Kids Shorts V4,pcs,ambient,164,17,147,88,10,68,in_stock
+WH-KAN,Kandy,STYLE-111,Waypoint Style,Kids,Kids Dress V4,pcs,ambient,113,0,113,41,0,43,in_stock
+WH-KAN,Kandy,STYLE-112,Waypoint Style,Footwear,Men's Sneakers V4,pairs,ambient,126,30,96,20,40,60,in_stock
+WH-KAN,Kandy,STYLE-113,Waypoint Style,Footwear,Women's Sneakers V4,pairs,ambient,170,0,170,52,10,48,in_stock
+WH-KAN,Kandy,STYLE-114,Waypoint Style,Footwear,Men's Sandals V4,pairs,ambient,50,2,48,35,20,47,in_stock
+WH-KAN,Kandy,STYLE-115,Waypoint Style,Footwear,Women's Sandals V4,pairs,ambient,76,27,49,62,0,33,in_stock
+WH-KAN,Kandy,STYLE-116,Waypoint Style,Footwear,Kids' Shoes V4,pairs,ambient,65,23,42,63,10,31,in_stock
+WH-KAN,Kandy,STYLE-117,Waypoint Style,Accessories,Backpack V4,pcs,ambient,58,2,56,70,0,23,in_stock
+WH-KAN,Kandy,STYLE-118,Waypoint Style,Accessories,Wallet V4,pcs,ambient,151,23,128,27,60,48,in_stock
+WH-KAN,Kandy,STYLE-119,Waypoint Style,Accessories,Cap V4,pcs,ambient,161,10,151,20,60,29,in_stock
+WH-KAN,Kandy,STYLE-120,Waypoint Style,Accessories,Belt V4,pcs,ambient,172,5,167,23,0,69,in_stock
+WH-KAN,Kandy,STYLE-121,Waypoint Style,Men,Men's T-Shirt V5,pcs,ambient,78,21,57,48,0,60,low_stock
+WH-KAN,Kandy,STYLE-122,Waypoint Style,Men,Men's Polo Shirt V5,pcs,ambient,36,3,33,66,10,25,in_stock
+WH-KAN,Kandy,STYLE-123,Waypoint Style,Men,Men's Casual Shirt V5,pcs,ambient,87,2,85,87,10,20,in_stock
+WH-KAN,Kandy,STYLE-124,Waypoint Style,Men,Men's Formal Shirt V5,pcs,ambient,117,27,90,20,40,30,in_stock
+WH-KAN,Kandy,STYLE-125,Waypoint Style,Men,Men's Jeans V5,pcs,ambient,139,25,114,35,40,47,in_stock
+WH-KAN,Kandy,STYLE-126,Waypoint Style,Men,Men's Chino V5,pcs,ambient,95,4,91,59,10,58,in_stock
+WH-KAN,Kandy,STYLE-127,Waypoint Style,Men,Men's Shorts V5,pcs,ambient,106,7,99,10,60,36,in_stock
+WH-KAN,Kandy,STYLE-128,Waypoint Style,Men,Men's Hoodie V5,pcs,ambient,46,7,39,71,10,57,low_stock
+WH-KAN,Kandy,STYLE-129,Waypoint Style,Men,Men's Jacket V5,pcs,ambient,145,16,129,73,40,64,in_stock
+WH-KAN,Kandy,STYLE-130,Waypoint Style,Women,Women's T-Shirt V5,pcs,ambient,59,1,58,58,0,36,in_stock
+WH-KAN,Kandy,STYLE-131,Waypoint Style,Women,Women's Blouse V5,pcs,ambient,121,21,100,22,0,41,in_stock
+WH-KAN,Kandy,STYLE-132,Waypoint Style,Women,Women's Dress V5,pcs,ambient,45,24,21,51,40,56,low_stock
+WH-KAN,Kandy,STYLE-133,Waypoint Style,Women,Women's Jeans V5,pcs,ambient,113,19,94,68,40,44,in_stock
+WH-KAN,Kandy,STYLE-134,Waypoint Style,Women,Women's Trousers V5,pcs,ambient,123,19,104,79,10,50,in_stock
+WH-KAN,Kandy,STYLE-135,Waypoint Style,Women,Women's Skirt V5,pcs,ambient,137,5,132,33,60,28,in_stock
+WH-KAN,Kandy,STYLE-136,Waypoint Style,Women,Women's Hoodie V5,pcs,ambient,145,13,132,70,0,49,in_stock
+WH-KAN,Kandy,STYLE-137,Waypoint Style,Women,Women's Jacket V5,pcs,ambient,152,27,125,82,40,43,in_stock
+WH-KAN,Kandy,STYLE-138,Waypoint Style,Kids,Kids T-Shirt V5,pcs,ambient,97,28,69,65,20,57,in_stock
+WH-KAN,Kandy,STYLE-139,Waypoint Style,Kids,Kids Jeans V5,pcs,ambient,67,14,53,16,60,21,in_stock
+WH-KAN,Kandy,STYLE-140,Waypoint Style,Kids,Kids Shorts V5,pcs,ambient,119,2,117,55,10,64,in_stock
+WH-KAN,Kandy,STYLE-141,Waypoint Style,Kids,Kids Dress V5,pcs,ambient,42,1,41,21,60,58,low_stock
+WH-KAN,Kandy,STYLE-142,Waypoint Style,Footwear,Men's Sneakers V5,pairs,ambient,115,28,87,28,0,44,in_stock
+WH-KAN,Kandy,STYLE-143,Waypoint Style,Footwear,Women's Sneakers V5,pairs,ambient,102,5,97,80,0,65,in_stock
+WH-KAN,Kandy,STYLE-144,Waypoint Style,Footwear,Men's Sandals V5,pairs,ambient,42,13,29,51,20,65,low_stock
+WH-KAN,Kandy,STYLE-145,Waypoint Style,Footwear,Women's Sandals V5,pairs,ambient,159,20,139,54,20,66,in_stock
+WH-KAN,Kandy,STYLE-146,Waypoint Style,Footwear,Kids' Shoes V5,pairs,ambient,145,12,133,83,0,70,in_stock
+WH-KAN,Kandy,STYLE-147,Waypoint Style,Accessories,Backpack V5,pcs,ambient,37,23,14,49,20,47,low_stock
+WH-KAN,Kandy,STYLE-148,Waypoint Style,Accessories,Wallet V5,pcs,ambient,137,6,131,19,60,36,in_stock
+WH-KAN,Kandy,STYLE-149,Waypoint Style,Accessories,Cap V5,pcs,ambient,42,16,26,49,0,68,low_stock
+WH-KAN,Kandy,STYLE-150,Waypoint Style,Accessories,Belt V5,pcs,ambient,124,18,106,50,20,38,in_stock
+WH-KAN,Kandy,STYLE-151,Waypoint Style,Men,Men's T-Shirt V6,pcs,ambient,156,20,136,61,40,68,in_stock
+WH-KAN,Kandy,STYLE-152,Waypoint Style,Men,Men's Polo Shirt V6,pcs,ambient,56,14,42,68,10,20,in_stock
+WH-KAN,Kandy,STYLE-153,Waypoint Style,Men,Men's Casual Shirt V6,pcs,ambient,169,24,145,39,0,50,in_stock
+WH-KAN,Kandy,STYLE-154,Waypoint Style,Men,Men's Formal Shirt V6,pcs,ambient,140,14,126,53,10,56,in_stock
+WH-KAN,Kandy,STYLE-155,Waypoint Style,Men,Men's Jeans V6,pcs,ambient,116,3,113,40,60,34,in_stock
+WH-KAN,Kandy,STYLE-156,Waypoint Style,Men,Men's Chino V6,pcs,ambient,120,15,105,13,0,45,in_stock
+WH-KAN,Kandy,STYLE-157,Waypoint Style,Men,Men's Shorts V6,pcs,ambient,74,1,73,69,20,44,in_stock
+WH-KAN,Kandy,STYLE-158,Waypoint Style,Men,Men's Hoodie V6,pcs,ambient,63,14,49,32,60,48,in_stock
+WH-KAN,Kandy,STYLE-159,Waypoint Style,Men,Men's Jacket V6,pcs,ambient,80,29,51,37,0,36,in_stock
+WH-KAN,Kandy,STYLE-160,Waypoint Style,Women,Women's T-Shirt V6,pcs,ambient,134,24,110,86,60,24,in_stock
+WH-KAN,Kandy,STYLE-161,Waypoint Style,Women,Women's Blouse V6,pcs,ambient,99,0,99,27,10,67,in_stock
+WH-KAN,Kandy,STYLE-162,Waypoint Style,Women,Women's Dress V6,pcs,ambient,137,21,116,75,40,33,in_stock
+WH-KAN,Kandy,STYLE-163,Waypoint Style,Women,Women's Jeans V6,pcs,ambient,120,15,105,69,40,21,in_stock
+WH-KAN,Kandy,STYLE-164,Waypoint Style,Women,Women's Trousers V6,pcs,ambient,87,25,62,81,0,65,low_stock
+WH-KAN,Kandy,STYLE-165,Waypoint Style,Women,Women's Skirt V6,pcs,ambient,76,0,76,77,10,52,in_stock
+WH-KAN,Kandy,STYLE-166,Waypoint Style,Women,Women's Hoodie V6,pcs,ambient,71,24,47,81,10,23,in_stock
+WH-KAN,Kandy,STYLE-167,Waypoint Style,Women,Women's Jacket V6,pcs,ambient,123,12,111,89,10,23,in_stock
+WH-KAN,Kandy,STYLE-168,Waypoint Style,Kids,Kids T-Shirt V6,pcs,ambient,72,10,62,47,20,52,in_stock
+WH-KAN,Kandy,STYLE-169,Waypoint Style,Kids,Kids Jeans V6,pcs,ambient,161,11,150,58,40,48,in_stock
+WH-KAN,Kandy,STYLE-170,Waypoint Style,Kids,Kids Shorts V6,pcs,ambient,174,15,159,58,0,57,in_stock
+WH-KAN,Kandy,STYLE-171,Waypoint Style,Kids,Kids Dress V6,pcs,ambient,97,21,76,73,10,68,in_stock
+WH-KAN,Kandy,STYLE-172,Waypoint Style,Footwear,Men's Sneakers V6,pairs,ambient,100,8,92,52,20,41,in_stock
+WH-KAN,Kandy,STYLE-173,Waypoint Style,Footwear,Women's Sneakers V6,pairs,ambient,180,20,160,15,20,58,in_stock
+WH-KAN,Kandy,STYLE-174,Waypoint Style,Footwear,Men's Sandals V6,pairs,ambient,38,14,24,58,60,29,low_stock
+WH-KAN,Kandy,STYLE-175,Waypoint Style,Footwear,Women's Sandals V6,pairs,ambient,98,30,68,58,0,62,in_stock
+WH-KAN,Kandy,STYLE-176,Waypoint Style,Footwear,Kids' Shoes V6,pairs,ambient,96,26,70,89,20,50,in_stock
+WH-KAN,Kandy,STYLE-177,Waypoint Style,Accessories,Backpack V6,pcs,ambient,31,22,9,24,10,45,low_stock
+WH-KAN,Kandy,STYLE-178,Waypoint Style,Accessories,Wallet V6,pcs,ambient,92,8,84,74,20,67,in_stock
+WH-KAN,Kandy,STYLE-179,Waypoint Style,Accessories,Cap V6,pcs,ambient,113,13,100,34,40,23,in_stock
+WH-KAN,Kandy,STYLE-180,Waypoint Style,Accessories,Belt V6,pcs,ambient,158,18,140,50,60,39,in_stock
+WH-KAN,Kandy,STYLE-181,Waypoint Style,Men,Men's T-Shirt V7,pcs,ambient,124,21,103,50,40,67,in_stock
+WH-KAN,Kandy,STYLE-182,Waypoint Style,Men,Men's Polo Shirt V7,pcs,ambient,43,22,21,63,0,48,low_stock
+WH-KAN,Kandy,STYLE-183,Waypoint Style,Men,Men's Casual Shirt V7,pcs,ambient,32,18,14,87,0,66,low_stock
+WH-KAN,Kandy,STYLE-184,Waypoint Style,Men,Men's Formal Shirt V7,pcs,ambient,32,18,14,17,20,68,low_stock
+WH-KAN,Kandy,STYLE-185,Waypoint Style,Men,Men's Jeans V7,pcs,ambient,50,10,40,40,20,33,in_stock
+WH-KAN,Kandy,STYLE-186,Waypoint Style,Men,Men's Chino V7,pcs,ambient,104,18,86,46,10,51,in_stock
+WH-KAN,Kandy,STYLE-187,Waypoint Style,Men,Men's Shorts V7,pcs,ambient,134,2,132,12,0,44,in_stock
+WH-KAN,Kandy,STYLE-188,Waypoint Style,Men,Men's Hoodie V7,pcs,ambient,87,11,76,54,20,31,in_stock
+WH-KAN,Kandy,STYLE-189,Waypoint Style,Men,Men's Jacket V7,pcs,ambient,129,27,102,74,40,30,in_stock
+WH-KAN,Kandy,STYLE-190,Waypoint Style,Women,Women's T-Shirt V7,pcs,ambient,116,6,110,55,20,57,in_stock
+WH-KAN,Kandy,STYLE-191,Waypoint Style,Women,Women's Blouse V7,pcs,ambient,93,3,90,54,40,20,in_stock
+WH-KAN,Kandy,STYLE-192,Waypoint Style,Women,Women's Dress V7,pcs,ambient,67,27,40,36,60,45,low_stock
+WH-KAN,Kandy,STYLE-193,Waypoint Style,Women,Women's Jeans V7,pcs,ambient,169,10,159,72,10,34,in_stock
+WH-KAN,Kandy,STYLE-194,Waypoint Style,Women,Women's Trousers V7,pcs,ambient,79,24,55,37,20,44,in_stock
+WH-KAN,Kandy,STYLE-195,Waypoint Style,Women,Women's Skirt V7,pcs,ambient,34,9,25,50,0,51,low_stock
+WH-KAN,Kandy,STYLE-196,Waypoint Style,Women,Women's Hoodie V7,pcs,ambient,99,26,73,43,40,66,in_stock
+WH-KAN,Kandy,STYLE-197,Waypoint Style,Women,Women's Jacket V7,pcs,ambient,57,21,36,37,40,45,low_stock
+WH-KAN,Kandy,STYLE-198,Waypoint Style,Kids,Kids T-Shirt V7,pcs,ambient,106,8,98,40,20,61,in_stock
+WH-KAN,Kandy,STYLE-199,Waypoint Style,Kids,Kids Jeans V7,pcs,ambient,74,0,74,69,10,55,in_stock
+WH-KAN,Kandy,STYLE-200,Waypoint Style,Kids,Kids Shorts V7,pcs,ambient,53,25,28,32,60,55,low_stock

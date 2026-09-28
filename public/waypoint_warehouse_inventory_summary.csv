@@ -1,0 +1,7 @@
+warehouse_name,brand,products,total_stock,total_reserved,total_available,total_demand,total_incoming
+Kandy,Fresh,300,87946,12155,75791,47965,33400
+Kandy,Waypoint Style,200,20669,2773,17896,10168,5060
+Kandy,Waypoint Tech,200,11651,1553,10098,5724,3205
+Paliyagoda,Fresh,300,87009,11722,75287,50917,32000
+Paliyagoda,Waypoint Style,200,21460,3010,18450,10220,5570
+Paliyagoda,Waypoint Tech,200,11563,1538,10025,5917,2975
