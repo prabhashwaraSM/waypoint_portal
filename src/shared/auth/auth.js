@@ -19,6 +19,15 @@ export const PROTOTYPE_USERS = [
     depot: "Peliyagoda"
   },
   {
+    username: "driver",
+    password: "Driver@2026",
+    name: "Mahesh Senanayake",
+    role: "Driver",
+    depot: "Peliyagoda",
+    driverId: "DRV001",
+    phone: "072-3530829"
+  },
+  {
     username: "freshmanager",
     password: "Fresh@2026",
     name: "Fresh Store Manager",
@@ -50,6 +59,7 @@ export const PROTOTYPE_USERS = [
 export function getRoleHome(session) {
   if (!session) return "/login";
   if (session.role === "Loader") return "/loader";
+  if (session.role === "Driver") return "/driver";
   if (session.role === "Store Manager") return "/store-manager";
   return "/dashboard";
 }
@@ -74,6 +84,8 @@ export function login(username, password) {
     storeType: user.storeType,
     brand: user.brand,
     outlet: user.outlet,
+    driverId: user.driverId,
+    phone: user.phone,
     loginAt: new Date().toISOString()
   };
 
