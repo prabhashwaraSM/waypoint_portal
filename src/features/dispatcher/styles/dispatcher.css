@@ -508,3 +508,138 @@ tbody tr:last-child td { border-bottom: none; }
   .top-meta { gap:5px; }
   .nav-link { flex-basis:78px; min-width:78px; }
 }
+
+/* ---------- 2026-09 mobile + new dispatcher features ---------- */
+
+/* Order allocation validation */
+.order-brand-row { display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+.order-filter-label { display:inline-flex; align-items:center; gap:6px; color:var(--text-muted); font-size:11px; font-weight:800; text-transform:uppercase; }
+.order-brand-buttons { display:flex; gap:10px; flex-wrap:wrap; }
+.order-brand-btn {
+  display:inline-flex; align-items:center; gap:7px;
+  padding:9px 14px; border:1px solid var(--border-color); border-radius:9px;
+  background:#fff; color:var(--text-main); font-weight:700; font-size:12px;
+}
+.order-brand-btn.active { border-color:var(--primary); background:var(--primary-light); color:var(--primary); }
+.order-toolbar { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:18px; }
+.order-search { flex:1 1 320px; min-width:240px; display:flex; align-items:center; gap:8px; padding:0 11px; border:1px solid var(--border-color); border-radius:9px; background:#fff; color:var(--text-muted); }
+.order-search input { width:100%; border:0; outline:0; padding:10px 0; background:transparent; }
+.order-filter { display:flex; align-items:center; gap:6px; padding:0 9px; border:1px solid var(--border-color); border-radius:9px; background:#fff; color:var(--text-muted); }
+.order-filter select { min-height:38px; border:0; outline:0; background:#fff; color:var(--text-main); }
+.order-bulk-bar { margin-bottom:14px; padding:10px 12px; display:flex; justify-content:space-between; align-items:center; gap:10px; border:1px solid #c7d2fe; border-radius:9px; background:var(--primary-light); color:var(--primary); }
+.order-bulk-bar > div { display:flex; gap:6px; flex-wrap:wrap; }
+.order-row-selected { background:var(--primary-light); }
+.order-ref { display:block; color:var(--primary); font-family:monospace; font-size:12px; }
+.order-table-wrap td small { display:block; color:var(--text-muted); font-size:10px; margin-top:3px; }
+.order-actions { display:flex; gap:5px; }
+.order-action { border:0; border-radius:7px; padding:6px 9px; font-size:10px; font-weight:800; white-space:nowrap; }
+.order-action.approve { background:#dcfce7; color:#15803d; }
+.order-action.defer { background:#fef3c7; color:#b45309; }
+.order-action.reject { background:#fee2e2; color:#b91c1c; }
+.order-empty { text-align:center; padding:28px!important; color:var(--text-muted); }
+.order-defer-modal { width:min(540px,calc(100vw - 28px)); }
+.order-warning { display:flex; align-items:flex-start; gap:8px; margin:0 0 14px; padding:10px; border:1px solid #fed7aa; border-radius:9px; background:#fff7ed; color:#9a3412; font-size:11px; line-height:1.45; }
+.order-toast { position:fixed; right:20px; bottom:20px; z-index:150; display:flex; align-items:center; gap:7px; padding:11px 13px; border-radius:9px; background:#0f172a; color:#fff; font-size:11px; font-weight:700; box-shadow:0 14px 35px rgba(15,23,42,.24); }
+
+/* Unified secondary sub-navigation used by Dispatch and Fleet. */
+.fl-heading { gap:16px; }
+.fl-subnav { display:flex; flex-wrap:wrap; gap:8px; }
+.fl-subnav-link { min-height:38px; }
+
+/* Prevent inline-heavy operational pages from pushing the viewport wider than the device. */
+.page-content,
+.order-approval-page,
+.fl-page,
+.dp-page,
+.dl-page,
+.dn-page { min-width:0; max-width:100%; }
+
+@media (max-width: 900px) {
+  .order-toolbar { align-items:stretch; }
+  .order-search { flex-basis:100%; }
+  .order-table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .order-table-wrap table { min-width:1080px; }
+  .fl-heading { align-items:flex-start; }
+  .fl-subnav { width:100%; }
+}
+
+@media (max-width: 760px) {
+  .page-content { padding:16px 12px 20px!important; }
+
+  .page-heading { margin-bottom:16px; }
+  .page-heading h1 { font-size:21px!important; }
+
+  .stats-grid {
+    grid-template-columns:1fr 1fr!important;
+    gap:9px!important;
+    margin-bottom:14px!important;
+  }
+  .stat-card { padding:12px!important; min-width:0; }
+  .stat-icon { width:38px; height:38px; }
+  .stat-content strong { font-size:18px; }
+  .stat-content span { font-size:10px; }
+
+  .panel { border-radius:12px; padding:14px!important; overflow:hidden; }
+
+  .order-brand-panel { padding:12px!important; }
+  .order-brand-row { align-items:stretch; gap:9px; }
+  .order-filter-label { width:100%; }
+  .order-brand-buttons { display:grid; grid-template-columns:1fr; width:100%; }
+  .order-brand-btn { width:100%; justify-content:flex-start; min-height:40px; }
+
+  .order-toolbar { display:grid; grid-template-columns:1fr; gap:8px; }
+  .order-search, .order-filter { width:100%; min-width:0; }
+  .order-filter select { width:100%; }
+  .order-bulk-bar { align-items:stretch; flex-direction:column; }
+  .order-bulk-bar > div { display:grid; grid-template-columns:repeat(3,1fr); }
+  .order-action { min-height:36px; }
+
+  .order-table-wrap { margin:0 -2px; overflow-x:auto; }
+  .order-table-wrap table { min-width:1020px; }
+
+  .fl-heading {
+    display:flex!important;
+    flex-direction:column;
+    align-items:stretch!important;
+    gap:12px;
+  }
+  .fl-heading > div > p { display:none; }
+  .fl-subnav {
+    display:flex;
+    flex-wrap:nowrap;
+    width:100%;
+    overflow-x:auto;
+    padding-bottom:2px;
+    scrollbar-width:none;
+  }
+  .fl-subnav::-webkit-scrollbar { display:none; }
+  .fl-subnav-link { flex:0 0 auto; white-space:nowrap; min-height:40px; font-size:11px; }
+
+  .fl-table-wrap,
+  .table-wrap { overflow-x:auto!important; -webkit-overflow-scrolling:touch; }
+  .fl-table { min-width:760px; }
+
+  .modal-overlay { padding:0!important; align-items:flex-end!important; }
+  .modal-card {
+    width:100%!important;
+    max-width:none!important;
+    max-height:92vh;
+    overflow:auto;
+    border-radius:18px 18px 0 0!important;
+  }
+  .modal-actions {
+    position:sticky;
+    bottom:0;
+    background:#fff;
+    padding-bottom:calc(12px + env(safe-area-inset-bottom));
+  }
+  .modal-actions button { min-height:42px; }
+
+  .order-toast { left:12px; right:12px; bottom:84px; justify-content:center; }
+}
+
+@media (max-width: 480px) {
+  .stats-grid { grid-template-columns:1fr!important; }
+  .order-bulk-bar > div { grid-template-columns:1fr; }
+  .order-table-wrap table { min-width:960px; }
+}
