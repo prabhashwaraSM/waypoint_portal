@@ -643,3 +643,15 @@ tbody tr:last-child td { border-bottom: none; }
   .order-bulk-bar > div { grid-template-columns:1fr; }
   .order-table-wrap table { min-width:960px; }
 }
+
+/* Dispatcher-only mobile nav fix
+   portalLayout.css changes the mobile nav to display:flex, but its desktop
+   flex-direction:column still remains. Scope the correction to Dispatcher so
+   other role sections and their branches/files are not changed. */
+@media (max-width: 760px) {
+  .dispatcher-theme .portal-nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+}
