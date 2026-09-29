@@ -8,6 +8,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Bell, LogOut } from "lucide-react";
 import Logo from "./Logo";
 import "../styles/portalLayout.css";
+import StoreHeader from "./StoreHeader";
 
 function initials(name) {
   return String(name || "User")

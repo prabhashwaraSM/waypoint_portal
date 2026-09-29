@@ -15,8 +15,7 @@ import TechAdjustmentsPage from "./TechAdjustmentsPage";
 import StoreUtilityModal from "../components/StoreUtilityModal";
 import "../styles/storeManager.css";
 import "../../../shared/styles/portalLayout.css";
-import OfflineMode from "../components/OfflineMode";
-import "../styles/offline-mode.css";
+import StoreHeader from "./StoreHeader";
 
 function navForStore(profile) {
   const receiveLabel = profile.key === "style" ? "Receive Order" : "Receive Delivery";

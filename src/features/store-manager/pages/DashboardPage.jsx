@@ -14,6 +14,7 @@ import StoreStatCard from "../components/StoreStatCard";
 import TrackingModal from "../components/TrackingModal";
 import { recentOrders } from "../data/storeManagerData";
 
+
 function statusClass(status) {
   return String(status).toLowerCase().replaceAll(" ", "-");
 }
