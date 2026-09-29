@@ -1,0 +1,645 @@
+/* =========================================================
+   OFFLINE / ONLINE STATUS BUTTON
+========================================================= */
+
+.offline-status-button {
+    position: relative;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+    height: 36px;
+    min-width: 82px;
+
+    padding: 0 11px;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 9px;
+
+    background: #ffffff;
+
+    color: #1e293b;
+
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.15s ease;
+}
+
+.offline-status-button:hover {
+    border-color: #cbd5e1;
+
+    box-shadow:
+        0 4px 12px rgba(15, 23, 42, 0.08);
+
+    transform: translateY(-1px);
+}
+
+.offline-status-button:active {
+    transform: translateY(0);
+}
+
+
+/* =========================================================
+   ONLINE STATE
+========================================================= */
+
+.offline-status-button.online {
+    color: #15803d;
+    background: #f0fdf4;
+    border-color: #bbf7d0;
+}
+
+.offline-status-button.online:hover {
+    background: #dcfce7;
+    border-color: #86efac;
+}
+
+
+/* =========================================================
+   OFFLINE STATE
+========================================================= */
+
+.offline-status-button.offline {
+    color: #dc2626;
+    background: #fff7f7;
+    border-color: #fecaca;
+
+    animation: offlinePulse 2s infinite;
+}
+
+.offline-status-button.offline:hover {
+    background: #fef2f2;
+    border-color: #fca5a5;
+}
+
+
+/* =========================================================
+   STATUS DOT
+========================================================= */
+
+.offline-status-dot {
+    width: 7px;
+    height: 7px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background: #22c55e;
+
+    box-shadow:
+        0 0 0 3px rgba(34, 197, 94, 0.12);
+}
+
+.offline-status-button.offline .offline-status-dot {
+    background: #ef4444;
+
+    box-shadow:
+        0 0 0 3px rgba(239, 68, 68, 0.12);
+}
+
+
+/* =========================================================
+   WARNING ICON
+========================================================= */
+
+.offline-wifi-icon {
+    font-size: 10px;
+    line-height: 1;
+}
+
+
+/* =========================================================
+   PENDING COUNT
+========================================================= */
+
+.offline-status-button small {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 17px;
+    height: 17px;
+
+    padding: 0 4px;
+
+    border-radius: 50%;
+
+    background: #ef4444;
+
+    color: white;
+
+    font-size: 8px;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   OFFLINE MODAL BACKDROP
+========================================================= */
+
+.offline-modal-overlay {
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 9999;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    background:
+        rgba(15, 23, 42, 0.42);
+
+    backdrop-filter: blur(5px);
+
+    animation:
+        offlineFadeIn 0.2s ease;
+}
+
+
+/* =========================================================
+   OFFLINE MODAL
+========================================================= */
+
+.offline-modal {
+    position: relative;
+
+    width: min(430px, 100%);
+
+    overflow: hidden;
+
+    border-radius: 18px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 25px 70px rgba(15, 23, 42, 0.22);
+
+    animation:
+        offlineModalIn 0.25s ease;
+}
+
+
+/* =========================================================
+   TOP WARNING AREA
+========================================================= */
+
+.offline-warning-icon {
+    position: absolute;
+
+    top: 25px;
+    left: 26px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    border-radius: 12px;
+
+    background: #fff7ed;
+
+    color: #f97316;
+}
+
+
+/* =========================================================
+   CLOSE BUTTON
+========================================================= */
+
+.offline-modal-close {
+    position: absolute;
+
+    top: 20px;
+    right: 20px;
+
+    z-index: 2;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #f8fafc;
+
+    color: #64748b;
+
+    font-size: 20px;
+    line-height: 1;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+.offline-modal-close:hover {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+
+/* =========================================================
+   MODAL BODY
+========================================================= */
+
+.offline-modal {
+    padding: 28px;
+}
+
+.offline-modal>.offline-warning-icon {
+    position: relative;
+
+    top: auto;
+    left: auto;
+
+    margin-bottom: 18px;
+}
+
+
+/* =========================================================
+   LABEL
+========================================================= */
+
+.offline-label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #94a3b8;
+
+    font-size: 9px;
+    font-weight: 700;
+
+    letter-spacing: 0.12em;
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.offline-modal h2 {
+    margin: 0;
+
+    color: #0f172a;
+
+    font-size: 23px;
+    font-weight: 750;
+
+    letter-spacing: -0.02em;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.offline-description {
+    margin: 9px 0 18px;
+
+    color: #64748b;
+
+    font-size: 11px;
+
+    line-height: 1.6;
+}
+
+.online-description {
+    margin: 10px 0 22px;
+
+    color: #15803d;
+
+    font-size: 11px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   LAST SYNC CARD
+========================================================= */
+
+.offline-sync-box {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 14px 15px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 11px;
+
+    background: #f8fafc;
+}
+
+.offline-sync-box span {
+    display: block;
+
+    margin-bottom: 4px;
+
+    color: #64748b;
+
+    font-size: 9px;
+}
+
+.offline-sync-box strong {
+    display: block;
+
+    color: #0f172a;
+
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.offline-sync-box::after {
+    content: "↻";
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+
+    background: #ecfdf5;
+
+    color: #16a34a;
+
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   AVAILABLE FEATURES
+========================================================= */
+
+.offline-features {
+    margin-bottom: 18px;
+}
+
+.offline-features>p {
+    margin: 0 0 11px;
+
+    color: #0f172a;
+
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   FEATURE ROW
+========================================================= */
+
+.offline-features>div {
+    display: flex;
+
+    align-items: center;
+
+    min-height: 32px;
+
+    color: #334155;
+
+    font-size: 10px;
+
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.offline-features>div:last-child {
+    border-bottom: none;
+}
+
+.offline-features>div::first-letter {
+    color: #16a34a;
+}
+
+
+/* =========================================================
+   PENDING ORDERS
+========================================================= */
+
+.offline-pending {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 10px 12px;
+
+    margin-bottom: 14px;
+
+    border-radius: 9px;
+
+    background: #fff7ed;
+
+    border: 1px solid #fed7aa;
+
+    color: #c2410c;
+
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.offline-pending::before {
+    content: "●";
+
+    color: #f97316;
+
+    font-size: 8px;
+}
+
+
+/* =========================================================
+   SYNC MESSAGE
+========================================================= */
+
+.offline-sync-message {
+    margin: 0 0 20px;
+
+    color: #64748b;
+
+    font-size: 9px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   CONTINUE BUTTON
+========================================================= */
+
+.offline-continue-button {
+    width: 100%;
+
+    height: 40px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background: #16a34a;
+
+    color: white;
+
+    font-family: inherit;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.15s ease,
+        box-shadow 0.2s ease;
+}
+
+.offline-continue-button:hover {
+    background: #15803d;
+
+    box-shadow:
+        0 5px 15px rgba(22, 163, 74, 0.2);
+
+    transform: translateY(-1px);
+}
+
+.offline-continue-button:active {
+    transform: translateY(0);
+}
+
+
+/* =========================================================
+   ANIMATIONS
+========================================================= */
+
+@keyframes offlinePulse {
+
+    0%,
+    100% {
+        box-shadow:
+            0 0 0 0 rgba(239, 68, 68, 0);
+    }
+
+    50% {
+        box-shadow:
+            0 0 0 4px rgba(239, 68, 68, 0.08);
+    }
+}
+
+@keyframes offlineFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes offlineModalIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .offline-status-button {
+        min-width: 40px;
+
+        width: 40px;
+
+        padding: 0;
+
+        gap: 0;
+    }
+
+    .offline-status-button>span:nth-child(2) {
+        display: none;
+    }
+
+    .offline-status-button small {
+        position: absolute;
+
+        top: -5px;
+        right: -5px;
+
+        min-width: 15px;
+        height: 15px;
+
+        font-size: 7px;
+    }
+
+    .offline-modal {
+        padding: 23px;
+
+        border-radius: 15px;
+    }
+
+    .offline-modal h2 {
+        font-size: 20px;
+    }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .offline-status-button,
+    .offline-modal-overlay,
+    .offline-modal,
+    .offline-continue-button {
+        animation: none;
+
+        transition: none;
+    }
+}

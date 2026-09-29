@@ -1,140 +1,167 @@
-import React, { useEffect, useState, useMemo } from "react";
-import { useOutletContext } from "react-router-dom";
+import React, { useEffect, useMemo, useState } from "react";
 import Papa from "papaparse";
-import { 
-  CheckCircle2, 
-  XCircle, 
-  Clock, 
-  Search, 
-  Filter, 
-  ArrowUpDown, 
-  Tag, 
-  MapPin, 
+import {
+  AlertTriangle,
+  ArrowUpDown,
+  CheckCircle2,
+  Clock,
+  Filter,
+  MapPin,
+  Package,
+  RefreshCw,
   Scale,
-  RefreshCw
+  Search,
+  Tag,
+  Truck,
+  X,
+  XCircle
 } from "lucide-react";
+import { loadInventoryAggregate, checkInventory, reserveInventory } from "../data/inventoryStore";
+import { loadFleet } from "../data/fleetStore";
+import { checkFleetCapacity } from "../data/fleetCapacityStore";
+import { getAppOrders, subscribeAppOrders, updateAppOrderStatus } from "../data/orderPlacementStore";
+import { notifyDeferral, notifyShortfall } from "../data/notificationStore";
+
+const REASONS = [
+  "Insufficient Warehouse Stock",
+  "Vehicle / Driver Unavailable",
+  "Temperature / Cold Chain Route Unavailability",
+  "Outlet Credit / Payment Hold",
+  "Incorrect Delivery Depot Specified",
+  "Other"
+];
+
+function brandFull(raw) {
+  if (String(raw || "").startsWith("Waypoint")) return raw;
+  if (raw === "Style") return "Waypoint Style";
+  if (raw === "Tech") return "Waypoint Tech";
+  return "Waypoint Fresh";
+}
+
+function decisionFor(status) {
+  if (status === "approved") return "approved";
+  if (status === "deferred") return "deferred";
+  if (status === "cancelled" || status === "rejected") return "rejected";
+  return "pending";
+}
+
+function addDays(iso, days = 1) {
+  const d = new Date((iso || new Date().toISOString().slice(0, 10)) + "T00:00:00");
+  d.setDate(d.getDate() + days);
+  return d.toISOString().slice(0, 10);
+}
+
+function CheckBadge({ ok, goodLabel, badLabel, detail, icon: Icon }) {
+  return (
+    <span
+      title={detail}
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        gap: "5px",
+        padding: "4px 8px",
+        borderRadius: "999px",
+        fontSize: "10px",
+        fontWeight: 800,
+        background: ok ? "#dcfce7" : "#fee2e2",
+        color: ok ? "#15803d" : "#b91c1c",
+        whiteSpace: "nowrap"
+      }}
+    >
+      <Icon size={12} />
+      {ok ? goodLabel : badLabel}
+    </span>
+  );
+}
 
 export default function OrderApproval() {
-  const context = useOutletContext() || {};
-  const { brand: contextBrand, setBrand: setContextBrand } = context;
-
-  const [selectedBrand, setSelectedBrand] = useState(contextBrand || "Waypoint Fresh");
+  const [selectedBrand, setSelectedBrand] = useState("Waypoint Fresh");
   const [orders, setOrders] = useState([]);
+  const [inventoryAggregate, setInventoryAggregate] = useState(null);
+  const [vehicles, setVehicles] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Filters & Sorting
   const [districtFilter, setDistrictFilter] = useState("ALL");
   const [statusFilter, setStatusFilter] = useState("pending_approval");
   const [tempFilter, setTempFilter] = useState("ALL");
   const [searchTerm, setSearchTerm] = useState("");
   const [sortField, setSortField] = useState("order_ref");
   const [sortDirection, setSortDirection] = useState("asc");
-
-  // Selection state for bulk actions
   const [selectedOrderRefs, setSelectedOrderRefs] = useState([]);
 
-  // Load 1,500 Order Records
-  useEffect(() => {
-    Papa.parse("/waypoint_1500_orders_all_120_stores.csv", {
-      download: true,
-      header: true,
-      skipEmptyLines: true,
-      complete: (res) => {
-        const parsed = res.data.map((row) => ({
-          ...row,
-          order_units: parseInt(row.order_units || 0, 10),
-          order_weight_kg: parseFloat(row.order_weight_kg || 0),
-          order_volume_m3: parseFloat(row.order_volume_m3 || 0),
-          brand_full: row.brand === "Fresh" ? "Waypoint Fresh" : row.brand === "Style" ? "Waypoint Style" : "Waypoint Tech",
-          // Standardize initial decision state based on status
-          decisionState: row.status === "approved" ? "approved" : row.status === "deferred" ? "deferred" : row.status === "cancelled" ? "rejected" : "pending"
-        }));
-        setOrders(parsed);
-        setLoading(false);
-      },
-      error: (err) => {
-        console.error("Failed to load waypoint_1500_orders_all_120_stores.csv:", err);
-        setLoading(false);
-      }
+  const [deferOrder, setDeferOrder] = useState(null);
+  const [deferReason, setDeferReason] = useState(REASONS[0]);
+  const [deferCustomReason, setDeferCustomReason] = useState("");
+  const [deferDate, setDeferDate] = useState("");
+  const [fleetWarningOrder, setFleetWarningOrder] = useState(null);
+  const [toast, setToast] = useState("");
+
+  const loadAll = async () => {
+    setLoading(true);
+    const csvOrders = await new Promise((resolve) => {
+      Papa.parse("/waypoint_1500_orders_all_120_stores.csv", {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: (res) => resolve(res.data || []),
+        error: () => resolve([])
+      });
     });
+
+    const seeded = csvOrders.map((row) => ({
+      ...row,
+      order_units: Number(row.order_units || 0),
+      order_weight_kg: Number(row.order_weight_kg || 0),
+      order_volume_m3: Number(row.order_volume_m3 || 0),
+      brand_full: brandFull(row.brand),
+      decisionState: decisionFor(row.status),
+      source: row.source || "seed"
+    }));
+
+    const app = getAppOrders().map((row) => ({
+      ...row,
+      order_units: Number(row.order_units || 0),
+      order_weight_kg: Number(row.order_weight_kg || 0),
+      order_volume_m3: Number(row.order_volume_m3 || 0),
+      brand_full: brandFull(row.brand),
+      decisionState: decisionFor(row.status),
+      source: "app"
+    }));
+
+    const [aggregate, fleet] = await Promise.all([loadInventoryAggregate(), loadFleet()]);
+    setInventoryAggregate(aggregate);
+    setVehicles(fleet.vehicles || []);
+    setOrders([...app, ...seeded]);
+    setLoading(false);
+  };
+
+  useEffect(() => {
+    loadAll();
+    return subscribeAppOrders(() => loadAll());
   }, []);
 
-  const handleBrandSelect = (bName) => {
-    setSelectedBrand(bName);
-    if (setContextBrand) setContextBrand(bName);
-    setDistrictFilter("ALL");
-    setTempFilter("ALL");
-    setSearchTerm("");
-    setSelectedOrderRefs([]);
-  };
+  const checks = useMemo(() => {
+    const map = new Map();
+    if (!inventoryAggregate) return map;
+    orders.forEach((order) => {
+      map.set(order.order_ref, {
+        inventory: checkInventory(order, inventoryAggregate),
+        fleet: checkFleetCapacity(order, vehicles)
+      });
+    });
+    return map;
+  }, [orders, inventoryAggregate, vehicles]);
 
-  // Filter Orders by Active Brand
-  const brandOrders = useMemo(() => {
-    return orders.filter((o) => o.brand_full === selectedBrand || o.brand === selectedBrand.replace("Waypoint ", ""));
-  }, [orders, selectedBrand]);
+  const brandOrders = useMemo(
+    () => orders.filter((o) => o.brand_full === selectedBrand),
+    [orders, selectedBrand]
+  );
 
-  const districtsList = useMemo(() => {
-    return ["ALL", ...new Set(brandOrders.map((o) => o.district).filter(Boolean))];
-  }, [brandOrders]);
+  const districtsList = useMemo(
+    () => ["ALL", ...new Set(brandOrders.map((o) => o.district).filter(Boolean))],
+    [brandOrders]
+  );
 
-  // Handle Action Decisions (Approve / Defer / Reject)
-  const handleDecision = (ref, decision) => {
-    setOrders((prev) =>
-      prev.map((o) => {
-        if (o.order_ref === ref) {
-          let newStatus = o.status;
-          if (decision === "approved") newStatus = "approved";
-          if (decision === "deferred") newStatus = "deferred";
-          if (decision === "rejected") newStatus = "cancelled";
-          return { ...o, decisionState: decision, status: newStatus };
-        }
-        return o;
-      })
-    );
-  };
-
-  // Bulk Decision Execution
-  const handleBulkDecision = (decision) => {
-    if (selectedOrderRefs.length === 0) return;
-    setOrders((prev) =>
-      prev.map((o) => {
-        if (selectedOrderRefs.includes(o.order_ref)) {
-          let newStatus = o.status;
-          if (decision === "approved") newStatus = "approved";
-          if (decision === "deferred") newStatus = "deferred";
-          if (decision === "rejected") newStatus = "cancelled";
-          return { ...o, decisionState: decision, status: newStatus };
-        }
-        return o;
-      })
-    );
-    setSelectedOrderRefs([]);
-  };
-
-  const handleSelectAll = (e) => {
-    if (e.target.checked) {
-      setSelectedOrderRefs(filteredOrders.map((o) => o.order_ref));
-    } else {
-      setSelectedOrderRefs([]);
-    }
-  };
-
-  const handleSelectRow = (ref) => {
-    setSelectedOrderRefs((prev) =>
-      prev.includes(ref) ? prev.filter((r) => r !== ref) : [...prev, ref]
-    );
-  };
-
-  const handleSort = (field) => {
-    if (sortField === field) {
-      setSortDirection((prev) => (prev === "asc" ? "desc" : "asc"));
-    } else {
-      setSortField(field);
-      setSortDirection("asc");
-    }
-  };
-
-  // Filter & Sort Logic
   const filteredOrders = useMemo(() => {
     let result = [...brandOrders];
 
@@ -143,392 +170,325 @@ export default function OrderApproval() {
     } else if (statusFilter !== "ALL") {
       result = result.filter((o) => o.decisionState === statusFilter || o.status === statusFilter);
     }
+    if (districtFilter !== "ALL") result = result.filter((o) => o.district === districtFilter);
+    if (tempFilter !== "ALL") result = result.filter((o) => o.temp_requirement === tempFilter);
 
-    if (districtFilter !== "ALL") {
-      result = result.filter((o) => o.district === districtFilter);
-    }
-    if (tempFilter !== "ALL") {
-      result = result.filter((o) => o.temp_requirement === tempFilter);
-    }
-    if (searchTerm.trim() !== "") {
-      const q = searchTerm.toLowerCase();
-      result = result.filter(
-        (o) =>
-          o.order_ref.toLowerCase().includes(q) ||
-          o.outlet_id.toLowerCase().includes(q) ||
-          o.district.toLowerCase().includes(q) ||
-          o.category.toLowerCase().includes(q)
+    const q = searchTerm.trim().toLowerCase();
+    if (q) {
+      result = result.filter((o) =>
+        [o.order_ref, o.outlet_id, o.district, o.category].some((value) =>
+          String(value || "").toLowerCase().includes(q)
+        )
       );
     }
 
     result.sort((a, b) => {
-      let valA = a[sortField] ?? "";
-      let valB = b[sortField] ?? "";
-
-      if (typeof valA === "string") valA = valA.toLowerCase();
-      if (typeof valB === "string") valB = valB.toLowerCase();
-
-      if (valA < valB) return sortDirection === "asc" ? -1 : 1;
-      if (valA > valB) return sortDirection === "asc" ? 1 : -1;
+      let aa = a[sortField] ?? "";
+      let bb = b[sortField] ?? "";
+      if (typeof aa === "string") aa = aa.toLowerCase();
+      if (typeof bb === "string") bb = bb.toLowerCase();
+      if (aa < bb) return sortDirection === "asc" ? -1 : 1;
+      if (aa > bb) return sortDirection === "asc" ? 1 : -1;
       return 0;
     });
 
     return result;
-  }, [brandOrders, districtFilter, statusFilter, tempFilter, searchTerm, sortField, sortDirection]);
+  }, [brandOrders, statusFilter, districtFilter, tempFilter, searchTerm, sortField, sortDirection]);
 
-  // Brand Approval Metrics
-  const stats = useMemo(() => {
-    return {
-      pending: brandOrders.filter((o) => o.status === "pending_approval" || o.decisionState === "pending").length,
-      approved: brandOrders.filter((o) => o.decisionState === "approved" || o.status === "approved").length,
-      deferred: brandOrders.filter((o) => o.decisionState === "deferred" || o.status === "deferred").length,
-      rejected: brandOrders.filter((o) => o.decisionState === "rejected" || o.status === "cancelled").length
-    };
-  }, [brandOrders]);
+  const stats = useMemo(() => ({
+    pending: brandOrders.filter((o) => o.status === "pending_approval" || o.decisionState === "pending").length,
+    approved: brandOrders.filter((o) => o.status === "approved" || o.decisionState === "approved").length,
+    deferred: brandOrders.filter((o) => o.status === "deferred" || o.decisionState === "deferred").length,
+    rejected: brandOrders.filter((o) => o.status === "cancelled" || o.decisionState === "rejected").length
+  }), [brandOrders]);
+
+  const updateLocalOrder = (ref, patch) => {
+    setOrders((current) => current.map((order) => order.order_ref === ref ? { ...order, ...patch } : order));
+    const target = orders.find((order) => order.order_ref === ref);
+    if (target?.source === "app") updateAppOrderStatus(ref, patch);
+  };
+
+  const showToast = (message) => {
+    setToast(message);
+    window.setTimeout(() => setToast(""), 2600);
+  };
+
+  const approveOrder = (order, forceFleet = false) => {
+    const check = checks.get(order.order_ref);
+    if (!check) return;
+
+    if (!check.inventory.sufficient) {
+      setDeferOrder(order);
+      setDeferReason("Insufficient Warehouse Stock");
+      setDeferCustomReason("");
+      setDeferDate(addDays(order.required_date, 1));
+      return;
+    }
+
+    if (!check.fleet.sufficient && !forceFleet) {
+      setFleetWarningOrder(order);
+      return;
+    }
+
+    reserveInventory(order);
+    updateLocalOrder(order.order_ref, { status: "approved", decisionState: "approved" });
+    setFleetWarningOrder(null);
+    showToast(order.order_ref + " approved and inventory reserved.");
+  };
+
+  const openDefer = (order, reason = REASONS[0]) => {
+    setDeferOrder(order);
+    setDeferReason(reason);
+    setDeferCustomReason("");
+    setDeferDate(addDays(order.required_date, 1));
+  };
+
+  const confirmDefer = () => {
+    if (!deferOrder || !deferDate) return;
+    const reason = deferReason === "Other" ? deferCustomReason.trim() : deferReason;
+    if (!reason) return;
+
+    updateLocalOrder(deferOrder.order_ref, {
+      status: "deferred",
+      decisionState: "deferred",
+      defer_reason: reason,
+      deferred_to: deferDate
+    });
+
+    notifyDeferral({
+      orderRef: deferOrder.order_ref,
+      outletId: deferOrder.outlet_id,
+      storeLabel: deferOrder.outlet_name || deferOrder.outlet_id,
+      reason,
+      newDate: deferDate
+    });
+
+    const inv = checks.get(deferOrder.order_ref)?.inventory;
+    if (reason === "Insufficient Warehouse Stock" && inv && !inv.sufficient) {
+      notifyShortfall({
+        orderRef: deferOrder.order_ref,
+        outletId: deferOrder.outlet_id,
+        depot: deferOrder.depot,
+        brand: deferOrder.brand,
+        category: deferOrder.category,
+        shortfallUnits: inv.shortfallUnits,
+        reason
+      });
+    }
+
+    showToast(deferOrder.order_ref + " deferred and store manager notified.");
+    setDeferOrder(null);
+  };
+
+  const rejectOrder = (order) => {
+    updateLocalOrder(order.order_ref, { status: "cancelled", decisionState: "rejected" });
+    showToast(order.order_ref + " rejected.");
+  };
+
+  const handleBulkDecision = (decision) => {
+    const targets = orders.filter((order) => selectedOrderRefs.includes(order.order_ref));
+    if (decision === "approved") {
+      targets.forEach((order) => approveOrder(order));
+    } else if (decision === "rejected") {
+      targets.forEach(rejectOrder);
+    } else if (targets[0]) {
+      openDefer(targets[0]);
+    }
+    setSelectedOrderRefs([]);
+  };
 
   if (loading) {
     return (
-      <div style={{ padding: "40px", textAlign: "center", color: "var(--text-muted)" }}>
-        <RefreshCw size={28} className="spin" style={{ marginBottom: "12px" }} />
-        <p style={{ fontWeight: 600 }}>Loading Order Approvals & Allocations...</p>
+      <div className="panel" style={{ textAlign: "center", padding: "60px" }}>
+        <RefreshCw size={28} className="spin" />
+        <p>Loading order approvals, warehouse inventory and fleet capacity...</p>
       </div>
     );
   }
 
   return (
     <div className="order-approval-page">
-      {/* Page Title */}
-      <div className="page-heading">
-        <div>
-          <h1>Order Allocation & Approvals</h1>
-        </div>
-      </div>
+      <div className="page-heading"><h1>Order Allocation & Approvals</h1></div>
 
-      {/* Brand Selection Bar */}
-      <div className="panel" style={{ padding: "16px 20px", marginBottom: "24px" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: "16px", flexWrap: "wrap" }}>
-          <span style={{ fontSize: "12px", fontWeight: 800, color: "var(--text-muted)", display: "flex", alignItems: "center", gap: "6px", textTransform: "uppercase" }}>
-            <Tag size={14} color="var(--primary)" /> Select Brand Context:
-          </span>
-          <div style={{ display: "flex", gap: "12px" }}>
+      <div className="panel order-brand-panel" style={{ padding: "16px 20px", marginBottom: "24px" }}>
+        <div className="order-brand-row">
+          <span className="order-filter-label"><Tag size={14} /> Brand</span>
+          <div className="order-brand-buttons">
             {[
-              { id: "Waypoint Fresh", name: "Waypoint Fresh", chipClass: "brand-a" },
-              { id: "Waypoint Style", name: "Waypoint Style", chipClass: "brand-b" },
-              { id: "Waypoint Tech", name: "Waypoint Tech", chipClass: "brand-c" }
-            ].map((b) => {
-              const isSelected = selectedBrand === b.id;
-              return (
-                <button
-                  key={b.id}
-                  onClick={() => handleBrandSelect(b.id)}
-                  style={{
-                    padding: "10px 20px",
-                    borderRadius: "10px",
-                    border: isSelected ? "2px solid var(--primary)" : "1px solid var(--border-color)",
-                    background: isSelected ? "var(--primary-light)" : "var(--bg-card)",
-                    color: isSelected ? "var(--primary)" : "var(--text-main)",
-                    fontWeight: 700,
-                    fontSize: "13px",
-                    cursor: "pointer",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "8px"
-                  }}
-                >
-                  <span className={`brand-chip ${b.chipClass}`} style={{ fontSize: "10px", padding: "2px 6px" }}>
-                    {b.name.split(" ")[1]}
-                  </span>
-                  {b.name}
-                </button>
-              );
-            })}
+              ["Waypoint Fresh", "brand-a"],
+              ["Waypoint Style", "brand-b"],
+              ["Waypoint Tech", "brand-c"]
+            ].map(([name, chip]) => (
+              <button
+                key={name}
+                className={"order-brand-btn " + (selectedBrand === name ? "active" : "")}
+                onClick={() => {
+                  setSelectedBrand(name);
+                  setDistrictFilter("ALL");
+                  setTempFilter("ALL");
+                  setSearchTerm("");
+                  setSelectedOrderRefs([]);
+                }}
+              >
+                <span className={"brand-chip " + chip}>{name.split(" ")[1]}</span>
+                {name}
+              </button>
+            ))}
           </div>
         </div>
       </div>
 
-      {/* Metric Cards */}
       <div className="stats-grid" style={{ marginBottom: "24px" }}>
-        <div className="stat-card">
-          <div className="stat-icon purple"><Clock size={22} /></div>
-          <div className="stat-content">
-            <span>Pending Review</span>
-            <strong>{stats.pending} Orders</strong>
-          </div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-icon green"><CheckCircle2 size={22} /></div>
-          <div className="stat-content">
-            <span>Approved (Served)</span>
-            <strong>{stats.approved} Orders</strong>
-          </div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-icon blue"><Scale size={22} /></div>
-          <div className="stat-content">
-            <span>Deferred (Daytime/Next)</span>
-            <strong>{stats.deferred} Orders</strong>
-          </div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-icon red"><XCircle size={22} /></div>
-          <div className="stat-content">
-            <span>Rejected / Cancelled</span>
-            <strong>{stats.rejected} Orders</strong>
-          </div>
-        </div>
+        <div className="stat-card"><div className="stat-icon purple"><Clock size={22} /></div><div className="stat-content"><span>Pending Review</span><strong>{stats.pending}</strong></div></div>
+        <div className="stat-card"><div className="stat-icon green"><CheckCircle2 size={22} /></div><div className="stat-content"><span>Approved</span><strong>{stats.approved}</strong></div></div>
+        <div className="stat-card"><div className="stat-icon blue"><Scale size={22} /></div><div className="stat-content"><span>Deferred</span><strong>{stats.deferred}</strong></div></div>
+        <div className="stat-card"><div className="stat-icon red"><XCircle size={22} /></div><div className="stat-content"><span>Rejected</span><strong>{stats.rejected}</strong></div></div>
       </div>
 
-      {/* Main Table Panel */}
       <div className="panel">
-        {/* Toolbar */}
-        <div style={{ display: "flex", gap: "12px", flexWrap: "wrap", alignItems: "center", marginBottom: "20px" }}>
-          {/* Search Input */}
-          <div style={{ flex: 1, minWidth: "240px", position: "relative", display: "flex", alignItems: "center" }}>
-            <Search size={16} style={{ position: "absolute", left: "14px", color: "var(--text-muted)" }} />
-            <input
-              type="text"
-              placeholder="Search Order Ref (e.g. ORD-00009), Outlet ID..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="toolbar-input"
-              style={{
-                width: "100%",
-                padding: "10px 14px 10px 38px",
-                borderRadius: "10px",
-                border: "1px solid var(--border-color)",
-                background: "var(--bg-card)",
-                fontSize: "13px",
-                outline: "none"
-              }}
-            />
-          </div>
+        <div className="order-toolbar">
+          <label className="order-search">
+            <Search size={16} />
+            <input placeholder="Search order, outlet, district or category" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
+          </label>
 
-          {/* Decision Status Filter */}
-          <div style={{ display: "flex", alignItems: "center", gap: "8px", background: "var(--bg-card)", padding: "8px 14px", border: "1px solid var(--border-color)", borderRadius: "10px" }}>
-            <Filter size={14} style={{ color: "var(--text-muted)" }} />
-            <span style={{ fontSize: "11px", color: "var(--text-muted)", fontWeight: 700 }}>STATUS:</span>
-            <select
-              value={statusFilter}
-              onChange={(e) => setStatusFilter(e.target.value)}
-              style={{ border: "none", background: "transparent", fontSize: "13px", fontWeight: 600, outline: "none", cursor: "pointer" }}
-            >
-              <option value="pending_approval">Pending Approval</option>
-              <option value="approved">Approved (Served)</option>
-              <option value="deferred">Deferred</option>
-              <option value="rejected">Rejected</option>
-              <option value="ALL">All Orders</option>
-            </select>
-          </div>
+          <label className="order-filter"><Filter size={14} /><select value={statusFilter} onChange={(e) => setStatusFilter(e.target.value)}>
+            <option value="pending_approval">Pending Approval</option>
+            <option value="approved">Approved</option>
+            <option value="deferred">Deferred</option>
+            <option value="rejected">Rejected</option>
+            <option value="ALL">All Statuses</option>
+          </select></label>
 
-          {/* District Filter */}
-          <div style={{ display: "flex", alignItems: "center", gap: "8px", background: "var(--bg-card)", padding: "8px 14px", border: "1px solid var(--border-color)", borderRadius: "10px" }}>
-            <MapPin size={14} style={{ color: "var(--text-muted)" }} />
-            <span style={{ fontSize: "11px", color: "var(--text-muted)", fontWeight: 700 }}>DISTRICT:</span>
-            <select
-              value={districtFilter}
-              onChange={(e) => setDistrictFilter(e.target.value)}
-              style={{ border: "none", background: "transparent", fontSize: "13px", fontWeight: 600, outline: "none", cursor: "pointer" }}
-            >
-              {districtsList.map((d) => (
-                <option key={d} value={d}>{d === "ALL" ? "All Districts" : d}</option>
-              ))}
-            </select>
-          </div>
+          <label className="order-filter"><MapPin size={14} /><select value={districtFilter} onChange={(e) => setDistrictFilter(e.target.value)}>
+            {districtsList.map((d) => <option key={d} value={d}>{d === "ALL" ? "All Districts" : d}</option>)}
+          </select></label>
 
-          {/* Temp Requirement Filter */}
-          <div style={{ display: "flex", alignItems: "center", gap: "8px", background: "var(--bg-card)", padding: "8px 14px", border: "1px solid var(--border-color)", borderRadius: "10px" }}>
-            <span style={{ fontSize: "11px", color: "var(--text-muted)", fontWeight: 700 }}>TEMP:</span>
-            <select
-              value={tempFilter}
-              onChange={(e) => setTempFilter(e.target.value)}
-              style={{ border: "none", background: "transparent", fontSize: "13px", fontWeight: 600, outline: "none", cursor: "pointer" }}
-            >
-              <option value="ALL">All Temp</option>
-              <option value="ambient">Ambient</option>
-              <option value="chilled">Chilled</option>
-            </select>
-          </div>
+          <label className="order-filter"><select value={tempFilter} onChange={(e) => setTempFilter(e.target.value)}>
+            <option value="ALL">All Temperature</option>
+            <option value="ambient">Ambient</option>
+            <option value="chilled">Chilled</option>
+          </select></label>
 
-          {/* Sort Dropdown */}
-          <div style={{ display: "flex", alignItems: "center", gap: "8px", background: "var(--bg-card)", padding: "8px 14px", border: "1px solid var(--border-color)", borderRadius: "10px" }}>
-            <ArrowUpDown size={14} style={{ color: "var(--primary)" }} />
-            <span style={{ fontSize: "11px", color: "var(--text-muted)", fontWeight: 700 }}>SORT BY:</span>
-            <select
-              value={`${sortField}-${sortDirection}`}
-              onChange={(e) => {
-                const [field, dir] = e.target.value.split("-");
-                setSortField(field);
-                setSortDirection(dir);
-              }}
-              style={{ border: "none", background: "transparent", fontSize: "13px", fontWeight: 700, color: "var(--primary)", outline: "none", cursor: "pointer" }}
-            >
-              <option value="order_ref-asc">Order Ref (A-Z)</option>
-              <option value="order_ref-desc">Order Ref (Z-A)</option>
-              <option value="required_date-asc">Earliest Required Date</option>
-              <option value="order_volume_m3-desc">Highest Volume (m³)</option>
-              <option value="order_weight_kg-desc">Highest Weight (kg)</option>
-            </select>
-          </div>
+          <label className="order-filter"><ArrowUpDown size={14} /><select value={sortField + "-" + sortDirection} onChange={(e) => {
+            const idx=e.target.value.lastIndexOf("-");
+            setSortField(e.target.value.slice(0,idx));
+            setSortDirection(e.target.value.slice(idx+1));
+          }}>
+            <option value="order_ref-asc">Order Ref A-Z</option>
+            <option value="order_ref-desc">Order Ref Z-A</option>
+            <option value="required_date-asc">Earliest Required Date</option>
+            <option value="order_weight_kg-desc">Highest Weight</option>
+            <option value="order_volume_m3-desc">Highest Volume</option>
+          </select></label>
         </div>
 
-        {/* Bulk Actions Bar */}
         {selectedOrderRefs.length > 0 && (
-          <div style={{ padding: "12px 16px", background: "var(--primary-light)", border: "1px solid #c7d2fe", borderRadius: "10px", marginBottom: "16px", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-            <span style={{ fontSize: "13px", fontWeight: 700, color: "var(--primary)" }}>
-              {selectedOrderRefs.length} order(s) selected
-            </span>
-            <div style={{ display: "flex", gap: "8px" }}>
-              <button
-                onClick={() => handleBulkDecision("approved")}
-                style={{ padding: "6px 14px", borderRadius: "6px", background: "#16a34a", color: "#fff", border: "none", fontWeight: 700, fontSize: "12px", cursor: "pointer" }}
-              >
-                Approve Selected
-              </button>
-              <button
-                onClick={() => handleBulkDecision("deferred")}
-                style={{ padding: "6px 14px", borderRadius: "6px", background: "#d97706", color: "#fff", border: "none", fontWeight: 700, fontSize: "12px", cursor: "pointer" }}
-              >
-                Defer Selected
-              </button>
-              <button
-                onClick={() => handleBulkDecision("rejected")}
-                style={{ padding: "6px 14px", borderRadius: "6px", background: "#dc2626", color: "#fff", border: "none", fontWeight: 700, fontSize: "12px", cursor: "pointer" }}
-              >
-                Reject Selected
-              </button>
+          <div className="order-bulk-bar">
+            <b>{selectedOrderRefs.length} selected</b>
+            <div>
+              <button className="order-action approve" onClick={() => handleBulkDecision("approved")}>Approve</button>
+              <button className="order-action defer" onClick={() => handleBulkDecision("deferred")}>Defer</button>
+              <button className="order-action reject" onClick={() => handleBulkDecision("rejected")}>Reject</button>
             </div>
           </div>
         )}
 
-        {/* Approval Table */}
-        <div className="table-wrap">
+        <div className="table-wrap order-table-wrap">
           <table>
             <thead>
               <tr>
-                <th style={{ width: "40px" }}>
-                  <input
-                    type="checkbox"
-                    onChange={handleSelectAll}
-                    checked={filteredOrders.length > 0 && selectedOrderRefs.length === filteredOrders.length}
-                    style={{ cursor: "pointer" }}
-                  />
-                </th>
-                <th onClick={() => handleSort("order_ref")} style={{ cursor: "pointer" }}>
-                  Order Ref {sortField === "order_ref" ? (sortDirection === "asc" ? "▲" : "▼") : ""}
-                </th>
+                <th><input type="checkbox" checked={filteredOrders.length > 0 && selectedOrderRefs.length === filteredOrders.length} onChange={(e) => setSelectedOrderRefs(e.target.checked ? filteredOrders.map((o) => o.order_ref) : [])} /></th>
+                <th>Order</th>
                 <th>Outlet</th>
                 <th>District / Depot</th>
                 <th>Category</th>
-                <th onClick={() => handleSort("order_weight_kg")} style={{ cursor: "pointer", textAlign: "right" }}>
-                  Weight (kg) {sortField === "order_weight_kg" ? (sortDirection === "asc" ? "▲" : "▼") : ""}
-                </th>
-                <th onClick={() => handleSort("order_volume_m3")} style={{ cursor: "pointer", textAlign: "right" }}>
-                  Volume (m³) {sortField === "order_volume_m3" ? (sortDirection === "asc" ? "▲" : "▼") : ""}
-                </th>
-                <th onClick={() => handleSort("required_date")} style={{ cursor: "pointer" }}>
-                  Required Date {sortField === "required_date" ? (sortDirection === "asc" ? "▲" : "▼") : ""}
-                </th>
-                <th>Dock / Constraint</th>
-                <th style={{ textAlign: "center" }}>Decision Action</th>
+                <th>Load</th>
+                <th>Required</th>
+                <th>Inventory</th>
+                <th>Fleet</th>
+                <th>Decision</th>
               </tr>
             </thead>
             <tbody>
-              {filteredOrders.map((ord) => {
-                const isChecked = selectedOrderRefs.includes(ord.order_ref);
+              {filteredOrders.map((order) => {
+                const selected = selectedOrderRefs.includes(order.order_ref);
+                const check = checks.get(order.order_ref);
+                const inv = check?.inventory;
+                const fleet = check?.fleet;
                 return (
-                  <tr key={ord.order_ref} style={{ background: isChecked ? "var(--primary-light)" : "transparent" }}>
+                  <tr key={order.order_ref} className={selected ? "order-row-selected" : ""}>
+                    <td><input type="checkbox" checked={selected} onChange={() => setSelectedOrderRefs((current) => current.includes(order.order_ref) ? current.filter((ref) => ref !== order.order_ref) : [...current, order.order_ref])} /></td>
+                    <td><strong className="order-ref">{order.order_ref}</strong><small>{order.temp_requirement || "ambient"}</small></td>
+                    <td><b>{order.outlet_id}</b><small>{order.outlet_name || ""}</small></td>
+                    <td><b>{order.district}</b><small>{order.depot}</small></td>
+                    <td>{order.category}</td>
+                    <td><b>{order.order_weight_kg} kg</b><small>{order.order_volume_m3} m³ • {order.order_units} units</small></td>
+                    <td>{order.required_date}</td>
                     <td>
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={() => handleSelectRow(ord.order_ref)}
-                        style={{ cursor: "pointer" }}
-                      />
+                      {inv && <CheckBadge icon={Package} ok={inv.sufficient} goodLabel={"Ready " + inv.availableUnits} badLabel={"Short " + inv.shortfallUnits} detail={"Requested " + inv.requestedUnits + ", available " + inv.availableUnits} />}
                     </td>
                     <td>
-                      <strong style={{ color: "var(--primary)", fontFamily: "monospace", fontSize: "14px" }}>
-                        {ord.order_ref}
-                      </strong>
+                      {fleet && <CheckBadge icon={Truck} ok={fleet.sufficient} goodLabel={fleet.eligibleCount + " vehicle(s)"} badLabel="No match" detail={fleet.sufficient ? fleet.eligibleVehicleIds.join(", ") : fleet.reasons.join(" ")} />}
                     </td>
-                    <td style={{ fontWeight: 600 }}>{ord.outlet_id}</td>
-                    <td>{ord.district} ({ord.depot})</td>
-                    <td>{ord.category}</td>
-                    <td style={{ textAlign: "right", fontWeight: 700 }}>{ord.order_weight_kg} kg</td>
-                    <td style={{ textAlign: "right", fontWeight: 700 }}>{ord.order_volume_m3} m³</td>
-                    <td style={{ fontSize: "12px", color: "var(--text-muted)" }}>{ord.required_date}</td>
                     <td>
-                      <span style={{ fontSize: "11px", fontWeight: 700, padding: "2px 8px", borderRadius: "6px", background: "var(--bg-subtle)" }}>
-                        {ord.dock_type} {ord.parking_constraint === "van_only" ? "(Van Only)" : ""}
-                      </span>
-                    </td>
-                    <td style={{ textAlign: "center" }}>
-                      <div style={{ display: "flex", gap: "6px", justifyContent: "center" }}>
-                        <button
-                          title="Approve Order (Serve)"
-                          onClick={() => handleDecision(ord.order_ref, "approved")}
-                          style={{
-                            padding: "6px 10px",
-                            borderRadius: "6px",
-                            border: "none",
-                            background: ord.decisionState === "approved" ? "#16a34a" : "#dcfce7",
-                            color: ord.decisionState === "approved" ? "#fff" : "#15803d",
-                            fontWeight: 700,
-                            fontSize: "11px",
-                            cursor: "pointer"
-                          }}
-                        >
-                          Approve
-                        </button>
-
-                        <button
-                          title="Defer Order (Postpone)"
-                          onClick={() => handleDecision(ord.order_ref, "deferred")}
-                          style={{
-                            padding: "6px 10px",
-                            borderRadius: "6px",
-                            border: "none",
-                            background: ord.decisionState === "deferred" ? "#d97706" : "#fef3c7",
-                            color: ord.decisionState === "deferred" ? "#fff" : "#b45309",
-                            fontWeight: 700,
-                            fontSize: "11px",
-                            cursor: "pointer"
-                          }}
-                        >
-                          Defer
-                        </button>
-
-                        <button
-                          title="Reject Order (Cancel)"
-                          onClick={() => handleDecision(ord.order_ref, "rejected")}
-                          style={{
-                            padding: "6px 10px",
-                            borderRadius: "6px",
-                            border: "none",
-                            background: ord.decisionState === "rejected" ? "#dc2626" : "#fee2e2",
-                            color: ord.decisionState === "rejected" ? "#fff" : "#b91c1c",
-                            fontWeight: 700,
-                            fontSize: "11px",
-                            cursor: "pointer"
-                          }}
-                        >
-                          Reject
-                        </button>
+                      <div className="order-actions">
+                        <button className="order-action approve" onClick={() => approveOrder(order)}>Approve</button>
+                        <button className="order-action defer" onClick={() => openDefer(order)}>Defer</button>
+                        <button className="order-action reject" onClick={() => rejectOrder(order)}>Reject</button>
                       </div>
                     </td>
                   </tr>
                 );
               })}
-              {filteredOrders.length === 0 && (
-                <tr>
-                  <td colSpan="10" style={{ textAlign: "center", padding: "30px", color: "var(--text-muted)" }}>
-                    No orders match your current filter criteria for {selectedBrand}.
-                  </td>
-                </tr>
-              )}
+              {filteredOrders.length === 0 && <tr><td colSpan="10" className="order-empty">No orders match the current filters.</td></tr>}
             </tbody>
           </table>
         </div>
       </div>
+
+      {deferOrder && (
+        <div className="modal-overlay" onClick={() => setDeferOrder(null)}>
+          <div className="modal-card order-defer-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-head">
+              <div><h3>Defer {deferOrder.order_ref}</h3><p>The store manager will receive the reason and new date.</p></div>
+              <button className="modal-close" onClick={() => setDeferOrder(null)}><X size={18} /></button>
+            </div>
+
+            {checks.get(deferOrder.order_ref)?.inventory && !checks.get(deferOrder.order_ref).inventory.sufficient && (
+              <div className="order-warning">
+                <AlertTriangle size={17} />
+                <span>Warehouse stock is short by {checks.get(deferOrder.order_ref).inventory.shortfallUnits} unit(s).</span>
+              </div>
+            )}
+
+            <label className="modal-field"><span>Reason</span><select value={deferReason} onChange={(e) => setDeferReason(e.target.value)}>{REASONS.map((r) => <option key={r}>{r}</option>)}</select></label>
+            {deferReason === "Other" && <label className="modal-field"><span>Custom reason</span><textarea rows={3} value={deferCustomReason} onChange={(e) => setDeferCustomReason(e.target.value)} /></label>}
+            <label className="modal-field"><span>New delivery date</span><input type="date" min={addDays(deferOrder.required_date, 1)} value={deferDate} onChange={(e) => setDeferDate(e.target.value)} /></label>
+
+            <div className="modal-actions">
+              <button className="modal-btn ghost" onClick={() => setDeferOrder(null)}>Cancel</button>
+              <button className="modal-btn primary" onClick={confirmDefer}>Defer & notify store</button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {fleetWarningOrder && (
+        <div className="modal-overlay" onClick={() => setFleetWarningOrder(null)}>
+          <div className="modal-card order-defer-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-head"><div><h3>No matching vehicle right now</h3></div><button className="modal-close" onClick={() => setFleetWarningOrder(null)}><X size={18} /></button></div>
+            <div className="order-warning"><AlertTriangle size={17} /><span>{checks.get(fleetWarningOrder.order_ref)?.fleet.reasons.join(" ")}</span></div>
+            <p className="modal-sub">The supplied update allows approval after confirmation because this is only a fleet pre-check; vehicle assignment still happens in planning.</p>
+            <div className="modal-actions">
+              <button className="modal-btn ghost" onClick={() => openDefer(fleetWarningOrder, "Vehicle / Driver Unavailable")}>Defer instead</button>
+              <button className="modal-btn primary" onClick={() => approveOrder(fleetWarningOrder, true)}>Approve anyway</button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {toast && <div className="order-toast"><CheckCircle2 size={16} /> {toast}</div>}
     </div>
   );
 }

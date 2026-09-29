@@ -15,10 +15,13 @@ import {
   Reports,
   FleetLayout,
   VehicleInformation,
-  VehicleTracking
+  VehicleTracking,
+  DriverNotifications,
+  ShortagesDelays
 } from "../features/dispatcher";
 import { LoaderPage } from "../features/loader";
 import { StoreManagerPage } from "../features/store-manager";
+import { DriverPage } from "../features/driver";
 
 function HomeRedirect() {
   const session = getSession();
@@ -35,6 +38,15 @@ export default function AppRouter() {
         element={
           <RequireRole role="Loader">
             <LoaderPage />
+          </RequireRole>
+        }
+      />
+
+      <Route
+        path="/driver"
+        element={
+          <RequireRole role="Driver">
+            <DriverPage />
           </RequireRole>
         }
       />
@@ -58,16 +70,24 @@ export default function AppRouter() {
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/stores" element={<Stores />} />
-        <Route path="/orders" element={<Orders />} />
+        <Route path="/orders" element={<OrderApproval />} />
         <Route path="/approval" element={<OrderApproval />} />
         <Route path="/allocation" element={<OrderApproval />} />
-        <Route path="/inventory" element={<Inventory />} />
-        <Route path="/dispatch" element={<Dispatch />} />
+
+        <Route path="/inventory" element={<Navigate to="/inventory/store" replace />} />
+        <Route path="/inventory/store" element={<Inventory view="store" />} />
+        <Route path="/inventory/warehouse" element={<Inventory view="warehouse" />} />
+
+        <Route path="/dispatch" element={<Navigate to="/dispatch/plan" replace />} />
+        <Route path="/dispatch/plan" element={<Dispatch />} />
+        <Route path="/dispatch/shortages" element={<ShortagesDelays />} />
+
         <Route path="/reports" element={<Reports />} />
         <Route path="/fleet" element={<FleetLayout />}>
           <Route index element={<Navigate to="vehicles" replace />} />
           <Route path="vehicles" element={<VehicleInformation />} />
           <Route path="tracking" element={<VehicleTracking />} />
+          <Route path="driver-notifications" element={<DriverNotifications />} />
         </Route>
       </Route>
 

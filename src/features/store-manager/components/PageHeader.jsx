@@ -1,4 +1,5 @@
 import React from "react";
+import StoreHeader from "./StoreHeader";
 
 export default function PageHeader({ eyebrow, title, description, actions }) {
   return (

@@ -1,3 +1,9 @@
+
+/*if there is any things should be changed , use portalchormcopy , staoremanagerpagecopy files it contain orginal content and , in store manager 
+component file contain , oflinemode.jsx and it's style is available in style folder as offline mode.css ,  i had add the offline mode to the header but uba eka dala thibbe 
+side bar ekata there is nor side bar components to find hutto components dapan mn hoyagnne kohomada , aye wens krnna onenam sidebar ekeyi, eke style eka thiyan thana kiyapn 
+mn danne na ne yako*/
+
 import React, { useEffect, useMemo, useState } from "react";
 import { Bell, LogOut } from "lucide-react";
 import Logo from "./Logo";

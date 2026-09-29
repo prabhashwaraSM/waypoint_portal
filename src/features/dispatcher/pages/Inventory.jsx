@@ -16,13 +16,17 @@ import {
   MapPin
 } from "lucide-react";
 
-export default function Inventory() {
+export default function Inventory({ view = "store" }) {
   const context = useOutletContext() || {};
   const { brand: contextBrand, setBrand: setContextBrand } = context;
 
   const [selectedBrand, setSelectedBrand] = useState(contextBrand || "Waypoint Fresh");
-  const [activeTab, setActiveTab] = useState("store"); // 'store' or 'warehouse'
+  const [activeTab, setActiveTab] = useState(view); // store or warehouse
   const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setActiveTab(view || "store");
+  }, [view]);
 
   // Store & Outlet Inventory Datasets
   const [storeInventoryData, setStoreInventoryData] = useState({

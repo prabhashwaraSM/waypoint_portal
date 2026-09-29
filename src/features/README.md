@@ -6,6 +6,7 @@ Each top-level folder under `src/features` owns one business capability or user 
 - `dispatcher/` — dispatcher operational portal.
 - `loader/` — warehouse loader operational portal.
 - `store-manager/` — outlet Store Manager portal for Waypoint Fresh, Style and Tech.
+- `driver/` — phone-first Driver trip and incident workflow.
 
 Future roles should get their own folders instead of adding files to a generic `src/pages` directory.
 

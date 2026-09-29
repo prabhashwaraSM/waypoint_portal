@@ -8,7 +8,7 @@ import "../styles/login.css";
 const rolePreview = [
   { name: "Dispatcher", icon: Truck, status: "Available", tone: "dispatcher" },
   { name: "Loader", icon: Boxes, status: "Available", tone: "loader" },
-  { name: "Driver", icon: Smartphone, status: "Next phase", tone: "driver" },
+  { name: "Driver", icon: Smartphone, status: "Available", tone: "driver" },
   { name: "Store Manager", icon: Store, status: "Available", tone: "store" }
 ];
 
