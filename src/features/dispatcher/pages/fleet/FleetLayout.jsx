@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { NavLink, Outlet, useOutletContext } from "react-router-dom";
-import { ClipboardList, Navigation, RefreshCw } from "lucide-react";
+import { ClipboardList, Navigation, RefreshCw, Siren } from "lucide-react";
 import { loadFleet } from "../../data/fleetStore";
 import "../../styles/fleet.css";
 
@@ -48,6 +48,9 @@ export default function FleetLayout() {
           </NavLink>
           <NavLink to="/fleet/tracking" className={({ isActive }) => `fl-subnav-link ${isActive ? "active" : ""}`}>
             <Navigation size={17} /> Vehicle Tracking
+          </NavLink>
+          <NavLink to="/fleet/driver-notifications" className={({ isActive }) => `fl-subnav-link ${isActive ? "active" : ""}`}>
+            <Siren size={17} /> Driver Notifications
           </NavLink>
         </nav>
       </div>
