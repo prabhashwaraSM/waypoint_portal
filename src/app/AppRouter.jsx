@@ -21,6 +21,7 @@ import {
 } from "../features/dispatcher";
 import { LoaderPage } from "../features/loader";
 import { StoreManagerPage } from "../features/store-manager";
+import { DriverPage } from "../features/driver";
 
 function HomeRedirect() {
   const session = getSession();
@@ -37,6 +38,15 @@ export default function AppRouter() {
         element={
           <RequireRole role="Loader">
             <LoaderPage />
+          </RequireRole>
+        }
+      />
+
+      <Route
+        path="/driver"
+        element={
+          <RequireRole role="Driver">
+            <DriverPage />
           </RequireRole>
         }
       />
