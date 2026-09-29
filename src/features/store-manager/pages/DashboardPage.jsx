@@ -12,6 +12,7 @@ import {
 import PageHeader from "../components/PageHeader";
 import StoreStatCard from "../components/StoreStatCard";
 import TrackingModal from "../components/TrackingModal";
+import DeliveryUpdates from "../components/DeliveryUpdates";
 import { recentOrders } from "../data/storeManagerData";
 
 
@@ -43,6 +44,8 @@ export default function DashboardPage({ profile, onNavigate }) {
         <StoreStatCard icon={PackageOpen} value={profile.dashboard.deferred} label="Deferred orders" meta="Reason and next action visible" tone="amber" />
         <StoreStatCard icon={AlertTriangle} value={profile.dashboard.stockAlert} label="Stock alerts" meta="Needs store action" tone="red" />
       </section>
+
+      <DeliveryUpdates outletId={profile.outletId} />
 
       <section className="store-dashboard-grid">
         <div className="store-panel">
