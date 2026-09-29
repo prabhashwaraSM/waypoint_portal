@@ -26,6 +26,7 @@ export default function PortalChrome({
   session,
   role,
   nav,
+  sidebarStatus = null,
   notificationCount = 0,
   onNotifications,
   onLogout,
@@ -59,6 +60,12 @@ export default function PortalChrome({
         </div>
 
         <nav className="portal-nav">{nav}</nav>
+
+        {sidebarStatus && (
+          <div className="portal-sidebar-status">
+            {sidebarStatus}
+          </div>
+        )}
 
         <div className="portal-sidebar-footer">
           <div className="portal-user-card">
