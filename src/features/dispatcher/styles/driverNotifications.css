@@ -92,3 +92,24 @@
   .dn-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dn-actions { grid-template-columns: 1fr; }
 }
+
+/* Mobile fixes */
+@media (max-width: 900px) {
+  .dn-layout { grid-template-columns:1fr; }
+  .dn-list-card { position:static; }
+  .dn-list { max-height:none; }
+}
+@media (max-width: 760px) {
+  .dn-facts { grid-template-columns:1fr 1fr; }
+  .dn-actions { grid-template-columns:1fr; }
+  .dn-row { grid-template-columns:1fr; }
+  .dn-type-grid { grid-template-columns:1fr 1fr; }
+  .dn-inline { display:grid; grid-template-columns:1fr; }
+  .dn-inline input { min-width:0; }
+  .dn-time { width:100%; }
+  .dn-modal .fl-table { min-width:640px; }
+}
+@media (max-width: 480px) {
+  .dn-facts { grid-template-columns:1fr; }
+  .dn-type-grid { grid-template-columns:1fr; }
+}
