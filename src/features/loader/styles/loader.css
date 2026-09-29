@@ -765,3 +765,12 @@
   .loader-data-table td { grid-template-columns:92px minmax(0,1fr); }
   .loader-modal-head { padding:14px; }
 }
+
+/* loader-theme mobile bottom-nav fix */
+@media (max-width: 760px) {
+  .loader-theme .portal-nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+}
