@@ -7,6 +7,8 @@ import {
 } from "../data/dispatchStore";
 import { getSession } from "../../../shared/auth/auth";
 import DispatchNote from "../components/DispatchNote";
+import DispatchSubnav from "./dispatch/DispatchSubnav";
+import { latestDelayByOrder } from "../data/delayStore";
 import "../styles/dispatch.css";
 import { 
   Truck, 
@@ -66,6 +68,8 @@ export default function Dispatch() {
   const [dispatchedRefs, setDispatchedRefs] = useState(() => new Set(getAppDispatchRecords().map((r) => r.order_ref)));
   const [tempRequiredFilter, setTempRequiredFilter] = useState("all");
   const [successMsg, setSuccessMsg] = useState("");
+  // Orders rescheduled on Shortages & Delays carry their new dispatch date.
+  const [delays] = useState(() => latestDelayByOrder());
 
   // Load Vehicles CSV
   useEffect(() => {
@@ -340,11 +344,12 @@ export default function Dispatch() {
 
   return (
     <div className="dispatch-page">
-      <div className="page-heading">
+      <div className="page-heading" style={{ flexWrap: "wrap", gap: "16px" }}>
         <div>
           <h1>Multipoint Dispatch & Route Allocation</h1>
           <p>Select orders, set the customer or agent, invoice and date, then assign a vehicle and driver.</p>
         </div>
+        <DispatchSubnav />
       </div>
 
       {/* Brand Selector Bar */}
@@ -481,6 +486,11 @@ export default function Dispatch() {
                     <div style={{ fontSize: "11px", color: "var(--text-muted)", marginTop: "2px" }}>
                       Required: {ord.required_date} | {ord.weightKg} kg | {ord.volM3} m³ | {ord.temp === "reefer" ? "❄️ Reefer Required" : "Ambient"}
                     </div>
+                    {delays[ord.id] && (
+                      <div className="dp-moved" title={delays[ord.id].reasonText}>
+                        <CalendarDays size={12} /> Rescheduled to {fmtDate(delays[ord.id].newDate)}, store notified
+                      </div>
+                    )}
                   </div>
                   <input type="checkbox" checked={isSelected} onChange={() => {}} style={{ cursor: "pointer" }} />
                 </div>
