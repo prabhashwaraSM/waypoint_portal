@@ -290,3 +290,33 @@
   .fl-drawer, .fl-spin { animation: none; }
   .fl-fuel-arc, .fl-fuel-needle { transition: none; }
 }
+
+/* Mobile fixes */
+@media (max-width: 1100px) {
+  .fl-track-grid { grid-template-columns:240px minmax(0,1fr); }
+  .fl-telemetry { grid-column:1/-1; }
+}
+@media (max-width: 760px) {
+  .fl-toolbar { display:grid!important; grid-template-columns:1fr; gap:8px; }
+  .fl-search { min-width:0; width:100%; }
+  .fl-condition-strip { overflow-x:auto; flex-wrap:nowrap!important; padding-bottom:4px; }
+  .fl-cond-tile { flex:0 0 150px; }
+  .fl-track-grid { grid-template-columns:1fr; }
+  .fl-trip-list { max-height:none!important; }
+  .fl-map { height:360px; }
+  .fl-telemetry { grid-column:auto; display:grid; grid-template-columns:1fr; }
+  .fl-track-bottom { grid-template-columns:1fr; }
+  .fl-dials { grid-template-columns:1fr 1fr; }
+  .fl-dl { grid-template-columns:1fr; }
+  .fl-insp-grid { grid-template-columns:1fr 1fr; }
+  .fl-form fieldset { grid-template-columns:1fr 1fr; }
+  .fl-form.single { grid-template-columns:1fr; }
+  .fl-overlay.center { padding:0; align-items:flex-end; }
+  .fl-modal { width:100%; border-radius:18px 18px 0 0; max-height:92vh; overflow:auto; }
+  .fl-drawer { width:100%; height:92vh; padding:18px 16px 30px; }
+}
+@media (max-width: 480px) {
+  .fl-map { height:300px; }
+  .fl-dials { grid-template-columns:1fr; }
+  .fl-insp-grid, .fl-form fieldset { grid-template-columns:1fr; }
+}
