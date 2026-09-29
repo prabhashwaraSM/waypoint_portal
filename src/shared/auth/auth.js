@@ -55,8 +55,14 @@ export function getRoleHome(session) {
 }
 
 export function login(username, password) {
+  // Ensure inputs exist and are converted safely to strings before operations
+  if (!username || !password) return null;
+
+  const cleanUsername = String(username).trim().toLowerCase();
+  const cleanPassword = String(password).trim();
+
   const user = PROTOTYPE_USERS.find(
-    (u) => u.username.toLowerCase() === username.trim().toLowerCase() && u.password === password
+    (u) => u.username.toLowerCase() === cleanUsername && u.password === cleanPassword
   );
   if (!user) return null;
 
