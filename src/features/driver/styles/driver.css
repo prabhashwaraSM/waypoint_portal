@@ -42,3 +42,12 @@
 @media (max-width:420px) {
   .driver-trip-meta { grid-template-columns:1fr; }
 }
+
+/* driver-theme mobile bottom-nav fix */
+@media (max-width: 760px) {
+  .driver-theme .portal-nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+}
