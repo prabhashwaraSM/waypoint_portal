@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 
 import {
   Boxes,
@@ -25,6 +25,7 @@ import StyleAdjustmentsPage from "./StyleAdjustmentsPage";
 import TechAdjustmentsPage from "./TechAdjustmentsPage";
 
 import StoreUtilityModal from "../components/StoreUtilityModal";
+import StoreConnectionStatus from "../components/StoreConnectionStatus";
 
 import "../styles/storeManager.css";
 import "../styles/offline-mode.css";
@@ -100,11 +101,35 @@ export default function StoreManagerPage() {
     [profile]
   );
 
-  const [section, setSection] =
-    useState("dashboard");
+  const sectionStorageKey = "waypoint_store_section_" + profile.key;
+
+  const [section, setSection] = useState(() => {
+    try {
+      return window.localStorage.getItem(sectionStorageKey) || "dashboard";
+    } catch {
+      return "dashboard";
+    }
+  });
 
   const [utilityModal, setUtilityModal] =
     useState(null);
+
+  useEffect(() => {
+    try {
+      const savedSection = window.localStorage.getItem(sectionStorageKey);
+      setSection(savedSection || "dashboard");
+    } catch {
+      setSection("dashboard");
+    }
+  }, [sectionStorageKey]);
+
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(sectionStorageKey, section);
+    } catch {
+      // Keep navigation working if browser storage is unavailable.
+    }
+  }, [sectionStorageKey, section]);
 
 
   const signOut = () => {
@@ -203,22 +228,18 @@ export default function StoreManagerPage() {
         session={session}
         role="Store Manager"
         nav={nav}
+        sidebarStatus={
+          <StoreConnectionStatus
+            profile={profile}
+            section={section}
+          />
+        }
         notificationCount={2}
         onNotifications={() =>
           setUtilityModal("notifications")
         }
         onLogout={signOut}
         contentClassName="store-content"
-
-        /* ======================================
-           ENABLE OFFLINE MODE
-           
-           This makes OfflineMode appear
-           between Live Link and Bell
-           in PortalChrome.
-        ====================================== */
-
-        showOfflineMode={true}
       >
         {renderPage()}
       </PortalChrome>
